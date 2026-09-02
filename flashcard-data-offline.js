@@ -24,12 +24,84 @@ window.OFFLINE_CATEGORIES = [
     ]
   },
   {
+    "name": "3. Dermatologic",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "4. Endocrine",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "5. Gastrointestinal",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "6. Hematologic",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "7. Immunologic",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
     "name": "8. Infectious diseases",
     "track": "Clinic",
     "count": 105,
     "subtopics": [
       "Pharmacology of Antibiotics"
     ]
+  },
+  {
+    "name": "9. Neurologic",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "10. Psychiatric",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "11. Pulmonary",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "12. Gynaecologic/Genitourinary",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "13. Eye disorder",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "14. Oncologic",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "15. Renal",
+    "track": "Clinic",
+    "count": 0,
+    "subtopics": []
   },
   {
     "name": "16. Others & Toxic",
@@ -66,6 +138,66 @@ window.OFFLINE_CATEGORIES = [
       "HPLC",
       "TLC"
     ]
+  },
+  {
+    "name": "3. Spectroscopy & Optics",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "4. Preformulation & GMP",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "5. Pharmaceutical Calc",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "6. Solid Dosage Forms",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "7. Liquid & Semisolids",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "8. Biopharm & Drug Release",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "9. Sterile & Special Forms",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "10. Biotech Products",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "11. Herbal Products",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
+  },
+  {
+    "name": "12. Food Products & QA",
+    "track": "Product",
+    "count": 0,
+    "subtopics": []
   }
 ];
 
@@ -1550,6 +1682,11 @@ window.OFFLINE_CARDS = {
       "note": ""
     }
   ],
+  "3. Dermatologic": [],
+  "4. Endocrine": [],
+  "5. Gastrointestinal": [],
+  "6. Hematologic": [],
+  "7. Immunologic": [],
   "8. Infectious diseases": [
     {
       "id": "8. Infectious diseases::3",
@@ -2812,6 +2949,13 @@ window.OFFLINE_CARDS = {
       "note": "Guideline Case & DOC"
     }
   ],
+  "9. Neurologic": [],
+  "10. Psychiatric": [],
+  "11. Pulmonary": [],
+  "12. Gynaecologic/Genitourinary": [],
+  "13. Eye disorder": [],
+  "14. Oncologic": [],
+  "15. Renal": [],
   "16. Others & Toxic": [
     {
       "id": "16. Others & Toxic::3",
@@ -7617,7 +7761,17 @@ window.OFFLINE_CARDS = {
       "answerImage": "",
       "note": ""
     }
-  ]
+  ],
+  "3. Spectroscopy & Optics": [],
+  "4. Preformulation & GMP": [],
+  "5. Pharmaceutical Calc": [],
+  "6. Solid Dosage Forms": [],
+  "7. Liquid & Semisolids": [],
+  "8. Biopharm & Drug Release": [],
+  "9. Sterile & Special Forms": [],
+  "10. Biotech Products": [],
+  "11. Herbal Products": [],
+  "12. Food Products & QA": []
 };
 
 window.OFFLINE_ALL_CARDS_BY_TRACK = {
