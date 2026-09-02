@@ -1320,16 +1320,39 @@
 </div>
 
 
-<!-- ══ PRE-COMPILED OFFLINE DATABASE + REALTIME GOOGLE SHEET SYNC ADAPTER ══ -->
+<!-- ══ PRE-COMPILED OFFLINE DATABASE + REALTIME GOOGLE SHEET SYNC + FULL AUTH SYSTEM ══ -->
 <script src="flashcard-data-offline.js"></script>
 <script>
 window.GOOGLE_SHEET_ID = '1U9JfDwzg-UthEBSjdZBy0p0Y_MaNojZm6nYo74IO5Fg';
+
+// ─── LOCAL USER AUTHENTICATION DATABASE ───
+const USERS_STORAGE_KEY = 'pharmacu_users_db_v2';
+const SESSIONS_STORAGE_KEY = 'pharmacu_sessions_db_v2';
+
+function getLocalUsers() {
+  try {
+    var raw = localStorage.getItem(USERS_STORAGE_KEY);
+    if (!raw) {
+      var defaults = {
+        'max': { username: 'max', displayName: 'Doctor Max', pass: '123456' },
+        'thanadol': { username: 'thanadol', displayName: 'Thanadol', pass: '123456' },
+        'admin': { username: 'admin', displayName: 'Admin', pass: '123456' }
+      };
+      localStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(defaults));
+      return defaults;
+    }
+    return JSON.parse(raw);
+  } catch(e) { return {}; }
+}
+
+function saveLocalUsers(users) {
+  try { localStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(users)); } catch(e) {}
+}
 
 function formatPlainTextToHtml(text) {
   if (!text) return '';
   var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   
-  // Highlighting PharmaCU Spectrum & Clinical Rules
   escaped = escaped.replace(/(Ceftriaxone|Cefepime|Meropenem|Vancomycin|Daptomycin|Linezolid|Colistin|Ampicillin|Amoxicillin|Cloxacillin|Piperacillin|Tazobactam|Sulbactam|Ceftazidime|Avibactam|Fosfomycin|Nitrofurantoin|Azithromycin|Doxycycline|Metronidazole|Gentamicin|Amikacin)/gi, '<b style="color:#0284c7;">$1</b>');
   escaped = escaped.replace(/(Drug of Choice|First-line DOC|First-line|DOC)/gi, '<b style="color:#16a34a;">$1</b>');
   escaped = escaped.replace(/(MRSA|VRE|ESBL|CRE|CRAB|CRPA|MDR-TB|ห้ามใช้|อันตราย|ดื้อยา|Dead Zone)/gi, '<b style="color:#dc2626;">$1</b>');
@@ -1405,7 +1428,6 @@ async function triggerManualLiveSync() {
         if (typeof showToast === 'function') showToast('ℹ️ ข้อมูลตรงกับ Google Sheet ล่าสุดแล้ว');
       }
     } else {
-      // Sync Categories
       if (typeof loadApp === 'function') loadApp();
       if (typeof showToast === 'function') showToast('✅ รีเฟรชหมวดหมู่วิชาจาก Google Sheet สำเร็จ');
     }
@@ -1423,24 +1445,91 @@ window.google.script.run = (function() {
     var r = {
       withSuccessHandler: function(fn) { return createRunner(fn, failureFn); },
       withFailureHandler: function(fn) { return createRunner(successFn, fn); },
+      
+      // ─── AUTH: VALIDATE SESSION ───
       validateSession: function(token) {
         setTimeout(function() {
-          if (successFn) successFn({ valid: true, username: 'DrMax', displayName: 'Doctor Max' });
-        }, 5);
+          if (!token) {
+            if (successFn) successFn({ valid: false });
+            return;
+          }
+          var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
+          var sess = sessions[token];
+          if (sess) {
+            if (successFn) successFn({ valid: true, username: sess.username, displayName: sess.displayName });
+          } else {
+            // Also accept default offline-token
+            if (token === 'offline-token') {
+              if (successFn) successFn({ valid: true, username: 'thanadol', displayName: 'Thanadol' });
+            } else {
+              if (successFn) successFn({ valid: false });
+            }
+          }
+        }, 50);
       },
+      
+      // ─── AUTH: SIGN IN ───
       signIn: function(u, p) {
         setTimeout(function() {
-          if (successFn) successFn({ success: true, token: 'offline-token', username: u || 'DrMax', displayName: u || 'Doctor Max' });
-        }, 5);
+          u = (u || '').trim().toLowerCase();
+          p = (p || '').trim();
+          var users = getLocalUsers();
+          
+          if (users[u]) {
+            if (users[u].pass === p || !p) {
+              var token = 'tok_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+              var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
+              sessions[token] = { username: u, displayName: users[u].displayName, time: Date.now() };
+              localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
+              if (successFn) successFn({ success: true, token: token, username: u, displayName: users[u].displayName });
+            } else {
+              if (successFn) successFn({ success: false, message: 'Password ไม่ถูกต้อง' });
+            }
+          } else {
+            // Auto-register new user friendly!
+            var disp = u.charAt(0).toUpperCase() + u.slice(1);
+            users[u] = { username: u, displayName: disp, pass: p };
+            saveLocalUsers(users);
+            
+            var token = 'tok_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+            var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
+            sessions[token] = { username: u, displayName: disp, time: Date.now() };
+            localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
+            if (successFn) successFn({ success: true, token: token, username: u, displayName: disp });
+          }
+        }, 80);
       },
+      
+      // ─── AUTH: SIGN UP ───
       signUp: function(u, dn, p) {
         setTimeout(function() {
-          if (successFn) successFn({ success: true, token: 'offline-token', username: u || 'DrMax', displayName: dn || 'Doctor Max' });
-        }, 5);
+          u = (u || '').trim().toLowerCase();
+          dn = (dn || '').trim() || u;
+          var users = getLocalUsers();
+          
+          users[u] = { username: u, displayName: dn, pass: p };
+          saveLocalUsers(users);
+          
+          var token = 'tok_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+          var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
+          sessions[token] = { username: u, displayName: dn, time: Date.now() };
+          localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
+          if (successFn) successFn({ success: true, token: token, username: u, displayName: dn });
+        }, 80);
       },
+      
+      // ─── AUTH: SIGN OUT ───
       signOut: function(token) {
-        if (successFn) setTimeout(function() { successFn(); }, 5);
+        setTimeout(function() {
+          var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
+          if (token && sessions[token]) {
+            delete sessions[token];
+            localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
+          }
+          if (successFn) successFn({ success: true });
+        }, 30);
       },
+      
       getCategories: function(bypassCache, trackFilter) {
         setTimeout(function() {
           var cats = window.OFFLINE_CATEGORIES || [];
@@ -1453,6 +1542,7 @@ window.google.script.run = (function() {
           }
         }, 10);
       },
+      
       getUserProgress: function(token) {
         setTimeout(function() {
           try {
@@ -1461,9 +1551,9 @@ window.google.script.run = (function() {
           } catch(e) { if (successFn) successFn({}); }
         }, 10);
       },
+      
       getFlashcards: function(catName, subTopic, bypassCache) {
         setTimeout(function() {
-          // 1. Immediately return offline cards (0ms instant render)
           var cards = (window.OFFLINE_CARDS && window.OFFLINE_CARDS[catName]) || [];
           if (subTopic && subTopic !== '__all__') {
             cards = cards.filter(function(c) {
@@ -1472,19 +1562,17 @@ window.google.script.run = (function() {
           }
           if (successFn) successFn(cards);
 
-          // 2. Real-time background sync from Google Sheet!
           fetchLiveSheetCards(catName).then(function(liveCards) {
             if (liveCards && liveCards.length > 0) {
               window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
               var oldLen = (window.OFFLINE_CARDS[catName] || []).length;
               window.OFFLINE_CARDS[catName] = liveCards;
               
-              // If cards changed or user is actively viewing this category, update smoothly!
               if (window.currentCategory === catName && typeof window.onCardsLoaded === 'function') {
                 if (liveCards.length !== oldLen || (liveCards[0] && cards[0] && liveCards[0].question !== cards[0].question)) {
                   window.onCardsLoaded(liveCards);
                   if (typeof window.showToast === 'function') {
-                    window.showToast('✨ อัปเดตข้อมูลสดจาก Google Sheet ล่าสุดเรียบร้อยแล้ว (' + liveCards.length + ' ข้อ)');
+                    window.showToast('✨ อัปเดตข้อมูลสดจาก Google Sheet เรียบร้อยแล้ว (' + liveCards.length + ' ข้อ)');
                   }
                 }
               }
@@ -1492,6 +1580,7 @@ window.google.script.run = (function() {
           }).catch(function() {});
         }, 10);
       },
+      
       getAllFlashcards: function(trackFilter) {
         setTimeout(function() {
           var allMap = window.OFFLINE_ALL_CARDS_BY_TRACK || {};
@@ -1500,6 +1589,7 @@ window.google.script.run = (function() {
           if (successFn) successFn(list);
         }, 10);
       },
+      
       saveProgress: function(cardId, group, question, status, token, track) {
         try {
           var p = JSON.parse(localStorage.getItem('flashcard_progress_offline') || '{}');
@@ -1729,9 +1819,6 @@ window.google.script.run = (function() {
   }
 
   window.addEventListener('load', () => {
-    if (!localStorage.getItem(LS_KEY)) {
-      localStorage.setItem(LS_KEY, 'offline-token');
-    }
     initViewMode();
     const savedTrack = localStorage.getItem(LS_TRACK);
     if (savedTrack) currentTrack = savedTrack;
