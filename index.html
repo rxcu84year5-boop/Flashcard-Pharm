@@ -1,920 +1,2958 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
+  <base target="_top">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <title>PharmaCU Flashcard Private — คลังข้อสอบ & สรุปเภสัชกรรม</title>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0284c7">
-  
-  <!-- Google Fonts: Bai Jamjuree & IBM Plex Mono -->
+  <title>PLE-CC Flashcard — คลัง Flashcard เตรียมสอบใบประกอบวิชาชีพเภสัชกรรม</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-  
   <style>
     :root {
-      --bg: #F8FAFC;
+      --bg: #F6F5F1;
       --surface: #FFFFFF;
-      --surface-2: #F1F5F9;
-      --border: #E2E8F0;
-      --border-focus: #0284C7;
+      --card: #FFFFFF;
+      --border: #E4E2DA;
+      --border-dark: #D0CCC2;
       
-      --ink: #0F172A;
-      --ink-soft: #475569;
-      --ink-faint: #94A3B8;
+      --ink: #1C2320;
+      --ink-soft: #555C54;
+      --ink-faint: #8E948A;
       
-      --primary: #0284C7;
-      --primary-soft: #E0F2FE;
-      --primary-hover: #0369A1;
+      --accent: #0E7490;
+      --accent-soft: #ECFEFF;
+      --accent-hover: #0891B2;
+      --accent-glow: rgba(14, 116, 144, 0.16);
+
+      /* OSPE Standard Color Palette */
+      --clinic: #0891B2;
+      --clinic-soft: #ECFEFF;
+      --clinic-border: #A5F3FC;
+      --clinic-pill: #0E7490;
+
+      --product: #7C3AED;
+      --product-soft: #F3E8FF;
+      --product-border: #DDD6FE;
+      --product-pill: #6D28D9;
+
+      --sap: #D97706;
+      --sap-soft: #FEF3C7;
+      --sap-border: #FDE68A;
+      --sap-pill: #B45309;
+
+      --all-track: #4F46E5;
+      --all-soft: #EEF2FF;
+      --all-border: #C7D2FE;
       
-      --doc-green: #16A34A;
-      --doc-soft: #DCFCE7;
-      --warn-red: #DC2626;
-      --warn-soft: #FEE2E2;
-      --amber: #D97706;
-      --amber-soft: #FEF3C7;
-      --purple: #7C3AED;
-      --purple-soft: #F3E8FF;
+      --smart: #2563EB;
+      --smart-soft: #EFF6FF;
+      --smart-border: #BFDBFE;
       
-      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-      --shadow-md: 0 4px 12px -2px rgba(0,0,0,0.08), 0 2px 6px -2px rgba(0,0,0,0.04);
-      --shadow-lg: 0 20px 30px -10px rgba(0,0,0,0.1), 0 10px 15px -5px rgba(0,0,0,0.05);
+      --confident: #16A34A;
+      --confident-soft: #DCFCE7;
+      --confident-border: #86EFAC;
+      --confident-hover: #BBF7D0;
       
-      --radius-sm: 8px;
-      --radius-md: 14px;
-      --radius-lg: 20px;
+      --unsure: #DC2626;
+      --unsure-soft: #FEE2E2;
+      --unsure-border: #FECACA;
+      --unsure-hover: #FCA5A5;
+      
+      --sheet-scrim: rgba(20, 22, 20, 0.45);
+      
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.07);
+      --shadow-lg: 0 20px 48px rgba(0,0,0,0.12);
+      
+      --r-lg: 20px;
+      --r-md: 14px;
+      --r-sm: 10px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     
     body {
       font-family: 'Bai Jamjuree', sans-serif;
-      background: var(--bg);
-      color: var(--ink);
+      background: #D4D2C8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
       min-height: 100vh;
       min-height: 100dvh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 16px 12px;
+      padding: 20px 12px;
+      color: var(--ink);
       -webkit-font-smoothing: antialiased;
+      transition: background 0.3s ease, padding 0.3s ease;
     }
 
-    .app-container {
+    /* ══ APP SHELL ══ */
+    .app-shell {
       width: 100%;
-      max-width: 900px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    /* ══ HEADER ══ */
-    .app-header {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 16px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: var(--shadow-sm);
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .brand-group {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brand-logo {
-      width: 44px;
-      height: 44px;
-      background: linear-gradient(135deg, #0284C7, #0369A1);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 22px;
-      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
-    }
-
-    .brand-text h1 {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--ink);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .brand-badge {
-      font-size: 11px;
-      background: var(--primary-soft);
-      color: var(--primary);
-      padding: 2px 8px;
-      border-radius: 12px;
-      font-weight: 600;
-    }
-
-    .brand-text p {
-      font-size: 12px;
-      color: var(--ink-soft);
-    }
-
-    .header-stats {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-family: 'IBM Plex Mono', monospace;
-    }
-
-    .stat-pill {
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      padding: 6px 12px;
-      border-radius: var(--radius-sm);
-      font-size: 13px;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .stat-pill.mastered { color: var(--doc-green); background: var(--doc-soft); border-color: #86EFAC; }
-    .stat-pill.review { color: var(--warn-red); background: var(--warn-soft); border-color: #FECACA; }
-
-    /* ══ CONTROLS BAR ══ */
-    .controls-panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 12px 16px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .select-control {
-      flex: 1;
-      min-width: 180px;
-      position: relative;
-    }
-
-    .select-control select, .search-control input {
-      width: 100%;
-      height: 40px;
-      padding: 0 12px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
+      max-width: 960px;
       background: var(--bg);
-      font-family: inherit;
-      font-size: 13.5px;
-      color: var(--ink);
-      outline: none;
-      transition: all 0.2s ease;
-    }
-
-    .select-control select:focus, .search-control input:focus {
-      border-color: var(--border-focus);
-      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
-      background: #fff;
-    }
-
-    .search-control {
-      flex: 1.2;
-      min-width: 200px;
-    }
-
-    .toggle-group {
-      display: flex;
-      gap: 6px;
-    }
-
-    .btn-toggle {
-      height: 40px;
-      padding: 0 12px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      background: var(--bg);
-      font-family: inherit;
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--ink-soft);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.15s ease;
-    }
-
-    .btn-toggle:hover {
-      background: var(--surface-2);
-      color: var(--ink);
-    }
-
-    .btn-toggle.active {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
-      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
-    }
-
-    /* ══ PROGRESS BAR ══ */
-    .progress-bar-container {
-      width: 100%;
-      height: 6px;
-      background: var(--surface-2);
-      border-radius: 3px;
+      border-radius: 28px;
       overflow: hidden;
-      position: relative;
-    }
-
-    .progress-bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, #0284C7, #16A34A);
-      width: 0%;
-      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    /* ══ 3D FLASHCARD AREA ══ */
-    .card-scene {
-      width: 100%;
-      min-height: 440px;
-      perspective: 1200px;
-      cursor: pointer;
-    }
-
-    .card-inner {
-      width: 100%;
-      min-height: 440px;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
-      border-radius: var(--radius-lg);
       box-shadow: var(--shadow-lg);
-    }
-
-    .card-inner.is-flipped {
-      transform: rotateY(180deg);
-    }
-
-    .card-face {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      min-height: 440px;
-      backface-visibility: hidden;
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border);
-      background: var(--surface);
-      padding: 32px 28px;
+      position: relative;
+      min-height: 820px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      overflow-y: auto;
-    }
-
-    .card-face.card-front {
-      background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
-    }
-
-    .card-face.card-back {
-      transform: rotateY(180deg);
-      background: #FFFFFF;
-      border-top: 4px solid var(--primary);
-    }
-
-    .card-top-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      gap: 12px;
-    }
-
-    .badge-subtopic {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--primary);
-      background: var(--primary-soft);
-      padding: 4px 12px;
-      border-radius: 20px;
-      border: 1px solid rgba(2, 132, 199, 0.2);
-    }
-
-    .card-counter {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--ink-faint);
-    }
-
-    .btn-star-top {
-      background: none;
-      border: none;
-      font-size: 22px;
-      cursor: pointer;
-      color: #CBD5E1;
-      transition: color 0.15s ease, transform 0.15s ease;
-    }
-
-    .btn-star-top:hover { transform: scale(1.15); }
-    .btn-star-top.starred { color: #EAB308; }
-
-    .card-body-question {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 1.6;
-      color: var(--ink);
-      margin: auto 0;
-      text-align: left;
-    }
-
-    .card-body-answer {
-      font-size: 15px;
-      line-height: 1.7;
-      color: #1E293B;
-      text-align: left;
-      overflow-wrap: break-word;
-    }
-
-    /* Content styling */
-    .card-h1 {
-      font-weight: 700;
-      color: #0F172A;
-      margin-top: 10px;
-      margin-bottom: 4px;
-      font-size: 15.5px;
-    }
-    .card-item {
-      padding-left: 12px;
-      margin-bottom: 4px;
-    }
-    .card-warn {
-      padding-left: 12px;
-      margin-bottom: 4px;
-      color: #B91C1C;
-    }
-    .card-bullet {
-      padding-left: 8px;
-      margin-bottom: 4px;
-    }
-    .card-p {
-      margin-bottom: 4px;
-    }
-    .spacer {
-      height: 8px;
-    }
-
-    .card-bottom-hint {
-      margin-top: 24px;
-      font-size: 12.5px;
-      color: var(--ink-faint);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-    }
-
-    /* ══ BOTTOM NAVIGATION BAR ══ */
-    .nav-bar {
-      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 12px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      box-shadow: var(--shadow-sm);
-      flex-wrap: wrap;
+      transition: all 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
     }
 
-    .nav-buttons-group {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    body.mode-phone { padding: 16px 8px; background: #C8C5BA; }
+    body.mode-phone .app-shell {
+      max-width: 420px !important;
+      border-radius: 36px !important;
+      min-height: 780px !important;
+      box-shadow: 0 0 0 8px #1E2320, 0 24px 50px rgba(0,0,0,0.25) !important;
+      border: 2px solid #333C37 !important;
+    }
+    
+    .phone-notch {
+      display: none; width: 100px; height: 20px; background: #1E2320;
+      border-radius: 20px; margin: 8px auto 2px; z-index: 100; flex-shrink: 0;
+    }
+    body.mode-phone .phone-notch { display: block; }
+
+    @media (max-width: 768px) {
+      body { padding: 0 !important; background: var(--bg) !important; }
+      body.mode-phone { padding: 0 !important; }
+      .app-shell {
+        max-width: 100% !important; border-radius: 0 !important;
+        min-height: 100dvh !important; box-shadow: none !important; border: none !important;
+      }
+      body.mode-phone .app-shell {
+        max-width: 100% !important; border-radius: 0 !important;
+        min-height: 100dvh !important; box-shadow: none !important; border: none !important;
+      }
+      .phone-notch { display: none !important; }
+      .kbd-hints-bar { display: none !important; }
+      .study-viewport { padding: 8px 12px 14px !important; }
+      .topbar { padding: 10px 12px !important; }
+      .card { padding: 18px 16px !important; min-height: 320px !important; }
+      .question-text { font-size: 17.5px !important; line-height: 1.55 !important; }
+      .action-btn { padding: 13px 0 !important; font-size: 14.5px !important; border-radius: 13px !important; }
+      .study-mode-segmented { margin: 4px auto 6px !important; }
+      .sm-seg-btn { padding: 6px 8px !important; font-size: 12px !important; }
+      .subtopic-selector-row { margin: 2px auto 6px !important; }
+      .subtopic-dropdown { padding: 7px 28px 7px 10px !important; font-size: 12px !important; }
     }
 
-    .btn-action {
-      height: 44px;
-      padding: 0 18px;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border);
-      background: var(--surface);
-      font-family: inherit;
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--ink);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.15s ease;
+    body.fullscreen-active { padding: 0 !important; background: var(--bg) !important; }
+    body.fullscreen-active .app-shell {
+      max-width: 100% !important; border-radius: 0 !important;
+      min-height: 100dvh !important; box-shadow: none !important; border: none !important;
     }
 
-    .btn-action:hover {
-      background: var(--surface-2);
-      border-color: #CBD5E1;
+    /* ══ AUTH OVERLAY ══ */
+    #authOverlay {
+      position: fixed; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--sheet-scrim); z-index: 999; padding: 20px;
+      backdrop-filter: blur(5px); transition: opacity 0.3s ease;
+    }
+    #authOverlay.hide { opacity: 0; pointer-events: none; }
+    .auth-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 24px;
+      box-shadow: var(--shadow-lg); width: 100%; max-width: 380px; padding: 30px 22px;
+      animation: popIn 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
+    }
+    @keyframes popIn { from { transform: scale(0.95) translateY(8px); opacity: 0; } to { transform: scale(1) translateY(0); opacity: 1; } }
+    
+    .auth-logo { text-align: center; margin-bottom: 22px; }
+    .auth-logo-badge {
+      width: 52px; height: 52px; border-radius: 16px; background: var(--clinic-soft);
+      color: var(--clinic); display: flex; align-items: center; justify-content: center;
+      font-size: 28px; margin: 0 auto 10px; border: 1px solid var(--clinic-border);
+    }
+    .auth-logo h1 { font-size: 20px; font-weight: 700; color: var(--ink); }
+    .auth-logo p { color: var(--ink-soft); font-size: 12.5px; margin-top: 2px; }
+
+    .auth-tabs {
+      display: flex; background: var(--bg); border: 1px solid var(--border);
+      border-radius: var(--r-md); padding: 4px; margin-bottom: 18px; gap: 4px;
+    }
+    .auth-tab {
+      flex: 1; padding: 8px; border: none; border-radius: var(--r-sm);
+      font-family: inherit; font-size: 13px; font-weight: 600;
+      cursor: pointer; color: var(--ink-soft); background: transparent; transition: all 0.2s;
+    }
+    .auth-tab.active {
+      background: var(--card); color: var(--clinic);
+      box-shadow: var(--shadow-sm); font-weight: 700;
+    }
+    .auth-panel { display: none; } .auth-panel.active { display: block; }
+    
+    .form-group { margin-bottom: 12px; }
+    .form-group label {
+      display: block; font-size: 11px; font-weight: 700; color: var(--ink-soft);
+      margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .input-wrap { position: relative; }
+    .form-input {
+      width: 100%; padding: 10px 13px;
+      border: 1px solid var(--border); border-radius: var(--r-sm);
+      background: var(--card); font-family: inherit;
+      font-size: 13.5px; color: var(--ink); outline: none; transition: border-color 0.2s;
+    }
+    .form-input:focus { border-color: var(--clinic); box-shadow: 0 0 0 3px var(--clinic-soft); }
+    .form-input.has-icon { padding-right: 40px; }
+    .input-icon {
+      position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+      color: var(--ink-faint); cursor: pointer; background: none; border: none;
+      display: flex; align-items: center; padding: 4px;
+    }
+    .auth-error {
+      background: var(--unsure-soft); border: 1px solid var(--unsure-border); border-radius: var(--r-sm);
+      color: var(--unsure); font-size: 12.5px; font-weight: 600; padding: 9px 12px; margin-bottom: 12px; display: none;
+    }
+    .auth-error.show { display: block; }
+    
+    .submit-btn {
+      width: 100%; padding: 12px; border: none; border-radius: var(--r-md);
+      background: var(--clinic); color: #fff; font-family: inherit;
+      font-size: 14.5px; font-weight: 700; cursor: pointer;
+      box-shadow: var(--shadow-sm); transition: all 0.15s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .submit-btn:hover { background: #0E7490; }
+    .submit-btn:active { transform: scale(0.99); }
+    .submit-btn:disabled { opacity: 0.5; cursor: default; }
+
+    /* ══ TOPBAR ══ */
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      padding: 10px 16px; background: var(--card);
+      border-bottom: 1px solid var(--border); flex-shrink: 0;
+    }
+    .topbar-left { display: flex; align-items: center; gap: 6px; }
+    .topbar-right { display: flex; align-items: center; gap: 5px; }
+    
+    .icon-btn {
+      width: 34px; height: 34px; border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--bg); border: 1px solid var(--border);
+      color: var(--ink); cursor: pointer; font-family: inherit;
+      transition: all 0.15s cubic-bezier(0.2, 0.9, 0.3, 1); flex-shrink: 0;
+    }
+    .icon-btn svg { stroke: var(--ink); flex-shrink: 0; }
+    .icon-btn:hover { background: var(--clinic-soft); border-color: var(--clinic); transform: translateY(-1px); }
+    .icon-btn:hover svg { stroke: var(--clinic); }
+    .icon-btn.active { background: var(--clinic); color: #fff; border-color: var(--clinic); }
+    .icon-btn.active svg { stroke: #fff; }
+    
+    .back-home-btn {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 6px 11px; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 9px; color: var(--ink); font-family: inherit; font-size: 12.5px;
+      font-weight: 700; cursor: pointer; transition: all 0.15s;
+    }
+    .back-home-btn svg { stroke: var(--ink); }
+    .back-home-btn:hover { background: var(--clinic-soft); color: var(--clinic); border-color: var(--clinic); }
+    .back-home-btn:hover svg { stroke: var(--clinic); }
+
+    .topbar .titles { flex: 1; text-align: center; min-width: 0; padding: 0 4px; }
+    .topbar .deck-name {
+      font-size: 14.5px; font-weight: 700; color: var(--ink);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .topbar .deck-sub {
+      font-size: 11px; color: var(--ink-faint); margin-top: 1px; font-weight: 500;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
 
-    .btn-flip {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
+    /* ══ OSPE THEMED TRACK SWITCHER TABS ══ */
+    .track-tabs-bar {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 14px; padding: 4px; gap: 5px; margin-bottom: 16px;
+    }
+    .track-tab-btn {
+      padding: 10px 6px; border: 1px solid transparent; border-radius: 10px;
+      background: transparent; color: var(--ink-soft); font-family: inherit;
+      font-size: 12.5px; font-weight: 700; cursor: pointer; transition: all 0.18s;
+      display: flex; align-items: center; justify-content: center; gap: 5px; white-space: nowrap;
+    }
+    
+    /* Clinic = Cyan Blue */
+    .track-tab-btn.clinic:hover { color: var(--clinic); background: var(--clinic-soft); }
+    .track-tab-btn.clinic.active {
+      background: var(--card); color: var(--clinic); border-color: var(--clinic-border);
+      box-shadow: 0 2px 8px rgba(8, 145, 178, 0.15);
+    }
+    
+    /* Product = Purple */
+    .track-tab-btn.product:hover { color: var(--product); background: var(--product-soft); }
+    .track-tab-btn.product.active {
+      background: var(--card); color: var(--product); border-color: var(--product-border);
+      box-shadow: 0 2px 8px rgba(124, 58, 237, 0.15);
     }
 
-    .btn-flip:hover {
-      background: var(--primary-hover);
-      border-color: var(--primary-hover);
+    /* SAP = Amber Gold */
+    .track-tab-btn.sap:hover { color: var(--sap); background: var(--sap-soft); }
+    .track-tab-btn.sap.active {
+      background: var(--card); color: var(--sap); border-color: var(--sap-border);
+      box-shadow: 0 2px 8px rgba(217, 119, 6, 0.15);
     }
 
-    .btn-mark-unsure {
-      color: var(--warn-red);
-      background: var(--warn-soft);
-      border-color: #FECACA;
+    /* All = Indigo */
+    .track-tab-btn.all:hover { color: var(--all-track); background: var(--all-soft); }
+    .track-tab-btn.all.active {
+      background: var(--card); color: var(--all-track); border-color: var(--all-border);
+      box-shadow: 0 2px 8px rgba(79, 70, 229, 0.15);
     }
 
-    .btn-mark-unsure:hover {
-      background: #FCA5A5;
-      color: #991B1B;
+    /* ══ STUDY METHOD SWITCHER ══ */
+    .study-mode-segmented {
+      display: flex; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 11px; padding: 3px; gap: 4px;
+      margin: 6px auto 6px; width: 100%; max-width: 680px; flex-shrink: 0;
+    }
+    .sm-seg-btn {
+      flex: 1; padding: 6px 8px; border: none; border-radius: 8px;
+      background: transparent; color: var(--ink-soft); font-family: inherit;
+      font-size: 12.5px; font-weight: 600; cursor: pointer; transition: all 0.15s;
+      display: flex; align-items: center; justify-content: center; gap: 5px; white-space: nowrap;
+    }
+    .sm-seg-btn.active {
+      background: var(--card); color: var(--clinic); font-weight: 700;
+      box-shadow: var(--shadow-sm); border: 0.5px solid var(--border);
+    }
+    .sm-seg-btn.smart-mode.active { color: #2563EB; }
+
+    /* ══ SUBTOPIC DROPDOWN ROW ══ */
+    .subtopic-selector-row {
+      position: relative; width: 100%; max-width: 680px; margin: 3px auto 6px; flex-shrink: 0;
+    }
+    .subtopic-dropdown {
+      width: 100%; padding: 7px 30px 7px 11px; border: 1px solid var(--border);
+      border-radius: 9px; background: var(--card);
+      font-family: inherit; font-size: 12.5px; font-weight: 700; color: var(--clinic);
+      cursor: pointer; appearance: none; -webkit-appearance: none; outline: none;
+      transition: border-color 0.15s; box-shadow: var(--shadow-sm);
+    }
+    .subtopic-dropdown:focus { border-color: var(--clinic); }
+    .subtopic-selector-row svg {
+      position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+      pointer-events: none; stroke: var(--clinic);
     }
 
-    .btn-mark-mastered {
-      color: var(--doc-green);
-      background: var(--doc-soft);
-      border-color: #86EFAC;
+    /* ══ STUDY VIEWPORT (CLEAN FULL WIDTH) ══ */
+    .study-viewport {
+      width: 100%; display: flex; flex-direction: column;
+      align-items: center; justify-content: flex-start;
+      padding: 10px 18px 16px; min-height: 0; overflow-y: auto; flex: 1;
     }
 
-    .btn-mark-mastered:hover {
-      background: #BBF7D0;
-      color: #15803D;
+    .progress-row {
+      display: flex; align-items: center; gap: 10px;
+      width: 100%; max-width: 680px; margin: 0 auto 8px; flex-shrink: 0;
+    }
+    .progress-track {
+      flex: 1; height: 5px; border-radius: 4px; background: var(--border); overflow: hidden; position: relative;
+    }
+    .progress-fill {
+      position: absolute; left: 0; top: 0; bottom: 0;
+      width: 0%; background: var(--clinic); border-radius: 4px;
+      transition: width 0.35s cubic-bezier(0.2, 0.9, 0.3, 1);
+    }
+    .progress-fill.product-fill { background: var(--product); }
+    .progress-fill.sap-fill { background: var(--sap); }
+    .progress-fill.smart-fill { background: #2563EB; }
+    .progress-count {
+      font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 700;
+      color: var(--ink-soft); white-space: nowrap;
     }
 
-    /* Keyboard help */
-    .keyboard-help {
-      font-size: 11.5px;
-      color: var(--ink-faint);
-      text-align: center;
-      margin-top: 4px;
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
+    .stage {
+      width: 100%; max-width: 680px; margin: 0 auto;
+      display: flex; flex-direction: column; min-height: 0; align-items: center; flex: 1;
+    }
+    
+    .card-wrap { width: 100%; flex: 1; display: flex; align-items: stretch; min-height: 320px; }
+
+    .card {
+      width: 100%; background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--r-lg); padding: 22px 20px; display: flex; flex-direction: column;
+      cursor: pointer; box-shadow: var(--shadow-sm); position: relative; overflow-y: auto;
+      transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1), box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: var(--shadow-md); }
+    .card:active { transform: scale(0.993); }
+
+    .card.anim-next { animation: cardSlideNext 0.2s cubic-bezier(0.2, 0.9, 0.3, 1); }
+    .card.anim-prev { animation: cardSlidePrev 0.2s cubic-bezier(0.2, 0.9, 0.3, 1); }
+    @keyframes cardSlideNext { from { opacity: 0.3; transform: translateX(18px) scale(0.98); } to { opacity: 1; transform: translateX(0) scale(1); } }
+    @keyframes cardSlidePrev { from { opacity: 0.3; transform: translateX(-18px) scale(0.98); } to { opacity: 1; transform: translateX(0) scale(1); } }
+
+    .card-eyebrow {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 12px; flex-shrink: 0;
+    }
+    .tag {
+      font-size: 11.5px; font-weight: 700; padding: 3px 10px; border-radius: 100px;
+      letter-spacing: 0.2px; max-width: 82%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .tag.clinic-tag { color: var(--clinic-pill); background: var(--clinic-soft); border: 1px solid var(--clinic-border); }
+    .tag.product-tag { color: var(--product-pill); background: var(--product-soft); border: 1px solid var(--product-border); }
+    .tag.sap-tag { color: var(--sap-pill); background: var(--sap-soft); border: 1px solid var(--sap-border); }
+    .tag.smart-tag { color: #1D4ED8; background: var(--smart-soft); border: 1px solid var(--smart-border); }
+
+    .card-status-dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--card); flex-shrink: 0; }
+    .dot-confident { background: var(--confident); }
+    .dot-notconfident { background: var(--unsure); }
+    .dot-today { background: var(--clinic); }
+    .dot-new { background: var(--border); }
+
+    .card-img-wrap { display: none; text-align: center; margin: 6px 0 10px; flex-shrink: 0; }
+    .card-img-wrap.show { display: block; }
+    .card-img { max-width: 100%; max-height: 200px; border-radius: 10px; border: 1px solid var(--border); object-fit: contain; }
+
+    .card-body {
+      flex: 1; display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 6px 0;
+    }
+    .question-text { font-size: 18.5px; font-weight: 700; line-height: 1.6; color: var(--ink); width: 100%; }
+    
+    .answer-block { display: none; text-align: left; width: 100%; animation: fadeInAnswer 0.22s cubic-bezier(0.2, 0.9, 0.3, 1); }
+    .answer-block.show { display: block; }
+    @keyframes fadeInAnswer { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    .answer-label { font-size: 11px; font-weight: 700; color: var(--confident); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 6px; }
+    .answer-text { font-size: 16px; line-height: 1.65; color: var(--ink); font-weight: 500; }
+    .card.flipped .question-text,
+    .card.flipped #qImgWrap { display: none !important; }
+
+    .flip-hint {
+      text-align: center; padding-top: 12px; font-size: 11.5px; color: var(--ink-faint); font-weight: 500;
+      display: flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0;
+    }
+    .card.flipped .flip-hint { display: none; }
+
+    .celebration-box { text-align: center; padding: 10px 0; }
+    .celebration-icon { font-size: 42px; margin-bottom: 6px; animation: bounce 0.6s infinite alternate ease-in-out; }
+    @keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-6px); } }
+    .celebration-title { font-size: 20px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+    .celebration-sub { font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; margin-bottom: 14px; }
+    .celebration-stats { display: flex; justify-content: center; gap: 10px; margin-bottom: 18px; }
+    .c-stat-pill { padding: 5px 12px; border-radius: 9px; font-size: 12.5px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; }
+    .c-stat-pill.conf { background: var(--confident-soft); color: var(--confident); border: 1px solid var(--confident-border); }
+    .c-stat-pill.unsure { background: var(--unsure-soft); color: var(--unsure); border: 1px solid var(--unsure-border); }
+    .celebration-actions { display: flex; flex-direction: column; gap: 8px; max-width: 280px; margin: 0 auto; }
+
+    .card-nav {
+      width: 100%; max-width: 680px; margin: 10px auto 4px;
+      display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+    }
+    .nav-arrow {
+      width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--border);
+      background: var(--card); display: flex; align-items: center; justify-content: center;
+      color: var(--ink); cursor: pointer; box-shadow: var(--shadow-sm); transition: all 0.15s;
+    }
+    .nav-arrow svg { stroke: var(--ink); }
+    .nav-arrow:hover:not(:disabled) { background: var(--clinic-soft); border-color: var(--clinic); transform: translateY(-1px); }
+    .nav-arrow:hover:not(:disabled) svg { stroke: var(--clinic); }
+    .nav-arrow:disabled { opacity: 0.3; cursor: default; }
+    .card-index { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: var(--ink-soft); font-weight: 600; }
+
+    .actions { width: 100%; max-width: 680px; margin: 4px auto 8px; display: flex; gap: 10px; flex-shrink: 0; }
+    .action-btn {
+      flex: 1; padding: 14px 0; border-radius: 14px; border: 1px solid transparent;
+      font-family: inherit; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+      gap: 7px; cursor: pointer; transition: all 0.15s; box-shadow: var(--shadow-sm);
+    }
+    .action-btn.unsure { background: var(--unsure-soft); color: var(--unsure); border-color: var(--unsure-border); }
+    .action-btn.unsure svg { stroke: var(--unsure); }
+    .action-btn.unsure:hover { background: var(--unsure-hover); transform: translateY(-1px); }
+    
+    .action-btn.confident { background: var(--confident-soft); color: var(--confident); border-color: var(--confident-border); }
+    .action-btn.confident svg { stroke: var(--confident); }
+    .action-btn.confident:hover { background: var(--confident-hover); transform: translateY(-1px); }
+    .action-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    .kbd-hints-bar {
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+      width: 100%; max-width: 680px; margin: 0 auto 8px; font-size: 11px; color: var(--ink-faint); font-weight: 600; flex-shrink: 0;
+    }
+    .kbd-chip { display: inline-flex; align-items: center; gap: 4px; }
+    .kbd-chip kbd {
+      background: var(--card); border: 1px solid var(--border); border-radius: 4px;
+      padding: 2px 5px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--ink-soft); font-weight: 700;
+    }
+    body.mode-phone .kbd-hints-bar { display: none !important; }
+
+    .bottombar {
+      display: flex; align-items: center; justify-content: space-between;
+      width: 100%; max-width: 680px; margin: 0 auto; padding-top: 2px; flex-shrink: 0;
+    }
+    .bottombar .left-tools { display: flex; gap: 16px; }
+    .bottombar button {
+      background: none; border: none; color: var(--ink-soft); cursor: pointer;
+      display: flex; flex-direction: column; align-items: center; gap: 3px; font-family: inherit;
+      transition: color 0.15s; font-size: 11.5px; font-weight: 600;
+    }
+    .bottombar button svg { stroke: var(--ink-soft); }
+    .bottombar button:hover { color: var(--clinic); }
+    .bottombar button:hover svg { stroke: var(--clinic); }
+    
+    .more-btn {
+      width: 38px; height: 38px; border-radius: 50%; background: var(--clinic-soft); color: var(--clinic) !important;
+      display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); cursor: pointer; transition: all 0.15s;
+    }
+    .more-btn svg { stroke: var(--clinic); }
+    .more-btn:hover { background: var(--clinic); color: #fff !important; transform: scale(1.05); }
+    .more-btn:hover svg { stroke: #fff; }
+
+    .app-copyright-footer {
+      text-align: center; padding: 14px 16px 10px; font-size: 11.5px;
+      color: var(--ink-soft); font-weight: 500; border-top: 1px solid var(--border);
+      background: var(--card); margin-top: auto; flex-shrink: 0; line-height: 1.6;
+    }
+    .app-copyright-footer b { color: var(--ink); font-weight: 700; }
+    .app-copyright-footer a { color: var(--clinic); text-decoration: none; font-weight: 700; cursor: pointer; }
+    .app-copyright-footer a:hover { text-decoration: underline; }
+
+    .sheet-scrim { position: absolute; inset: 0; background: var(--sheet-scrim); display: none; z-index: 50; backdrop-filter: blur(3px); }
+    .sheet-scrim.show { display: block; }
+    .sheet {
+      position: absolute; left: 0; right: 0; bottom: 0; z-index: 60; background: var(--card);
+      border-radius: 22px 22px 0 0; padding: 12px 20px 24px; transform: translateY(110%);
+      transition: transform 0.25s cubic-bezier(0.2, 0.9, 0.3, 1); box-shadow: 0 -10px 30px rgba(0,0,0,0.14);
+      max-height: 80%; overflow-y: auto;
+    }
+    .sheet.show { transform: translateY(0); }
+    .sheet-handle { width: 36px; height: 4px; background: var(--border-dark); border-radius: 3px; margin: 4px auto 14px; }
+    .sheet-title { font-size: 13px; font-weight: 700; color: var(--ink-soft); margin-bottom: 12px; }
+    .sheet-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 6px; margin-bottom: 16px; }
+    .sheet-item {
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      font-size: 11.5px; font-weight: 600; color: var(--ink); text-align: center;
+      background: none; border: none; cursor: pointer; font-family: inherit;
+    }
+    .sheet-item:hover { color: var(--clinic); }
+    .sheet-item .s-icon {
+      width: 44px; height: 44px; border-radius: 13px; background: var(--bg); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; transition: all 0.15s;
+    }
+    .sheet-item .s-icon svg { stroke: var(--ink); }
+    .sheet-item:hover .s-icon { background: var(--clinic-soft); border-color: var(--clinic); }
+    .sheet-item:hover .s-icon svg { stroke: var(--clinic); }
+    .sheet-divider { border-top: 1px solid var(--border); margin: 6px 0 10px; }
+    .sheet-row {
+      display: flex; align-items: center; justify-content: space-between; padding: 10px 4px;
+      font-size: 13px; color: var(--ink); font-weight: 600; cursor: pointer; border-radius: 8px; transition: background 0.15s;
+    }
+    .sheet-row svg { stroke: var(--ink-faint); }
+    .sheet-row:hover { background: var(--bg); }
+    .sheet-row .r-right { color: var(--ink-faint); font-size: 12px; display: flex; align-items: center; gap: 4px; }
+
+    .guide-card { background: var(--bg); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+    .guide-card h4 { font-size: 13.5px; font-weight: 700; color: var(--clinic); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+    .guide-card p, .guide-card li { font-size: 12.5px; color: var(--ink-soft); line-height: 1.55; }
+    .guide-card ul { padding-left: 18px; margin-top: 4px; }
+    .guide-card li { margin-bottom: 4px; }
+    
+    .kbd-table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 12px; }
+    .kbd-table td { padding: 6px 8px; border-bottom: 1px solid var(--border); color: var(--ink); }
+    .kbd-table tr:last-child td { border-bottom: none; }
+    .kbd-table kbd {
+      background: var(--card); border: 1px solid var(--border); border-radius: 5px;
+      padding: 2px 6px; font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 11px;
     }
 
-    .kbd-badge {
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 11px;
-      color: var(--ink-soft);
+    .random-section-header {
+      background: var(--card); border: 1.5px solid var(--border); border-radius: 12px;
+      padding: 8px 12px; margin: 12px 0 6px; font-size: 12.5px; font-weight: 700; color: var(--ink);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .random-section-header.clinic { border-color: var(--clinic-border); background: var(--clinic-soft); color: var(--clinic); }
+    .random-section-header.product { border-color: var(--product-border); background: var(--product-soft); color: var(--product); }
+    .random-section-header.sap { border-color: var(--sap-border); background: var(--sap-soft); color: var(--sap); }
+
+    .random-tree-node { border: 1px solid var(--border); border-radius: 11px; margin-bottom: 6px; overflow: hidden; background: var(--card); }
+    .random-tree-head {
+      display: flex; align-items: center; justify-content: space-between; padding: 8px 11px; background: var(--bg);
+      cursor: pointer; user-select: none;
+    }
+    .random-tree-head-left { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+    .random-tree-toggle-btn {
+      width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+      background: none; border: none; color: var(--ink-soft); cursor: pointer; transition: transform 0.2s;
+    }
+    .random-tree-node.expanded .random-tree-toggle-btn { transform: rotate(90deg); }
+    .random-sub-list { display: none; padding: 4px 11px 8px 32px; border-top: 1px dashed var(--border); background: var(--card); }
+    .random-tree-node.expanded .random-sub-list { display: block; }
+    .random-sub-item { display: flex; align-items: center; justify-content: space-between; padding: 4px 0; font-size: 12px; border-bottom: 1px solid #F0EFEA; }
+    .random-sub-item:last-child { border-bottom: none; }
+
+    #lobbyView { padding: 20px 22px 24px; flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
+    body.mode-phone #lobbyView { padding: 14px 14px 20px; }
+
+    .lobby-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+    .lobby-logo { display: flex; align-items: center; gap: 8px; }
+    .lobby-logo-icon {
+      width: 38px; height: 38px; border-radius: 11px; background: var(--clinic);
+      color: #fff; display: flex; align-items: center; justify-content: center; font-size: 22px;
+    }
+    .lobby-logo-text h1 { font-size: 16.5px; font-weight: 700; color: var(--ink); }
+    .lobby-logo-text p { font-size: 11.5px; color: var(--ink-faint); }
+    .lobby-user-pill {
+      display: flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600;
+      color: var(--ink-soft); background: var(--card); border: 1px solid var(--border); padding: 5px 10px; border-radius: 20px;
+    }
+    .lobby-user-pill svg { stroke: var(--ink-soft); }
+
+    .lobby-greeting {
+      background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+      padding: 16px 18px; margin-bottom: 14px; box-shadow: var(--shadow-sm);
+    }
+    .lobby-greeting h2 { font-size: 18px; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+    .lobby-greeting p { font-size: 13px; color: var(--ink-soft); }
+    .lobby-streak-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: #FFF7ED; border: 1px solid #FED7AA; color: #C2410C;
+      font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 20px; margin-top: 8px;
     }
 
-    @media (max-width: 640px) {
-      .app-header { flex-direction: column; align-items: flex-start; }
-      .header-stats { width: 100%; justify-content: flex-start; }
-      .controls-panel { flex-direction: column; align-items: stretch; }
-      .toggle-group { width: 100%; justify-content: space-between; }
-      .nav-bar { flex-direction: column; gap: 12px; }
-      .nav-buttons-group { width: 100%; justify-content: space-between; }
-      .card-face { padding: 24px 18px; }
-      .card-body-question { font-size: 17px; }
+    .lobby-section-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .lobby-section-head h3 { font-size: 12px; font-weight: 700; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.6px; }
+
+    .lobby-dropdown-wrap { position: relative; margin-bottom: 14px; }
+    .lobby-dropdown {
+      width: 100%; padding: 11px 36px 11px 12px; border: 1px solid var(--border);
+      border-radius: var(--r-md); background: var(--card); font-family: inherit; font-size: 13px;
+      font-weight: 600; color: var(--ink); cursor: pointer; appearance: none; -webkit-appearance: none; outline: none;
     }
+    .lobby-dropdown:focus { border-color: var(--clinic); }
+    .lobby-dropdown-wrap svg { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; stroke: var(--ink-faint); }
+
+    .deck-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 20px; }
+    body.mode-phone .deck-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; }
+
+    .deck-card {
+      background: var(--card); border: 1.5px solid var(--border); border-radius: 15px; padding: 14px 12px; cursor: pointer;
+      transition: all 0.15s cubic-bezier(0.2, 0.9, 0.3, 1); box-shadow: var(--shadow-sm); display: flex; flex-direction: column;
+    }
+    .deck-card.clinic-card:hover { border-color: var(--clinic); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(8, 145, 178, 0.12); }
+    .deck-card.product-card:hover { border-color: var(--product); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(124, 58, 237, 0.12); }
+    .deck-card.sap-card:hover { border-color: var(--sap); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(217, 119, 6, 0.12); }
+
+    .deck-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+    .deck-emoji { width: 34px; height: 34px; border-radius: 10px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    
+    .deck-pct-badge {
+      font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 700;
+      color: var(--confident); background: var(--confident-soft); padding: 2px 7px; border-radius: 5px;
+    }
+    .deck-pct-badge.zero { color: var(--ink-faint); background: var(--bg); }
+    
+    .deck-name { font-size: 13px; font-weight: 700; color: var(--ink); line-height: 1.35; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .deck-count { font-size: 11.5px; color: var(--ink-soft); margin-top: auto; padding-top: 4px; font-weight: 500; }
+    .deck-bar { height: 4px; background: var(--bg); border-radius: 2px; overflow: hidden; margin-top: 6px; }
+    .deck-bar-fill { height: 100%; border-radius: 2px; }
+    .deck-bar-fill.clinic-fill { background: var(--clinic); }
+    .deck-bar-fill.product-fill { background: var(--product); }
+    .deck-bar-fill.sap-fill { background: var(--sap); }
+
+    .lobby-quick-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin-bottom: 18px; }
+    body.mode-phone .lobby-quick-tools { grid-template-columns: 1fr 1fr; }
+
+    .lobby-tool-btn {
+      padding: 11px; border-radius: 12px; border: 1px solid var(--border);
+      background: var(--card); font-family: inherit; font-size: 13px; font-weight: 700;
+      color: var(--ink); display: flex; align-items: center; justify-content: center; gap: 6px;
+      cursor: pointer; transition: all 0.15s; box-shadow: var(--shadow-sm);
+    }
+    .lobby-tool-btn svg { stroke: var(--ink); }
+    .lobby-tool-btn:hover { border-color: var(--clinic); color: var(--clinic); transform: translateY(-1px); }
+    .lobby-tool-btn:hover svg { stroke: var(--clinic); }
+    .lobby-tool-btn.primary { background: #0891B2; color: #fff; border-color: #0891B2; }
+    .lobby-tool-btn.primary svg { stroke: #fff; }
+    .lobby-tool-btn.primary:hover { background: #0E7490; }
+    
+    .lobby-tool-btn.smart-btn { background: #2563EB; color: #fff; border-color: #2563EB; }
+    .lobby-tool-btn.smart-btn svg { stroke: #fff; }
+    .lobby-tool-btn.smart-btn:hover { background: #1D4ED8; }
+
+    #browseView { padding: 14px 16px 20px; flex: 1; overflow-y: auto; }
+    .browse-search-bar { position: relative; margin-bottom: 10px; }
+    .browse-search-input {
+      width: 100%; padding: 10px 34px 10px 36px; border: 1px solid var(--border);
+      border-radius: var(--r-md); background: var(--card); font-family: inherit; font-size: 13.5px; color: var(--ink); outline: none;
+    }
+    .browse-search-input:focus { border-color: var(--clinic); }
+    .browse-search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); pointer-events: none; stroke: var(--ink-faint); }
+    .browse-clear-btn { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--ink-faint); font-size: 15px; cursor: pointer; }
+    
+    .browse-selects-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+    .b-select-wrap { position: relative; }
+    .b-select {
+      width: 100%; padding: 9px 26px 9px 10px; border: 1px solid var(--border);
+      border-radius: 10px; background: var(--card); font-family: inherit; font-size: 12px;
+      font-weight: 600; color: var(--ink); appearance: none; -webkit-appearance: none; outline: none;
+    }
+    .b-select-wrap svg { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); pointer-events: none; stroke: var(--ink-faint); }
+    
+    .browse-table-wrap { border: 1px solid var(--border); border-radius: 14px; background: var(--card); overflow: hidden; margin-top: 8px; }
+    .browse-table-item { padding: 12px 14px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.15s; }
+    .browse-table-item:last-child { border-bottom: none; }
+    .browse-table-item:hover { background: var(--bg); }
+    .bt-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+    .bt-tag { font-size: 11.5px; font-weight: 700; color: var(--clinic); }
+    .bt-q { font-size: 13.5px; font-weight: 700; color: var(--ink); line-height: 1.4; }
+    .bt-a { font-size: 13px; color: var(--ink-soft); margin-top: 5px; line-height: 1.5; display: none; }
+    .bt-a.show { display: block; }
+
+    .modal-overlay {
+      position: fixed; inset: 0; background: var(--sheet-scrim);
+      display: none; align-items: center; justify-content: center; z-index: 800;
+      padding: 16px; backdrop-filter: blur(4px);
+    }
+    .modal-overlay.show { display: flex; }
+    .modal-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+      width: 100%; max-width: 490px; max-height: 85vh; overflow-y: auto; padding: 20px;
+      box-shadow: var(--shadow-lg); animation: popIn 0.25s cubic-bezier(0.2, 0.9, 0.3, 1);
+    }
+    .modal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .modal-head h3 { font-size: 16px; font-weight: 700; color: var(--ink); }
+    .modal-close { background: none; border: none; font-size: 19px; color: var(--ink-faint); cursor: pointer; }
+    .modal-close:hover { color: var(--ink); }
+
+    .lightbox-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.85);
+      display: none; align-items: center; justify-content: center; z-index: 1000; padding: 14px;
+    }
+    .lightbox-overlay.show { display: flex; }
+    .lightbox-img { max-width: 95vw; max-height: 85vh; border-radius: 12px; }
+
+    .toast {
+      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(50px);
+      background: var(--ink); color: #fff; padding: 9px 18px; border-radius: 100px;
+      font-size: 12.5px; font-weight: 600; box-shadow: var(--shadow-md); opacity: 0;
+      transition: all 0.25s cubic-bezier(0.2, 0.9, 0.3, 1); z-index: 9999; pointer-events: none; white-space: nowrap;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+
+    .loading-wrap { padding: 50px 16px; text-align: center; color: var(--ink-soft); font-size: 13.5px; font-weight: 600; }
+    .spinner {
+      width: 26px; height: 26px; border: 3px solid var(--border);
+      border-top-color: var(--clinic); border-radius: 50%;
+      animation: spin 0.7s linear infinite; margin: 0 auto 10px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
 
-<div class="app-container">
+<div class="app-shell" id="appShell">
+  <div class="phone-notch"></div>
 
-  <!-- HEADER -->
-  <header class="app-header">
-    <div class="brand-group">
-      <div class="brand-logo">💊</div>
-      <div class="brand-text">
-        <h1>PharmaCU Flashcard <span class="brand-badge">Private</span></h1>
-        <p id="subHeaderDesc">ระบบทบทวนข้อสอบ &amp; เภสัชวิทยาออฟไลน์ความเร็วสูง</p>
+  <!-- ══ AUTH OVERLAY ══ -->
+  <div id="authOverlay">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="auth-logo-badge">💊</div>
+        <h1>PLE-CC Flashcard</h1>
+        <p>คลัง Flashcard เตรียมสอบใบประกอบวิชาชีพเภสัชกรรม</p>
+      </div>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tabSignIn" onclick="switchTab('signin')">เข้าสู่ระบบ</button>
+        <button class="auth-tab" id="tabSignUp" onclick="switchTab('signup')">สมัครสมาชิก</button>
+      </div>
+
+      <div class="auth-panel active" id="panelSignIn">
+        <div class="auth-error" id="signinError"></div>
+        <div class="form-group">
+          <label>ชื่อผู้ใช้ (Username)</label>
+          <input class="form-input" type="text" id="siUsername" placeholder="เช่น somchai" autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label>รหัสผ่าน (Password)</label>
+          <div class="input-wrap">
+            <input class="form-input has-icon" type="password" id="siPassword" placeholder="••••••••" autocomplete="current-password">
+            <button class="input-icon" type="button" onclick="togglePw('siPassword', this)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <button class="submit-btn" id="signinBtn" onclick="doSignIn()">
+          <span class="btn-spinner" id="signinSpinner"></span>
+          <span id="signinBtnText">เข้าสู่ระบบ</span>
+        </button>
+        <div style="text-align:center; margin-top:12px;">
+          <button onclick="doAnonymousLogin()" style="background:none; border:none; color:var(--ink-soft); font-size:12.5px; font-weight:600; cursor:pointer; text-decoration:underline;">
+            👤 ทดลองใช้งานทั่วไป (Anonymous)
+          </button>
+        </div>
+      </div>
+
+      <div class="auth-panel" id="panelSignUp">
+        <div class="auth-error" id="signupError"></div>
+        <div class="form-group">
+          <label>ชื่อผู้ใช้ (Username)</label>
+          <input class="form-input" type="text" id="suUsername" placeholder="ภาษาอังกฤษ ตัวเลข 4-20 ตัว">
+        </div>
+        <div class="form-group">
+          <label>ชื่อที่ต้องการให้แสดง (Display Name)</label>
+          <input class="form-input" type="text" id="suDisplayName" placeholder="เช่น สมชาย ใจดี">
+        </div>
+        <div class="form-group">
+          <label>รหัสผ่าน (Password)</label>
+          <div class="input-wrap">
+            <input class="form-input has-icon" type="password" id="suPassword" placeholder="อย่างน้อย 6 ตัวอักษร">
+            <button class="input-icon" type="button" onclick="togglePw('suPassword', this)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>ยืนยันรหัสผ่าน</label>
+          <input class="form-input" type="password" id="suConfirm" placeholder="พิมพ์รหัสผ่านอีกครั้ง">
+        </div>
+        <button class="submit-btn" id="signupBtn" onclick="doSignUp()">
+          <span class="btn-spinner" id="signupSpinner"></span>
+          <span id="signupBtnText">สร้างบัญชี</span>
+        </button>
       </div>
     </div>
+  </div>
+
+  <!-- ══ LOADING SCREEN ══ -->
+  <div id="loadingScreen" class="loading-wrap" style="display:none;">
+    <div class="spinner"></div>
+    กำลังโหลดข้อมูล Flashcard...
+  </div>
+
+  <!-- ══ LOBBY VIEW ══ -->
+  <div id="lobbyView" style="display:none;">
+    <div class="lobby-header">
+      <div class="lobby-logo">
+        <div class="lobby-logo-icon">💊</div>
+        <div class="lobby-logo-text">
+          <h1>PLE-CC Flashcard</h1>
+          <p>คลัง Flashcard เตรียมสอบใบประกอบเภสัชกรรม</p>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:5px;">
+        <div class="lobby-user-pill" id="lobbyUserPill">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          <span id="lobbyUserNameBadge">-</span>
+        </div>
+        <button class="icon-btn" onclick="openGuidelineModal()" title="คู่มือการใช้งาน & คีย์ลัด">
+          <span style="font-size:13px;">📖</span>
+        </button>
+        <button class="icon-btn" id="toggleViewModeBtnLobby" onclick="toggleAppViewMode()" title="สลับโหมด Desktop / Mobile">
+          <span id="viewModeIconLobby">📱</span>
+        </button>
+        <button class="icon-btn" onclick="toggleFullscreen()" title="โหมดเต็มจอ">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </button>
+        <button class="icon-btn" onclick="syncDataFromSheet()" title="อัปเดตข้อมูลจาก Google Sheet">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+        </button>
+        <button class="icon-btn" onclick="doLogout()" title="ออกจากระบบ">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- OSPE THEMED TRACK SWITCHER -->
+    <div class="track-tabs-bar">
+      <button class="track-tab-btn clinic active" id="btnTrackClinic" onclick="switchTrack('clinic')">
+        🩺 Clinic (16 กลุ่ม)
+      </button>
+      <button class="track-tab-btn product" id="btnTrackProduct" onclick="switchTrack('product')">
+        🧪 Product (12 กลุ่ม)
+      </button>
+      <button class="track-tab-btn sap" id="btnTrackSAP" onclick="switchTrack('sap')">
+        💼 SAP
+      </button>
+      <button class="track-tab-btn all" id="btnTrackAll" onclick="switchTrack('all')">
+        🌟 ทั้งหมด
+      </button>
+    </div>
+
+    <div class="lobby-greeting">
+      <h2>สวัสดี, <span id="lobbyGreetingName">-</span> 👋</h2>
+      <p id="lobbyGreetingTrackDesc">เลือก Deck ด้านล่างเพื่อเริ่มฝึกจำ หรือเลือกโหมด <b>Smart Learning</b> เพื่อจำได้แม่นยำขึ้น</p>
+      <div class="lobby-streak-badge" id="lobbyStreakBadge">🔥 กำลังโหลดข้อมูล...</div>
+    </div>
+
+    <div class="lobby-section-head">
+      <h3 id="lobbySectionDeckTitle">เลือก Deck ฝึกจำ (Clinic 16 กลุ่ม)</h3>
+    </div>
+
+    <div class="lobby-dropdown-wrap">
+      <select class="lobby-dropdown" id="lobbyCatSelect" onchange="onLobbyCatSelectChange()">
+        <option value="">🗂 เลือกหมวดวิชาด่วน...</option>
+      </select>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+
+    <div class="deck-grid" id="lobbyDeckGrid">
+      <div style="grid-column:1/-1; text-align:center; color:var(--ink-faint); padding:20px;">กำลังโหลด Decks...</div>
+    </div>
+
+    <div class="lobby-section-head">
+      <h3>เครื่องมือการเรียนรู้</h3>
+    </div>
+    <div class="lobby-quick-tools">
+      <button class="lobby-tool-btn primary" onclick="enterStudyAll('standard')">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        เรียนทุก Deck
+      </button>
+      <button class="lobby-tool-btn smart-btn" onclick="enterStudyAll('smart')">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+        🧠 Smart Mode
+      </button>
+      <button class="lobby-tool-btn" onclick="openRandomModal()">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+        🎲 สุ่ม Flashcard
+      </button>
+      <button class="lobby-tool-btn" onclick="switchAppMode('browse')">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Browse คลัง
+      </button>
+    </div>
+
+    <!-- Lobby Footer Copyright -->
+    <div class="app-copyright-footer">
+      <div>© 2026 คณะทำงานโครงการเตรียมสอบใบประกอบวิชาชีพเภสัชกรรม ปีการศึกษา 2569 | ฝ่ายวิชาการ · พัฒนาโดย แม็กนั่ม นิสิตเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ชั้นปีที่ 5</div>
+      <div style="margin-top:4px;"><a onclick="openGuidelineModal()">📖 คู่มือการใช้งาน & คีย์ลัด</a> · <a onclick="syncDataFromSheet()">🔄 รีเฟรชข้อมูล</a></div>
+    </div>
+  </div>
+
+  <!-- ══ STUDY VIEW ══ -->
+  <div id="studyView" style="display:none; flex-direction:column; flex:1;">
     
-    <div class="header-stats">
-      <div class="stat-pill mastered">
-        <span>✅ จำได้แล้ว:</span> <span id="statMasteredCount">0</span>
+    <div class="topbar">
+      <div class="topbar-left">
+        <button class="back-home-btn" onclick="showLobby()" title="กลับหน้า Lobby">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Lobby</span>
+        </button>
       </div>
-      <div class="stat-pill review">
-        <span>⚠️ ยังไม่แม่น:</span> <span id="statReviewCount">0</span>
-      </div>
-    </div>
-  </header>
-
-  <!-- CONTROLS -->
-  <section class="controls-panel">
-    <div class="select-control">
-      <select id="tabSelector" title="เลือกวิชา / หมวด">
-        <!-- populated dynamically -->
-      </select>
-    </div>
-
-    <div class="select-control">
-      <select id="subtopicSelector" title="เลือกโรค / หัวข้อย่อย">
-        <option value="ALL">-- ทุกหัวข้อย่อย / ทุกโรค --</option>
-      </select>
-    </div>
-
-    <div class="search-control">
-      <input type="text" id="searchInput" placeholder="🔍 ค้นหาคำถาม หรือ คำตอบ...">
-    </div>
-
-    <div class="toggle-group">
-      <button class="btn-toggle" id="btnShuffle" title="สลับข้อสุ่ม">🔀 สลับข้อ</button>
-      <button class="btn-toggle" id="btnFilterStarred" title="ดูเฉพาะข้อที่ติดดาว">⭐ ติดดาว</button>
-      <button class="btn-toggle" id="btnFilterReview" title="ดูเฉพาะข้อที่ยังไม่แม่น">⚠️ ต้องทวน</button>
-    </div>
-  </section>
-
-  <!-- PROGRESS BAR -->
-  <div class="progress-bar-container">
-    <div class="progress-bar-fill" id="progressBar"></div>
-  </div>
-
-  <!-- 3D CARD -->
-  <div class="card-scene" id="cardScene" title="คลิกเพื่อพลิกการ์ด">
-    <div class="card-inner" id="cardInner">
       
-      <!-- FRONT -->
-      <div class="card-face card-front">
-        <div class="card-top-meta">
-          <span class="badge-subtopic" id="cardSubtopicFront">-</span>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <span class="card-counter" id="cardCounterFront">0 / 0</span>
-            <button class="btn-star-top" id="btnStarFront" title="ติดดาวข้อนี้">★</button>
+      <div class="titles">
+        <div class="deck-name" id="studyDeckName">กลุ่มการเรียนรู้</div>
+        <div class="deck-sub" id="studyDeckSub">คลัง Flashcard เภสัชกรรม</div>
+      </div>
+      
+      <div class="topbar-right">
+        <button class="icon-btn" onclick="openGuidelineModal()" title="คู่มือการใช้งาน & คีย์ลัด">
+          <span style="font-size:13px;">📖</span>
+        </button>
+        <button class="icon-btn" id="toggleViewModeBtnStudy" onclick="toggleAppViewMode()" title="สลับโหมด Desktop / Mobile">
+          <span id="viewModeIconStudy">📱</span>
+        </button>
+        <button class="icon-btn" onclick="toggleFullscreen()" title="เต็มจอ">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </button>
+        <button class="icon-btn" onclick="shuffleCards()" title="สลับลำดับการ์ด (Shuffle)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="randomBanner" style="display:none; background:var(--clinic); color:#fff; padding:7px 14px; font-size:12.5px; font-weight:700; align-items:center; justify-content:space-between; margin:4px 12px 0; border-radius:10px;">
+      <span id="randomBannerText">🎲 โหมดสุ่ม Flashcard</span>
+      <button onclick="exitRandomMode()" style="background:rgba(255,255,255,0.2); border:none; color:#fff; border-radius:6px; padding:3px 8px; font-size:11.5px; font-weight:700; cursor:pointer;">✕ ออกจากโหมดสุ่ม</button>
+    </div>
+
+    <!-- CLEAN CENTERED STUDY VIEWPORT (NO LEFT RAIL) -->
+    <div class="study-viewport">
+      <div class="study-mode-segmented" id="studyModeSegmented">
+        <button class="sm-seg-btn active" id="btnMethodStandard" onclick="switchStudyMethod('standard')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          📖 ทบทวนทั่วไป
+        </button>
+        <button class="sm-seg-btn smart-mode" id="btnMethodSmart" onclick="switchStudyMethod('smart')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          🧠 Smart Mode
+        </button>
+      </div>
+
+      <div class="subtopic-selector-row" id="subtopicSelectorRow">
+        <select class="subtopic-dropdown" id="studySubtopicSelect" onchange="onStudySubtopicSelectChange()">
+          <option value="__all__">📂 ทุกหัวข้อย่อยในหมวดนี้</option>
+        </select>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+
+      <div class="progress-row">
+        <span class="progress-count" id="progressCount">0/0</span>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-count" id="progressPct" style="color:var(--confident)">0%</span>
+      </div>
+
+      <div class="stage">
+        <div class="card-wrap">
+          <div class="card" id="flashcard" onclick="flipCard()">
+            <div class="card-eyebrow">
+              <span class="tag clinic-tag" id="cardTag">-</span>
+              <div class="card-status-dot dot-new" id="cardStatusDot"></div>
+            </div>
+            
+            <div class="card-img-wrap" id="qImgWrap">
+              <img class="card-img" id="qImg" src="" alt="รูปคำถาม" onclick="openImgLightbox(this.src, event)">
+            </div>
+
+            <div class="card-body">
+              <div class="question-text" id="questionText">กำลังโหลด Flashcard...</div>
+              <div class="answer-block" id="answerBlock">
+                <div class="answer-label">คำตอบ</div>
+                <div class="card-img-wrap" id="aImgWrap">
+                  <img class="card-img" id="aImg" src="" alt="รูปคำตอบ" onclick="openImgLightbox(this.src, event)">
+                </div>
+                <div class="answer-text" id="answerText"></div>
+              </div>
+            </div>
+            
+            <div class="flip-hint" id="flipHint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7-7 7 7"/></svg>
+              แตะการ์ดเพื่อดูคำตอบ
+            </div>
           </div>
         </div>
 
-        <div class="card-body-question" id="cardQuestionText">
-          กำลังโหลดฐานข้อมูล Flashcard...
-        </div>
-
-        <div class="card-bottom-hint">
-          <span>👆 คลิกการ์ด หรือ กด [Space] เพื่อดูเฉลย &amp; สเปกตรัม</span>
-        </div>
-      </div>
-
-      <!-- BACK -->
-      <div class="card-face card-back">
-        <div class="card-top-meta">
-          <span class="badge-subtopic" id="cardSubtopicBack">-</span>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <span class="card-counter" id="cardCounterBack">0 / 0</span>
-            <button class="btn-star-top" id="btnStarBack" title="ติดดาวข้อนี้">★</button>
-          </div>
-        </div>
-
-        <div class="card-body-answer" id="cardAnswerText">
-          กำลังแสดงเฉลย...
-        </div>
-
-        <div class="card-bottom-hint">
-          <span>👆 คลิกการ์ดเพื่อกลับไปดูคำถาม</span>
+        <div class="card-nav">
+          <button class="nav-arrow" id="prevBtn" onclick="goPrev()" aria-label="ข้อก่อนหน้า" title="ข้อก่อนหน้า">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <span class="card-index" id="cardIndexText">ข้อ 0 จาก 0</span>
+          <button class="nav-arrow" id="nextBtn" onclick="goNext()" aria-label="ข้อถัดไป" title="ข้อถัดไป">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
         </div>
       </div>
 
+      <div class="actions">
+        <button class="action-btn unsure" id="unsureBtn" onclick="markCard('ไม่มั่นใจ')" title="ไม่มั่นใจ">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          ไม่มั่นใจ
+        </button>
+        <button class="action-btn confident" id="confidentBtn" onclick="markCard('มั่นใจ')" title="มั่นใจ">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          มั่นใจ
+        </button>
+      </div>
+
+      <div class="kbd-hints-bar">
+        <span class="kbd-chip"><kbd>Space</kbd> พลิกการ์ด</span>
+        <span class="kbd-chip"><kbd>←</kbd> <kbd>→</kbd> เลื่อนข้อ</span>
+        <span class="kbd-chip"><kbd>1</kbd> ไม่มั่นใจ</span>
+        <span class="kbd-chip"><kbd>2</kbd> มั่นใจ</span>
+      </div>
+
+      <div class="bottombar">
+        <div class="left-tools">
+          <button onclick="toggleIndexPanel()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            <span>สารบัญ</span>
+          </button>
+          <button onclick="toggleStats()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            <span>สถิติ</span>
+          </button>
+        </div>
+        <button class="more-btn" onclick="toggleSheet(true)" aria-label="เครื่องมือเพิ่มเติม">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+        </button>
+      </div>
     </div>
   </div>
 
-  <!-- NAVIGATION BAR -->
-  <footer class="nav-bar">
-    <div class="nav-buttons-group">
-      <button class="btn-action" id="btnPrev">← ก่อนหน้า</button>
-      <button class="btn-action btn-flip" id="btnFlip">🔄 พลิกการ์ด [Space]</button>
-      <button class="btn-action" id="btnNext">ถัดไป →</button>
+  <!-- ══ BROWSE VIEW ══ -->
+  <div id="browseView" style="display:none; flex-direction:column; flex:1;">
+    <div class="topbar">
+      <div class="topbar-left">
+        <button class="back-home-btn" onclick="showLobby()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Lobby</span>
+        </button>
+        <button class="icon-btn" onclick="switchAppMode('study')" title="โหมด Flashcard">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="3"/><path d="M8 21h8M12 17v4"/></svg>
+        </button>
+      </div>
+      <div class="titles">
+        <div class="deck-name">Browse คลัง Flashcard</div>
+        <div class="deck-sub" id="browseResultCount">พบ 0 ข้อ</div>
+      </div>
+      <div class="topbar-right">
+        <button class="icon-btn" onclick="toggleAllBrowseAnswers()" title="แสดง/ซ่อน เฉลยทั้งหมด">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
+      </div>
     </div>
 
-    <div class="nav-buttons-group">
-      <button class="btn-action btn-mark-unsure" id="btnMarkUnsure">⚠️ ยังไม่แม่น [1]</button>
-      <button class="btn-action btn-mark-mastered" id="btnMarkMastered">✅ จำได้แล้ว [2]</button>
+    <div class="browse-search-bar">
+      <svg class="browse-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="browseSearchInput" class="browse-search-input" placeholder="พิมพ์ค้นหา Flashcard หรือคำตอบ..." oninput="onBrowseFilterChange()">
+      <button class="browse-clear-btn" id="browseSearchClear" onclick="clearBrowseSearch()" style="display:none;">✕</button>
     </div>
-  </footer>
 
-  <!-- KEYBOARD HELP -->
-  <div class="keyboard-help">
-    <span><span class="kbd-badge">Space</span> พลิกการ์ด</span>
-    <span><span class="kbd-badge">←</span> <span class="kbd-badge">→</span> เปลี่ยนข้อ</span>
-    <span><span class="kbd-badge">1</span> ยังไม่แม่น</span>
-    <span><span class="kbd-badge">2</span> จำได้แล้ว</span>
-    <span><span class="kbd-badge">S</span> ติดดาว</span>
+    <div class="browse-selects-row">
+      <div class="b-select-wrap">
+        <select id="browseCatSelect" class="b-select" onchange="onBrowseCatChange()">
+          <option value="__all__">🗂 ทุกหมวดวิชา</option>
+        </select>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <div class="b-select-wrap">
+        <select id="browseStatusSelect" class="b-select" onchange="onBrowseFilterChange()">
+          <option value="all">🏷️ ทุกสถานะ</option>
+          <option value="confident">✓ มั่นใจ</option>
+          <option value="notconfident">△ ไม่มั่นใจ</option>
+          <option value="new">○ ยังไม่เคยเรียน</option>
+        </select>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+
+    <div class="browse-table-wrap" id="browseTableContainer"></div>
   </div>
+
+  <!-- ══ BOTTOM SHEET (DRAWER) ══ -->
+  <div class="sheet-scrim" id="scrim" onclick="toggleSheet(false)"></div>
+  <div class="sheet" id="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-title">เครื่องมือเพิ่มเติม</div>
+    <div class="sheet-grid">
+      <button class="sheet-item" onclick="toggleSheet(false); switchAppMode('browse');">
+        <div class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <span>โหมด Browse</span>
+      </button>
+      <button class="sheet-item" onclick="toggleSheet(false); openRandomModal();">
+        <div class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg></div>
+        <span>สุ่ม Flashcard</span>
+      </button>
+      <button class="sheet-item" onclick="toggleSheet(false); openExportModal();">
+        <div class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+        <span>Export</span>
+      </button>
+      <button class="sheet-item" onclick="toggleSheet(false); syncDataFromSheet();">
+        <div class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg></div>
+        <span>รีเฟรช</span>
+      </button>
+    </div>
+    <div class="sheet-divider"></div>
+    <div class="sheet-row" onclick="toggleSheet(false); openGuidelineModal();">
+      <span>📖 คู่มือการใช้งาน & คีย์ลัด</span>
+      <span class="r-right"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+    </div>
+    <div class="sheet-row" onclick="toggleSheet(false); toggleIndexPanel();">
+      <span>📚 สารบัญหมวดวิชา & หัวข้อย่อย</span>
+      <span class="r-right"><span id="sheetCurrentGroupLabel">ทั้งหมด</span> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+    </div>
+    <div class="sheet-row" onclick="toggleSheet(false); toggleStats();">
+      <span>📊 สถิติความจำของฉัน</span>
+      <span class="r-right"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+    </div>
+    <div class="sheet-row" onclick="toggleSheet(false); toggleAppViewMode();">
+      <span>📱 สลับโหมดหน้าจอ (Desktop / Mobile)</span>
+      <span class="r-right"><span id="sheetViewModeLabel">Desktop</span> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+    </div>
+    <div class="sheet-row" onclick="doLogout();">
+      <span>🚪 ออกจากระบบ</span>
+      <span class="r-right"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+    </div>
+  </div>
+
+  <!-- ══ MODALS ══ -->
+
+  <!-- GUIDELINE MODAL -->
+  <div class="modal-overlay" id="guidelineModal">
+    <div class="modal-box" style="max-width:490px;">
+      <div class="modal-head">
+        <h3>📖 คู่มือการใช้งาน & คีย์ลัด</h3>
+        <button class="modal-close" onclick="closeGuidelineModal()">✕</button>
+      </div>
+      
+      <div class="guide-card">
+        <h4>🎯 โครงสร้างคลัง Flashcard 3 สายวิชา</h4>
+        <ul>
+          <li><b style="color:var(--clinic);">🩺 Clinic (PLE-CC):</b> 16 กลุ่มโรคคลินิก (Cardio, Endo, Neuro ฯลฯ)</li>
+          <li><b style="color:var(--product);">🧪 Product (PLE-Product):</b> 12 กลุ่มวิชาบริบาลและผลิตภัณฑ์ (Titrations, Calc ฯลฯ)</li>
+          <li><b style="color:var(--sap);">💼 SAP:</b> สังคมเภสัชกรรม กฎหมาย และบริหาร</li>
+        </ul>
+      </div>
+
+      <div class="guide-card">
+        <h4>🧠 โหมดการเรียนรู้ (Study Modes)</h4>
+        <ul>
+          <li><b>📖 โหมดทบทวนทั่วไป:</b> ฝึกไล่ตามลำดับการ์ด หรือสลับการ์ด (Shuffle) พร้อมสรุปผลเมื่อจบรอบ</li>
+          <li><b>🧠 โหมด Smart Learning:</b> จำแม่นยำ 100%! ข้อที่ตอบ <i>"มั่นใจ"</i> จะตัดออกทันที ส่วนข้อที่ตอบ <i>"ไม่มั่นใจ"</i> จะวนกลับมาถามซ้ำอัตโนมัติ</li>
+          <li><b>🎲 โหมดสุ่ม Flashcard (Cross-Track Mock):</b> สุ่มการ์ดข้ามสายวิชาได้แบบเกลี่ยน้ำหนักเฉลี่ยเท่าๆ กันทุกกลุ่ม</li>
+        </ul>
+      </div>
+
+      <div class="guide-card">
+        <h4>⌨️ คีย์ลัดบนคอมพิวเตอร์ / iPad Keyboard</h4>
+        <table class="kbd-table">
+          <tr><td style="width:130px;"><kbd>Spacebar</kbd></td><td>พลิกการ์ด เพื่อดูคำตอบ / ปิดคำตอบ</td></tr>
+          <tr><td><kbd>→</kbd> หรือ <kbd>D</kbd></td><td>ไปยังข้อถัดไป</td></tr>
+          <tr><td><kbd>←</kbd> หรือ <kbd>A</kbd></td><td>ย้อนกลับไปข้อก่อนหน้า</td></tr>
+          <tr><td><kbd>1</kbd> หรือ <kbd>↓</kbd> หรือ <kbd>X</kbd></td><td>บันทึกผล <b>"ไม่มั่นใจ"</b></td></tr>
+          <tr><td><kbd>2</kbd> หรือ <kbd>↑</kbd> หรือ <kbd>C</kbd></td><td>บันทึกผล <b>"มั่นใจ"</b></td></tr>
+        </table>
+      </div>
+
+      <div style="background:var(--card); border:1.5px solid var(--clinic-border); border-radius:14px; padding:14px; text-align:center; margin-top:8px;">
+        <div style="font-size:15px; font-weight:700; color:var(--clinic); margin-bottom:6px;">✨ PLE-CC Flashcard System</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); line-height:1.6;">
+          © 2026 คณะทำงานโครงการเตรียมสอบใบประกอบวิชาชีพเภสัชกรรม ปีการศึกษา 2569 | ฝ่ายวิชาการ · พัฒนาโดย แม็กนั่ม นิสิตเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ชั้นปีที่ 5
+        </div>
+      </div>
+
+      <button class="submit-btn" onclick="closeGuidelineModal()" style="margin-top:16px;">
+        เข้าใจแล้ว เริ่มฝึกเลย!
+      </button>
+    </div>
+  </div>
+
+  <!-- Random Modal with Multi-Track Tree -->
+  <div class="modal-overlay" id="randomModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>🎲 สุ่ม Flashcard (Cross-Track Mock)</h3>
+        <button class="modal-close" onclick="closeRandomModal()">✕</button>
+      </div>
+      <p style="font-size:12px; color:var(--ink-soft); margin-bottom:10px;">เลือกหมวด/หัวข้อย่อยข้ามสายวิชาได้ตามต้องการ ระบบจะ <b>เกลี่ยน้ำหนักเฉลี่ยเท่ากันทุกกลุ่ม</b> อย่างแม่นยำ</p>
+      
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; font-size:12px; font-weight:700;">
+        <div style="display:flex; gap:8px;">
+          <button onclick="toggleSelectAllRandomTree(true)" style="background:none; border:none; color:var(--clinic); font-weight:700; cursor:pointer;">✓ เลือกทั้งหมด</button>
+          <button onclick="toggleSelectAllRandomTree(false)" style="background:none; border:none; color:var(--unsure); font-weight:700; cursor:pointer;">✕ ยกเลิกทั้งหมด</button>
+        </div>
+        <button onclick="expandCollapseAllRandomTree()" id="btnToggleTreeExpand" style="background:none; border:none; color:var(--smart); font-weight:700; cursor:pointer;">▼ ขยาย/ยุบทั้งหมด</button>
+      </div>
+      
+      <div id="catCheckList" style="max-height:280px; overflow-y:auto; margin-bottom:14px; border:1px solid var(--border); border-radius:11px; padding:6px; background:var(--bg);"></div>
+      
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+        <span style="font-size:13px; font-weight:700;">จำนวนข้อที่ต้องการสุ่ม:</span>
+        <div style="display:flex; align-items:center; gap:5px;">
+          <input type="number" id="randomCountInput" value="20" min="1" max="500" style="width:72px; padding:6px; border:1px solid var(--border); border-radius:7px; text-align:center; font-weight:700; font-family:'IBM Plex Mono'; font-size:13.5px;">
+          <span style="font-size:12px; color:var(--ink-soft); font-weight:600;">ข้อ</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:5px; margin-bottom:14px;">
+        <button onclick="document.getElementById('randomCountInput').value=10" style="flex:1; padding:5px; border-radius:7px; border:1px solid var(--border); background:var(--card); font-size:11.5px; font-weight:700; cursor:pointer;">10 ข้อ</button>
+        <button onclick="document.getElementById('randomCountInput').value=20" style="flex:1; padding:5px; border-radius:7px; border:1px solid var(--border); background:var(--card); font-size:11.5px; font-weight:700; cursor:pointer;">20 ข้อ</button>
+        <button onclick="document.getElementById('randomCountInput').value=30" style="flex:1; padding:5px; border-radius:7px; border:1px solid var(--border); background:var(--card); font-size:11.5px; font-weight:700; cursor:pointer;">30 ข้อ</button>
+        <button onclick="document.getElementById('randomCountInput').value=50" style="flex:1; padding:5px; border-radius:7px; border:1px solid var(--border); background:var(--card); font-size:11.5px; font-weight:700; cursor:pointer;">50 ข้อ</button>
+      </div>
+
+      <button class="submit-btn" onclick="startRandomStudy()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        เริ่มสุ่ม Flashcard (เกลี่ยน้ำหนักเฉลี่ย)
+      </button>
+    </div>
+  </div>
+
+  <!-- Export Modal -->
+  <div class="modal-overlay" id="exportModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>📥 Export Goodnotes CSV</h3>
+        <button class="modal-close" onclick="closeExportModal()">✕</button>
+      </div>
+      <div class="form-group">
+        <label>หมวดวิชา</label>
+        <select class="form-input" id="exportCatSelect" onchange="onExportCatChange()"></select>
+      </div>
+      <div class="form-group">
+        <label>หัวข้อย่อย</label>
+        <select class="form-input" id="exportSubSelect" onchange="onExportSubChange()"></select>
+      </div>
+      <div style="display:flex; gap:8px; align-items:center; margin-bottom:14px;">
+        <div style="flex:1;">
+          <label style="font-size:11px; font-weight:700; color:var(--ink-soft);">ตั้งแต่ข้อ</label>
+          <input class="form-input" type="number" id="exportStartNo" value="1" min="1">
+        </div>
+        <div style="flex:1;">
+          <label style="font-size:11px; font-weight:700; color:var(--ink-soft);">ถึงข้อ</label>
+          <input class="form-input" type="number" id="exportEndNo" value="1" min="1">
+        </div>
+      </div>
+      <button class="submit-btn" onclick="executeExportCSV()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        ดาวน์โหลด CSV (2 คอลัมน์)
+      </button>
+    </div>
+  </div>
+
+  <!-- Index Panel Modal (Fixed & Formatted) -->
+  <div class="modal-overlay" id="indexModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>📚 สารบัญหมวดวิชา & หัวข้อย่อย</h3>
+        <button class="modal-close" onclick="toggleIndexPanel()">✕</button>
+      </div>
+      <div id="indexPanelContent" style="max-height:65vh; overflow-y:auto;"></div>
+    </div>
+  </div>
+
+  <!-- Stats Modal -->
+  <div class="modal-overlay" id="statsModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>📊 สถิติความจำของฉัน</h3>
+        <button class="modal-close" onclick="toggleStats()">✕</button>
+      </div>
+      <div id="statsPanelContent" style="max-height:60vh; overflow-y:auto;"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox-overlay" id="imgLightboxModal" onclick="closeImgLightbox()">
+    <img class="lightbox-img" id="lightboxImg" src="" alt="ขยายรูปภาพ" onclick="event.stopPropagation()">
+  </div>
+
+  <div class="toast" id="toast"></div>
 
 </div>
 
-<!-- LOAD PRE-COMPILED OFFLINE DATABASE -->
+
+<!-- ══ PRE-COMPILED OFFLINE DATABASE & RUNTIME ADAPTER (OFFLINE GAS SHIM) ══ -->
 <script src="flashcard-data-offline.js"></script>
-
 <script>
-  // ══ APP STATE ══
-  let allCards = [];
-  let filteredCards = [];
-  let currentIndex = 0;
-  let isFlipped = false;
-  let isShuffle = false;
-  let filterStarredOnly = false;
-  let filterReviewOnly = false;
+window.google = window.google || {};
+window.google.script = window.google.script || {};
+window.google.script.run = (function() {
+  function createRunner(successFn, failureFn) {
+    var r = {
+      withSuccessHandler: function(fn) { return createRunner(fn, failureFn); },
+      withFailureHandler: function(fn) { return createRunner(successFn, fn); },
+      validateSession: function(token) {
+        setTimeout(function() {
+          if (successFn) successFn({ valid: true, username: 'DrMax', displayName: 'Doctor Max' });
+        }, 5);
+      },
+      signIn: function(u, p) {
+        setTimeout(function() {
+          if (successFn) successFn({ success: true, token: 'offline-token', username: u || 'DrMax', displayName: u || 'Doctor Max' });
+        }, 5);
+      },
+      signUp: function(u, dn, p) {
+        setTimeout(function() {
+          if (successFn) successFn({ success: true, token: 'offline-token', username: u || 'DrMax', displayName: dn || 'Doctor Max' });
+        }, 5);
+      },
+      signOut: function(token) {
+        if (successFn) setTimeout(function() { successFn(); }, 5);
+      },
+      getCategories: function(bypassCache, trackFilter) {
+        setTimeout(function() {
+          var cats = window.OFFLINE_CATEGORIES || [];
+          if (!trackFilter || trackFilter === 'all') {
+            if (successFn) successFn(cats);
+          } else {
+            if (successFn) successFn(cats.filter(function(c) {
+              return c.track && c.track.toLowerCase() === trackFilter.toLowerCase();
+            }));
+          }
+        }, 10);
+      },
+      getUserProgress: function(token) {
+        setTimeout(function() {
+          try {
+            var p = JSON.parse(localStorage.getItem('flashcard_progress_offline') || '{}');
+            if (successFn) successFn(p);
+          } catch(e) { if (successFn) successFn({}); }
+        }, 10);
+      },
+      getFlashcards: function(catName, subTopic, bypassCache) {
+        setTimeout(function() {
+          var cards = (window.OFFLINE_CARDS && window.OFFLINE_CARDS[catName]) || [];
+          if (subTopic && subTopic !== '__all__') {
+            cards = cards.filter(function(c) {
+              return c.subTopic === subTopic || (c.subTopic && c.subTopic.indexOf(subTopic) !== -1);
+            });
+          }
+          if (successFn) successFn(cards);
+        }, 10);
+      },
+      getAllFlashcards: function(trackFilter) {
+        setTimeout(function() {
+          var allMap = window.OFFLINE_ALL_CARDS_BY_TRACK || {};
+          var trackKey = trackFilter ? trackFilter.toLowerCase() : 'all';
+          var list = allMap[trackKey] || allMap['all'] || [];
+          if (successFn) successFn(list);
+        }, 10);
+      },
+      saveProgress: function(cardId, group, question, status, token, track) {
+        try {
+          var p = JSON.parse(localStorage.getItem('flashcard_progress_offline') || '{}');
+          p[cardId] = { status: status, timestamp: new Date().toISOString() };
+          localStorage.setItem('flashcard_progress_offline', JSON.stringify(p));
+          if (successFn) setTimeout(function() { successFn({ success: true }); }, 5);
+        } catch(e) {}
+      }
+    };
+    return r;
+  }
+  return createRunner(function() {}, function() {});
+})();
+</script>
+<script>
 
-  // LocalStorage Key
-  const STORAGE_KEY = 'pharmacu_flashcard_progress_v1';
-  let userProgress = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  // ─── HIGH-PERFORMANCE RESPONSIVE CACHE (SMART AUTO-INVALIDATION) ───
+  const CACHE_TTL_MS = 2 * 60 * 1000; // 2 Minutes Responsive Cache (No more getting stuck on old data!)
+  const CACHE_KEY_CATS = 'ple_cache_categories_v2';
+  const CACHE_KEY_DECK_PREFIX = 'ple_cache_deck_v2_';
+  const CACHE_KEY_ALL_CARDS = 'ple_cache_all_cards_v2';
 
-  // DOM Elements
-  const tabSelector = document.getElementById('tabSelector');
-  const subtopicSelector = document.getElementById('subtopicSelector');
-  const searchInput = document.getElementById('searchInput');
-  const btnShuffle = document.getElementById('btnShuffle');
-  const btnFilterStarred = document.getElementById('btnFilterStarred');
-  const btnFilterReview = document.getElementById('btnFilterReview');
-  
-  const cardScene = document.getElementById('cardScene');
-  const cardInner = document.getElementById('cardInner');
-  const cardSubtopicFront = document.getElementById('cardSubtopicFront');
-  const cardSubtopicBack = document.getElementById('cardSubtopicBack');
-  const cardCounterFront = document.getElementById('cardCounterFront');
-  const cardCounterBack = document.getElementById('cardCounterBack');
-  const cardQuestionText = document.getElementById('cardQuestionText');
-  const cardAnswerText = document.getElementById('cardAnswerText');
-  const btnStarFront = document.getElementById('btnStarFront');
-  const btnStarBack = document.getElementById('btnStarBack');
-  
-  const btnPrev = document.getElementById('btnPrev');
-  const btnNext = document.getElementById('btnNext');
-  const btnFlip = document.getElementById('btnFlip');
-  const btnMarkUnsure = document.getElementById('btnMarkUnsure');
-  const btnMarkMastered = document.getElementById('btnMarkMastered');
-  const progressBar = document.getElementById('progressBar');
-  
-  const statMasteredCount = document.getElementById('statMasteredCount');
-  const statReviewCount = document.getElementById('statReviewCount');
+  function getLocalCache(key) {
+    try {
+      const item = localStorage.getItem(key);
+      if (!item) return null;
+      const parsed = JSON.parse(item);
+      // If within 2 minutes, return cached data
+      if (Date.now() - (parsed.time || 0) < CACHE_TTL_MS) {
+        return parsed.data;
+      }
+      return null; // Expired, trigger fresh live fetch
+    } catch(e) { return null; }
+  }
 
-  // Initialize DB
-  function initApp() {
-    if (!window.FLASHCARD_DATABASE || !window.FLASHCARD_DATABASE.tabs) {
-      cardQuestionText.innerHTML = '<span style="color:#DC2626">⚠️ ไม่พบไฟล์ flashcard-data-offline.js กรุณารัน compile_offline_db.bat ก่อน</span>';
+  function setLocalCache(key, data) {
+    try {
+      localStorage.setItem(key, JSON.stringify({ time: Date.now(), data: data }));
+    } catch(e) {
+      // If quota exceeded, clear older deck caches
+      try {
+        Object.keys(localStorage).forEach(k => {
+          if (k.startsWith('ple_cache_deck_')) localStorage.removeItem(k);
+        });
+        localStorage.setItem(key, JSON.stringify({ time: Date.now(), data: data }));
+      } catch(err) {}
+    }
+  }
+
+  function clearAllLocalCache() {
+    try {
+      Object.keys(localStorage).forEach(k => {
+        if (k.startsWith('ple_cache_')) localStorage.removeItem(k);
+      });
+    } catch(e) {}
+  }
+
+  // ─── STATE ───
+  let sessionToken    = null;
+  let currentUser     = null;
+  let categories      = [];
+  let currentTrack    = 'clinic'; // 'clinic' | 'product' | 'sap' | 'all'
+  let currentCategory = null;
+  let currentSubTopic = null;
+  let allCards        = [];
+  let viewCards       = [];
+  let userProgress    = {};
+  let currentIndex    = 0;
+  let currentFilter   = 'all';
+  let isFlipped       = false;
+  let isRandomMode    = false;
+  let currentAppMode  = 'lobby';
+  let isReviewFinished = false;
+  let browseCardsCache = null;
+  let isTreeExpanded  = false;
+
+  // ─── SMART LEARNING STATE ───
+  let studyMethod     = 'standard';
+  let smartQueue      = [];
+  let smartInitialCount = 0;
+  let smartMasteredCount = 0;
+
+  const LS_KEY = 'fc_session_token_ple';
+  const LS_VIEW_MODE = 'fc_view_mode';
+  const LS_TRACK = 'fc_current_track';
+
+  // ─── 1-to-1 TOPIC-MATCHED EMOJIS (ตรงกับ 16 กลุ่มโรคคลินิก และ 12 หมวดผลิตภัณฑ์) ───
+  const CLINIC_EMOJIS = [
+    '🦴', // 1. Musculoskeleton
+    '❤️', // 2. Cardiovascular
+    '🧴', // 3. Dermatologic
+    '🩸', // 4. Endocrine
+    '🫄', // 5. Gastrointestinal
+    '💉', // 6. Hematologic
+    '🛡️', // 7. Immunologic
+    '🦠', // 8. Infectious diseases
+    '🧠', // 9. Neurologic
+    '🧘', // 10. Psychiatric
+    '🫁', // 11. Pulmonary
+    '🌸', // 12. Gynaecologic/Genitourinary
+    '👁️', // 13. Eye disorder
+    '🎗️', // 14. Oncologic
+    '🫘', // 15. Renal
+    '☠️'  // 16. Others & Toxic
+  ];
+
+  const PRODUCT_EMOJIS = [
+    '🧪', // 1. Titrations
+    '📊', // 2. Chromatography
+    '🔬', // 3. Spectroscopy & Optics
+    '🏭', // 4. Preformulation & GMP
+    '🧮', // 5. Pharmaceutical Calc
+    '💊', // 6. Solid Dosage Forms
+    '🧴', // 7. Liquid & Semisolids
+    '⏳', // 8. Biopharm & Drug Release
+    '💉', // 9. Sterile & Special Forms
+    '🧬', // 10. Biotech Products
+    '🌿', // 11. Herbal Products
+    '🥗'  // 12. Food Products & QA
+  ];
+
+  const SAP_EMOJIS = ['⚖️','📋','💼','🏥','🏷️','📊'];
+
+  function normalizeTrack(t) {
+    if (!t) return 'clinic';
+    const s = String(t).toLowerCase().trim();
+    if (s.includes('prod')) return 'product';
+    if (s.includes('sap') || s.includes('สังคม')) return 'sap';
+    return 'clinic';
+  }
+
+  function getCategoryEmoji(catName, idx, track) {
+    const norm = normalizeTrack(track);
+    let numIdx = (typeof idx === 'number') ? idx : 0;
+    if (catName) {
+      const match = String(catName).match(/^(\d+)\./);
+      if (match) numIdx = parseInt(match[1], 10) - 1;
+    }
+    if (norm === 'product') return PRODUCT_EMOJIS[numIdx % PRODUCT_EMOJIS.length] || '🧪';
+    if (norm === 'sap') return SAP_EMOJIS[numIdx % SAP_EMOJIS.length] || '💼';
+    return CLINIC_EMOJIS[numIdx % CLINIC_EMOJIS.length] || '🩺';
+  }
+
+  function isStudiedToday(card) {
+    const p = userProgress[card.id];
+    if (!p || !p.timestamp) return false;
+    const d   = new Date(p.timestamp);
+    const now = new Date();
+    return d.getFullYear() === now.getFullYear() &&
+           d.getMonth()    === now.getMonth()    &&
+           d.getDate()     === now.getDate();
+  }
+
+  function matchSubTopic(cardSub, targetSub) {
+    if (!targetSub || targetSub === '__all__') return true;
+    if (!cardSub) return false;
+    const c = String(cardSub).trim().toLowerCase();
+    const t = String(targetSub).trim().toLowerCase();
+    return c === t || c.includes(t) || t.includes(c);
+  }
+
+  // ─── KEYBOARD NAVIGATION (SPACE, ARROWS, 1, 2) ───
+  window.addEventListener('keydown', (e) => {
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+    if (currentAppMode !== 'study' || isReviewFinished) return;
+
+    if (e.code === 'Space' || e.key === ' ') {
+      e.preventDefault();
+      flipCard();
+    } else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+      e.preventDefault();
+      goPrev();
+    } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+      e.preventDefault();
+      goNext();
+    } else if (e.key === '1' || e.key === 'x' || e.key === 'X' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      markCard('ไม่มั่นใจ');
+    } else if (e.key === '2' || e.key === 'c' || e.key === 'C' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      markCard('มั่นใจ');
+    }
+  });
+
+  function initViewMode() {
+    const saved = localStorage.getItem(LS_VIEW_MODE);
+    const isPhone = (saved === 'phone');
+    if (isPhone) document.body.classList.add('mode-phone');
+    else document.body.classList.remove('mode-phone');
+    updateViewModeUI(isPhone);
+  }
+
+  function toggleAppViewMode() {
+    const isPhone = document.body.classList.toggle('mode-phone');
+    localStorage.setItem(LS_VIEW_MODE, isPhone ? 'phone' : 'desktop');
+    updateViewModeUI(isPhone);
+    showToast(isPhone ? '📱 สลับเป็น Smartphone View (420px Mockup)' : '🖥️ สลับเป็น Desktop Workspace View (960px)');
+  }
+
+  function updateViewModeUI(isPhone) {
+    const label = document.getElementById('sheetViewModeLabel');
+    if (label) label.textContent = isPhone ? 'Smartphone View' : 'Desktop View';
+
+    const iconL = document.getElementById('viewModeIconLobby');
+    if (iconL) iconL.textContent = isPhone ? '🖥️' : '📱';
+
+    const iconS = document.getElementById('viewModeIconStudy');
+    if (iconS) iconS.textContent = isPhone ? '🖥️' : '📱';
+    
+    const btnL = document.getElementById('toggleViewModeBtnLobby');
+    const btnS = document.getElementById('toggleViewModeBtnStudy');
+    if (btnL) btnL.classList.toggle('active', isPhone);
+    if (btnS) btnS.classList.toggle('active', isPhone);
+  }
+
+  function openGuidelineModal() { document.getElementById('guidelineModal').classList.add('show'); }
+  function closeGuidelineModal() { document.getElementById('guidelineModal').classList.remove('show'); }
+
+  function toggleFullscreen() {
+    const isFs = document.body.classList.toggle('fullscreen-active');
+    if (isFs) {
+      if (document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(() => {});
+    }
+  }
+
+  window.addEventListener('load', () => {
+    // Auto-login to offline session
+    if (!localStorage.getItem(LS_KEY)) {
+      localStorage.setItem(LS_KEY, 'offline-token');
+    }
+    initViewMode();
+    const savedTrack = localStorage.getItem(LS_TRACK);
+    if (savedTrack) currentTrack = savedTrack;
+
+    const saved = localStorage.getItem(LS_KEY);
+    if (saved) {
+      google.script.run
+        .withSuccessHandler(onValidateSession)
+        .withFailureHandler(() => showAuth())
+        .validateSession(saved);
+    } else { showAuth(); }
+  });
+
+  function onValidateSession(res) {
+    if (res && res.valid) {
+      sessionToken = localStorage.getItem(LS_KEY);
+      currentUser  = { username: res.username, displayName: res.displayName };
+      showApp();
+    } else { localStorage.removeItem(LS_KEY); showAuth(); }
+  }
+
+  function showAuth() {
+    document.getElementById('authOverlay').style.display = 'flex';
+    document.getElementById('authOverlay').classList.remove('hide');
+    document.getElementById('lobbyView').style.display = 'none';
+    document.getElementById('studyView').style.display = 'none';
+    document.getElementById('browseView').style.display = 'none';
+  }
+
+  function showApp() {
+    document.getElementById('authOverlay').classList.add('hide');
+    setTimeout(() => document.getElementById('authOverlay').style.display = 'none', 300);
+    const dn = currentUser ? currentUser.displayName : 'ผู้ใช้งาน';
+    document.getElementById('lobbyUserNameBadge').textContent = dn;
+    document.getElementById('lobbyGreetingName').textContent = dn;
+    loadApp();
+  }
+
+  function switchTab(tab) {
+    ['signin','signup'].forEach(t => {
+      document.getElementById('tabSign' + (t === 'signin' ? 'In' : 'Up')).classList.toggle('active', tab === t);
+      document.getElementById('panelSign' + (t === 'signin' ? 'In' : 'Up')).classList.toggle('active', tab === t);
+    });
+    clearErrors();
+  }
+
+  function clearErrors() {
+    ['signinError','signupError'].forEach(id => { const e = document.getElementById(id); e.textContent = ''; e.classList.remove('show'); });
+  }
+  function showError(id, msg) { const e = document.getElementById(id); e.textContent = msg; e.classList.add('show'); }
+  function togglePw(inputId, btn) {
+    const i = document.getElementById(inputId);
+    i.type = i.type === 'password' ? 'text' : 'password';
+  }
+
+  function setLoading(prefix, on) {
+    document.getElementById(prefix + 'Spinner').style.display = on ? 'block' : 'none';
+    document.getElementById(prefix + 'BtnText').textContent   = on ? 'กำลังดำเนินการ...' : (prefix === 'signin' ? 'เข้าสู่ระบบ' : 'สร้างบัญชี');
+    document.getElementById(prefix + 'Btn').disabled = on;
+  }
+
+  function doSignIn() {
+    const u = document.getElementById('siUsername').value.trim();
+    const p = document.getElementById('siPassword').value;
+    clearErrors();
+    if (!u || !p) { showError('signinError', 'กรุณากรอก Username และ Password'); return; }
+    setLoading('signin', true);
+    google.script.run
+      .withSuccessHandler(res => {
+        setLoading('signin', false);
+        if (res.success) { localStorage.setItem(LS_KEY, res.token); sessionToken = res.token; currentUser = { username: res.username, displayName: res.displayName }; showApp(); }
+        else showError('signinError', res.message);
+      })
+      .withFailureHandler(err => { setLoading('signin', false); showError('signinError', err.message); })
+      .signIn(u, p);
+  }
+
+  function doSignUp() {
+    const u  = document.getElementById('suUsername').value.trim();
+    const dn = document.getElementById('suDisplayName').value.trim();
+    const p  = document.getElementById('suPassword').value;
+    const c  = document.getElementById('suConfirm').value;
+    clearErrors();
+    if (!u || !dn || !p || !c) { showError('signupError', 'กรุณากรอกข้อมูลให้ครบ'); return; }
+    if (p !== c) { showError('signupError', 'Password ไม่ตรงกัน'); return; }
+    setLoading('signup', true);
+    google.script.run
+      .withSuccessHandler(res => {
+        setLoading('signup', false);
+        if (res.success) { localStorage.setItem(LS_KEY, res.token); sessionToken = res.token; currentUser = { username: res.username, displayName: res.displayName }; showApp(); }
+        else showError('signupError', res.message);
+      })
+      .withFailureHandler(err => { setLoading('signup', false); showError('signupError', err.message); })
+      .signUp(u, dn, p);
+  }
+
+  function doAnonymousLogin() {
+    sessionToken = null;
+    currentUser  = { username: 'anonymous', displayName: 'บุคคลทั่วไป' };
+    try {
+      const local = localStorage.getItem('flashcard_anon_progress_ple');
+      userProgress = local ? JSON.parse(local) : {};
+    } catch(e) { userProgress = {}; }
+    showApp();
+  }
+
+  function doLogout() {
+    if (sessionToken) {
+      if (!confirm('ต้องการออกจากระบบหรือไม่?')) return;
+      const t = localStorage.getItem(LS_KEY);
+      localStorage.removeItem(LS_KEY);
+      google.script.run.signOut(t);
+    }
+    sessionToken = null; currentUser = null;
+    showAuth();
+  }
+
+  // ─── LOAD APP DATA (INSTANT CACHE + BACKGROUND SYNC) ───
+  function loadApp() {
+    // 1. Check local cache first for INSTANT 0ms render
+    const cachedCats = getLocalCache(CACHE_KEY_CATS);
+    if (cachedCats && Array.isArray(cachedCats) && cachedCats.length > 0) {
+      categories = cachedCats;
+      document.getElementById('loadingScreen').style.display = 'none';
+      showLobby();
+      // Silently revalidate in background
+      google.script.run.withSuccessHandler(cats => {
+        if (cats && cats.length) {
+          categories = cats;
+          setLocalCache(CACHE_KEY_CATS, cats);
+          buildLobby();
+        }
+      }).getCategories(false, 'all');
+    } else {
+      // Initial cold load
+      document.getElementById('loadingScreen').style.display = 'block';
+      google.script.run.withSuccessHandler(cats => {
+        categories = cats || [];
+        setLocalCache(CACHE_KEY_CATS, categories);
+        document.getElementById('loadingScreen').style.display = 'none';
+        showLobby();
+      }).withFailureHandler(err => {
+        document.getElementById('loadingScreen').innerHTML = '<div style="color:var(--unsure)">ข้อผิดพลาด: ' + err.message + '</div>';
+      }).getCategories(false, 'all');
+    }
+
+    if (sessionToken) {
+      google.script.run.withSuccessHandler(prog => {
+        userProgress = prog || {};
+        buildLobby();
+      }).getUserProgress(sessionToken);
+    }
+  }
+
+  // ─── TRACK SWITCHER ───
+  function switchTrack(track) {
+    currentTrack = track;
+    localStorage.setItem(LS_TRACK, track);
+
+    document.getElementById('btnTrackClinic').classList.toggle('active', track === 'clinic');
+    document.getElementById('btnTrackProduct').classList.toggle('active', track === 'product');
+    document.getElementById('btnTrackSAP').classList.toggle('active', track === 'sap');
+    document.getElementById('btnTrackAll').classList.toggle('active', track === 'all');
+
+    const descEl = document.getElementById('lobbyGreetingTrackDesc');
+    const titleEl = document.getElementById('lobbySectionDeckTitle');
+
+    if (track === 'clinic') {
+      descEl.innerHTML = '🩺 สายวิชา <b>Clinical Pharmacy (PLE-CC)</b> — 16 กลุ่มโรคคลินิก';
+      titleEl.textContent = 'เลือก Deck ฝึกจำ (Clinical 16 กลุ่มโรค)';
+    } else if (track === 'product') {
+      descEl.innerHTML = '🧪 สายวิชา <b>Pharmaceutical Sciences (PLE-Product)</b> — 12 กลุ่มวิชาบริบาลและผลิตภัณฑ์';
+      titleEl.textContent = 'เลือก Deck ฝึกจำ (Product 12 กลุ่มวิชา)';
+    } else if (track === 'sap') {
+      descEl.innerHTML = '💼 สายวิชา <b>Social & Administrative Pharmacy (SAP)</b> — สังคมเภสัชกรรมและกฎหมาย';
+      titleEl.textContent = 'เลือก Deck ฝึกจำ (SAP สังคมฯ)';
+    } else {
+      descEl.innerHTML = '🌟 <b>รวมทุกสายวิชา (All Decks)</b> — ครอบคลุมทั้ง Clinical Pharmacy, Product & SAP';
+      titleEl.textContent = 'เลือก Deck ฝึกจำ (รวมทุกหมวดวิชา)';
+    }
+
+    buildLobby();
+  }
+
+  function getVisibleCategories() {
+    if (currentTrack === 'clinic') return categories.filter(c => normalizeTrack(c.track) === 'clinic');
+    if (currentTrack === 'product') return categories.filter(c => normalizeTrack(c.track) === 'product');
+    if (currentTrack === 'sap') return categories.filter(c => normalizeTrack(c.track) === 'sap');
+    return categories;
+  }
+
+  // ─── LOBBY ───
+  function showLobby() {
+    currentAppMode = 'lobby';
+    isReviewFinished = false;
+    document.getElementById('lobbyView').style.display  = 'flex';
+    document.getElementById('studyView').style.display  = 'none';
+    document.getElementById('browseView').style.display = 'none';
+    switchTrack(currentTrack);
+  }
+
+  function buildLobby() {
+    const grid = document.getElementById('lobbyDeckGrid');
+    const visCats = getVisibleCategories();
+
+    if (!visCats.length) {
+      grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; color:var(--ink-faint); padding:24px;">ยังไม่มีข้อมูลหมวดในระบบ</div>';
       return;
     }
 
-    const tabs = window.FLASHCARD_DATABASE.tabs;
-    tabSelector.innerHTML = '';
-    
-    // Add "All" option
-    const optAll = document.createElement('option');
-    optAll.value = 'ALL';
-    optAll.textContent = `📚 รวมทุกวิชา (${window.FLASHCARD_DATABASE.total_cards} ข้อ)`;
-    tabSelector.appendChild(optAll);
+    const todayTotal = Object.values(userProgress).filter(p => {
+      if (!p.timestamp) return false;
+      const d = new Date(p.timestamp), now = new Date();
+      return d.getFullYear()===now.getFullYear() && d.getMonth()===now.getMonth() && d.getDate()===now.getDate();
+    }).length;
+    document.getElementById('lobbyStreakBadge').innerHTML = todayTotal > 0 ? `🔥 วันนี้ฝึกไปแล้ว ${todayTotal} ข้อ` : `📚 วันนี้ยังไม่ได้เริ่มฝึก มาลุยกัน!`;
 
-    // Populate Tab selector (Default to Tab 8: Infectious Diseases if present)
-    let defaultTab = 'ALL';
-    tabs.forEach(t => {
-      const opt = document.createElement('option');
-      opt.value = t.title;
-      opt.textContent = `${t.title} (${t.count} ข้อ)`;
-      if (t.title.includes('8. Infectious') || t.title.includes('Infectious')) {
-        defaultTab = t.title;
-      }
-      tabSelector.appendChild(opt);
+    const sel = document.getElementById('lobbyCatSelect');
+    sel.innerHTML = '<option value="">🗂 เลือกหมวดวิชาด่วน...</option>';
+
+    let html = '';
+    visCats.forEach((cat, idx) => {
+      const norm = normalizeTrack(cat.track);
+      const em = getCategoryEmoji(cat.name, idx, cat.track);
+      const shortName = cat.name.replace(/^Product\s*Group\s*\d+:?\s*/i, '').replace(/^\d+\.\s*/, '').split(/[:(（]/)[0].trim();
+      const trackBadge = norm === 'product' ? '🧪' : norm === 'sap' ? '💼' : '🩺';
+      sel.innerHTML += `<option value="${cat.name}">${em} ${trackBadge} ${shortName} (${cat.count} ข้อ)</option>`;
+
+      const confCat = Object.values(userProgress).filter(p => p.category === cat.name && p.status === 'มั่นใจ').length;
+      const pct     = cat.count ? Math.round((confCat / cat.count) * 100) : 0;
+      const pctBadgeClass = pct > 0 ? '' : 'zero';
+      const cardClass = norm === 'product' ? 'product-card' : norm === 'sap' ? 'sap-card' : 'clinic-card';
+      const fillClass = norm === 'product' ? 'product-fill' : norm === 'sap' ? 'sap-fill' : 'clinic-fill';
+
+      html += `
+        <div class="deck-card ${cardClass}" onclick="enterStudyFromDeck('${cat.name.replace(/'/g,"\\'")}', 'standard', null, '${cat.track}')">
+          <div class="deck-card-top">
+            <div class="deck-emoji">${em}</div>
+            <span class="deck-pct-badge ${pctBadgeClass}">${pct}%</span>
+          </div>
+          <div class="deck-name">${trackBadge} ${shortName}</div>
+          <div class="deck-count">${cat.count} ข้อ</div>
+          <div class="deck-bar"><div class="deck-bar-fill ${fillClass}" style="width:${pct}%"></div></div>
+        </div>`;
     });
-
-    // Select default tab
-    tabSelector.value = defaultTab;
-    onTabChanged();
-    updateStats();
+    grid.innerHTML = html;
   }
 
-  function onTabChanged() {
-    const selectedTab = tabSelector.value;
-    const tabs = window.FLASHCARD_DATABASE.tabs;
+  function onLobbyCatSelectChange() {
+    const sel = document.getElementById('lobbyCatSelect');
+    if (sel && sel.value) {
+      const catObj = categories.find(c => c.name === sel.value);
+      enterStudyFromDeck(sel.value, 'standard', null, catObj ? catObj.track : 'clinic');
+      sel.value = '';
+    }
+  }
+
+  function enterStudyFromDeck(catName, method = 'standard', subTopic = null, track = 'clinic') {
+    studyMethod = method;
+    currentSubTopic = subTopic;
+    isReviewFinished = false;
+
+    document.getElementById('lobbyView').style.display  = 'none';
+    document.getElementById('studyView').style.display  = 'flex';
+    document.getElementById('browseView').style.display = 'none';
+    currentAppMode = 'study';
     
-    allCards = [];
-    if (selectedTab === 'ALL') {
-      tabs.forEach(t => allCards.push(...t.cards));
+    updateStudyMethodUI();
+    selectCategory(catName, subTopic, track);
+  }
+
+  function enterStudyAll(method = 'standard') {
+    studyMethod = method;
+    currentSubTopic = null;
+    isReviewFinished = false;
+
+    document.getElementById('lobbyView').style.display  = 'none';
+    document.getElementById('studyView').style.display  = 'flex';
+    document.getElementById('browseView').style.display = 'none';
+    currentAppMode = 'study';
+    
+    updateStudyMethodUI();
+    const visCats = getVisibleCategories();
+    selectCategory(visCats.length > 0 ? visCats[0].name : null, null, visCats.length > 0 ? visCats[0].track : 'clinic');
+  }
+
+  function switchStudyMethod(method) {
+    if (studyMethod === method) return;
+    studyMethod = method;
+    isReviewFinished = false;
+    updateStudyMethodUI();
+
+    if (studyMethod === 'smart') {
+      initSmartLearningQueue();
+      showToast('🧠 เริ่ม Smart Mode (วนซ้ำข้อที่ไม่มั่นใจ)');
     } else {
-      const t = tabs.find(x => x.title === selectedTab);
-      if (t) allCards = [...t.cards];
+      applyFilter(currentFilter, true);
+      showToast('📖 โหมดทบทวนทั่วไป');
+    }
+  }
+
+  function updateStudyMethodUI() {
+    const btnStd   = document.getElementById('btnMethodStandard');
+    const btnSmart = document.getElementById('btnMethodSmart');
+    const prevBtn  = document.getElementById('prevBtn');
+    const fillEl   = document.getElementById('progressFill');
+
+    btnStd.classList.toggle('active', studyMethod === 'standard');
+    btnSmart.classList.toggle('active', studyMethod === 'smart');
+
+    if (studyMethod === 'smart') {
+      fillEl.classList.add('smart-fill');
+      if (prevBtn) prevBtn.style.visibility = 'hidden';
+    } else {
+      fillEl.classList.remove('smart-fill');
+      if (prevBtn) prevBtn.style.visibility = 'visible';
+    }
+  }
+
+  function initSmartLearningQueue() {
+    isReviewFinished = false;
+    let pool = allCards;
+    if (currentSubTopic) {
+      pool = pool.filter(c => matchSubTopic(c.subTopic, currentSubTopic));
+    }
+    smartQueue = [...pool];
+    smartInitialCount = smartQueue.length;
+    smartMasteredCount = 0;
+    currentIndex = 0;
+    viewCards = smartQueue;
+    renderCard();
+    renderProgress();
+  }
+
+  function populateSubtopicsDropdown(catName) {
+    const selectEl = document.getElementById('studySubtopicSelect');
+    const rowEl = document.getElementById('subtopicSelectorRow');
+    if (!selectEl || !rowEl) return;
+
+    if (isRandomMode) {
+      rowEl.style.display = 'none';
+      return;
     }
 
-    // Populate Subtopics
-    const subtopics = Array.from(new Set(allCards.map(c => c.subtopic).filter(Boolean))).sort();
-    subtopicSelector.innerHTML = '<option value="ALL">-- ทุกหัวข้อย่อย / ทุกโรค --</option>';
-    subtopics.forEach(st => {
-      const opt = document.createElement('option');
-      opt.value = st;
-      const count = allCards.filter(c => c.subtopic === st).length;
-      opt.textContent = `${st} (${count})`;
-      subtopicSelector.appendChild(opt);
+    // Extract ONLY actual subtopics that exist in the loaded cards
+    const subMap = {};
+    allCards.forEach(c => {
+      const s = (c.subTopic || '').trim();
+      if (s && s !== 'หัวข้อย่อย' && s !== 'หัวข้อย่อย (SubTopic)') {
+        subMap[s] = (subMap[s] || 0) + 1;
+      }
     });
 
-    applyFilters();
+    const validSubs = Object.keys(subMap);
+
+    // If deck has no subtopics (e.g. 2. Chromatography), cleanly hide the dropdown row
+    if (validSubs.length === 0) {
+      rowEl.style.display = 'none';
+      currentSubTopic = null;
+      return;
+    }
+
+    rowEl.style.display = 'block';
+    let countTotal = allCards.length;
+    let html = `<option value="__all__">📂 ทุกหัวข้อย่อยในหมวด (${countTotal} ข้อ)</option>`;
+
+    validSubs.forEach(sub => {
+      const subCardsCount = subMap[sub];
+      html += `<option value="${sub.replace(/"/g, '&quot;')}">• ${sub} (${subCardsCount} ข้อ)</option>`;
+    });
+
+    selectEl.innerHTML = html;
+
+    if (currentSubTopic) {
+      const matchedOpt = validSubs.find(s => matchSubTopic(s, currentSubTopic));
+      if (matchedOpt) {
+        currentSubTopic = matchedOpt;
+        selectEl.value = matchedOpt;
+      } else {
+        currentSubTopic = null;
+        selectEl.value = '__all__';
+      }
+    } else {
+      selectEl.value = '__all__';
+    }
   }
 
-  function applyFilters() {
-    const selectedSubtopic = subtopicSelector.value;
-    const searchVal = searchInput.value.toLowerCase().trim();
+  function onStudySubtopicSelectChange() {
+    const val = document.getElementById('studySubtopicSelect').value;
+    currentSubTopic = (val === '__all__') ? null : val;
+    isReviewFinished = false;
 
-    filteredCards = allCards.filter(c => {
-      // Subtopic filter
-      if (selectedSubtopic !== 'ALL' && c.subtopic !== selectedSubtopic) return false;
-      
-      // Starred filter
-      const uCard = userProgress[getCardKey(c)] || {};
-      if (filterStarredOnly && !uCard.starred) return false;
-      
-      // Review filter
-      if (filterReviewOnly && uCard.status !== 'unsure') return false;
-      
-      // Search filter
-      if (searchVal) {
-        const qMatch = c.question.toLowerCase().includes(searchVal);
-        const aMatch = c.answer_raw.toLowerCase().includes(searchVal);
-        if (!qMatch && !aMatch) return false;
+    if (studyMethod === 'smart') {
+      initSmartLearningQueue();
+    } else {
+      applyFilter(currentFilter, true);
+    }
+    showToast(`📂 เลือกหัวข้อ: ${currentSubTopic || 'ทุกหัวข้อย่อย'}`);
+  }
+
+  function selectCategory(catName, subTopic = null, track = null) {
+    if (isRandomMode) exitRandomMode();
+    currentCategory = catName;
+    currentSubTopic = subTopic;
+    isReviewFinished = false;
+    
+    const catObj = categories.find(c => c.name === catName);
+    const norm = normalizeTrack((catObj ? catObj.track : track));
+    const trackLabel = norm === 'product' ? 'PLE-Product' : norm === 'sap' ? 'SAP' : 'PLE-CC';
+    document.getElementById('studyDeckName').textContent = (catName ? `${catName}` : 'ทุกกลุ่มวิชา');
+    document.getElementById('studyDeckSub').textContent  = catObj ? `${catObj.count} ข้อ (${trackLabel})` : `(${trackLabel})`;
+    document.getElementById('sheetCurrentGroupLabel').textContent = catName || 'ทั้งหมด';
+
+    document.getElementById('answerBlock').classList.remove('show');
+    document.getElementById('flashcard').classList.remove('flipped');
+
+    const cacheKey = catName ? (CACHE_KEY_DECK_PREFIX + catName) : (CACHE_KEY_ALL_CARDS + '_' + currentTrack);
+    const cachedCards = getLocalCache(cacheKey);
+
+    if (cachedCards && Array.isArray(cachedCards) && cachedCards.length > 0) {
+      // Instant render from Local Cache (0ms)
+      onCardsLoaded(cachedCards);
+      // Revalidate in background and update immediately if sheet changed
+      if (catName === null) {
+        google.script.run.withSuccessHandler(cards => {
+          if (cards && cards.length) {
+            setLocalCache(cacheKey, cards);
+            if (cards.length !== cachedCards.length || cards[0].question !== cachedCards[0].question) {
+              onCardsLoaded(cards);
+            }
+          }
+        }).getAllFlashcards(currentTrack);
+      } else {
+        google.script.run.withSuccessHandler(cards => {
+          if (cards && cards.length) {
+            setLocalCache(cacheKey, cards);
+            if (cards.length !== cachedCards.length || cards[0].question !== cachedCards[0].question) {
+              onCardsLoaded(cards);
+            }
+          }
+        }).getFlashcards(catName, null);
       }
-      
+    } else {
+      // Cold load
+      document.getElementById('questionText').textContent = 'กำลังโหลด Flashcard...';
+      if (catName === null) {
+        google.script.run.withSuccessHandler(cards => {
+          setLocalCache(cacheKey, cards);
+          onCardsLoaded(cards);
+        }).withFailureHandler(onCardLoadError).getAllFlashcards(currentTrack);
+      } else {
+        google.script.run.withSuccessHandler(cards => {
+          setLocalCache(cacheKey, cards);
+          onCardsLoaded(cards);
+        }).withFailureHandler(onCardLoadError).getFlashcards(catName, null);
+      }
+    }
+  }
+
+  function onCardsLoaded(cards) {
+    allCards = cards || [];
+    currentIndex = 0;
+    isReviewFinished = false;
+    
+    populateSubtopicsDropdown(currentCategory);
+
+    if (studyMethod === 'smart') {
+      initSmartLearningQueue();
+    } else {
+      applyFilter(currentFilter, true);
+    }
+  }
+
+  function onCardLoadError(err) {
+    document.getElementById('questionText').innerHTML = '<span style="color:var(--unsure)">⚠️ เกิดข้อผิดพลาดในการโหลด Flashcard</span>';
+  }
+
+  function cardStatus(card) { return (userProgress[card.id] || {}).status || null; }
+
+  function applyFilter(filter, resetIndex) {
+    currentFilter = filter;
+    isReviewFinished = false;
+    viewCards = allCards.filter(c => {
+      if (currentSubTopic && !matchSubTopic(c.subTopic, currentSubTopic)) return false;
+      const s = cardStatus(c);
+      if (filter === 'all')          return true;
+      if (filter === 'nottoday')     return !isStudiedToday(c);
+      if (filter === 'confident')    return s === 'มั่นใจ';
+      if (filter === 'notconfident') return s === 'ไม่มั่นใจ';
       return true;
     });
 
-    if (isShuffle) {
-      filteredCards.sort(() => Math.random() - 0.5);
+    if (resetIndex) currentIndex = 0;
+    if (currentIndex >= viewCards.length) currentIndex = Math.max(0, viewCards.length - 1);
+    renderCard(); renderProgress();
+  }
+
+  function renderCard(direction) {
+    isFlipped = false;
+    const cardEl = document.getElementById('flashcard');
+    const ansEl  = document.getElementById('answerBlock');
+    cardEl.classList.remove('flipped');
+    ansEl.classList.remove('show');
+
+    if (direction === 'next') {
+      cardEl.classList.remove('anim-next', 'anim-prev');
+      void cardEl.offsetWidth;
+      cardEl.classList.add('anim-next');
+    } else if (direction === 'prev') {
+      cardEl.classList.remove('anim-next', 'anim-prev');
+      void cardEl.offsetWidth;
+      cardEl.classList.add('anim-prev');
     }
 
-    currentIndex = 0;
-    renderCurrentCard();
-  }
-
-  function getCardKey(card) {
-    return `${card.tab}_${card.id}`;
-  }
-
-  function renderCurrentCard() {
-    // Reset flip
-    isFlipped = false;
-    cardInner.classList.remove('is-flipped');
-
-    if (!filteredCards.length) {
-      cardSubtopicFront.textContent = '-';
-      cardSubtopicBack.textContent = '-';
-      cardCounterFront.textContent = '0 / 0';
-      cardCounterBack.textContent = '0 / 0';
-      cardQuestionText.textContent = '🔍 ไม่พบการ์ดข้อสอบที่ตรงตามเงื่อนไขการค้นหา';
-      cardAnswerText.textContent = '-';
-      progressBar.style.width = '0%';
+    if (studyMethod === 'smart' && smartQueue.length === 0 && smartInitialCount > 0) {
+      document.getElementById('cardTag').textContent = '🎉 พิชิตสมบูรณ์ 100%';
+      document.getElementById('cardTag').className = 'tag smart-tag';
+      document.getElementById('questionText').innerHTML = `
+        <div class="celebration-box">
+          <div class="celebration-icon">🏆</div>
+          <div class="celebration-title">ยอดเยี่ยมมาก!</div>
+          <div class="celebration-sub">คุณตอบ "มั่นใจ" ครบทุกข้อในชุดนี้แล้ว</div>
+          <div class="celebration-actions">
+            <button class="submit-btn" onclick="initSmartLearningQueue()" style="font-size:13px; padding:10px;">🔄 ฝึกรอบใหม่</button>
+            <button class="lobby-tool-btn" onclick="showLobby()" style="font-size:13px; padding:10px;">🏠 กลับหน้า Lobby</button>
+          </div>
+        </div>`;
+      document.getElementById('answerText').innerHTML = '';
+      document.getElementById('qImgWrap').classList.remove('show');
+      document.getElementById('aImgWrap').classList.remove('show');
+      updateNav();
       return;
     }
 
-    const card = filteredCards[currentIndex];
-    const cardKey = getCardKey(card);
-    const uState = userProgress[cardKey] || {};
+    if (isReviewFinished && studyMethod === 'standard') {
+      const totalInReview = viewCards.length;
+      const confCount = viewCards.filter(c => cardStatus(c) === 'มั่นใจ').length;
+      const unsureCount = totalInReview - confCount;
 
-    const progressPct = Math.round(((currentIndex + 1) / filteredCards.length) * 100);
-    progressBar.style.width = `${progressPct}%`;
+      document.getElementById('cardTag').textContent = '🎉 จบรอบการทบทวน';
+      document.getElementById('cardTag').className = 'tag';
+      document.getElementById('questionText').innerHTML = `
+        <div class="celebration-box">
+          <div class="celebration-icon">🎉</div>
+          <div class="celebration-title">ทบทวนครบทั้งชุดแล้ว!</div>
+          <div class="celebration-sub">ยอดเยี่ยมมากที่ทบทวนจนจบครบทุกข้อ</div>
+          <div class="celebration-stats">
+            <span class="c-stat-pill conf">✓ มั่นใจ ${confCount} ข้อ</span>
+            <span class="c-stat-pill unsure">✕ ไม่มั่นใจ ${unsureCount} ข้อ</span>
+          </div>
+          <div class="celebration-actions">
+            <button class="submit-btn" onclick="restartReview()" style="font-size:13px; padding:10px;">🔄 ทบทวนใหม่อีกรอบ</button>
+            <button class="lobby-tool-btn smart-btn" onclick="switchStudyMethod('smart')" style="font-size:13px; padding:10px;">🧠 ติวต่อด้วย Smart Mode</button>
+            <button class="lobby-tool-btn" onclick="showLobby()" style="font-size:13px; padding:10px;">🏠 กลับหน้า Lobby</button>
+          </div>
+        </div>`;
+      document.getElementById('answerText').innerHTML = '';
+      document.getElementById('qImgWrap').classList.remove('show');
+      document.getElementById('aImgWrap').classList.remove('show');
+      updateNav();
+      return;
+    }
 
-    const subtopicLabel = `${card.tab} • ${card.subtopic}`;
-    cardSubtopicFront.textContent = subtopicLabel;
-    cardSubtopicBack.textContent = subtopicLabel;
+    if (viewCards.length === 0) {
+      document.getElementById('cardTag').textContent = '-';
+      document.getElementById('questionText').innerHTML = '📭 ไม่พบ Flashcard ในตัวกรองนี้';
+      document.getElementById('answerText').innerHTML = '';
+      document.getElementById('qImgWrap').classList.remove('show');
+      document.getElementById('aImgWrap').classList.remove('show');
+      updateNav();
+      return;
+    }
 
-    const counterText = `${currentIndex + 1} / ${filteredCards.length}`;
-    cardCounterFront.textContent = counterText;
-    cardCounterBack.textContent = counterText;
+    const card = viewCards[currentIndex];
+    const status = cardStatus(card);
+    const today  = isStudiedToday(card);
+    const norm = normalizeTrack(card.track);
 
-    cardQuestionText.innerHTML = card.question;
-    cardAnswerText.innerHTML = card.answer_html || card.answer_raw;
+    const tagText = (studyMethod === 'smart' ? '🧠 ' : '') + (card.group || '') + (card.subTopic ? ' · ' + card.subTopic : '') + (card.itemNo ? ` · ข้อ ${card.itemNo}` : '');
+    const tagEl = document.getElementById('cardTag');
+    tagEl.textContent = tagText;
+    
+    if (studyMethod === 'smart') {
+      tagEl.className = 'tag smart-tag';
+    } else {
+      tagEl.className = `tag ${norm === 'product' ? 'product-tag' : norm === 'sap' ? 'sap-tag' : 'clinic-tag'}`;
+    }
 
-    // Star status
-    const isStarred = !!uState.starred;
-    btnStarFront.classList.toggle('starred', isStarred);
-    btnStarBack.classList.toggle('starred', isStarred);
+    const qTextEl = document.getElementById('questionText');
+    const aTextEl = document.getElementById('answerText');
+    qTextEl.innerHTML = card.question || '-';
+    aTextEl.innerHTML = card.answer || '-';
 
-    // Button states
-    btnPrev.disabled = currentIndex === 0;
-    btnNext.disabled = currentIndex === filteredCards.length - 1;
+    const qWrap = document.getElementById('qImgWrap');
+    const qImg  = document.getElementById('qImg');
+    if (card.questionImage) { qImg.src = card.questionImage; qWrap.classList.add('show'); }
+    else { qImg.src = ''; qWrap.classList.remove('show'); }
+
+    const aWrap = document.getElementById('aImgWrap');
+    const aImg  = document.getElementById('aImg');
+    if (card.answerImage) { aImg.src = card.answerImage; aWrap.classList.add('show'); }
+    else { aImg.src = ''; aWrap.classList.remove('show'); }
+
+    const dot = document.getElementById('cardStatusDot');
+    dot.className = 'card-status-dot ' + (today && status === 'มั่นใจ' ? 'dot-confident' : today && status === 'ไม่มั่นใจ' ? 'dot-notconfident' : today ? 'dot-today' : status === 'มั่นใจ' ? 'dot-confident' : status === 'ไม่มั่นใจ' ? 'dot-notconfident' : 'dot-new');
+
+    updateNav();
   }
 
-  function toggleFlip() {
+  function updateNav() {
+    if (studyMethod === 'smart') {
+      const total = smartInitialCount;
+      const done  = smartMasteredCount;
+      const left  = smartQueue.length;
+      document.getElementById('cardIndexText').textContent = `🎯 ${done}/${total} (เหลือ ${left})`;
+      document.getElementById('progressCount').textContent = `${done}/${total}`;
+      document.getElementById('prevBtn').disabled = true;
+      document.getElementById('nextBtn').disabled = left <= 1;
+      document.getElementById('unsureBtn').disabled    = left === 0;
+      document.getElementById('confidentBtn').disabled = left === 0;
+    } else if (isReviewFinished) {
+      document.getElementById('cardIndexText').textContent = `🎉 ครบ ${viewCards.length} ข้อ`;
+      document.getElementById('progressCount').textContent = `${viewCards.length}/${viewCards.length}`;
+      document.getElementById('prevBtn').disabled = false;
+      document.getElementById('nextBtn').disabled = true;
+      document.getElementById('unsureBtn').disabled    = true;
+      document.getElementById('confidentBtn').disabled = true;
+    } else {
+      const total = viewCards.length;
+      const current = total ? currentIndex + 1 : 0;
+      document.getElementById('cardIndexText').textContent = `ข้อ ${current} จาก ${total}`;
+      document.getElementById('progressCount').textContent = `${current}/${total}`;
+      document.getElementById('prevBtn').disabled = currentIndex <= 0;
+      document.getElementById('nextBtn').disabled = false;
+      document.getElementById('unsureBtn').disabled    = total === 0;
+      document.getElementById('confidentBtn').disabled = total === 0;
+    }
+  }
+
+  function renderProgress() {
+    if (studyMethod === 'smart') {
+      const total = smartInitialCount;
+      const done  = smartMasteredCount;
+      const pct   = total ? Math.round((done / total) * 100) : 0;
+      document.getElementById('progressFill').style.width = pct + '%';
+      document.getElementById('progressPct').textContent  = pct + '%';
+    } else {
+      const total   = viewCards.length || allCards.length;
+      const conf    = viewCards.filter(c => cardStatus(c) === 'มั่นใจ').length;
+      const pct     = total ? Math.round((conf / total) * 100) : 0;
+      document.getElementById('progressFill').style.width = pct + '%';
+      document.getElementById('progressPct').textContent  = pct + '%';
+    }
+  }
+
+  function flipCard() {
+    if (isReviewFinished || (studyMethod === 'smart' && smartQueue.length === 0)) return;
+    const card = document.getElementById('flashcard');
+    const ans  = document.getElementById('answerBlock');
+    if (!viewCards.length) return;
     isFlipped = !isFlipped;
-    cardInner.classList.toggle('is-flipped', isFlipped);
+    card.classList.toggle('flipped', isFlipped);
+    ans.classList.toggle('show', isFlipped);
   }
 
-  function nextCard() {
-    if (currentIndex < filteredCards.length - 1) {
-      currentIndex++;
-      renderCurrentCard();
+  function goNext() {
+    if (studyMethod === 'smart') {
+      if (smartQueue.length > 1) {
+        const current = smartQueue.shift();
+        smartQueue.push(current);
+        viewCards = smartQueue;
+        currentIndex = 0;
+        renderCard('next');
+      }
+    } else {
+      if (currentIndex < viewCards.length - 1) {
+        currentIndex++;
+        renderCard('next');
+      } else if (!isReviewFinished && viewCards.length > 0) {
+        isReviewFinished = true;
+        renderCard('next');
+      }
     }
   }
-
-  function prevCard() {
-    if (currentIndex > 0) {
+  
+  function goPrev() {
+    if (isReviewFinished) {
+      isReviewFinished = false;
+      currentIndex = Math.max(0, viewCards.length - 1);
+      renderCard('prev');
+      return;
+    }
+    if (studyMethod !== 'smart' && currentIndex > 0) {
       currentIndex--;
-      renderCurrentCard();
+      renderCard('prev');
     }
   }
 
-  function toggleStar() {
-    if (!filteredCards.length) return;
-    const card = filteredCards[currentIndex];
-    const key = getCardKey(card);
-    if (!userProgress[key]) userProgress[key] = {};
-    userProgress[key].starred = !userProgress[key].starred;
-    saveProgress();
-    renderCurrentCard();
+  function restartReview() {
+    isReviewFinished = false;
+    currentIndex = 0;
+    renderCard('prev');
+    showToast('🔄 เริ่มทบทวนใหม่อีกรอบ');
   }
 
-  function markStatus(status) {
-    if (!filteredCards.length) return;
-    const card = filteredCards[currentIndex];
-    const key = getCardKey(card);
-    if (!userProgress[key]) userProgress[key] = {};
-    userProgress[key].status = status;
-    saveProgress();
-    updateStats();
-    nextCard();
+  function markCard(status) {
+    if (!viewCards.length || isReviewFinished) return;
+    const card = viewCards[currentIndex];
+    userProgress[card.id] = { category: card.group, question: card.question, status, timestamp: new Date().toString(), track: card.track };
+
+    if (sessionToken) {
+      google.script.run.saveProgress(card.id, card.group, card.question, status, sessionToken, card.track);
+    } else {
+      try {
+        localStorage.setItem('flashcard_anon_progress_ple', JSON.stringify(userProgress));
+      } catch(e) {}
+    }
+
+    if (studyMethod === 'smart') {
+      if (status === 'มั่นใจ') {
+        smartQueue.splice(currentIndex, 1);
+        smartMasteredCount++;
+        showToast('🎯 มั่นใจแล้ว!');
+      } else {
+        const current = smartQueue.splice(currentIndex, 1)[0];
+        smartQueue.push(current);
+        showToast('🔄 วนกลับมาใหม่อีกรอบ');
+      }
+      viewCards = smartQueue;
+      currentIndex = 0;
+      renderProgress();
+      setTimeout(() => renderCard('next'), 250);
+    } else {
+      showToast(status === 'มั่นใจ' ? '✅ บันทึก: มั่นใจ' : '📌 บันทึก: ไม่มั่นใจ');
+      renderProgress();
+      setTimeout(goNext, 250);
+    }
   }
 
-  function saveProgress() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(userProgress));
+  function shuffleCards() {
+    if (studyMethod === 'smart') {
+      for (let i = smartQueue.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [smartQueue[i], smartQueue[j]] = [smartQueue[j], smartQueue[i]];
+      }
+      viewCards = smartQueue;
+      currentIndex = 0;
+      renderCard('next');
+      showToast('🔀 สลับลำดับ Flashcard แล้ว');
+    } else {
+      for (let i = viewCards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [viewCards[i], viewCards[j]] = [viewCards[j], viewCards[i]];
+      }
+      currentIndex = 0;
+      isReviewFinished = false;
+      renderCard('next');
+      showToast('🔀 สลับข้อ Flashcard เรียบร้อย');
+    }
   }
 
-  function updateStats() {
-    let mastered = 0;
-    let unsure = 0;
-    Object.values(userProgress).forEach(v => {
-      if (v.status === 'mastered') mastered++;
-      if (v.status === 'unsure') unsure++;
+  function toggleSheet(open) {
+    document.getElementById('sheet').classList.toggle('show', open);
+    document.getElementById('scrim').classList.toggle('show', open);
+  }
+
+  function switchAppMode(mode) {
+    currentAppMode = mode;
+    if (mode === 'browse') {
+      document.getElementById('lobbyView').style.display  = 'none';
+      document.getElementById('studyView').style.display  = 'none';
+      document.getElementById('browseView').style.display = 'flex';
+      initBrowseMode();
+    } else if (mode === 'study') {
+      document.getElementById('lobbyView').style.display  = 'none';
+      document.getElementById('studyView').style.display  = 'flex';
+      document.getElementById('browseView').style.display = 'none';
+      renderCard();
+    } else if (mode === 'lobby') {
+      showLobby();
+    }
+  }
+
+  // ─── BROWSE MODE ───
+  function initBrowseMode() {
+    const catSel = document.getElementById('browseCatSelect');
+    catSel.innerHTML = '<option value="__all__">🗂 ทุกหมวดวิชา</option>';
+    categories.forEach(c => {
+      const norm = normalizeTrack(c.track);
+      const trackBadge = norm === 'product' ? '🧪' : norm === 'sap' ? '💼' : '🩺';
+      catSel.innerHTML += `<option value="${c.name}">${trackBadge} ${c.name} (${c.count} ข้อ)</option>`;
     });
-    statMasteredCount.textContent = mastered;
-    statReviewCount.textContent = unsure;
-  }
 
-  // Event Listeners
-  cardScene.addEventListener('click', toggleFlip);
-  btnFlip.addEventListener('click', (e) => { e.stopPropagation(); toggleFlip(); });
-  btnPrev.addEventListener('click', (e) => { e.stopPropagation(); prevCard(); });
-  btnNext.addEventListener('click', (e) => { e.stopPropagation(); nextCard(); });
-  btnStarFront.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(); });
-  btnStarBack.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(); });
-  btnMarkUnsure.addEventListener('click', (e) => { e.stopPropagation(); markStatus('unsure'); });
-  btnMarkMastered.addEventListener('click', (e) => { e.stopPropagation(); markStatus('mastered'); });
+    if (currentCategory) catSel.value = currentCategory;
+    else catSel.value = '__all__';
 
-  tabSelector.addEventListener('change', onTabChanged);
-  subtopicSelector.addEventListener('change', applyFilters);
-  searchInput.addEventListener('input', applyFilters);
-
-  btnShuffle.addEventListener('click', () => {
-    isShuffle = !isShuffle;
-    btnShuffle.classList.toggle('active', isShuffle);
-    applyFilters();
-  });
-
-  btnFilterStarred.addEventListener('click', () => {
-    filterStarredOnly = !filterStarredOnly;
-    btnFilterStarred.classList.toggle('active', filterStarredOnly);
-    applyFilters();
-  });
-
-  btnFilterReview.addEventListener('click', () => {
-    filterReviewOnly = !filterReviewOnly;
-    btnFilterReview.classList.toggle('active', filterReviewOnly);
-    applyFilters();
-  });
-
-  // Keyboard Shortcuts
-  window.addEventListener('keydown', (e) => {
-    if (document.activeElement === searchInput) return;
-    if (e.code === 'Space' || e.key === ' ') {
-      e.preventDefault();
-      toggleFlip();
-    } else if (e.key === 'ArrowRight' || e.key === 'l') {
-      nextCard();
-    } else if (e.key === 'ArrowLeft' || e.key === 'j') {
-      prevCard();
-    } else if (e.key === '1') {
-      markStatus('unsure');
-    } else if (e.key === '2') {
-      markStatus('mastered');
-    } else if (e.key === 's' || e.key === 'S') {
-      toggleStar();
+    if (!browseCardsCache || !browseCardsCache.length) {
+      document.getElementById('browseTableContainer').innerHTML = '<div class="loading-wrap"><div class="spinner"></div>กำลังโหลดคลัง Flashcard...</div>';
+      google.script.run
+        .withSuccessHandler(cards => { browseCardsCache = cards || []; onBrowseFilterChange(); })
+        .withFailureHandler(err => { document.getElementById('browseTableContainer').innerHTML = '<div class="loading-wrap">เกิดข้อผิดพลาดในการโหลดคลัง Flashcard</div>'; })
+        .getAllFlashcards('all');
+    } else {
+      onBrowseFilterChange();
     }
-  });
-
-  // PWA Service Worker Registration
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 
-  // Start App
-  initApp();
+  function onBrowseCatChange() { onBrowseFilterChange(); }
+  function clearBrowseSearch() { document.getElementById('browseSearchInput').value = ''; onBrowseFilterChange(); }
+
+  function onBrowseFilterChange() {
+    if (!browseCardsCache) return;
+    const query  = (document.getElementById('browseSearchInput').value || '').trim().toLowerCase();
+    const catVal = document.getElementById('browseCatSelect').value;
+    const statusVal = document.getElementById('browseStatusSelect').value;
+    document.getElementById('browseSearchClear').style.display = query ? 'block' : 'none';
+
+    const filtered = browseCardsCache.filter(c => {
+      if (catVal !== '__all__' && c.group !== catVal) return false;
+      const st = cardStatus(c);
+      if (statusVal === 'confident' && st !== 'มั่นใจ') return false;
+      if (statusVal === 'notconfident' && st !== 'ไม่มั่นใจ') return false;
+      if (statusVal === 'new' && st !== null) return false;
+
+      if (query) {
+        const q = (c.question || '').replace(/<[^>]*>/g, '').toLowerCase();
+        const a = (c.answer || '').replace(/<[^>]*>/g, '').toLowerCase();
+        return q.includes(query) || a.includes(query);
+      }
+      return true;
+    });
+
+    document.getElementById('browseResultCount').textContent = `พบ ${filtered.length} ข้อ`;
+    const container = document.getElementById('browseTableContainer');
+    if (!filtered.length) {
+      container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--ink-faint); font-size:13px; font-weight:600;">ไม่พบ Flashcard ที่ตรงตามเงื่อนไข</div>';
+      return;
+    }
+
+    let html = '';
+    filtered.forEach((card, i) => {
+      const st = cardStatus(card);
+      const dotCls = st === 'มั่นใจ' ? 'dot-confident' : st === 'ไม่มั่นใจ' ? 'dot-notconfident' : 'dot-new';
+      const qImgHtml = card.questionImage ? `<div style="margin:6px 0;"><img src="${card.questionImage}" style="max-width:100%;max-height:140px;border-radius:8px;border:1px solid var(--border);object-fit:contain;cursor:pointer;" onclick="openImgLightbox(this.src, event)"></div>` : '';
+      const aImgHtml = card.answerImage ? `<div style="margin:6px 0;"><img src="${card.answerImage}" style="max-width:100%;max-height:140px;border-radius:8px;border:1px solid var(--border);object-fit:contain;cursor:pointer;" onclick="openImgLightbox(this.src, event)"></div>` : '';
+      html += `
+        <div class="browse-table-item" onclick="toggleBrowseItemAnswer(this)">
+          <div class="bt-head">
+            <span class="bt-tag">${card.group || ''} · ข้อ ${card.itemNo || i+1}</span>
+            <span class="card-status-dot ${dotCls}"></span>
+          </div>
+          <div class="bt-q">${card.question || ''}${qImgHtml}</div>
+          <div class="bt-a"><b style="color:var(--confident)">เฉลย:</b> ${card.answer || ''}${aImgHtml}</div>
+        </div>`;
+    });
+    container.innerHTML = html;
+  }
+
+  function toggleBrowseItemAnswer(el) {
+    const a = el.querySelector('.bt-a');
+    if (a) a.classList.toggle('show');
+  }
+
+  function toggleAllBrowseAnswers() {
+    const allA = document.querySelectorAll('.bt-a');
+    const anyHidden = [...allA].some(a => !a.classList.contains('show'));
+    allA.forEach(a => a.classList.toggle('show', anyHidden));
+    showToast(anyHidden ? '👁️ แสดงเฉลยทั้งหมด' : '🙈 ซ่อนเฉลยทั้งหมด');
+  }
+
+  // ─── STRATIFIED FAIR RANDOM SAMPLER ───
+  function sampleStratifiedFair(rawCards, targetCount, selections) {
+    if (!rawCards || !rawCards.length) return [];
+
+    const buckets = [];
+    selections.forEach(sel => {
+      const gCards = rawCards.filter(c => {
+        if (c.group !== sel.group) return false;
+        if (sel.subTopics && sel.subTopics.length > 0) {
+          return sel.subTopics.some(st => matchSubTopic(c.subTopic, st));
+        }
+        return true;
+      });
+
+      if (gCards.length > 0) {
+        for (let i = gCards.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [gCards[i], gCards[j]] = [gCards[j], gCards[i]];
+        }
+        buckets.push({ group: sel.group, pool: [...gCards] });
+      }
+    });
+
+    if (!buckets.length) {
+      const groupMap = {};
+      rawCards.forEach(c => {
+        if (!groupMap[c.group]) groupMap[c.group] = [];
+        groupMap[c.group].push(c);
+      });
+      Object.keys(groupMap).forEach(g => {
+        const p = groupMap[g];
+        for (let i = p.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [p[i], p[j]] = [p[j], p[i]];
+        }
+        buckets.push({ group: g, pool: p });
+      });
+    }
+
+    const totalAvailable = buckets.reduce((sum, b) => sum + b.pool.length, 0);
+    const wanted = Math.min(targetCount, totalAvailable);
+    const sampled = [];
+
+    while (sampled.length < wanted) {
+      let anyDrawn = false;
+      for (let b of buckets) {
+        if (sampled.length >= wanted) break;
+        if (b.pool.length > 0) {
+          sampled.push(b.pool.shift());
+          anyDrawn = true;
+        }
+      }
+      if (!anyDrawn) break;
+    }
+
+    for (let i = sampled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [sampled[i], sampled[j]] = [sampled[j], sampled[i]];
+    }
+
+    return sampled;
+  }
+
+  // ─── RANDOM STUDY MODAL ───
+  function openRandomModal() {
+    const tree = document.getElementById('catCheckList');
+    tree.innerHTML = '';
+    isTreeExpanded = false;
+    document.getElementById('btnToggleTreeExpand').textContent = '▼ ขยาย/ยุบทั้งหมด';
+
+    // 1. Clinic Track
+    const clinicCats = categories.filter(c => normalizeTrack(c.track) === 'clinic');
+    if (clinicCats.length) {
+      const hClinic = document.createElement('div');
+      hClinic.className = 'random-section-header clinic';
+      hClinic.innerHTML = `<span>🩺 กลุ่มวิชา Clinical Pharmacy (PLE-CC)</span><span style="font-size:11px;">${clinicCats.length} กลุ่มโรค</span>`;
+      tree.appendChild(hClinic);
+      clinicCats.forEach((cat, idx) => renderRandomTreeNode(tree, cat, `c_${idx}`));
+    }
+
+    // 2. Product Track
+    const prodCats = categories.filter(c => normalizeTrack(c.track) === 'product');
+    if (prodCats.length) {
+      const hProd = document.createElement('div');
+      hProd.className = 'random-section-header product';
+      hProd.innerHTML = `<span>🧪 กลุ่มวิชา Pharmaceutical Sciences (PLE-Product)</span><span style="font-size:11px;">${prodCats.length} กลุ่มวิชา</span>`;
+      tree.appendChild(hProd);
+      prodCats.forEach((cat, idx) => renderRandomTreeNode(tree, cat, `p_${idx}`));
+    }
+
+    // 3. SAP Track
+    const sapCats = categories.filter(c => normalizeTrack(c.track) === 'sap');
+    if (sapCats.length) {
+      const hSap = document.createElement('div');
+      hSap.className = 'random-section-header sap';
+      hSap.innerHTML = `<span>💼 กลุ่มวิชา Social & Administrative Pharmacy (SAP)</span><span style="font-size:11px;">${sapCats.length} หมวด</span>`;
+      tree.appendChild(hSap);
+      sapCats.forEach((cat, idx) => renderRandomTreeNode(tree, cat, `s_${idx}`));
+    }
+
+    document.getElementById('randomModal').classList.add('show');
+  }
+
+  function renderRandomTreeNode(container, cat, idKey) {
+    const hasSubs = cat.count > 0 && cat.subtopics && cat.subtopics.length > 0;
+    const node = document.createElement('div');
+    node.className = 'random-tree-node';
+    node.id = `rtNode_${idKey}`;
+
+    let headHtml = `
+      <div class="random-tree-head" onclick="toggleRandomCatNode(this.parentElement, event)">
+        <div class="random-tree-head-left">
+          <input type="checkbox" class="random-cat-cb" data-cat="${cat.name}" data-track="${cat.track}" checked onclick="onRandomCatCbClick(this, '${cat.name}', event)" style="width:15px; height:15px; accent-color:var(--clinic);">
+          <span style="font-size:13px; font-weight:700; color:var(--ink);">${cat.name}</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:6px;">
+          <span style="font-size:11.5px; color:var(--ink-faint); font-family:'IBM Plex Mono'; font-weight:700;">${cat.count} ข้อ</span>
+          ${hasSubs ? `<button class="random-tree-toggle-btn" type="button" title="ดูหัวข้อย่อย"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>` : ''}
+        </div>
+      </div>`;
+
+    let subListHtml = '';
+    if (hasSubs) {
+      subListHtml = `<div class="random-sub-list">`;
+      cat.subtopics.forEach(sub => {
+        subListHtml += `
+          <div class="random-sub-item">
+            <label style="display:flex; align-items:center; gap:6px; cursor:pointer; flex:1; min-width:0;">
+              <input type="checkbox" class="random-sub-cb" data-cat="${cat.name}" data-track="${cat.track}" value="${sub}" checked onchange="onRandomSubCbChange('${cat.name}')" style="width:13px; height:13px; accent-color:var(--clinic);">
+              <span style="color:var(--ink); font-weight:600;">• ${sub}</span>
+            </label>
+          </div>`;
+      });
+      subListHtml += `</div>`;
+    }
+
+    node.innerHTML = headHtml + subListHtml;
+    container.appendChild(node);
+  }
+  
+  function closeRandomModal() { document.getElementById('randomModal').classList.remove('show'); }
+
+  function toggleRandomCatNode(nodeEl, e) {
+    if (e && e.target.type === 'checkbox') return;
+    nodeEl.classList.toggle('expanded');
+  }
+
+  function onRandomCatCbClick(cb, catName, e) {
+    e.stopPropagation();
+    const isChecked = cb.checked;
+    const subCbs = document.querySelectorAll(`.random-sub-cb[data-cat="${catName}"]`);
+    subCbs.forEach(subCb => subCb.checked = isChecked);
+  }
+
+  function onRandomSubCbChange(catName) {
+    const subCbs = [...document.querySelectorAll(`.random-sub-cb[data-cat="${catName}"]`)];
+    const catCb  = document.querySelector(`.random-cat-cb[data-cat="${catName}"]`);
+    if (!subCbs.length || !catCb) return;
+
+    const checkedCount = subCbs.filter(c => c.checked).length;
+    if (checkedCount === 0) {
+      catCb.checked = false;
+      catCb.indeterminate = false;
+    } else if (checkedCount === subCbs.length) {
+      catCb.checked = true;
+      catCb.indeterminate = false;
+    } else {
+      catCb.checked = true;
+      catCb.indeterminate = true;
+    }
+  }
+
+  function toggleSelectAllRandomTree(select) {
+    document.querySelectorAll('.random-cat-cb').forEach(cb => {
+      cb.checked = select;
+      cb.indeterminate = false;
+    });
+    document.querySelectorAll('.random-sub-cb').forEach(cb => cb.checked = select);
+  }
+
+  function expandCollapseAllRandomTree() {
+    isTreeExpanded = !isTreeExpanded;
+    document.querySelectorAll('.random-tree-node').forEach(node => {
+      node.classList.toggle('expanded', isTreeExpanded);
+    });
+    document.getElementById('btnToggleTreeExpand').textContent = isTreeExpanded ? '▲ ยุบทั้งหมด' : '▼ ขยายทั้งหมด';
+  }
+
+  function startRandomStudy() {
+    const selections = [];
+    let selectedSubCount = 0;
+
+    categories.forEach(cat => {
+      const hasSubs = cat.subtopics && cat.subtopics.length > 0;
+      const catCb   = document.querySelector(`.random-cat-cb[data-cat="${cat.name}"]`);
+      const subCbs  = [...document.querySelectorAll(`.random-sub-cb[data-cat="${cat.name}"]:checked`)];
+
+      if (hasSubs) {
+        if (subCbs.length > 0) {
+          selections.push({
+            group: cat.name,
+            track: cat.track,
+            subTopics: subCbs.map(cb => cb.value)
+          });
+          selectedSubCount += subCbs.length;
+        }
+      } else if (catCb && catCb.checked) {
+        selections.push({
+          group: cat.name,
+          track: cat.track,
+          subTopics: []
+        });
+        selectedSubCount += 1;
+      }
+    });
+
+    if (!selections.length) {
+      showToast('⚠️ กรุณาเลือกอย่างน้อย 1 หมวดหรือหัวข้อย่อย');
+      return;
+    }
+
+    const count = parseInt(document.getElementById('randomCountInput').value) || 20;
+    closeRandomModal();
+
+    document.getElementById('questionText').innerHTML = '🎲 กำลังสุ่ม Flashcard แบบเฉลี่ยน้ำหนักเท่ากันทุกกลุ่ม...';
+    document.getElementById('lobbyView').style.display  = 'none';
+    document.getElementById('studyView').style.display  = 'flex';
+    document.getElementById('browseView').style.display = 'none';
+    currentAppMode = 'study';
+    isReviewFinished = false;
+
+    document.getElementById('subtopicSelectorRow').style.display = 'none';
+
+    function handleRandomCards(cards) {
+      if (!cards || !cards.length) {
+        document.getElementById('questionText').innerHTML = '<span style="color:var(--unsure)">📭 ไม่พบ Flashcard ในหัวข้อย่อยที่เลือก</span>';
+        return;
+      }
+
+      const balanced = sampleStratifiedFair(cards, count, selections);
+      allCards = balanced;
+      isRandomMode = true;
+      studyMethod = 'standard';
+      updateStudyMethodUI();
+
+      const numGroups = selections.length;
+      document.getElementById('studyDeckName').textContent = `🎲 สุ่ม Flashcard ${allCards.length} ข้อ`;
+      document.getElementById('studyDeckSub').textContent  = `เฉลี่ยจาก ${numGroups} หมวดวิชา (${selectedSubCount} หัวข้อย่อย)`;
+      document.getElementById('randomBanner').style.display = 'flex';
+      document.getElementById('randomBannerText').textContent = `🎲 สุ่ม Flashcard ${allCards.length} ข้อ (เกลี่ยน้ำหนักเฉลี่ย ${numGroups} หมวด)`;
+      currentIndex = 0;
+      applyFilter('all', true);
+      showToast(`🎲 สุ่ม Flashcard ${allCards.length} ข้อ (คละเฉลี่ยเท่าๆ กัน) เรียบร้อย!`);
+    }
+
+    google.script.run
+      .withSuccessHandler(handleRandomCards)
+      .withFailureHandler(err => {
+        if (browseCardsCache && browseCardsCache.length) {
+          let pool = [];
+          selections.forEach(sel => {
+            const groupCards = browseCardsCache.filter(c => c.group === sel.group);
+            if (sel.subTopics && sel.subTopics.length > 0) {
+              pool = pool.concat(groupCards.filter(c => sel.subTopics.some(st => matchSubTopic(c.subTopic, st))));
+            } else {
+              pool = pool.concat(groupCards);
+            }
+          });
+          handleRandomCards(pool);
+        } else {
+          onCardLoadError(err);
+        }
+      })
+      .getFlashcardsMulti(selections, count);
+  }
+
+  function exitRandomMode() {
+    isRandomMode = false;
+    document.getElementById('randomBanner').style.display = 'none';
+    document.getElementById('subtopicSelectorRow').style.display = 'block';
+    showLobby();
+  }
+
+  // ─── EXPORT CSV ───
+  function openExportModal() {
+    const catSelect = document.getElementById('exportCatSelect');
+    catSelect.innerHTML = '<option value="__all__">🗂 ทุกหมวดวิชา</option>';
+    categories.forEach(c => {
+      const norm = normalizeTrack(c.track);
+      const trackBadge = norm === 'product' ? '🧪' : norm === 'sap' ? '💼' : '🩺';
+      catSelect.innerHTML += `<option value="${c.name}">${trackBadge} ${c.name} (${c.count} ข้อ)</option>`;
+    });
+    catSelect.value = currentCategory || '__all__';
+    onExportCatChange();
+    document.getElementById('exportModal').classList.add('show');
+  }
+  function closeExportModal() { document.getElementById('exportModal').classList.remove('show'); }
+
+  function onExportCatChange() {
+    const catVal = document.getElementById('exportCatSelect').value;
+    const subSel = document.getElementById('exportSubSelect');
+    subSel.innerHTML = '<option value="__all__">📂 ทุกหัวข้อย่อย</option>';
+    if (catVal !== '__all__') {
+      const cat = categories.find(c => c.name === catVal);
+      if (cat && cat.subtopics) {
+        cat.subtopics.forEach(s => { subSel.innerHTML += `<option value="${s}">${s}</option>`; });
+      }
+    }
+    onExportSubChange();
+  }
+
+  function onExportSubChange() {
+    const catVal = document.getElementById('exportCatSelect').value;
+    const count = (catVal === '__all__' ? allCards.length : (categories.find(c => c.name === catVal) || { count: 0 }).count) || allCards.length;
+    document.getElementById('exportStartNo').value = count > 0 ? 1 : 0;
+    document.getElementById('exportEndNo').value = count;
+  }
+
+  function executeExportCSV() {
+    const catVal = document.getElementById('exportCatSelect').value;
+    let list = allCards;
+    if (catVal !== '__all__') list = list.filter(c => c.group === catVal);
+    if (!list.length) { showToast('❌ ไม่มีข้อมูลการ์ด'); return; }
+
+    let sNo = parseInt(document.getElementById('exportStartNo').value) || 1;
+    let eNo = parseInt(document.getElementById('exportEndNo').value) || list.length;
+    const sliced = list.slice(sNo - 1, eNo);
+
+    let csv = '\uFEFF"Question (คำถาม)","Answer (คำตอบ)"\n';
+    sliced.forEach(card => {
+      const q = (card.question || '').replace(/<[^>]*>/g, '').replace(/"/g, '""');
+      const a = (card.answer || '').replace(/<[^>]*>/g, '').replace(/"/g, '""');
+      csv += `"${q}","${a}"\n`;
+    });
+
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url  = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `Goodnotes_${catVal.replace(/[^\w\u0E00-\u0E7F]/g, '_')}_${sNo}-${eNo}.csv`;
+    link.click();
+    closeExportModal();
+    showToast(`📥 Export ${sliced.length} ข้อเรียบร้อย!`);
+  }
+
+  // ─── INDEX PANEL (FIXED & FORMATTED) ───
+  function toggleIndexPanel() {
+    const modal = document.getElementById('indexModal');
+    if (!modal.classList.contains('show')) {
+      const content = document.getElementById('indexPanelContent');
+      let html = '';
+      
+      const clinicCats = categories.filter(c => normalizeTrack(c.track) === 'clinic');
+      if (clinicCats.length) {
+        html += '<div style="font-size:12.5px; font-weight:700; color:var(--clinic); background:var(--clinic-soft); padding:6px 10px; border-radius:8px; margin:8px 0 6px; border:1px solid var(--clinic-border);">🩺 CLINICAL PHARMACY (PLE-CC) — 16 กลุ่มโรค</div>';
+        clinicCats.forEach(cat => { html += renderIndexCatHtml(cat, 'clinic'); });
+      }
+
+      const prodCats = categories.filter(c => normalizeTrack(c.track) === 'product');
+      if (prodCats.length) {
+        html += '<div style="font-size:12.5px; font-weight:700; color:var(--product); background:var(--product-soft); padding:6px 10px; border-radius:8px; margin:16px 0 6px; border:1px solid var(--product-border);">🧪 PHARMACEUTICAL SCIENCES & PRODUCT — 12 กลุ่มวิชา</div>';
+        prodCats.forEach(cat => { html += renderIndexCatHtml(cat, 'product'); });
+      }
+
+      const sapCats = categories.filter(c => normalizeTrack(c.track) === 'sap');
+      if (sapCats.length) {
+        html += '<div style="font-size:12.5px; font-weight:700; color:var(--sap); background:var(--sap-soft); padding:6px 10px; border-radius:8px; margin:16px 0 6px; border:1px solid var(--sap-border);">💼 SOCIAL & ADMINISTRATIVE PHARMACY (SAP)</div>';
+        sapCats.forEach(cat => { html += renderIndexCatHtml(cat, 'sap'); });
+      }
+
+      content.innerHTML = html || '<p style="color:var(--ink-faint); text-align:center; padding:20px;">กำลังโหลดสารบัญ...</p>';
+      modal.classList.add('show');
+    } else {
+      modal.classList.remove('show');
+    }
+  }
+
+  function renderIndexCatHtml(cat, trackType) {
+    const badgeColor = trackType === 'product' ? 'var(--product)' : trackType === 'sap' ? 'var(--sap)' : 'var(--clinic)';
+    const em = getCategoryEmoji(cat.name, 0, cat.track);
+    let out = `
+      <div style="padding:10px 0; border-bottom:1px solid var(--border);">
+        <div style="font-size:13.5px; font-weight:700; color:var(--ink); cursor:pointer; display:flex; justify-content:space-between;" onclick="toggleIndexPanel(); enterStudyFromDeck('${cat.name.replace(/'/g,"\\'")}', 'standard', null, '${cat.track}')">
+          <span>${em} ${cat.name}</span>
+          <span style="font-size:12px; color:${badgeColor}; font-family:'IBM Plex Mono'; font-weight:700;">${cat.count} ข้อ</span>
+        </div>`;
+    // Only display subtopics if the category actually has questions (> 0) and subtopics are valid
+    const cleanSubs = (cat.subtopics || []).filter(s => s && !s.includes('ไปยังชีทนี้') && !s.includes('HYPERLINK'));
+    if (cat.count > 0 && cleanSubs.length) {
+      out += '<div style="display:flex; flex-wrap:wrap; gap:5px; margin-top:6px;">';
+      cleanSubs.forEach(sub => {
+        out += `<span style="font-size:11.5px; font-weight:600; background:var(--bg); border:1px solid var(--border); padding:3px 9px; border-radius:7px; color:var(--ink-soft); cursor:pointer;" onclick="toggleIndexPanel(); enterStudyFromDeck('${cat.name.replace(/'/g,"\\'")}', 'standard', '${sub.replace(/'/g,"\\'")}', '${cat.track}')">• ${sub}</span>`;
+      });
+      out += '</div>';
+    }
+    out += '</div>';
+    return out;
+  }
+
+  // ─── STATS PANEL ───
+  function toggleStats() {
+    const modal = document.getElementById('statsModal');
+    if (!modal.classList.contains('show')) {
+      const content = document.getElementById('statsPanelContent');
+      const stats = {};
+      Object.values(userProgress).forEach(item => {
+        const cat = item.category || 'ทั่วไป';
+        if (!stats[cat]) stats[cat] = { confident: 0, notConfident: 0, total: 0 };
+        if (item.status === 'มั่นใจ') stats[cat].confident++;
+        if (item.status === 'ไม่มั่นใจ') stats[cat].notConfident++;
+        stats[cat].total++;
+      });
+
+      let html = '';
+      Object.keys(stats).forEach(cat => {
+        const s = stats[cat];
+        html += `
+          <div style="display:flex; align-items:center; justify-content:space-between; padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; font-weight:600;">
+            <span>${cat}</span>
+            <div style="display:flex; gap:5px;">
+              <span style="background:var(--confident-soft); color:var(--confident); border:1px solid var(--confident-border); padding:2px 8px; border-radius:6px; font-weight:700; font-size:11px; font-family:'IBM Plex Mono';">✓ ${s.confident}</span>
+              <span style="background:var(--unsure-soft); color:var(--unsure); border:1px solid var(--unsure-border); padding:2px 8px; border-radius:6px; font-weight:700; font-size:11px; font-family:'IBM Plex Mono';">✕ ${s.notConfident}</span>
+            </div>
+          </div>`;
+      });
+      content.innerHTML = html || '<p style="color:var(--ink-faint); padding:16px 0; text-align:center;">ยังไม่มีประวัติการฝึกจำ</p>';
+      modal.classList.add('show');
+    } else {
+      modal.classList.remove('show');
+    }
+  }
+
+  // ─── SYNC FROM SHEET ───
+  function syncDataFromSheet() {
+    showToast('🔄 กำลังล้างแคชและซิงค์ข้อมูลใหม่จาก Google Sheet...');
+    clearAllLocalCache();
+    browseCardsCache = null;
+    google.script.run
+      .withSuccessHandler(cats => {
+        categories = cats || [];
+        setLocalCache(CACHE_KEY_CATS, categories);
+        buildLobby();
+        if (currentAppMode === 'study' && currentCategory) {
+          selectCategory(currentCategory, currentSubTopic, null);
+        }
+        showToast('⚡ ซิงค์ข้อมูลสดใหม่ล่าสุด 100% เรียบร้อย!');
+      })
+      .withFailureHandler(err => showToast('❌ ไม่สามารถซิงค์ได้: ' + err.message))
+      .forceSyncLatest();
+  }
+
+  function openImgLightbox(src, e) {
+    if (e) e.stopPropagation();
+    if (!src) return;
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('imgLightboxModal').classList.add('show');
+  }
+  function closeImgLightbox() { document.getElementById('imgLightboxModal').classList.remove('show'); }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg; t.classList.add('show');
+    clearTimeout(window._tt); window._tt = setTimeout(() => t.classList.remove('show'), 2200);
+  }
 </script>
 
 </body>
