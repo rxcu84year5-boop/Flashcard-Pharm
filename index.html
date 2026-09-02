@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>PharmaCU Flashcard Private — คลังข้อสอบ & สรุปเภสัชกรรม</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0284c7">
+  
+  <!-- Google Fonts: Bai Jamjuree & IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --surface-2: #F1F5F9;
+      --border: #E2E8F0;
+      --border-focus: #0284C7;
+      
+      --ink: #0F172A;
+      --ink-soft: #475569;
+      --ink-faint: #94A3B8;
+      
+      --primary: #0284C7;
+      --primary-soft: #E0F2FE;
+      --primary-hover: #0369A1;
+      
+      --doc-green: #16A34A;
+      --doc-soft: #DCFCE7;
+      --warn-red: #DC2626;
+      --warn-soft: #FEE2E2;
+      --amber: #D97706;
+      --amber-soft: #FEF3C7;
+      --purple: #7C3AED;
+      --purple-soft: #F3E8FF;
+      
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 12px -2px rgba(0,0,0,0.08), 0 2px 6px -2px rgba(0,0,0,0.04);
+      --shadow-lg: 0 20px 30px -10px rgba(0,0,0,0.1), 0 10px 15px -5px rgba(0,0,0,0.05);
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    
+    body {
+      font-family: 'Bai Jamjuree', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px 12px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .app-container {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* ══ HEADER ══ */
+    .app-header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #0284C7, #0369A1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 22px;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-badge {
+      font-size: 11px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .brand-text p {
+      font-size: 12px;
+      color: var(--ink-soft);
+    }
+
+    .header-stats {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .stat-pill {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .stat-pill.mastered { color: var(--doc-green); background: var(--doc-soft); border-color: #86EFAC; }
+    .stat-pill.review { color: var(--warn-red); background: var(--warn-soft); border-color: #FECACA; }
+
+    /* ══ CONTROLS BAR ══ */
+    .controls-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .select-control {
+      flex: 1;
+      min-width: 180px;
+      position: relative;
+    }
+
+    .select-control select, .search-control input {
+      width: 100%;
+      height: 40px;
+      padding: 0 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      font-family: inherit;
+      font-size: 13.5px;
+      color: var(--ink);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .select-control select:focus, .search-control input:focus {
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
+      background: #fff;
+    }
+
+    .search-control {
+      flex: 1.2;
+      min-width: 200px;
+    }
+
+    .toggle-group {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-toggle {
+      height: 40px;
+      padding: 0 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-soft);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-toggle:hover {
+      background: var(--surface-2);
+      color: var(--ink);
+    }
+
+    .btn-toggle.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+    }
+
+    /* ══ PROGRESS BAR ══ */
+    .progress-bar-container {
+      width: 100%;
+      height: 6px;
+      background: var(--surface-2);
+      border-radius: 3px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #0284C7, #16A34A);
+      width: 0%;
+      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ══ 3D FLASHCARD AREA ══ */
+    .card-scene {
+      width: 100%;
+      min-height: 440px;
+      perspective: 1200px;
+      cursor: pointer;
+    }
+
+    .card-inner {
+      width: 100%;
+      min-height: 440px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .card-inner.is-flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      min-height: 440px;
+      backface-visibility: hidden;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow-y: auto;
+    }
+
+    .card-face.card-front {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+    }
+
+    .card-face.card-back {
+      transform: rotateY(180deg);
+      background: #FFFFFF;
+      border-top: 4px solid var(--primary);
+    }
+
+    .card-top-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      gap: 12px;
+    }
+
+    .badge-subtopic {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--primary);
+      background: var(--primary-soft);
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(2, 132, 199, 0.2);
+    }
+
+    .card-counter {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-faint);
+    }
+
+    .btn-star-top {
+      background: none;
+      border: none;
+      font-size: 22px;
+      cursor: pointer;
+      color: #CBD5E1;
+      transition: color 0.15s ease, transform 0.15s ease;
+    }
+
+    .btn-star-top:hover { transform: scale(1.15); }
+    .btn-star-top.starred { color: #EAB308; }
+
+    .card-body-question {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.6;
+      color: var(--ink);
+      margin: auto 0;
+      text-align: left;
+    }
+
+    .card-body-answer {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #1E293B;
+      text-align: left;
+      overflow-wrap: break-word;
+    }
+
+    /* Content styling */
+    .card-h1 {
+      font-weight: 700;
+      color: #0F172A;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      font-size: 15.5px;
+    }
+    .card-item {
+      padding-left: 12px;
+      margin-bottom: 4px;
+    }
+    .card-warn {
+      padding-left: 12px;
+      margin-bottom: 4px;
+      color: #B91C1C;
+    }
+    .card-bullet {
+      padding-left: 8px;
+      margin-bottom: 4px;
+    }
+    .card-p {
+      margin-bottom: 4px;
+    }
+    .spacer {
+      height: 8px;
+    }
+
+    .card-bottom-hint {
+      margin-top: 24px;
+      font-size: 12.5px;
+      color: var(--ink-faint);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    /* ══ BOTTOM NAVIGATION BAR ══ */
+    .nav-bar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      box-shadow: var(--shadow-sm);
+      flex-wrap: wrap;
+    }
+
+    .nav-buttons-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-action {
+      height: 44px;
+      padding: 0 18px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-action:hover {
+      background: var(--surface-2);
+      border-color: #CBD5E1;
+    }
+
+    .btn-flip {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    .btn-flip:hover {
+      background: var(--primary-hover);
+      border-color: var(--primary-hover);
+    }
+
+    .btn-mark-unsure {
+      color: var(--warn-red);
+      background: var(--warn-soft);
+      border-color: #FECACA;
+    }
+
+    .btn-mark-unsure:hover {
+      background: #FCA5A5;
+      color: #991B1B;
+    }
+
+    .btn-mark-mastered {
+      color: var(--doc-green);
+      background: var(--doc-soft);
+      border-color: #86EFAC;
+    }
+
+    .btn-mark-mastered:hover {
+      background: #BBF7D0;
+      color: #15803D;
+    }
+
+    /* Keyboard help */
+    .keyboard-help {
+      font-size: 11.5px;
+      color: var(--ink-faint);
+      text-align: center;
+      margin-top: 4px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .kbd-badge {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      color: var(--ink-soft);
+    }
+
+    @media (max-width: 640px) {
+      .app-header { flex-direction: column; align-items: flex-start; }
+      .header-stats { width: 100%; justify-content: flex-start; }
+      .controls-panel { flex-direction: column; align-items: stretch; }
+      .toggle-group { width: 100%; justify-content: space-between; }
+      .nav-bar { flex-direction: column; gap: 12px; }
+      .nav-buttons-group { width: 100%; justify-content: space-between; }
+      .card-face { padding: 24px 18px; }
+      .card-body-question { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="brand-group">
+      <div class="brand-logo">💊</div>
+      <div class="brand-text">
+        <h1>PharmaCU Flashcard <span class="brand-badge">Private</span></h1>
+        <p id="subHeaderDesc">ระบบทบทวนข้อสอบ &amp; เภสัชวิทยาออฟไลน์ความเร็วสูง</p>
+      </div>
+    </div>
+    
+    <div class="header-stats">
+      <div class="stat-pill mastered">
+        <span>✅ จำได้แล้ว:</span> <span id="statMasteredCount">0</span>
+      </div>
+      <div class="stat-pill review">
+        <span>⚠️ ยังไม่แม่น:</span> <span id="statReviewCount">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTROLS -->
+  <section class="controls-panel">
+    <div class="select-control">
+      <select id="tabSelector" title="เลือกวิชา / หมวด">
+        <!-- populated dynamically -->
+      </select>
+    </div>
+
+    <div class="select-control">
+      <select id="subtopicSelector" title="เลือกโรค / หัวข้อย่อย">
+        <option value="ALL">-- ทุกหัวข้อย่อย / ทุกโรค --</option>
+      </select>
+    </div>
+
+    <div class="search-control">
+      <input type="text" id="searchInput" placeholder="🔍 ค้นหาคำถาม หรือ คำตอบ...">
+    </div>
+
+    <div class="toggle-group">
+      <button class="btn-toggle" id="btnShuffle" title="สลับข้อสุ่ม">🔀 สลับข้อ</button>
+      <button class="btn-toggle" id="btnFilterStarred" title="ดูเฉพาะข้อที่ติดดาว">⭐ ติดดาว</button>
+      <button class="btn-toggle" id="btnFilterReview" title="ดูเฉพาะข้อที่ยังไม่แม่น">⚠️ ต้องทวน</button>
+    </div>
+  </section>
+
+  <!-- PROGRESS BAR -->
+  <div class="progress-bar-container">
+    <div class="progress-bar-fill" id="progressBar"></div>
+  </div>
+
+  <!-- 3D CARD -->
+  <div class="card-scene" id="cardScene" title="คลิกเพื่อพลิกการ์ด">
+    <div class="card-inner" id="cardInner">
+      
+      <!-- FRONT -->
+      <div class="card-face card-front">
+        <div class="card-top-meta">
+          <span class="badge-subtopic" id="cardSubtopicFront">-</span>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span class="card-counter" id="cardCounterFront">0 / 0</span>
+            <button class="btn-star-top" id="btnStarFront" title="ติดดาวข้อนี้">★</button>
+          </div>
+        </div>
+
+        <div class="card-body-question" id="cardQuestionText">
+          กำลังโหลดฐานข้อมูล Flashcard...
+        </div>
+
+        <div class="card-bottom-hint">
+          <span>👆 คลิกการ์ด หรือ กด [Space] เพื่อดูเฉลย &amp; สเปกตรัม</span>
+        </div>
+      </div>
+
+      <!-- BACK -->
+      <div class="card-face card-back">
+        <div class="card-top-meta">
+          <span class="badge-subtopic" id="cardSubtopicBack">-</span>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span class="card-counter" id="cardCounterBack">0 / 0</span>
+            <button class="btn-star-top" id="btnStarBack" title="ติดดาวข้อนี้">★</button>
+          </div>
+        </div>
+
+        <div class="card-body-answer" id="cardAnswerText">
+          กำลังแสดงเฉลย...
+        </div>
+
+        <div class="card-bottom-hint">
+          <span>👆 คลิกการ์ดเพื่อกลับไปดูคำถาม</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <footer class="nav-bar">
+    <div class="nav-buttons-group">
+      <button class="btn-action" id="btnPrev">← ก่อนหน้า</button>
+      <button class="btn-action btn-flip" id="btnFlip">🔄 พลิกการ์ด [Space]</button>
+      <button class="btn-action" id="btnNext">ถัดไป →</button>
+    </div>
+
+    <div class="nav-buttons-group">
+      <button class="btn-action btn-mark-unsure" id="btnMarkUnsure">⚠️ ยังไม่แม่น [1]</button>
+      <button class="btn-action btn-mark-mastered" id="btnMarkMastered">✅ จำได้แล้ว [2]</button>
+    </div>
+  </footer>
+
+  <!-- KEYBOARD HELP -->
+  <div class="keyboard-help">
+    <span><span class="kbd-badge">Space</span> พลิกการ์ด</span>
+    <span><span class="kbd-badge">←</span> <span class="kbd-badge">→</span> เปลี่ยนข้อ</span>
+    <span><span class="kbd-badge">1</span> ยังไม่แม่น</span>
+    <span><span class="kbd-badge">2</span> จำได้แล้ว</span>
+    <span><span class="kbd-badge">S</span> ติดดาว</span>
+  </div>
+
+</div>
+
+<!-- LOAD PRE-COMPILED OFFLINE DATABASE -->
+<script src="flashcard-data-offline.js"></script>
+
+<script>
+  // ══ APP STATE ══
+  let allCards = [];
+  let filteredCards = [];
+  let currentIndex = 0;
+  let isFlipped = false;
+  let isShuffle = false;
+  let filterStarredOnly = false;
+  let filterReviewOnly = false;
+
+  // LocalStorage Key
+  const STORAGE_KEY = 'pharmacu_flashcard_progress_v1';
+  let userProgress = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+
+  // DOM Elements
+  const tabSelector = document.getElementById('tabSelector');
+  const subtopicSelector = document.getElementById('subtopicSelector');
+  const searchInput = document.getElementById('searchInput');
+  const btnShuffle = document.getElementById('btnShuffle');
+  const btnFilterStarred = document.getElementById('btnFilterStarred');
+  const btnFilterReview = document.getElementById('btnFilterReview');
+  
+  const cardScene = document.getElementById('cardScene');
+  const cardInner = document.getElementById('cardInner');
+  const cardSubtopicFront = document.getElementById('cardSubtopicFront');
+  const cardSubtopicBack = document.getElementById('cardSubtopicBack');
+  const cardCounterFront = document.getElementById('cardCounterFront');
+  const cardCounterBack = document.getElementById('cardCounterBack');
+  const cardQuestionText = document.getElementById('cardQuestionText');
+  const cardAnswerText = document.getElementById('cardAnswerText');
+  const btnStarFront = document.getElementById('btnStarFront');
+  const btnStarBack = document.getElementById('btnStarBack');
+  
+  const btnPrev = document.getElementById('btnPrev');
+  const btnNext = document.getElementById('btnNext');
+  const btnFlip = document.getElementById('btnFlip');
+  const btnMarkUnsure = document.getElementById('btnMarkUnsure');
+  const btnMarkMastered = document.getElementById('btnMarkMastered');
+  const progressBar = document.getElementById('progressBar');
+  
+  const statMasteredCount = document.getElementById('statMasteredCount');
+  const statReviewCount = document.getElementById('statReviewCount');
+
+  // Initialize DB
+  function initApp() {
+    if (!window.FLASHCARD_DATABASE || !window.FLASHCARD_DATABASE.tabs) {
+      cardQuestionText.innerHTML = '<span style="color:#DC2626">⚠️ ไม่พบไฟล์ flashcard-data-offline.js กรุณารัน compile_offline_db.bat ก่อน</span>';
+      return;
+    }
+
+    const tabs = window.FLASHCARD_DATABASE.tabs;
+    tabSelector.innerHTML = '';
+    
+    // Add "All" option
+    const optAll = document.createElement('option');
+    optAll.value = 'ALL';
+    optAll.textContent = `📚 รวมทุกวิชา (${window.FLASHCARD_DATABASE.total_cards} ข้อ)`;
+    tabSelector.appendChild(optAll);
+
+    // Populate Tab selector (Default to Tab 8: Infectious Diseases if present)
+    let defaultTab = 'ALL';
+    tabs.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t.title;
+      opt.textContent = `${t.title} (${t.count} ข้อ)`;
+      if (t.title.includes('8. Infectious') || t.title.includes('Infectious')) {
+        defaultTab = t.title;
+      }
+      tabSelector.appendChild(opt);
+    });
+
+    // Select default tab
+    tabSelector.value = defaultTab;
+    onTabChanged();
+    updateStats();
+  }
+
+  function onTabChanged() {
+    const selectedTab = tabSelector.value;
+    const tabs = window.FLASHCARD_DATABASE.tabs;
+    
+    allCards = [];
+    if (selectedTab === 'ALL') {
+      tabs.forEach(t => allCards.push(...t.cards));
+    } else {
+      const t = tabs.find(x => x.title === selectedTab);
+      if (t) allCards = [...t.cards];
+    }
+
+    // Populate Subtopics
+    const subtopics = Array.from(new Set(allCards.map(c => c.subtopic).filter(Boolean))).sort();
+    subtopicSelector.innerHTML = '<option value="ALL">-- ทุกหัวข้อย่อย / ทุกโรค --</option>';
+    subtopics.forEach(st => {
+      const opt = document.createElement('option');
+      opt.value = st;
+      const count = allCards.filter(c => c.subtopic === st).length;
+      opt.textContent = `${st} (${count})`;
+      subtopicSelector.appendChild(opt);
+    });
+
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const selectedSubtopic = subtopicSelector.value;
+    const searchVal = searchInput.value.toLowerCase().trim();
+
+    filteredCards = allCards.filter(c => {
+      // Subtopic filter
+      if (selectedSubtopic !== 'ALL' && c.subtopic !== selectedSubtopic) return false;
+      
+      // Starred filter
+      const uCard = userProgress[getCardKey(c)] || {};
+      if (filterStarredOnly && !uCard.starred) return false;
+      
+      // Review filter
+      if (filterReviewOnly && uCard.status !== 'unsure') return false;
+      
+      // Search filter
+      if (searchVal) {
+        const qMatch = c.question.toLowerCase().includes(searchVal);
+        const aMatch = c.answer_raw.toLowerCase().includes(searchVal);
+        if (!qMatch && !aMatch) return false;
+      }
+      
+      return true;
+    });
+
+    if (isShuffle) {
+      filteredCards.sort(() => Math.random() - 0.5);
+    }
+
+    currentIndex = 0;
+    renderCurrentCard();
+  }
+
+  function getCardKey(card) {
+    return `${card.tab}_${card.id}`;
+  }
+
+  function renderCurrentCard() {
+    // Reset flip
+    isFlipped = false;
+    cardInner.classList.remove('is-flipped');
+
+    if (!filteredCards.length) {
+      cardSubtopicFront.textContent = '-';
+      cardSubtopicBack.textContent = '-';
+      cardCounterFront.textContent = '0 / 0';
+      cardCounterBack.textContent = '0 / 0';
+      cardQuestionText.textContent = '🔍 ไม่พบการ์ดข้อสอบที่ตรงตามเงื่อนไขการค้นหา';
+      cardAnswerText.textContent = '-';
+      progressBar.style.width = '0%';
+      return;
+    }
+
+    const card = filteredCards[currentIndex];
+    const cardKey = getCardKey(card);
+    const uState = userProgress[cardKey] || {};
+
+    const progressPct = Math.round(((currentIndex + 1) / filteredCards.length) * 100);
+    progressBar.style.width = `${progressPct}%`;
+
+    const subtopicLabel = `${card.tab} • ${card.subtopic}`;
+    cardSubtopicFront.textContent = subtopicLabel;
+    cardSubtopicBack.textContent = subtopicLabel;
+
+    const counterText = `${currentIndex + 1} / ${filteredCards.length}`;
+    cardCounterFront.textContent = counterText;
+    cardCounterBack.textContent = counterText;
+
+    cardQuestionText.innerHTML = card.question;
+    cardAnswerText.innerHTML = card.answer_html || card.answer_raw;
+
+    // Star status
+    const isStarred = !!uState.starred;
+    btnStarFront.classList.toggle('starred', isStarred);
+    btnStarBack.classList.toggle('starred', isStarred);
+
+    // Button states
+    btnPrev.disabled = currentIndex === 0;
+    btnNext.disabled = currentIndex === filteredCards.length - 1;
+  }
+
+  function toggleFlip() {
+    isFlipped = !isFlipped;
+    cardInner.classList.toggle('is-flipped', isFlipped);
+  }
+
+  function nextCard() {
+    if (currentIndex < filteredCards.length - 1) {
+      currentIndex++;
+      renderCurrentCard();
+    }
+  }
+
+  function prevCard() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      renderCurrentCard();
+    }
+  }
+
+  function toggleStar() {
+    if (!filteredCards.length) return;
+    const card = filteredCards[currentIndex];
+    const key = getCardKey(card);
+    if (!userProgress[key]) userProgress[key] = {};
+    userProgress[key].starred = !userProgress[key].starred;
+    saveProgress();
+    renderCurrentCard();
+  }
+
+  function markStatus(status) {
+    if (!filteredCards.length) return;
+    const card = filteredCards[currentIndex];
+    const key = getCardKey(card);
+    if (!userProgress[key]) userProgress[key] = {};
+    userProgress[key].status = status;
+    saveProgress();
+    updateStats();
+    nextCard();
+  }
+
+  function saveProgress() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(userProgress));
+  }
+
+  function updateStats() {
+    let mastered = 0;
+    let unsure = 0;
+    Object.values(userProgress).forEach(v => {
+      if (v.status === 'mastered') mastered++;
+      if (v.status === 'unsure') unsure++;
+    });
+    statMasteredCount.textContent = mastered;
+    statReviewCount.textContent = unsure;
+  }
+
+  // Event Listeners
+  cardScene.addEventListener('click', toggleFlip);
+  btnFlip.addEventListener('click', (e) => { e.stopPropagation(); toggleFlip(); });
+  btnPrev.addEventListener('click', (e) => { e.stopPropagation(); prevCard(); });
+  btnNext.addEventListener('click', (e) => { e.stopPropagation(); nextCard(); });
+  btnStarFront.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(); });
+  btnStarBack.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(); });
+  btnMarkUnsure.addEventListener('click', (e) => { e.stopPropagation(); markStatus('unsure'); });
+  btnMarkMastered.addEventListener('click', (e) => { e.stopPropagation(); markStatus('mastered'); });
+
+  tabSelector.addEventListener('change', onTabChanged);
+  subtopicSelector.addEventListener('change', applyFilters);
+  searchInput.addEventListener('input', applyFilters);
+
+  btnShuffle.addEventListener('click', () => {
+    isShuffle = !isShuffle;
+    btnShuffle.classList.toggle('active', isShuffle);
+    applyFilters();
+  });
+
+  btnFilterStarred.addEventListener('click', () => {
+    filterStarredOnly = !filterStarredOnly;
+    btnFilterStarred.classList.toggle('active', filterStarredOnly);
+    applyFilters();
+  });
+
+  btnFilterReview.addEventListener('click', () => {
+    filterReviewOnly = !filterReviewOnly;
+    btnFilterReview.classList.toggle('active', filterReviewOnly);
+    applyFilters();
+  });
+
+  // Keyboard Shortcuts
+  window.addEventListener('keydown', (e) => {
+    if (document.activeElement === searchInput) return;
+    if (e.code === 'Space' || e.key === ' ') {
+      e.preventDefault();
+      toggleFlip();
+    } else if (e.key === 'ArrowRight' || e.key === 'l') {
+      nextCard();
+    } else if (e.key === 'ArrowLeft' || e.key === 'j') {
+      prevCard();
+    } else if (e.key === '1') {
+      markStatus('unsure');
+    } else if (e.key === '2') {
+      markStatus('mastered');
+    } else if (e.key === 's' || e.key === 'S') {
+      toggleStar();
+    }
+  });
+
+  // PWA Service Worker Registration
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
+  // Start App
+  initApp();
+</script>
+
+</body>
+</html>
