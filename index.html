@@ -943,6 +943,7 @@
       </div>
       
       <div class="topbar-right">
+      <button class="icon-btn" id="btnLiveSync" title="ซิงค์ข้อมูล Real-time สดจาก Google Sheet" onclick="triggerManualLiveSync()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg></button>
         <button class="icon-btn" onclick="openGuidelineModal()" title="คู่มือการใช้งาน & คีย์ลัด">
           <span style="font-size:13px;">📖</span>
         </button>
@@ -1319,9 +1320,102 @@
 </div>
 
 
-<!-- ══ PRE-COMPILED OFFLINE DATABASE & RUNTIME ADAPTER (OFFLINE GAS SHIM) ══ -->
+<!-- ══ PRE-COMPILED OFFLINE DATABASE + REALTIME GOOGLE SHEET SYNC ADAPTER ══ -->
 <script src="flashcard-data-offline.js"></script>
 <script>
+window.GOOGLE_SHEET_ID = '1U9JfDwzg-UthEBSjdZBy0p0Y_MaNojZm6nYo74IO5Fg';
+
+function formatPlainTextToHtml(text) {
+  if (!text) return '';
+  var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  
+  // Highlighting PharmaCU Spectrum & Clinical Rules
+  escaped = escaped.replace(/(Ceftriaxone|Cefepime|Meropenem|Vancomycin|Daptomycin|Linezolid|Colistin|Ampicillin|Amoxicillin|Cloxacillin|Piperacillin|Tazobactam|Sulbactam|Ceftazidime|Avibactam|Fosfomycin|Nitrofurantoin|Azithromycin|Doxycycline|Metronidazole|Gentamicin|Amikacin)/gi, '<b style="color:#0284c7;">$1</b>');
+  escaped = escaped.replace(/(Drug of Choice|First-line DOC|First-line|DOC)/gi, '<b style="color:#16a34a;">$1</b>');
+  escaped = escaped.replace(/(MRSA|VRE|ESBL|CRE|CRAB|CRPA|MDR-TB|ห้ามใช้|อันตราย|ดื้อยา|Dead Zone)/gi, '<b style="color:#dc2626;">$1</b>');
+  escaped = escaped.replace(/(mecA|PBP2a|KPC|NDM-1|OXA-48|AmpC|vanA)/gi, '<b style="color:#7c3aed;">$1</b>');
+  
+  return escaped.replace(/\n/g, '<br>');
+}
+
+async function fetchLiveSheetCards(sheetName) {
+  try {
+    var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName);
+    var resp = await fetch(url);
+    if (!resp.ok) return null;
+    var text = await resp.text();
+    var jsonStr = text.substring(text.indexOf('{'), text.lastIndexOf('}') + 1);
+    var data = JSON.parse(jsonStr);
+    var rows = data.table.rows;
+    if (!rows || !rows.length) return null;
+
+    var cards = [];
+    rows.forEach(function(r, idx) {
+      var c = r.c;
+      if (!c) return;
+      var getVal = function(i) { return (c[i] && c[i].v != null ? String(c[i].v).trim() : ''); };
+      var itemNo = getVal(0);
+      var question = getVal(1);
+      var qImage = getVal(2);
+      var answer = getVal(3);
+      var aImage = getVal(4);
+      var subTopic = getVal(5);
+      var note = getVal(6);
+      var track = getVal(7) || 'Clinic';
+
+      if (!question && !answer) return;
+      if (itemNo.indexOf('กลับหน้าสารบัญ') !== -1 || question.indexOf('คำถาม') !== -1) return;
+
+      cards.push({
+        id: sheetName + '::' + (idx + 3),
+        itemNo: itemNo || String(idx + 1),
+        group: sheetName,
+        subTopic: subTopic || sheetName,
+        track: track,
+        question: formatPlainTextToHtml(question),
+        questionImage: (qImage.indexOf('http') === 0 || qImage.indexOf('drive.google') !== -1) ? qImage : '',
+        answer: formatPlainTextToHtml(answer),
+        answerImage: (aImage.indexOf('http') === 0 || aImage.indexOf('drive.google') !== -1) ? aImage : '',
+        note: note
+      });
+    });
+
+    return cards;
+  } catch(err) {
+    console.warn('Realtime fetch failed or offline mode:', err);
+    return null;
+  }
+}
+
+async function triggerManualLiveSync() {
+  var btn = document.getElementById('btnLiveSync');
+  if (btn) btn.classList.add('active');
+  
+  if (typeof showToast === 'function') showToast('⏳ กำลังดึงข้อมูลสด Real-time จาก Google Sheet...');
+  
+  try {
+    if (typeof currentCategory === 'string' && currentCategory) {
+      var liveCards = await fetchLiveSheetCards(currentCategory);
+      if (liveCards && liveCards.length > 0) {
+        window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
+        window.OFFLINE_CARDS[currentCategory] = liveCards;
+        if (typeof onCardsLoaded === 'function') onCardsLoaded(liveCards);
+        if (typeof showToast === 'function') showToast('✅ ซิงค์สดสำเร็จ! พบ ' + liveCards.length + ' ข้อใน ' + currentCategory);
+      } else {
+        if (typeof showToast === 'function') showToast('ℹ️ ข้อมูลตรงกับ Google Sheet ล่าสุดแล้ว');
+      }
+    } else {
+      // Sync Categories
+      if (typeof loadApp === 'function') loadApp();
+      if (typeof showToast === 'function') showToast('✅ รีเฟรชหมวดหมู่วิชาจาก Google Sheet สำเร็จ');
+    }
+  } catch(e) {
+    if (typeof showToast === 'function') showToast('⚠️ ไม่สามารถเชื่อมต่อเน็ตได้ กำลังใช้ข้อมูลออฟไลน์');
+  } finally {
+    if (btn) setTimeout(function() { btn.classList.remove('active'); }, 500);
+  }
+}
+
 window.google = window.google || {};
 window.google.script = window.google.script || {};
 window.google.script.run = (function() {
@@ -1369,6 +1463,7 @@ window.google.script.run = (function() {
       },
       getFlashcards: function(catName, subTopic, bypassCache) {
         setTimeout(function() {
+          // 1. Immediately return offline cards (0ms instant render)
           var cards = (window.OFFLINE_CARDS && window.OFFLINE_CARDS[catName]) || [];
           if (subTopic && subTopic !== '__all__') {
             cards = cards.filter(function(c) {
@@ -1376,6 +1471,25 @@ window.google.script.run = (function() {
             });
           }
           if (successFn) successFn(cards);
+
+          // 2. Real-time background sync from Google Sheet!
+          fetchLiveSheetCards(catName).then(function(liveCards) {
+            if (liveCards && liveCards.length > 0) {
+              window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
+              var oldLen = (window.OFFLINE_CARDS[catName] || []).length;
+              window.OFFLINE_CARDS[catName] = liveCards;
+              
+              // If cards changed or user is actively viewing this category, update smoothly!
+              if (window.currentCategory === catName && typeof window.onCardsLoaded === 'function') {
+                if (liveCards.length !== oldLen || (liveCards[0] && cards[0] && liveCards[0].question !== cards[0].question)) {
+                  window.onCardsLoaded(liveCards);
+                  if (typeof window.showToast === 'function') {
+                    window.showToast('✨ อัปเดตข้อมูลสดจาก Google Sheet ล่าสุดเรียบร้อยแล้ว (' + liveCards.length + ' ข้อ)');
+                  }
+                }
+              }
+            }
+          }).catch(function() {});
         }, 10);
       },
       getAllFlashcards: function(trackFilter) {
@@ -1615,7 +1729,6 @@ window.google.script.run = (function() {
   }
 
   window.addEventListener('load', () => {
-    // Auto-login to offline session
     if (!localStorage.getItem(LS_KEY)) {
       localStorage.setItem(LS_KEY, 'offline-token');
     }
