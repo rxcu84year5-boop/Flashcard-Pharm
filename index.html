@@ -1320,12 +1320,11 @@
 </div>
 
 
-<!-- ══ PRE-COMPILED OFFLINE DATABASE + REALTIME GOOGLE SHEET SYNC + FULL AUTH SYSTEM ══ -->
+<!-- ══ TRUE REAL-TIME GOOGLE SHEET SYNC + OFFLINE RUNTIME ADAPTER ══ -->
 <script src="flashcard-data-offline.js"></script>
 <script>
 window.GOOGLE_SHEET_ID = '1U9JfDwzg-UthEBSjdZBy0p0Y_MaNojZm6nYo74IO5Fg';
 
-// ─── LOCAL USER AUTHENTICATION DATABASE ───
 const USERS_STORAGE_KEY = 'pharmacu_users_db_v2';
 const SESSIONS_STORAGE_KEY = 'pharmacu_sessions_db_v2';
 
@@ -1361,10 +1360,11 @@ function formatPlainTextToHtml(text) {
   return escaped.replace(/\n/g, '<br>');
 }
 
+// ─── TRUE REALTIME FETCH: ZERO CACHE (Always fetches newest edits from Google Sheet) ───
 async function fetchLiveSheetCards(sheetName) {
   try {
-    var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName);
-    var resp = await fetch(url);
+    var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
+    var resp = await fetch(url, { cache: 'no-store' });
     if (!resp.ok) return null;
     var text = await resp.text();
     var jsonStr = text.substring(text.indexOf('{'), text.lastIndexOf('}') + 1);
@@ -1405,7 +1405,7 @@ async function fetchLiveSheetCards(sheetName) {
 
     return cards;
   } catch(err) {
-    console.warn('Realtime fetch failed or offline mode:', err);
+    console.warn('Realtime fetch offline fallback:', err);
     return null;
   }
 }
@@ -1414,7 +1414,7 @@ async function triggerManualLiveSync() {
   var btn = document.getElementById('btnLiveSync');
   if (btn) btn.classList.add('active');
   
-  if (typeof showToast === 'function') showToast('⏳ กำลังดึงข้อมูลสด Real-time จาก Google Sheet...');
+  if (typeof showToast === 'function') showToast('⚡ กำลังดึงข้อมูล Real-time ล่าสุดจาก Google Sheet...');
   
   try {
     if (typeof currentCategory === 'string' && currentCategory) {
@@ -1423,16 +1423,16 @@ async function triggerManualLiveSync() {
         window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
         window.OFFLINE_CARDS[currentCategory] = liveCards;
         if (typeof onCardsLoaded === 'function') onCardsLoaded(liveCards);
-        if (typeof showToast === 'function') showToast('✅ ซิงค์สดสำเร็จ! พบ ' + liveCards.length + ' ข้อใน ' + currentCategory);
+        if (typeof showToast === 'function') showToast('🟢 Real-time Sync สำเร็จ! พบ ' + liveCards.length + ' ข้อใน ' + currentCategory);
       } else {
-        if (typeof showToast === 'function') showToast('ℹ️ ข้อมูลตรงกับ Google Sheet ล่าสุดแล้ว');
+        if (typeof showToast === 'function') showToast('ℹ️ ข้อมูลตรงกับ Google Sheet เรียบร้อยแล้ว');
       }
     } else {
       if (typeof loadApp === 'function') loadApp();
-      if (typeof showToast === 'function') showToast('✅ รีเฟรชหมวดหมู่วิชาจาก Google Sheet สำเร็จ');
+      if (typeof showToast === 'function') showToast('🟢 Real-time: อัปเดตรายชื่อหมวดวิชาจาก Google Sheet สำเร็จ');
     }
   } catch(e) {
-    if (typeof showToast === 'function') showToast('⚠️ ไม่สามารถเชื่อมต่อเน็ตได้ กำลังใช้ข้อมูลออฟไลน์');
+    if (typeof showToast === 'function') showToast('⚠️ ใช้ออฟไลน์: ไม่สามารถต่อเน็ตได้');
   } finally {
     if (btn) setTimeout(function() { btn.classList.remove('active'); }, 500);
   }
@@ -1446,7 +1446,6 @@ window.google.script.run = (function() {
       withSuccessHandler: function(fn) { return createRunner(fn, failureFn); },
       withFailureHandler: function(fn) { return createRunner(successFn, fn); },
       
-      // ─── AUTH: VALIDATE SESSION ───
       validateSession: function(token) {
         setTimeout(function() {
           if (!token) {
@@ -1458,17 +1457,15 @@ window.google.script.run = (function() {
           if (sess) {
             if (successFn) successFn({ valid: true, username: sess.username, displayName: sess.displayName });
           } else {
-            // Also accept default offline-token
             if (token === 'offline-token') {
               if (successFn) successFn({ valid: true, username: 'thanadol', displayName: 'Thanadol' });
             } else {
               if (successFn) successFn({ valid: false });
             }
           }
-        }, 50);
+        }, 30);
       },
       
-      // ─── AUTH: SIGN IN ───
       signIn: function(u, p) {
         setTimeout(function() {
           u = (u || '').trim().toLowerCase();
@@ -1486,7 +1483,6 @@ window.google.script.run = (function() {
               if (successFn) successFn({ success: false, message: 'Password ไม่ถูกต้อง' });
             }
           } else {
-            // Auto-register new user friendly!
             var disp = u.charAt(0).toUpperCase() + u.slice(1);
             users[u] = { username: u, displayName: disp, pass: p };
             saveLocalUsers(users);
@@ -1497,10 +1493,9 @@ window.google.script.run = (function() {
             localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
             if (successFn) successFn({ success: true, token: token, username: u, displayName: disp });
           }
-        }, 80);
+        }, 50);
       },
       
-      // ─── AUTH: SIGN UP ───
       signUp: function(u, dn, p) {
         setTimeout(function() {
           u = (u || '').trim().toLowerCase();
@@ -1515,10 +1510,9 @@ window.google.script.run = (function() {
           sessions[token] = { username: u, displayName: dn, time: Date.now() };
           localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
           if (successFn) successFn({ success: true, token: token, username: u, displayName: dn });
-        }, 80);
+        }, 50);
       },
       
-      // ─── AUTH: SIGN OUT ───
       signOut: function(token) {
         setTimeout(function() {
           var sessions = JSON.parse(localStorage.getItem(SESSIONS_STORAGE_KEY) || '{}');
@@ -1527,7 +1521,7 @@ window.google.script.run = (function() {
             localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
           }
           if (successFn) successFn({ success: true });
-        }, 30);
+        }, 20);
       },
       
       getCategories: function(bypassCache, trackFilter) {
@@ -1560,8 +1554,10 @@ window.google.script.run = (function() {
               return c.subTopic === subTopic || (c.subTopic && c.subTopic.indexOf(subTopic) !== -1);
             });
           }
+          // Immediately display instant offline cards
           if (successFn) successFn(cards);
 
+          // And immediately fetch live Google Sheet without cache!
           fetchLiveSheetCards(catName).then(function(liveCards) {
             if (liveCards && liveCards.length > 0) {
               window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
@@ -1572,7 +1568,7 @@ window.google.script.run = (function() {
                 if (liveCards.length !== oldLen || (liveCards[0] && cards[0] && liveCards[0].question !== cards[0].question)) {
                   window.onCardsLoaded(liveCards);
                   if (typeof window.showToast === 'function') {
-                    window.showToast('✨ อัปเดตข้อมูลสดจาก Google Sheet เรียบร้อยแล้ว (' + liveCards.length + ' ข้อ)');
+                    window.showToast('🟢 Real-time: ซิงค์สดข้อสอบจาก Google Sheet สำเร็จ (' + liveCards.length + ' ข้อ)');
                   }
                 }
               }
