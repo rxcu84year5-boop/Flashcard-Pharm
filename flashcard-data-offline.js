@@ -106,7 +106,7 @@ window.OFFLINE_CATEGORIES = [
   {
     "name": "16. Others & Toxic",
     "track": "Clinic",
-    "count": 315,
+    "count": 309,
     "subtopics": [
       "Antimicrobial Resistance (AMR)",
       "Bone & Joint / SSTI / Rabies",
@@ -5051,18 +5051,6 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ HIV มี CD4 28 cells/mcL มีอาการปวดศีรษะเรื้อรัง ไข้ต่ำๆ ตรวจ CSF พบย้อม India Ink Positive ควรเริ่มสูตรยารักษาอย่างไร?",
-      "questionImage": "",
-      "answer": "▶ 📋 การวินิจฉัย:<br>   ↳ Cryptococcal Meningitis (การติดเชื้อราเยื่อหุ้มสมองในผู้ป่วยภูมิคุ้มกันบกพร่อง)<br><br>▶ 💡 สูตรยาระยะ Induction Phase (นาน 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 มื้อ)<br>   ↳ ตรวจวัดความดันเปิด CSF Opening Pressure หาก &gt; 200 mmH2O ให้เจาะระบายน้ำไขสันหลังเพื่อลดความดันในกะโหลกศีรษะ",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
@@ -5070,8 +5058,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5082,8 +5070,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5094,20 +5082,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
-      "question": "ภาวะสมองบวมและความดันในกะโหลกสูงขึ้น (Brain Edema &amp; Raised ICP) ในผู้ป่วย Bacterial Meningitis เกิดขึ้นได้อย่างไร?",
-      "questionImage": "",
-      "answer": "▶ กลไกการเกิด Brain Edema 3 ชนิด:<br>   ↳ 1. Vasogenic Edema: เชื้อและสารพิษ (Toxins) ทำลาย BBB ทำให้โปรตีนและน้ำรั่วออกจากหลอดเลือดเข้าสู่เนื้อสมอง<br>   ↳ 2. Cytotoxic Edema: Cytokines (IL-1, IL-6, TNF-alpha) ที่หลั่งออกมาจากการอักเสบทำลายเซลล์สมองโดยตรง ทำให้เซลล์บวมน้ำ<br>   ↳ 3. Interstitial Edema: การผลิต CSF มากขึ้น + การดูดซึม CSF ลดลง (เพราะ Arachnoid Villi อักเสบ) ทำให้เกิด Communicating Hydrocephalus และ ICP สูงขึ้น<br><br>▶ ผลกระทบของ ICP สูง:<br>   ↳ สมองได้รับออกซิเจนและกลูโคสลดลง (Cerebral Ischemia)<br>   ↳ เสี่ยงต่อ Brain Herniation ซึ่งอาจทำให้เสียชีวิตฉับพลัน",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5118,8 +5094,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5130,8 +5106,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5142,8 +5118,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5154,8 +5130,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5166,8 +5142,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5178,8 +5154,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5190,8 +5166,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5202,20 +5178,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "กลุ่มประชากรที่มีความเสี่ยงสูงต่อการเกิดโรครุนแรงจาก COVID-19 (กลุ่มเสี่ยง 608 และกลุ่มภูมิคุ้มกันบกพร่อง) ประกอบด้วยใครบ้าง?",
-      "questionImage": "",
-      "answer": "▶ กลุ่มเสี่ยงสูง (High-Risk Patient Groups):<br>   ↳ 1. ผู้สูงอายุที่มีอายุตั้งแต่ 60 ปีขึ้นไป<br>   ↳ 2. ผู้ป่วยโรคเรื้อรัง 7 กลุ่มโรค: โรคทางเดินหายใจเรื้อรัง (COPD, Asthma), โรคหัวใจและหลอดเลือด, โรคไตวายเรื้อรัง (CKD), โรคหลอดเลือดสมอง (Stroke), โรคมะเร็งทุกชนิด, โรคเบาหวาน, โรคอ้วน (BMI &gt;= 35 kg/m2 หรือน้ำหนัก &gt; 90 kg)<br>   ↳ 3. หญิงตั้งครรภ์ (อายุครรภ์ตั้งแต่ 12 สัปดาห์ขึ้นไป)<br>   ↳ 4. ผู้ป่วยที่มีภาวะภูมิคุ้มกันบกพร่องรุนแรง (Immunocompromised: ติดเชื้อ HIV ที่ CD4 ต่ำ, ผู้ปลูกถ่ายอวัยวะ, ผู้ได้รับยากดภูมิคุ้มกันหรือเคมีบำบัด)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5226,20 +5190,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "นิยามของภาวะลองโควิด (Post COVID-19 Condition / Long COVID) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span><br>   ↳ อาการคงอยู่นานอย่างน้อย 2 เดือน<br>   ↳ อาการดังกล่าวไม่สามารถอธิบายได้ด้วยการวินิจฉัยโรคอื่น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5250,8 +5202,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5262,8 +5214,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5274,8 +5226,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5286,8 +5238,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5298,8 +5250,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5310,8 +5262,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5322,8 +5274,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5334,8 +5286,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5346,8 +5298,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5358,8 +5310,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5370,20 +5322,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ของ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ใน COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ภายใน 24-48 ชม. หลังนอน ICU<br><br>▶ ขนาดยา:<br>   ↳ 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg หยดยานาน 60 นาที)<br><br>▶ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ มีการติดเชื้อแบคทีเรียหรือเชื้อราซ้ำซ้อนรุนแรง, ค่า ALT/AST &gt; 5 เท่าของค่าปกติ, เกล็ดเลือดต่ำ (&lt; 50,000 /mcL) หรือเม็ดเลือดขาว ANC &lt; 1,000 /mcL",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5394,8 +5334,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5406,20 +5346,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "เหตุใดผู้ป่วย COVID-19 ที่นอนโรงพยาบาลจึงมีความเสี่ยงสูงต่อภาวะหลอดเลือดดำอุดตัน (Venous Thromboembolism: VTE)?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> เข้าจับกับตัวรับ ACE2 บนเซลล์เยื่อบุหลอดเลือดโดยตรง ทำให้เกิดหลอดเลือดอักเสบ (Endothelioitis)<br>   ↳ 2. Hypercoagulability (ภาวะเลือดแข็งตัวง่ายผิดปกติ): สารไซโตไคน์อักเสบ (IL-6) กระตุ้น Tissue factor และเกล็ดเลือด ทำให้ค่า D-dimer และ Fibrinogen สูงขึ้นอย่างมาก<br>   ↳ 3. Stasis (การไหลเวียนของเลือดชะลอตัว): ผู้ป่วยนอนนิ่งบนเตียงเป็นเวลานาน (Immobilization)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5430,8 +5358,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5442,8 +5370,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5454,8 +5382,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5466,8 +5394,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5478,8 +5406,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5490,8 +5418,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5502,8 +5430,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5514,8 +5442,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5526,8 +5454,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5538,8 +5466,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5550,8 +5478,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5562,8 +5490,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5574,8 +5502,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5586,8 +5514,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5598,8 +5526,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5610,8 +5538,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5622,8 +5550,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5634,8 +5562,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5646,8 +5574,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5658,8 +5586,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5670,8 +5598,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5682,8 +5610,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5694,8 +5622,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5706,8 +5634,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5718,8 +5646,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5730,8 +5658,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5742,8 +5670,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5754,8 +5682,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5766,8 +5694,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5778,8 +5706,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5790,8 +5718,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5802,8 +5730,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5814,8 +5742,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5826,8 +5754,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5838,8 +5766,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5850,8 +5778,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5862,8 +5790,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5874,8 +5802,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5886,8 +5814,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5898,8 +5826,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5910,8 +5838,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5922,8 +5850,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5934,8 +5862,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5946,8 +5874,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5958,8 +5886,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5970,8 +5898,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5982,8 +5910,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5994,8 +5922,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6006,8 +5934,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6018,8 +5946,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6030,8 +5958,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6042,8 +5970,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6054,8 +5982,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6066,8 +5994,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6078,8 +6006,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6090,8 +6018,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6102,8 +6030,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6114,8 +6042,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6126,8 +6054,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6138,8 +6066,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6150,8 +6078,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6162,8 +6090,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6174,8 +6102,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6186,8 +6114,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6198,8 +6126,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6210,8 +6138,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6222,8 +6150,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6234,8 +6162,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6246,8 +6174,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6258,8 +6186,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6270,8 +6198,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6282,8 +6210,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6294,8 +6222,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6306,8 +6234,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6318,8 +6246,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6330,8 +6258,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6342,8 +6270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6354,8 +6282,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6366,8 +6294,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6378,8 +6306,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6390,8 +6318,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6402,8 +6330,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6414,8 +6342,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6426,8 +6354,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6438,8 +6366,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6450,8 +6378,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6462,8 +6390,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6474,8 +6402,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6486,8 +6414,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6498,8 +6426,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6510,8 +6438,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6522,8 +6450,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6534,8 +6462,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6546,8 +6474,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6558,8 +6486,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6570,8 +6498,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6582,8 +6510,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6594,8 +6522,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6606,8 +6534,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6618,8 +6546,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6630,8 +6558,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6642,8 +6570,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6654,8 +6582,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6666,8 +6594,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6678,8 +6606,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6690,8 +6618,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6702,8 +6630,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6714,8 +6642,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6726,8 +6654,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6738,8 +6666,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -12978,18 +12906,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ HIV มี CD4 28 cells/mcL มีอาการปวดศีรษะเรื้อรัง ไข้ต่ำๆ ตรวจ CSF พบย้อม India Ink Positive ควรเริ่มสูตรยารักษาอย่างไร?",
-      "questionImage": "",
-      "answer": "▶ 📋 การวินิจฉัย:<br>   ↳ Cryptococcal Meningitis (การติดเชื้อราเยื่อหุ้มสมองในผู้ป่วยภูมิคุ้มกันบกพร่อง)<br><br>▶ 💡 สูตรยาระยะ Induction Phase (นาน 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 มื้อ)<br>   ↳ ตรวจวัดความดันเปิด CSF Opening Pressure หาก &gt; 200 mmH2O ให้เจาะระบายน้ำไขสันหลังเพื่อลดความดันในกะโหลกศีรษะ",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
@@ -12997,8 +12913,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13009,8 +12925,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13021,20 +12937,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
-      "question": "ภาวะสมองบวมและความดันในกะโหลกสูงขึ้น (Brain Edema &amp; Raised ICP) ในผู้ป่วย Bacterial Meningitis เกิดขึ้นได้อย่างไร?",
-      "questionImage": "",
-      "answer": "▶ กลไกการเกิด Brain Edema 3 ชนิด:<br>   ↳ 1. Vasogenic Edema: เชื้อและสารพิษ (Toxins) ทำลาย BBB ทำให้โปรตีนและน้ำรั่วออกจากหลอดเลือดเข้าสู่เนื้อสมอง<br>   ↳ 2. Cytotoxic Edema: Cytokines (IL-1, IL-6, TNF-alpha) ที่หลั่งออกมาจากการอักเสบทำลายเซลล์สมองโดยตรง ทำให้เซลล์บวมน้ำ<br>   ↳ 3. Interstitial Edema: การผลิต CSF มากขึ้น + การดูดซึม CSF ลดลง (เพราะ Arachnoid Villi อักเสบ) ทำให้เกิด Communicating Hydrocephalus และ ICP สูงขึ้น<br><br>▶ ผลกระทบของ ICP สูง:<br>   ↳ สมองได้รับออกซิเจนและกลูโคสลดลง (Cerebral Ischemia)<br>   ↳ เสี่ยงต่อ Brain Herniation ซึ่งอาจทำให้เสียชีวิตฉับพลัน",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13045,8 +12949,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13057,8 +12961,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13069,8 +12973,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13081,8 +12985,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13093,8 +12997,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13105,8 +13009,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13117,8 +13021,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13129,20 +13033,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "กลุ่มประชากรที่มีความเสี่ยงสูงต่อการเกิดโรครุนแรงจาก COVID-19 (กลุ่มเสี่ยง 608 และกลุ่มภูมิคุ้มกันบกพร่อง) ประกอบด้วยใครบ้าง?",
-      "questionImage": "",
-      "answer": "▶ กลุ่มเสี่ยงสูง (High-Risk Patient Groups):<br>   ↳ 1. ผู้สูงอายุที่มีอายุตั้งแต่ 60 ปีขึ้นไป<br>   ↳ 2. ผู้ป่วยโรคเรื้อรัง 7 กลุ่มโรค: โรคทางเดินหายใจเรื้อรัง (COPD, Asthma), โรคหัวใจและหลอดเลือด, โรคไตวายเรื้อรัง (CKD), โรคหลอดเลือดสมอง (Stroke), โรคมะเร็งทุกชนิด, โรคเบาหวาน, โรคอ้วน (BMI &gt;= 35 kg/m2 หรือน้ำหนัก &gt; 90 kg)<br>   ↳ 3. หญิงตั้งครรภ์ (อายุครรภ์ตั้งแต่ 12 สัปดาห์ขึ้นไป)<br>   ↳ 4. ผู้ป่วยที่มีภาวะภูมิคุ้มกันบกพร่องรุนแรง (Immunocompromised: ติดเชื้อ HIV ที่ CD4 ต่ำ, ผู้ปลูกถ่ายอวัยวะ, ผู้ได้รับยากดภูมิคุ้มกันหรือเคมีบำบัด)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13153,20 +13045,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "นิยามของภาวะลองโควิด (Post COVID-19 Condition / Long COVID) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span><br>   ↳ อาการคงอยู่นานอย่างน้อย 2 เดือน<br>   ↳ อาการดังกล่าวไม่สามารถอธิบายได้ด้วยการวินิจฉัยโรคอื่น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13177,8 +13057,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13189,8 +13069,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13201,8 +13081,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13213,8 +13093,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13225,8 +13105,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13237,8 +13117,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13249,8 +13129,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13261,8 +13141,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13273,8 +13153,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13285,8 +13165,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13297,20 +13177,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ของ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ใน COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ภายใน 24-48 ชม. หลังนอน ICU<br><br>▶ ขนาดยา:<br>   ↳ 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg หยดยานาน 60 นาที)<br><br>▶ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ มีการติดเชื้อแบคทีเรียหรือเชื้อราซ้ำซ้อนรุนแรง, ค่า ALT/AST &gt; 5 เท่าของค่าปกติ, เกล็ดเลือดต่ำ (&lt; 50,000 /mcL) หรือเม็ดเลือดขาว ANC &lt; 1,000 /mcL",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13321,8 +13189,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13333,20 +13201,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "เหตุใดผู้ป่วย COVID-19 ที่นอนโรงพยาบาลจึงมีความเสี่ยงสูงต่อภาวะหลอดเลือดดำอุดตัน (Venous Thromboembolism: VTE)?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> เข้าจับกับตัวรับ ACE2 บนเซลล์เยื่อบุหลอดเลือดโดยตรง ทำให้เกิดหลอดเลือดอักเสบ (Endothelioitis)<br>   ↳ 2. Hypercoagulability (ภาวะเลือดแข็งตัวง่ายผิดปกติ): สารไซโตไคน์อักเสบ (IL-6) กระตุ้น Tissue factor และเกล็ดเลือด ทำให้ค่า D-dimer และ Fibrinogen สูงขึ้นอย่างมาก<br>   ↳ 3. Stasis (การไหลเวียนของเลือดชะลอตัว): ผู้ป่วยนอนนิ่งบนเตียงเป็นเวลานาน (Immobilization)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13357,8 +13213,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13369,8 +13225,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13381,8 +13237,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13393,8 +13249,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13405,8 +13261,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13417,8 +13273,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13429,8 +13285,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13441,8 +13297,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13453,8 +13309,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13465,8 +13321,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13477,8 +13333,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13489,8 +13345,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13501,8 +13357,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13513,8 +13369,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13525,8 +13381,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13537,8 +13393,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13549,8 +13405,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13561,8 +13417,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13573,8 +13429,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13585,8 +13441,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13597,8 +13453,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13609,8 +13465,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13621,8 +13477,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13633,8 +13489,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13645,8 +13501,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13657,8 +13513,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13669,8 +13525,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13681,8 +13537,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13693,8 +13549,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13705,8 +13561,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13717,8 +13573,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13729,8 +13585,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13741,8 +13597,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13753,8 +13609,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13765,8 +13621,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13777,8 +13633,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13789,8 +13645,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13801,8 +13657,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13813,8 +13669,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13825,8 +13681,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13837,8 +13693,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13849,8 +13705,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13861,8 +13717,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13873,8 +13729,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13885,8 +13741,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13897,8 +13753,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13909,8 +13765,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13921,8 +13777,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13933,8 +13789,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13945,8 +13801,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13957,8 +13813,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13969,8 +13825,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13981,8 +13837,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13993,8 +13849,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14005,8 +13861,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14017,8 +13873,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14029,8 +13885,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14041,8 +13897,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14053,8 +13909,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14065,8 +13921,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14077,8 +13933,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14089,8 +13945,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14101,8 +13957,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14113,8 +13969,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14125,8 +13981,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14137,8 +13993,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14149,8 +14005,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14161,8 +14017,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14173,8 +14029,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14185,8 +14041,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14197,8 +14053,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14209,8 +14065,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14221,8 +14077,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14233,8 +14089,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14245,8 +14101,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14257,8 +14113,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14269,8 +14125,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14281,8 +14137,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14293,8 +14149,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14305,8 +14161,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14317,8 +14173,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14329,8 +14185,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14341,8 +14197,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14353,8 +14209,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14365,8 +14221,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14377,8 +14233,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14389,8 +14245,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14401,8 +14257,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14413,8 +14269,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14425,8 +14281,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14437,8 +14293,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14449,8 +14305,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14461,8 +14317,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14473,8 +14329,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14485,8 +14341,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14497,8 +14353,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14509,8 +14365,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14521,8 +14377,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14533,8 +14389,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14545,8 +14401,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14557,8 +14413,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14569,8 +14425,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14581,8 +14437,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14593,8 +14449,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14605,8 +14461,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14617,8 +14473,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14629,8 +14485,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14641,8 +14497,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14653,8 +14509,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14665,8 +14521,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -20891,18 +20747,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ HIV มี CD4 28 cells/mcL มีอาการปวดศีรษะเรื้อรัง ไข้ต่ำๆ ตรวจ CSF พบย้อม India Ink Positive ควรเริ่มสูตรยารักษาอย่างไร?",
-      "questionImage": "",
-      "answer": "▶ 📋 การวินิจฉัย:<br>   ↳ Cryptococcal Meningitis (การติดเชื้อราเยื่อหุ้มสมองในผู้ป่วยภูมิคุ้มกันบกพร่อง)<br><br>▶ 💡 สูตรยาระยะ Induction Phase (นาน 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 มื้อ)<br>   ↳ ตรวจวัดความดันเปิด CSF Opening Pressure หาก &gt; 200 mmH2O ให้เจาะระบายน้ำไขสันหลังเพื่อลดความดันในกะโหลกศีรษะ",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
@@ -20910,8 +20754,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20922,8 +20766,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20934,20 +20778,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
-      "question": "ภาวะสมองบวมและความดันในกะโหลกสูงขึ้น (Brain Edema &amp; Raised ICP) ในผู้ป่วย Bacterial Meningitis เกิดขึ้นได้อย่างไร?",
-      "questionImage": "",
-      "answer": "▶ กลไกการเกิด Brain Edema 3 ชนิด:<br>   ↳ 1. Vasogenic Edema: เชื้อและสารพิษ (Toxins) ทำลาย BBB ทำให้โปรตีนและน้ำรั่วออกจากหลอดเลือดเข้าสู่เนื้อสมอง<br>   ↳ 2. Cytotoxic Edema: Cytokines (IL-1, IL-6, TNF-alpha) ที่หลั่งออกมาจากการอักเสบทำลายเซลล์สมองโดยตรง ทำให้เซลล์บวมน้ำ<br>   ↳ 3. Interstitial Edema: การผลิต CSF มากขึ้น + การดูดซึม CSF ลดลง (เพราะ Arachnoid Villi อักเสบ) ทำให้เกิด Communicating Hydrocephalus และ ICP สูงขึ้น<br><br>▶ ผลกระทบของ ICP สูง:<br>   ↳ สมองได้รับออกซิเจนและกลูโคสลดลง (Cerebral Ischemia)<br>   ↳ เสี่ยงต่อ Brain Herniation ซึ่งอาจทำให้เสียชีวิตฉับพลัน",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20958,8 +20790,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20970,8 +20802,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20982,8 +20814,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20994,8 +20826,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21006,8 +20838,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21018,8 +20850,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21030,8 +20862,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21042,20 +20874,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "กลุ่มประชากรที่มีความเสี่ยงสูงต่อการเกิดโรครุนแรงจาก COVID-19 (กลุ่มเสี่ยง 608 และกลุ่มภูมิคุ้มกันบกพร่อง) ประกอบด้วยใครบ้าง?",
-      "questionImage": "",
-      "answer": "▶ กลุ่มเสี่ยงสูง (High-Risk Patient Groups):<br>   ↳ 1. ผู้สูงอายุที่มีอายุตั้งแต่ 60 ปีขึ้นไป<br>   ↳ 2. ผู้ป่วยโรคเรื้อรัง 7 กลุ่มโรค: โรคทางเดินหายใจเรื้อรัง (COPD, Asthma), โรคหัวใจและหลอดเลือด, โรคไตวายเรื้อรัง (CKD), โรคหลอดเลือดสมอง (Stroke), โรคมะเร็งทุกชนิด, โรคเบาหวาน, โรคอ้วน (BMI &gt;= 35 kg/m2 หรือน้ำหนัก &gt; 90 kg)<br>   ↳ 3. หญิงตั้งครรภ์ (อายุครรภ์ตั้งแต่ 12 สัปดาห์ขึ้นไป)<br>   ↳ 4. ผู้ป่วยที่มีภาวะภูมิคุ้มกันบกพร่องรุนแรง (Immunocompromised: ติดเชื้อ HIV ที่ CD4 ต่ำ, ผู้ปลูกถ่ายอวัยวะ, ผู้ได้รับยากดภูมิคุ้มกันหรือเคมีบำบัด)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21066,20 +20886,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "นิยามของภาวะลองโควิด (Post COVID-19 Condition / Long COVID) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span><br>   ↳ อาการคงอยู่นานอย่างน้อย 2 เดือน<br>   ↳ อาการดังกล่าวไม่สามารถอธิบายได้ด้วยการวินิจฉัยโรคอื่น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21090,8 +20898,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21102,8 +20910,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21114,8 +20922,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21126,8 +20934,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21138,8 +20946,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21150,8 +20958,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21162,8 +20970,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21174,8 +20982,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21186,8 +20994,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21198,8 +21006,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21210,20 +21018,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ของ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ใน COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ภายใน 24-48 ชม. หลังนอน ICU<br><br>▶ ขนาดยา:<br>   ↳ 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg หยดยานาน 60 นาที)<br><br>▶ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ มีการติดเชื้อแบคทีเรียหรือเชื้อราซ้ำซ้อนรุนแรง, ค่า ALT/AST &gt; 5 เท่าของค่าปกติ, เกล็ดเลือดต่ำ (&lt; 50,000 /mcL) หรือเม็ดเลือดขาว ANC &lt; 1,000 /mcL",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21234,8 +21030,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21246,20 +21042,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "เหตุใดผู้ป่วย COVID-19 ที่นอนโรงพยาบาลจึงมีความเสี่ยงสูงต่อภาวะหลอดเลือดดำอุดตัน (Venous Thromboembolism: VTE)?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> เข้าจับกับตัวรับ ACE2 บนเซลล์เยื่อบุหลอดเลือดโดยตรง ทำให้เกิดหลอดเลือดอักเสบ (Endothelioitis)<br>   ↳ 2. Hypercoagulability (ภาวะเลือดแข็งตัวง่ายผิดปกติ): สารไซโตไคน์อักเสบ (IL-6) กระตุ้น Tissue factor และเกล็ดเลือด ทำให้ค่า D-dimer และ Fibrinogen สูงขึ้นอย่างมาก<br>   ↳ 3. Stasis (การไหลเวียนของเลือดชะลอตัว): ผู้ป่วยนอนนิ่งบนเตียงเป็นเวลานาน (Immobilization)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21270,8 +21054,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21282,8 +21066,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21294,8 +21078,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21306,8 +21090,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21318,8 +21102,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21330,8 +21114,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21342,8 +21126,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21354,8 +21138,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21366,8 +21150,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21378,8 +21162,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21390,8 +21174,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21402,8 +21186,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21414,8 +21198,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21426,8 +21210,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21438,8 +21222,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21450,8 +21234,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21462,8 +21246,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21474,8 +21258,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21486,8 +21270,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21498,8 +21282,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21510,8 +21294,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21522,8 +21306,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21534,8 +21318,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21546,8 +21330,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21558,8 +21342,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21570,8 +21354,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21582,8 +21366,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21594,8 +21378,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21606,8 +21390,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21618,8 +21402,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21630,8 +21414,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21642,8 +21426,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21654,8 +21438,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21666,8 +21450,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21678,8 +21462,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21690,8 +21474,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21702,8 +21486,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21714,8 +21498,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21726,8 +21510,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21738,8 +21522,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21750,8 +21534,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21762,8 +21546,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21774,8 +21558,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21786,8 +21570,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21798,8 +21582,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21810,8 +21594,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21822,8 +21606,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21834,8 +21618,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21846,8 +21630,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21858,8 +21642,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21870,8 +21654,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21882,8 +21666,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21894,8 +21678,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21906,8 +21690,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21918,8 +21702,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21930,8 +21714,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21942,8 +21726,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21954,8 +21738,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21966,8 +21750,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21978,8 +21762,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21990,8 +21774,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22002,8 +21786,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22014,8 +21798,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22026,8 +21810,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22038,8 +21822,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22050,8 +21834,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22062,8 +21846,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22074,8 +21858,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22086,8 +21870,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22098,8 +21882,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22110,8 +21894,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22122,8 +21906,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22134,8 +21918,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22146,8 +21930,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22158,8 +21942,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22170,8 +21954,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22182,8 +21966,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22194,8 +21978,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22206,8 +21990,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22218,8 +22002,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22230,8 +22014,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22242,8 +22026,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22254,8 +22038,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22266,8 +22050,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22278,8 +22062,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22290,8 +22074,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22302,8 +22086,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22314,8 +22098,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22326,8 +22110,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22338,8 +22122,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22350,8 +22134,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22362,8 +22146,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22374,8 +22158,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22386,8 +22170,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22398,8 +22182,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22410,8 +22194,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22422,8 +22206,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22434,8 +22218,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22446,8 +22230,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22458,8 +22242,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22470,8 +22254,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22482,8 +22266,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22494,8 +22278,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22506,8 +22290,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22518,8 +22302,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22530,8 +22314,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22542,8 +22326,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22554,8 +22338,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22566,8 +22350,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22578,8 +22362,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
