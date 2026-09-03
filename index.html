@@ -1353,6 +1353,37 @@ function formatPlainTextToHtml(text) {
   if (!text) return '';
   var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+  // 1. Header Badges & Callout Formatting
+  escaped = escaped.replace(
+    /▶\s*\[(ข้อสอบจริง\s*\/\s*Real Exam Question|ข้อสอบจริง|Real Exam Question)\]:?/gi,
+    '<div style="display:inline-flex; align-items:center; gap:5px; background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">🎯 ข้อสอบจริง / Real Exam</div><br>'
+  );
+  escaped = escaped.replace(
+    /(▶\s*\[(Clinical Case Scenario|Clinical Case)\]:?|Case\s*\[(Easy|Hard|Medium)[^\]]*\]:?)/gi,
+    '<div style="display:inline-flex; align-items:center; gap:5px; background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">📋 Clinical Case Scenario</div><br>'
+  );
+  escaped = escaped.replace(
+    /▶\s*\[(เฉลย)\]:?/gi,
+    '<div style="display:inline-flex; align-items:center; gap:5px; background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; padding:2px 8px; border-radius:5px; font-weight:700; font-size:0.9em; margin-bottom:6px;">✅ เฉลย:</div>'
+  );
+  escaped = escaped.replace(
+    /💡\s*\[(คำอธิบายและจุดเน้นข้อสอบ|คำอธิบาย[^\]]*)\]:?/gi,
+    '<div style="background:#fffbeb; color:#92400e; border-left:3px solid #f59e0b; padding:6px 12px; border-radius:0 6px 6px 0; font-weight:600; margin:10px 0;">💡 คำอธิบายและจุดเน้นข้อสอบ:</div>'
+  );
+  escaped = escaped.replace(
+    /▶\s*\[([^\]]+)\]:?/gi,
+    '<div style="color:#0f172a; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; border-bottom:1px dashed #cbd5e1; padding-bottom:2px;">▶ $1</div>'
+  );
+  escaped = escaped.replace(
+    /(^|
+)([ก-ง]\.)\s+/g,
+    '$1<div style="margin:4px 0 4px 8px;"><b style="color:#1e293b; background:#f1f5f9; padding:1px 6px; border-radius:4px; margin-right:4px;">$2</b> '
+  );
+  escaped = escaped.replace(
+    /↳\s+/g,
+    '<span style="color:#64748b; font-weight:bold; margin-right:4px;">↳</span>'
+  );
+
   var C_GREEN  = '#16a34a'; // DOC & Regimens
   var C_RED    = '#dc2626'; // Warnings, Contraindications, Severe ADRs
   var C_AMBER  = '#d97706'; // Criteria, Scores, Cutoffs

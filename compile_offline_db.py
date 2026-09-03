@@ -151,14 +151,77 @@ def escape_html(s):
 def apply_clinical_highlighting(text):
     if not text:
         return ""
-    escaped = escape_html(text)
     
-    # 5-Color Clinical Palette
+    # 1. First escape HTML
+    escaped = escape_html(text)
+
+    # 2. Header Badges & Callout Formatting
+    escaped = re.sub(
+        r'▶\s*\[(ข้อสอบจริง\s*/\s*Real Exam Question|ข้อสอบจริง|Real Exam Question)\]:?',
+        r'<div style="display:inline-flex; align-items:center; gap:5px; background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">🎯 ข้อสอบจริง / Real Exam</div><br>',
+        escaped
+    )
+    escaped = re.sub(
+        r'▶\s*\[(Clinical Case Scenario|Clinical Case)\]:?|Case\s*\[(Easy|Hard|Medium)[^\]]*\]:?',
+        r'<div style="display:inline-flex; align-items:center; gap:5px; background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">📋 Clinical Case Scenario</div><br>',
+        escaped
+    )
+    escaped = re.sub(
+        r'▶\s*\[(เฉลย)\]:?',
+        r'<div style="display:inline-flex; align-items:center; gap:5px; background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; padding:2px 8px; border-radius:5px; font-weight:700; font-size:0.9em; margin-bottom:6px;">✅ เฉลย:</div>',
+        escaped
+    )
+    escaped = re.sub(
+        r'💡\s*\[(คำอธิบายและจุดเน้นข้อสอบ|คำอธิบาย[^\]]*)\]:?',
+        r'<div style="background:#fffbeb; color:#92400e; border-left:3px solid #f59e0b; padding:6px 12px; border-radius:0 6px 6px 0; font-weight:600; margin:10px 0;">💡 คำอธิบายและจุดเน้นข้อสอบ:</div>',
+        escaped
+    )
+    escaped = re.sub(
+        r'▶\s*\[([^\]]+)\]:?',
+        r'<div style="color:#0f172a; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; border-bottom:1px dashed #cbd5e1; padding-bottom:2px;">▶ \1</div>',
+        escaped
+    )
+    escaped = re.sub(
+        r'(?m)^([ก-ง]\.)\s+',
+        r'<div style="margin:4px 0 4px 8px;"><b style="color:#1e293b; background:#f1f5f9; padding:1px 6px; border-radius:4px; margin-right:4px;">\1</b> ',
+        escaped
+    )
+    escaped = re.sub(
+        r'↳\s+',
+        r'<span style="color:#64748b; font-weight:bold; margin-right:4px;">↳</span>',
+        escaped
+    )
+
+    # 3. 5-Color Clinical Palette
     C_GREEN  = '#16a34a' # DOC & Regimens
     C_RED    = '#dc2626' # Warnings, Contraindications, Severe ADRs
     C_AMBER  = '#d97706' # Criteria, Scores, Cutoffs
     C_PURPLE = '#7c3aed' # Pathogens, Resistance Genes, Enzymes
     C_BLUE   = '#0284c7' # Drug Names & Classes
+
+    reg_purple_species = [
+        r'Streptococcus pneumoniae', r'S\.\s*pneumoniae', r'Streptococcus pyogenes', r'S\.\s*pyogenes',
+        r'Staphylococcus aureus', r'S\.\s*aureus',
+        r'Enterococcus faecalis', r'E\.\s*faecalis', r'Enterococcus faecium', r'E\.\s*faecium',
+        r'Pseudomonas aeruginosa', r'P\.\s*aeruginosa', r'Acinetobacter baumannii', r'A\.\s*baumannii',
+        r'Klebsiella pneumoniae', r'K\.\s*pneumoniae', r'Escherichia coli', r'E\.\s*coli',
+        r'Neisseria meningitidis', r'N\.\s*meningitidis', r'Neisseria gonorrhoeae', r'N\.\s*gonorrhoeae',
+        r'Listeria monocytogenes', r'L\.\s*monocytogenes', r'Haemophilus influenzae', r'H\.\s*influenzae',
+        r'Mycobacterium tuberculosis', r'M\.\s*tuberculosis', r'Mycobacterium bovis', r'M\.\s*bovis',
+        r'Pasteurella multocida', r'Pasteurella spp\.', r'Pasteurella',
+        r'Eikenella corrodens', r'Eikenella spp\.', r'Eikenella',
+        r'Viridans Streptococci', r'Viridans Group Streptococci', r'Viridans strep',
+        r'Streptococcus gallolyticus', r'Streptococcus bovis', r'S\.\s*bovis'
+    ]
+
+    reg_purple_genes = [
+        r'MDR-TB', r'Pre-XDR-TB', r'Pre-XDR', r'XDR-TB', r'RR-TB',
+        r'MSSA', r'MRSA', r'VISA', r'VRSA', r'VRE', r'ESBL', r'AmpC', r'CRE', r'CRAB', r'CRPA',
+        r'mecA', r'PBP2a', r'PBP', r'vanA', r'vanB', r'blaCTX-M', r'blaSHV', r'blaTEM',
+        r'blaKPC', r'blaNDM', r'blaOXA', r'katG', r'inhA', r'rpoB', r'pncA', r'embB',
+        r'atpE', r'gyrA', r'gyrB', r'rrs', r'23S rRNA', r'OprD', r'MexAB-OprM', r'Efflux pumps?',
+        r'DNA Gyrase', r'Topoisomerase IV', r'ATP Synthase', r'RNA Polymerase'
+    ]
 
     reg_green = [
         r'Drug of Choice', r'First-line DOC', r'First-line', r'DOC',
@@ -191,27 +254,6 @@ def apply_clinical_highlighting(text):
         r'GeneXpert MTB/RIF', r'GeneXpert', r'Line Probe Assay', r'LPA'
     ]
 
-    reg_purple = [
-        r'Streptococcus pneumoniae', r'S\.\s*pneumoniae', r'Streptococcus pyogenes', r'S\.\s*pyogenes',
-        r'Staphylococcus aureus', r'S\.\s*aureus', r'MSSA', r'MRSA', r'VISA', r'VRSA',
-        r'Enterococcus faecalis', r'E\.\s*faecalis', r'Enterococcus faecium', r'E\.\s*faecium', r'VRE',
-        r'Pseudomonas aeruginosa', r'P\.\s*aeruginosa', r'Acinetobacter baumannii', r'A\.\s*baumannii',
-        r'Klebsiella pneumoniae', r'K\.\s*pneumoniae', r'Escherichia coli', r'E\.\s*coli',
-        r'Neisseria meningitidis', r'N\.\s*meningitidis', r'Neisseria gonorrhoeae', r'N\.\s*gonorrhoeae',
-        r'Listeria monocytogenes', r'L\.\s*monocytogenes', r'Haemophilus influenzae', r'H\.\s*influenzae',
-        r'Mycobacterium tuberculosis', r'M\.\s*tuberculosis', r'Mycobacterium bovis', r'M\.\s*bovis',
-        r'Pasteurella multocida', r'Pasteurella spp\.', r'Pasteurella',
-        r'Eikenella corrodens', r'Eikenella spp\.', r'Eikenella',
-        r'Viridans Streptococci', r'Viridans Group Streptococci', r'Viridans strep',
-        r'Streptococcus gallolyticus', r'Streptococcus bovis', r'S\.\s*bovis',
-        r'MDR-TB', r'Pre-XDR-TB', r'Pre-XDR', r'XDR-TB', r'RR-TB',
-        r'ESBL', r'AmpC', r'CRE', r'CRAB', r'CRPA',
-        r'mecA', r'PBP2a', r'PBP', r'vanA', r'vanB', r'blaCTX-M', r'blaSHV', r'blaTEM',
-        r'blaKPC', r'blaNDM', r'blaOXA', r'katG', r'inhA', r'rpoB', r'pncA', r'embB',
-        r'atpE', r'gyrA', r'gyrB', r'rrs', r'23S rRNA', r'OprD', r'MexAB-OprM', r'Efflux pumps?',
-        r'DNA Gyrase', r'Topoisomerase IV', r'ATP Synthase', r'RNA Polymerase'
-    ]
-
     reg_blue = [
         r'Penicillin G', r'Penicillin', r'Ampicillin', r'Amoxicillin-Clavulanate', r'Amoxicillin/Clavulanate',
         r'Amoxicillin', r'Augmentin', r'Cloxacillin', r'Oxacillin', r'Nafcillin', r'Dicloxacillin',
@@ -228,28 +270,31 @@ def apply_clinical_highlighting(text):
         r'Levothyroxine', r'Dexamethasone', r'Remdesivir', r'Molnupiravir', r'Paxlovid', r'Favipiravir'
     ]
 
-    patterns = [
-        (C_GREEN, sorted(reg_green, key=len, reverse=True)),
-        (C_RED, sorted(reg_red, key=len, reverse=True)),
-        (C_AMBER, sorted(reg_amber, key=len, reverse=True)),
-        (C_PURPLE, sorted(reg_purple, key=len, reverse=True)),
-        (C_BLUE, sorted(reg_blue, key=len, reverse=True)),
-    ]
-
     placeholders = {}
     counter = [0]
-    def replace_with_span(m, color):
+    def make_span(m, color, is_italic=False):
         val = m.group(0)
         idx = counter[0]
         counter[0] += 1
         key = f"___HL_SPAN_{idx}___"
-        placeholders[key] = f'<b style="color:{color};">{val}</b>'
+        inner = f"<i>{val}</i>" if is_italic else val
+        placeholders[key] = f'<b style="color:{color};">{inner}</b>'
         return key
 
+    order = [
+        (C_GREEN, reg_green, False),
+        (C_RED, reg_red, False),
+        (C_AMBER, reg_amber, False),
+        (C_PURPLE, reg_purple_species, True), # Species are Italic + Bold Purple
+        (C_PURPLE, reg_purple_genes, False),
+        (C_BLUE, reg_blue, False)
+    ]
+
     current_text = escaped
-    for color, pat_list in patterns:
-        combined_regex = r'(?<![a-zA-Z0-9_\u0E00-\u0E7F])(' + '|'.join(pat_list) + r')(?![a-zA-Z0-9_\u0E00-\u0E7F])'
-        current_text = re.sub(combined_regex, lambda m: replace_with_span(m, color), current_text, flags=re.IGNORECASE)
+    for color, pat_list, is_it in order:
+        sorted_pats = sorted(pat_list, key=len, reverse=True)
+        combined_regex = r'(?<![a-zA-Z0-9_\u0E00-\u0E7F])(' + '|'.join(sorted_pats) + r')(?![a-zA-Z0-9_\u0E00-\u0E7F])'
+        current_text = re.sub(combined_regex, lambda m, c=color, it=is_it: make_span(m, c, it), current_text, flags=re.IGNORECASE)
 
     for key, span_html in placeholders.items():
         current_text = current_text.replace(key, span_html)
