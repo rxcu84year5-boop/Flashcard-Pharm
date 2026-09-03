@@ -1365,9 +1365,18 @@ function formatPlainTextToHtml(text) {
   if (escaped.indexOf('💡 [คำอธิบาย') !== -1) {
     escaped = escaped.replace(/💡\s*\[คำอธิบาย[^\n\]]*\]:?/gi, '<div style="background:#fffbeb; color:#92400e; border-left:3px solid #f59e0b; padding:6px 12px; border-radius:0 6px 6px 0; font-weight:600; margin:10px 0;">💡 คำอธิบายและจุดเน้นข้อสอบ:</div>');
   }
-  if (escaped.indexOf('▶ [') !== -1) {
-    escaped = escaped.replace(/▶\s*\[([^\n\]]+)\]:?/gi, '<div style="color:#0f172a; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; border-bottom:1px dashed #cbd5e1; padding-bottom:2px;">▶ $1</div>');
-  }
+  // Major Topic Headers (with or without brackets)
+  escaped = escaped.replace(/(^|[\r\n])▶\s*([^\r\n:]+:?)/g, function(match, prefix, content) {
+    var c = '#1e40af'; // Royal Blue default
+    if (content.indexOf('ดื้อ') !== -1 || content.indexOf('Resistance') !== -1 || content.indexOf('เตือน') !== -1) c = '#dc2626';
+    else if (content.indexOf('ไว') !== -1 || content.indexOf('Susceptible') !== -1 || content.indexOf('ยาหลัก') !== -1 || content.indexOf('Choice') !== -1) c = '#16a34a';
+    return prefix + '<div style="color:' + c + '; font-weight:700; font-size:0.98em; margin:10px 0 4px 0; border-bottom:1.5px solid ' + c + '33; padding-bottom:3px;">▶ ' + content + '</div>';
+  });
+
+  escaped = escaped.replace(/(^|[\r\n])✦\s*([^\r\n:]+:?)/g, function(match, prefix, content) {
+    return prefix + '<div style="color:#d97706; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; background:#fffbeb; padding:3px 8px; border-radius:4px; border-left:3px solid #d97706;">✦ ' + content + '</div>';
+  });
+
   escaped = escaped.replace(/(^|[\r\n])([ก-ง]\.)\s+/g, '$1<div style="margin:4px 0 4px 8px;"><b style="color:#1e293b; background:#f1f5f9; padding:1px 6px; border-radius:4px; margin-right:4px;">$2</b> ');
   escaped = escaped.replace(/↳\s+/g, '<span style="color:#64748b; font-weight:bold; margin-right:4px;">↳</span>');
 
