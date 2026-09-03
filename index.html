@@ -943,7 +943,6 @@
       </div>
       
       <div class="topbar-right">
-      <button class="icon-btn" id="btnLiveSync" title="ซิงค์ข้อมูล Real-time สดจาก Google Sheet" onclick="triggerManualLiveSync()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg></button>
         <button class="icon-btn" onclick="openGuidelineModal()" title="คู่มือการใช้งาน & คีย์ลัด">
           <span style="font-size:13px;">📖</span>
         </button>
@@ -1353,36 +1352,24 @@ function formatPlainTextToHtml(text) {
   if (!text) return '';
   var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-  // 1. Header Badges & Callout Formatting
-  escaped = escaped.replace(
-    /▶\s*\[(ข้อสอบจริง\s*\/\s*Real Exam Question|ข้อสอบจริง|Real Exam Question)\]:?/gi,
-    '<div style="display:inline-flex; align-items:center; gap:5px; background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">🎯 ข้อสอบจริง / Real Exam</div><br>'
-  );
-  escaped = escaped.replace(
-    /(▶\s*\[(Clinical Case Scenario|Clinical Case)\]:?|Case\s*\[(Easy|Hard|Medium)[^\]]*\]:?)/gi,
-    '<div style="display:inline-flex; align-items:center; gap:5px; background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">📋 Clinical Case Scenario</div><br>'
-  );
-  escaped = escaped.replace(
-    /▶\s*\[(เฉลย)\]:?/gi,
-    '<div style="display:inline-flex; align-items:center; gap:5px; background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; padding:2px 8px; border-radius:5px; font-weight:700; font-size:0.9em; margin-bottom:6px;">✅ เฉลย:</div>'
-  );
-  escaped = escaped.replace(
-    /💡\s*\[(คำอธิบายและจุดเน้นข้อสอบ|คำอธิบาย[^\]]*)\]:?/gi,
-    '<div style="background:#fffbeb; color:#92400e; border-left:3px solid #f59e0b; padding:6px 12px; border-radius:0 6px 6px 0; font-weight:600; margin:10px 0;">💡 คำอธิบายและจุดเน้นข้อสอบ:</div>'
-  );
-  escaped = escaped.replace(
-    /▶\s*\[([^\]]+)\]:?/gi,
-    '<div style="color:#0f172a; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; border-bottom:1px dashed #cbd5e1; padding-bottom:2px;">▶ $1</div>'
-  );
-  escaped = escaped.replace(
-    /(^|
-)([ก-ง]\.)\s+/g,
-    '$1<div style="margin:4px 0 4px 8px;"><b style="color:#1e293b; background:#f1f5f9; padding:1px 6px; border-radius:4px; margin-right:4px;">$2</b> '
-  );
-  escaped = escaped.replace(
-    /↳\s+/g,
-    '<span style="color:#64748b; font-weight:bold; margin-right:4px;">↳</span>'
-  );
+  // 1. Badges & Callout Formatting
+  if (escaped.indexOf('▶ [ข้อสอบจริง') !== -1 || escaped.indexOf('▶ [Real Exam') !== -1) {
+    escaped = escaped.replace(/▶\s*\[(ข้อสอบจริง[^\n\]]*|Real Exam[^\n\]]*)\]:?/gi, '<div style="display:inline-flex; align-items:center; gap:5px; background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">🎯 ข้อสอบจริง / Real Exam</div><br>');
+  }
+  if (escaped.indexOf('▶ [Clinical Case') !== -1 || escaped.indexOf('Case [') !== -1) {
+    escaped = escaped.replace(/(▶\s*\[Clinical Case[^\n\]]*\]:?|Case\s*\[[^\n\]]*\]:?)/gi, '<div style="display:inline-flex; align-items:center; gap:5px; background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:3px 10px; border-radius:6px; font-weight:700; font-size:0.88em; margin-bottom:8px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">📋 Clinical Case Scenario</div><br>');
+  }
+  if (escaped.indexOf('▶ [เฉลย') !== -1) {
+    escaped = escaped.replace(/▶\s*\[เฉลย\]:?/gi, '<div style="display:inline-flex; align-items:center; gap:5px; background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; padding:2px 8px; border-radius:5px; font-weight:700; font-size:0.9em; margin-bottom:6px;">✅ เฉลย:</div>');
+  }
+  if (escaped.indexOf('💡 [คำอธิบาย') !== -1) {
+    escaped = escaped.replace(/💡\s*\[คำอธิบาย[^\n\]]*\]:?/gi, '<div style="background:#fffbeb; color:#92400e; border-left:3px solid #f59e0b; padding:6px 12px; border-radius:0 6px 6px 0; font-weight:600; margin:10px 0;">💡 คำอธิบายและจุดเน้นข้อสอบ:</div>');
+  }
+  if (escaped.indexOf('▶ [') !== -1) {
+    escaped = escaped.replace(/▶\s*\[([^\n\]]+)\]:?/gi, '<div style="color:#0f172a; font-weight:700; font-size:0.95em; margin:8px 0 4px 0; border-bottom:1px dashed #cbd5e1; padding-bottom:2px;">▶ $1</div>');
+  }
+  escaped = escaped.replace(/(^|[\r\n])([ก-ง]\.)\s+/g, '$1<div style="margin:4px 0 4px 8px;"><b style="color:#1e293b; background:#f1f5f9; padding:1px 6px; border-radius:4px; margin-right:4px;">$2</b> ');
+  escaped = escaped.replace(/↳\s+/g, '<span style="color:#64748b; font-weight:bold; margin-right:4px;">↳</span>');
 
   var C_GREEN  = '#16a34a'; // DOC & Regimens
   var C_RED    = '#dc2626'; // Warnings, Contraindications, Severe ADRs
@@ -1493,10 +1480,66 @@ function formatPlainTextToHtml(text) {
 // ─── TRUE REALTIME FETCH: ZERO CACHE (Always fetches newest edits from Google Sheet) ───
 async function fetchLiveSheetCards(sheetName) {
   try {
+    // 1. Primary: Google Sheets GViz endpoint (Super fast: 150-250ms, direct from Google, no cold start)
+    try {
+      var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
+      var resp = await fetch(url, { cache: 'no-store' });
+      if (resp.ok) {
+        var text = await resp.text();
+        var jsonStr = text.substring(text.indexOf('{'), text.lastIndexOf('}') + 1);
+        var data = JSON.parse(jsonStr);
+        var rows = data.table.rows;
+        if (rows && rows.length > 0) {
+          var cards = [];
+          rows.forEach(function(r, idx) {
+            var c = r.c;
+            if (!c) return;
+            var getVal = function(i) { return (c[i] && c[i].v != null ? String(c[i].v).trim() : ''); };
+            var itemNo = getVal(0);
+            var question = getVal(1);
+            var qImage = getVal(2);
+            var answer = getVal(3);
+            var aImage = getVal(4);
+            var subTopic = getVal(5);
+            var note = getVal(6);
+            var track = getVal(7) || 'Clinic';
+
+            if (!question && !answer) return;
+            if (itemNo.indexOf('กลับหน้าสารบัญ') !== -1 || question.indexOf('คำถาม') !== -1) return;
+
+            cards.push({
+              id: sheetName + '::' + (idx + 3),
+              itemNo: itemNo || String(idx + 1),
+              group: sheetName,
+              subTopic: subTopic || sheetName,
+              track: track,
+              question: formatPlainTextToHtml(question),
+              questionImage: (qImage.indexOf('http') === 0 || qImage.indexOf('images/') === 0 || qImage.indexOf('drive.google') !== -1) ? qImage : '',
+              answer: formatPlainTextToHtml(answer),
+              answerImage: (aImage.indexOf('http') === 0 || aImage.indexOf('images/') === 0 || aImage.indexOf('drive.google') !== -1) ? aImage : '',
+              note: note
+            });
+          });
+          if (cards.length > 0) return cards;
+        }
+      }
+    } catch(gvizErr) {
+      console.warn('GViz fetch error, trying GAS fallback:', gvizErr);
+    }
+
+    // 2. Secondary: Google Apps Script Web App (Fallback with 3s timeout)
     if (window.GAS_WEBAPP_URL) {
       try {
+        var fetchOpts = {};
+        var timer = null;
+        if (typeof AbortController !== 'undefined') {
+          var ctrl = new AbortController();
+          timer = setTimeout(function() { ctrl.abort(); }, 3000);
+          fetchOpts.signal = ctrl.signal;
+        }
         var gasUrl = window.GAS_WEBAPP_URL + '?action=getCards&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
-        var gasResp = await fetch(gasUrl);
+        var gasResp = await fetch(gasUrl, fetchOpts);
+        if (timer) clearTimeout(timer);
         if (gasResp.ok) {
           var gasJson = await gasResp.json();
           if (gasJson.success && gasJson.cards && gasJson.cards.length > 0) {
@@ -1504,51 +1547,11 @@ async function fetchLiveSheetCards(sheetName) {
           }
         }
       } catch(gasErr) {
-        console.warn('GAS fetch fallback to gviz:', gasErr);
+        console.warn('GAS fetch fallback failed:', gasErr);
       }
     }
 
-    var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
-    var resp = await fetch(url, { cache: 'no-store' });
-    if (!resp.ok) return null;
-    var text = await resp.text();
-    var jsonStr = text.substring(text.indexOf('{'), text.lastIndexOf('}') + 1);
-    var data = JSON.parse(jsonStr);
-    var rows = data.table.rows;
-    if (!rows || !rows.length) return null;
-
-    var cards = [];
-    rows.forEach(function(r, idx) {
-      var c = r.c;
-      if (!c) return;
-      var getVal = function(i) { return (c[i] && c[i].v != null ? String(c[i].v).trim() : ''); };
-      var itemNo = getVal(0);
-      var question = getVal(1);
-      var qImage = getVal(2);
-      var answer = getVal(3);
-      var aImage = getVal(4);
-      var subTopic = getVal(5);
-      var note = getVal(6);
-      var track = getVal(7) || 'Clinic';
-
-      if (!question && !answer) return;
-      if (itemNo.indexOf('กลับหน้าสารบัญ') !== -1 || question.indexOf('คำถาม') !== -1) return;
-
-      cards.push({
-        id: sheetName + '::' + (idx + 3),
-        itemNo: itemNo || String(idx + 1),
-        group: sheetName,
-        subTopic: subTopic || sheetName,
-        track: track,
-        question: formatPlainTextToHtml(question),
-        questionImage: (qImage.indexOf('http') === 0 || qImage.indexOf('drive.google') !== -1) ? qImage : '',
-        answer: formatPlainTextToHtml(answer),
-        answerImage: (aImage.indexOf('http') === 0 || aImage.indexOf('drive.google') !== -1) ? aImage : '',
-        note: note
-      });
-    });
-
-    return cards;
+    return null;
   } catch(err) {
     console.warn('Realtime fetch offline fallback:', err);
     return null;
@@ -1699,10 +1702,10 @@ window.google.script.run = (function() {
               return c.subTopic === subTopic || (c.subTopic && c.subTopic.indexOf(subTopic) !== -1);
             });
           }
-          // Immediately display instant offline cards
+          // Immediately display instant offline cards (0ms)
           if (successFn) successFn(cards);
 
-          // And immediately fetch live Google Sheet without cache!
+          // And background-fetch live Google Sheet without freezing UI!
           fetchLiveSheetCards(catName).then(function(liveCards) {
             if (liveCards && liveCards.length > 0) {
               window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
@@ -1742,9 +1745,11 @@ window.google.script.run = (function() {
     };
     return r;
   }
-  return createRunner(function() {}, function() {});
+  return createRunner(null, null);
 })();
+
 </script>
+
 <script>
 
   // ─── HIGH-PERFORMANCE RESPONSIVE CACHE (SMART AUTO-INVALIDATION) ───
