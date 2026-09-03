@@ -1324,7 +1324,6 @@
 <script src="flashcard-data-offline.js"></script>
 <script>
 window.GOOGLE_SHEET_ID = '1U9JfDwzg-UthEBSjdZBy0p0Y_MaNojZm6nYo74IO5Fg';
-window.GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxryKB5BKgLiR-SgVxthDDHwi5CljvrdxnZhA7hD6MxI8OIE07TieMbPNF-_MBPz8Bw/exec';
 
 const USERS_STORAGE_KEY = 'pharmacu_users_db_v2';
 const SESSIONS_STORAGE_KEY = 'pharmacu_sessions_db_v2';
@@ -1364,22 +1363,6 @@ function formatPlainTextToHtml(text) {
 // ─── TRUE REALTIME FETCH: ZERO CACHE (Always fetches newest edits from Google Sheet) ───
 async function fetchLiveSheetCards(sheetName) {
   try {
-    // 1. Primary: Google Apps Script Web App (ดึงรูปภาพในเซลล์สดๆ + สี RichText 100%)
-    if (window.GAS_WEBAPP_URL) {
-      try {
-        var gasUrl = window.GAS_WEBAPP_URL + '?action=getCards&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
-        var gasResp = await fetch(gasUrl);
-        if (gasResp.ok) {
-          var gasJson = await gasResp.json();
-          if (gasJson.success && gasJson.cards && gasJson.cards.length > 0) {
-            return gasJson.cards;
-          }
-        }
-      } catch(gasErr) {
-        console.warn('GAS fetch fallback to gviz:', gasErr);
-      }
-    }
-
     var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
     var resp = await fetch(url, { cache: 'no-store' });
     if (!resp.ok) return null;
