@@ -130,7 +130,7 @@ window.OFFLINE_CATEGORIES = [
   {
     "name": "16. Others & Toxic",
     "track": "Clinic",
-    "count": 330,
+    "count": 356,
     "subtopics": [
       "Antimicrobial Resistance (AMR)",
       "Bone & Joint / SSTI / Rabies",
@@ -3239,18 +3239,6 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
-      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
-      "questionImage": "",
-      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
-      "answerImage": "",
-      "note": "PT2 อ.แสง"
-    },
-    {
-      "id": "16. Others & Toxic::11",
-      "itemNo": "9",
-      "group": "16. Others & Toxic",
-      "subTopic": "Antimicrobial Resistance (AMR)",
-      "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span> ต่อยา <span style=\"color:#0284c7\"><b>Colistin</b></span> หมายถึงอะไร และส่งผลต่อการรักษาอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Colistin</b></span> แฝงตัวอยู่ปะปนกับประชากรส่วนใหญ่ที่ตรวจแล็บพบว่าไวต่อยา<br><br>▶ ผลกระทบทางคลินิก (Clinical Impact):<br>   ↳ หากใช้ยา <span style=\"color:#0284c7\"><b>Colistin</b></span> เพียงตัวเดียวรักษา (Monotherapy) ยาจะฆ่าเชื้อส่วนใหญ่ที่ไว แต่เชื้อกลุ่มย่อยที่<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>จะเพิ่มจำนวนขึ้นมาแทนที่อย่างรวดเร็ว ทำให้การรักษาล้มเหลว<br><br>▶ แนวทางแก้ไข:<br>   ↳ ต้องใช้ยาปฏิชีวนะแบบผสมผสาน (Combination Therapy) เสมอ เช่น <span style=\"color:#0284c7\"><b>Colistin</b></span> ร่วมกับ <span style=\"color:#0284c7\"><b>Meropenem</b></span> High-dose หรือ <span style=\"color:#0284c7\"><b>Sulbactam</b></span>",
@@ -3258,8 +3246,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::12",
-      "itemNo": "10",
+      "id": "16. Others & Toxic::11",
+      "itemNo": "9",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3270,8 +3258,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::13",
-      "itemNo": "11",
+      "id": "16. Others & Toxic::12",
+      "itemNo": "10",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3282,8 +3270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::14",
-      "itemNo": "12",
+      "id": "16. Others & Toxic::13",
+      "itemNo": "11",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3294,8 +3282,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::15",
-      "itemNo": "13",
+      "id": "16. Others & Toxic::14",
+      "itemNo": "12",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3306,8 +3294,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::16",
-      "itemNo": "14",
+      "id": "16. Others & Toxic::15",
+      "itemNo": "13",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3318,8 +3306,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::17",
-      "itemNo": "15",
+      "id": "16. Others & Toxic::16",
+      "itemNo": "14",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3330,8 +3318,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::18",
-      "itemNo": "16",
+      "id": "16. Others & Toxic::17",
+      "itemNo": "15",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3342,8 +3330,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture AMR Part 1: Carbapenem High-dose Extended Infusion"
     },
     {
-      "id": "16. Others & Toxic::19",
-      "itemNo": "17",
+      "id": "16. Others & Toxic::18",
+      "itemNo": "16",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3354,8 +3342,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture AMR Part 1: D-test interpretation & erm gene"
     },
     {
-      "id": "16. Others & Toxic::20",
-      "itemNo": "18",
+      "id": "16. Others & Toxic::19",
+      "itemNo": "17",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -3364,6 +3352,18 @@ window.OFFLINE_CARDS = {
       "answer": "<span style=\"color:#7c3aed\"><i><b>VISA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Intermediate <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: 4–8 mcg/mL<br>   ↳ กลไก: เกิดจาก ผนังเซลล์หนาตัวผิดปกติ (Thickened Peptidoglycan Cell Wall) ดักจับโมเลกุล <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไว้ด้านนอกจนไม่สามารถซึมเข้าถึงเป้าหมายได้<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose 8–10 mg/kg), <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span><br><br>▶ [<span style=\"color:#7c3aed\"><i><b>VRSA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: &gt;= 16 mcg/mL<br>   ↳ กลไก: ได้รับ Plasmid ถ่ายทอดยีน vanA มาจากเชื้อ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>) เปลี่ยนปลายสาย D-Ala-D-Ala เป็น D-Ala-D-Lac ทำให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หมดความสามารถในการจับเป้าหมาย<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>",
       "answerImage": "",
       "note": "Lecture AMR Part 1: VISA vs VRSA Mechanisms & Breakpoints"
+    },
+    {
+      "id": "16. Others & Toxic::20",
+      "itemNo": "18",
+      "group": "16. Others & Toxic",
+      "subTopic": "Antimicrobial Resistance (AMR)",
+      "track": "Clinic",
+      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
+      "questionImage": "",
+      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
+      "answerImage": "",
+      "note": "PT2 อ.แสง"
     },
     {
       "id": "16. Others & Toxic::21",
@@ -3469,7 +3469,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> และยาทางเลือกสำหรับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span> (<span style=\"color:#7c3aed\"><i><b>VRE</b></i></span>) มีอะไรบ้าง และมีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด 600 mg IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด <span style=\"color:#d97706\"><b>600 mg</b></span> IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -3577,7 +3577,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Osteomyelitis ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> รับประทานต่อเนื่องมาเป็นเวลา 5 สัปดาห์ ผู้ป่วยเริ่มมีอาการชาปลายนิ้วมือและนิ้วเท้าทั้งสองข้าง ควรสงสัยภาวะใดและจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -3649,7 +3649,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Complex Resistance]</b></span>: ผู้ป่วยชายอายุ 68 ปี ในหอผู้ป่วยหนัก (ICU) ใส่สายสวนปัสสาวะและท่อช่วยหายใจ มีภาวะ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ผลเพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> ที่ดื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> และ <span style=\"color:#0284c7\"><b>Meropenem</b></span> (MIC &gt; 8 mcg/mL) ตรวจพบยีนสร้างเอนไซม์ NDM-1 (New Delhi Metallo-beta-lactamase) มีแนวทางการเลือกใช้ยาปฏิชีวนะอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading 200 mg แล้วตามด้วย 100 mg q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading <span style=\"color:#d97706\"><b>200 mg</b></span> แล้วตามด้วย 100 mg q 12h)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย CRE/NDM)"
     },
@@ -3697,7 +3697,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในผู้ป่วยติดเชื้อ HIV ที่มีระดับ CD4 &lt; 200 cells/mm3 ข้อบ่งชี้และสูตรยาในการป้องกันโรคติดเชื้อฉวยโอกาส (Opportunistic Infections Prophylaxis) หลัก 3 โรคมีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,200 mg PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,<span style=\"color:#d97706\"><b>200 mg</b></span> PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
       "answerImage": "",
       "note": "PT2 โพย Opportunistic Infections"
     },
@@ -3719,18 +3719,6 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
-      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
-      "questionImage": "",
-      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::51",
-      "itemNo": "49",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) แตกต่างจาก Late-Onset HAP/VAP (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>) อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มักเกิดจากเชื้อแบคทีเรียที่ยังไวต่อยา (Community-acquired flora)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span>, <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Susceptible <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>), ไวรัสทางเดินหายใจ<br><br>▶ 2. Late-Onset (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มีความเสี่ยงสูงมากต่อการติดเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในโรงพยาบาล (MDR Hospital Pathogens)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> (ESBL/CRE), <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)",
@@ -3738,8 +3726,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::52",
-      "itemNo": "50",
+      "id": "16. Others & Toxic::51",
+      "itemNo": "49",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3750,8 +3738,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::53",
-      "itemNo": "51",
+      "id": "16. Others & Toxic::52",
+      "itemNo": "50",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3762,8 +3750,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::54",
-      "itemNo": "52",
+      "id": "16. Others & Toxic::53",
+      "itemNo": "51",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3774,8 +3762,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::55",
-      "itemNo": "53",
+      "id": "16. Others & Toxic::54",
+      "itemNo": "52",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3786,20 +3774,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::56",
-      "itemNo": "54",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::57",
-      "itemNo": "55",
+      "id": "16. Others & Toxic::55",
+      "itemNo": "53",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3810,8 +3786,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::58",
-      "itemNo": "56",
+      "id": "16. Others & Toxic::56",
+      "itemNo": "54",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3822,8 +3798,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::59",
-      "itemNo": "57",
+      "id": "16. Others & Toxic::57",
+      "itemNo": "55",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3834,8 +3810,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::60",
-      "itemNo": "58",
+      "id": "16. Others & Toxic::58",
+      "itemNo": "56",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3846,8 +3822,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::61",
-      "itemNo": "59",
+      "id": "16. Others & Toxic::59",
+      "itemNo": "57",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3858,8 +3834,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::62",
-      "itemNo": "60",
+      "id": "16. Others & Toxic::60",
+      "itemNo": "58",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -3868,6 +3844,30 @@ window.OFFLINE_CARDS = {
       "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span>) หรืออุณหภูมิกายต่ำผิดปกติ (<span style=\"color:#d97706\"><b>&lt; 36.0°C</b></span>), หนาวสั่น<br>   ↳ ทางเดินหายใจ: ไอมีเสมหะขุ่นเปลี่ยนสีเป็นหนอง (Purulent Tracheal Secretions / Discolored Sputum), เจ็บแน่นหน้าอก (Pleuritic chest pain), หายใจหอบเหนื่อย (Tachypnea, Dyspnea)<br>   ↳ ฟังปอด (Chest Auscultation): ได้ยินเสียงผิดปกติ เช่น Crepitation (Crackle), Rhonchi หรือ Tubular breath sounds<br><br>▶ [ผลตรวจทางห้องปฏิบัติการและรังสีวิทยา (Lab &amp; Imaging)]:<br>   1. Complete Blood Count (CBC): พบ Leukocytosis (<span style=\"color:#d97706\"><b>WBC &gt; 10,000</b></span>–12,000 /mcL) โดยมี <span style=\"color:#d97706\"><b>Neutrophils</b></span> (<span style=\"color:#d97706\"><b>PMN</b></span>) เด่น &gt; 80% หรือมี Band form &gt; 10% (Left shift) หรือ Leukopenia (&lt; 4,000 /mcL)<br>   2. การแลกเปลี่ยนก๊าซ (<span style=\"color:#7c3aed\"><i><b>Gas</b></i></span> Exchange): ค่า <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> ลดลง (Hypoxemia / Oxygen desaturation)<br>   3. Chest X-Ray (CXR): ตรวจพบ New หรือ Progressive Pulmonary Infiltrate, <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation หรือ Cavitation",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Clinical Presentation & Diagnostic Triad"
+    },
+    {
+      "id": "16. Others & Toxic::61",
+      "itemNo": "59",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
+      "questionImage": "",
+      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
+    },
+    {
+      "id": "16. Others & Toxic::62",
+      "itemNo": "60",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
     },
     {
       "id": "16. Others & Toxic::63",
@@ -3973,7 +3973,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับผู้ป่วย VAP ที่มีความเสี่ยงสูงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -3985,7 +3985,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา Aspiration Pneumonia คือยาใด และมีทางเลือกใดในผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> 400 mg IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4009,7 +4009,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยนอน รพ. มา <span style=\"color:#d97706\"><b>7 วัน</b></span> เกิดไข้สูง ไอเสมหะขุ่น หอบเหนื่อย X-ray ปอดพบฝ้าขาวใหม่ ตรวจเสมหะพบ Gram-negative bacilli กำลังรอผลเพาะเชื้อ ควรเริ่มยา Empiric อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h) ร่วมด้วย",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h) ร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4081,7 +4081,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>แพทย์ต้องการสั่งยา <span style=\"color:#0284c7\"><b>Daptomycin</b></span> 8 mg/kg IV OD เพื่อรักษาผู้ป่วย VAP ที่เพาะเชื้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> เภสัชกรควรให้คำแนะนำทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
+      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4129,7 +4129,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "ผู้ป่วย Hospital-Acquired Pneumonia (HAP) หรือ VAP ในกลุ่มที่มีความเสี่ยงสูง (High Mortality Risk หรือ มีความเสี่ยงต่อ MDR Pathogens) มีเกณฑ์ตัดสินใจอย่างไร และสูตรยา Empiric Regimen ต้องประกอบด้วยยากี่ตัว กลุ่มใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
+      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Empiric Triple coverage for MDR Risk"
     },
@@ -4201,7 +4201,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Late-Onset VAP]</b></span>: ผู้ป่วยชายอายุ 60 ปี ใส่ท่อช่วยหายใจและเครื่องช่วยหายใจใน ICU มานาน 8 วัน เกิดไข้สูง 39.2 C เสมหะมีหนองข้น ดูดเสมหะได้ปริมาณมาก X-ray ปอดพบรอยโรคฝ้าขาวใหม่ (New Infiltrate) ที่ปอดทั้งสองข้าง มีประวัติได้รับ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มาก่อนเมื่อ <span style=\"color:#d97706\"><b>5 วัน</b></span>ที่แล้ว จงวางแผนสูตรยาปฏิชีวนะเชิงประจักษ์ (Empiric VAP Regimen)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย VAP)"
     },
@@ -4417,7 +4417,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group En<span style=\"color:#16a34a\"><b>doc</b></span>arditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4465,7 +4465,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis (IE) มีอะไรบ้าง แบ่งตามกลุ่มความเสี่ยง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรกหลังผ่าตัด)<br><br>▶ กลุ่มความเสี่ยงปานกลาง (Moderate Risk):<br>   ↳ โรคลิ้นหัวใจ (Valvular Heart Disease) เช่น Mitral Valve Prolapse ที่มีลิ้นหัวใจรั่ว, Rheumatic Heart Disease<br>   ↳ Hypertrophic Cardiomy<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4585,7 +4585,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรก<br>   4. ผู้ได้รับการปลูกถ่ายหัวใจแล้วลิ้นหัวใจทำงานผิดปกติ (Cardiac Transplant with Valvul<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO (เด็ก: 20 mg/kg)",
       "answerImage": "",
       "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
     },
@@ -4729,7 +4729,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ลิ้นหัวใจเทียม เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Candida albicans</b></i></span> มีแนวทางการรักษาด้วยยาและการผ่าตัดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-800 mg PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
+      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-<span style=\"color:#d97706\"><b>800 mg</b></span> PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4777,7 +4777,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
@@ -4849,7 +4849,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Dental Prophylaxis]</b></span>: ผู้ป่วยชายอายุ 55 ปี เคยผ่าตัดเปลี่ยนลิ้นหัวใจเป็นลิ้นเทียมชนิดโลหะ (Mechanical Aortic Valve) เมื่อ 2 ปีก่อน กำลังจะไปพบทันตแพทย์เพื่อทำหัตถการถอนฟันคุดและขูดหินปูน มีประวัติแพ้ยา <span style=\"color:#0284c7\"><b>Penicillin</b></span> แบบเกิดผื่นลมพิษ (Urticaria) ทันที ควรให้ยาปฏิชีวนะป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
@@ -5209,7 +5209,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-200 mg/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
+      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5221,7 +5221,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ยา <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> อย่างเด็ดขาดในทารกแรกเกิด (Neonates อายุ &lt; 1 เดือน / &lt; 28 วัน) ที่สงสัยภาวะเยื่อหุ้มสมองอักเสบ และควรเลือกใช้ยาใดแทน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–200 mg/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
+      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
       "answerImage": "",
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
@@ -5293,7 +5293,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "ยาปฏิชีวนะที่แนะนำสำหรับการให้เพื่อป้องกัน (Chemoprophylaxis) ในผู้สัมผัสใกล้ชิดผู้ป่วย Meningococcal Meningitis มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5305,7 +5305,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5317,7 +5317,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Anaphylaxis) คือสูตรใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5341,7 +5341,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>นักศึกษาในหอพักได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis รูมเมทที่พักในห้องเดียวกันควรได้รับการป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5389,7 +5389,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -5437,7 +5437,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> แตกต่างจาก <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> อย่างไร และหญิงตั้งครรภ์ควรใช้ยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
       "answerImage": "",
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
@@ -5473,7 +5473,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> มีเกณฑ์และสูตรยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
       "answerImage": "",
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
@@ -5497,7 +5497,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Meningococcal Contact Prophylaxis]</b></span>: นักศึกษาหญิงอายุ 20 ปี พักในหอพักห้องเดียวกับเพื่อนที่เพิ่งได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis (<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span>) ผู้สัมผัสใกล้ชิดรายนี้ควรได้รับยาป้องกัน (Chemoprophylaxis) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
+      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
@@ -5665,7 +5665,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
       "questionImage": "",
-      "answer": "▶ อาการทางคลินิกที่พบบ่อยที่สุด:<br>   ↳ 1. อ่อนเพลียเรื้อรัง เหนื่อยง่าย (Chronic Fatigue): พบบ่อยอันดับ 1<br>   ↳ 2. อาการหมดแรงทรุดลงหลังออกแรงเพียงเล็กน้อย (Post-Exertional Malaise: PEM)<br>   ↳ 3. ภาวะสมองล้า (Brain Fog): มึนงง สมาธิสั้น คิดช้า ความจำระยะสั้นลดลง<br>   ↳ 4. หายใจไม่อิ่ม แน่นหน้าอก หอบเหนื่อย (Dyspnea / Breathlessness)<br>   ↳ 5. ปวดข้อและกล้ามเนื้อเรื้อรัง (Arthralgia / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
+      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
@@ -5725,7 +5725,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
       "answerImage": "",
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
@@ -5735,15 +5735,39 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: มีข้อจำกัดเรื่องการคุมกำเนิด (Contraception Requirements) สำหรับผู้หญิงและผู้ชายที่รับประทานยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ผู้หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ผู้ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดด้วยวิธีที่มีประสิทธิภาพ (ใช้ถุงยางอนามัย) ตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 3 เดือน (<span style=\"color:#d97706\"><b>90 วัน</b></span>) หลังหยุดยา เนื่องจากยายังอาจตกค้างในตัวอสุจิ!",
       "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
+      "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
       "id": "16. Others & Toxic::219",
       "itemNo": "217",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span>) และข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ต่อตับ]:<br>   ↳ การตรวจติดตาม: ต้องตรวจค่าเอนไซม์ตับ (ALT, AST, Total Bilirubin) ก่อนเริ่มยาและติดตามระหว่างการรักษา<br>   ↳ ข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที:<br>      1. เมื่อระดับ ALT หรือ AST เพิ่มสูงขึ้นมากกว่า 5 เท่าของค่าบนปกติ (<span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span>)<br>      2. หรือ เมื่อมีระดับ ALT เพิ่มขึ้นร่วมกับมีอาการตับอักเสบ หรือมีค่า Total Bilirubin / INR สูงขึ้น",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
+    },
+    {
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> ใน Room air หรือหายใจเร็ว (RR &gt;= 30 ครั้ง/นาที)<br>   ↳ 5. Critical (วิกฤต): ภาวะหายใจล้มเหลวเฉียบพลัน (ARDS), ช็อกจากการติดเชื้อ (<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5754,20 +5778,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ eGFR &gt;= 60 mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
       "answerImage": "",
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5778,32 +5802,68 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 (Disease Severity Classification) ตามแนวทางเวชปฏิบัติแบ่งเป็นกี่ระดับ และมีเกณฑ์ตัดสินอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span><br>   2. Moderate (ปานกลาง): มีอาการปอดอักเสบ (Pneumonia) ทางคลินิกหรือภาพถ่ายรังสี แต่ยัง ไม่ต้องการ ออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> ในรูมแอร์)<br>   3. Severe (รุนแรง): ปอดอักเสบร่วมกับ มีภาวะขาดออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>, หายใจเร็ว RR &gt; 30 ครั้ง/นาที, หรือ Lung Infiltrates &gt; 50%)<br>   4. Critical (วิกฤต): เกิดภาวะหายใจล้มเหลว (ARDS), <span style=\"color:#dc2626\"><b>Septic Shock</b></span>, หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "COVID-19 Disease Severity Classification"
+    },
+    {
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> x 4 แคปซูล) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่เคร่งครัดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
       "answerImage": "",
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาดของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) เกิดจากกลไกใด และมียาสำคัญใดบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 ที่แรงมาก (Potent CYP3A4 Inhibitor) ทำให้ระดับยาอื่นที่ผ่าน CYP3A4 สูงขึ้นจนเกิดพิษร้ายแรง<br><br>⚠️ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> DDIs - Red Alert 🔥)]:<br>   1. ยาลดไขมัน Statins: <span style=\"color:#0284c7\"><b>Simvastatin</b></span>, <span style=\"color:#0284c7\"><b>Lovastatin</b></span> (เสี่ยงเกิดกล้ามเนื้อสลาย <span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span> ➔ ให้หยุด Statin ชั่วคราวระหว่างกิน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   2. ยาต้านการแข็งตัวของเลือด: Rivaroxaban (เสี่ยงเลือดออกรุนแรง)<br>   3. ยาหัวใจ: Amiodarone, Flecainide (เสี่ยง Arrhythmia)<br>   4. ยาต้านชักกลุ่ม CYP Inducer: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span> (จะลดระดับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
+    },
+    {
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation) และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (ตัวเลือกแรกที่ปลอดภัยที่สุด): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) เป็นยาที่มีข้อมูลความปลอดภัยสูงสุดในหญิงตั้งครรภ์ทุกไตรมาส<br>   ↳ ทางเลือกที่สอง: <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (พิจารณาใช้เมื่อประโยชน์เหนือความเสี่ยง)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร รวมถึงเด็ก &lt; 18 ปี เด็ดขาด เนื่องจากมีพิษต่อการสร้างกระดูกและกระดูกอ่อนของทารก (Teratogenicity)!",
+      "answerImage": "",
+      "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
+    },
+    {
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5814,20 +5874,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
+      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5838,32 +5898,32 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5874,8 +5934,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5886,8 +5946,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5898,8 +5958,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5910,8 +5970,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5922,32 +5982,32 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยโรคไตวายเรื้อรังระยะสุดท้าย (CKD Stage 5, eGFR 18 mL/min) ติดเชื้อ COVID-19 วันที่ 3 มีไข้ ไอ SpO2 96% ควรเลือกยาต้านไวรัสใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (200 mg IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> 800 mg PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (<span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (<span style=\"color:#d97706\"><b>200 mg</b></span> Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5958,32 +6018,32 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ COVID-19 มีปอดอักเสบ SpO2 91% หอบเหนื่อย ต้องใช้ออกซิเจน Cannula 4 LPM ควรเริ่มแผนการรักษาด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Severe COVID-19 ได้รับ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> มา 24 ชม. แต่อาการทรุดลง ต้องใส่ High-flow Nasal Cannula ตรวจ CRP ได้ 120 mg/L ควรเพิ่มยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน <span style=\"color:#d97706\"><b>800 mg</b></span>) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5994,20 +6054,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่ได้รับ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ตรวจติดตามการทำงานของตับในวันที่ 3 พบค่า ALT สูงขึ้นเป็น 340 U/L (เดิม 35 U/L, ค่าปกติ &lt; 50 U/L) ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced Hepatotoxicity / DILI)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced <span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span> / <span style=\"color:#dc2626\"><b>DILI</b></span>)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6018,8 +6078,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6030,56 +6090,104 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "แนวทางการรักษาผู้ป่วย COVID-19 ในระยะรุนแรง (Severe: SpO2 &lt; 94%) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
+      "question": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> รูมแอร์, ต้องการ O2 Low-flow)]:<br>   ↳ ให้ ยาต้านไวรัสร่วมกับสเตียรอยด์:<br>     • <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
       "answerImage": "",
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>) ในผู้ป่วย COVID-19 คืออะไร และเหตุใดจึงห้ามให้ในกลุ่มอาการเล็กน้อย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>]:<br>   ↳ ข้อบ่งชี้: ให้เฉพาะในผู้ป่วยระดับ Severe หรือ Critical ที่ ต้องการออกซิเจนเสริม (Supplemental O2) หรือใช้เครื่องช่วยหายใจเท่านั้น<br>   ↳ ขนาดยามาตรฐาน: <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>❌ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในกลุ่ม Mild / Moderate (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ห้ามให้ สเตียรอยด์ในผู้ป่วยที่ <span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> และไม่ได้ใช้ออกซิเจนเสริม เพราะการให้เร็วเกินไปจะ กดภูมิต้านทาน ทำให้ร่างกายกำจัดเชื้อไวรัสช้าลงและเพิ่มอัตราการเสียชีวิต!",
+      "answerImage": "",
+      "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
+    },
+    {
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>): มีข้อบ่งชี้ ขนาดยาปกติ และการปรับขนาดยาในผู้ป่วยโรคไต (Renal Impairment) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (เริ่มภายใน <span style=\"color:#d97706\"><b>5 วัน</b></span>แรกของอาการ)]:<br>   ↳ การทำงานของไตปกติ (<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (พร้อมหรือไม่พร้อมอาหารก็ได้)<br>   ↳ ไตบกพร่องปานกลาง (<span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min): ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ไตรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min): <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> / Avoid) เนื่องจากยังไม่มีข้อมูลขนาดยาที่ปลอดภัย",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
+    },
+    {
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) คืออะไร และผู้ป่วยมักบ่นถึงอาการใดมากที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   1. <span style=\"color:#dc2626\"><b>Dysgeusia</b></span> (การรับรสชาติผิดปกติ): ผู้ป่วยมากกว่า 6% จะรู้สึก &#039;รสขมจัดหรือรสโลหะในปาก&#039; (Metallic/Bitter Taste) ตลอดการรับประทานยา (เป็นผลจากตัวยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เอง สามารถหายได้เองหลังหยุดยา แนะนำให้จิบน้ำหรืออมลูกอมเพื่อบรรเทา)<br>   2. ถ่ายเหลว / ท้องเสีย (Diarrhea ~3%)<br>   3. ความดันโลหิตเพิ่มขึ้นชั่วคราว (Hypertension)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
+    },
+    {
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: มีกลไกการออกฤทธิ์ ขั้นตอนการเตรียมยาฉีด (IV Preparation) และระยะเวลาการรักษาในผู้ป่วยนอก vs ผู้ป่วยในอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>]:<br>   ↳ กลไก: เป็น Prodrug ยับยั้งเอนไซม์ RNA-dependent RNA Polymerase (RdRp) ของไวรัส<br>   ↳ ผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient Mild-Moderate): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D3 (รวม 3 วัน เริ่มภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>ของอาการ)<br>   ↳ ผู้ป่วยในที่ต้องการออกซิเจน (Inpatient Severe): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [ขั้นตอนการเตรียมยา (IV Preparation)]:<br>   ↳ ละลายผงยา Lyophilized powder 100 mg ด้วย Sterile Water 19 mL ➔ เจือจางใน NSS หรือ D5W ➔ Drip ทางหลอดเลือดดำช้าๆ นาน 30–120 นาที",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
+    },
+    {
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Paxlovid Renal Dosing]</b></span>: ผู้ป่วยหญิงอายุ 62 ปี เป็นโรคเบาหวานและโรคไตเรื้อรัง (eGFR 45 mL/min) ติดเชื้อ COVID-19 วันที่ 2 มีอาการไอ มีไข้ O2 Sat 96% มีข้อบ่งชี้ในการได้รับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จะต้องปรับขนาดยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า eGFR &gt;= 60 mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Paxlovid Drug Interactions]</b></span>: ผู้ป่วยชายอายุ 65 ปี ตรวจพบ ATK ผลบวก COVID-19 มีอาการไอ เจ็บคอ มีไข้มา 2 วัน O2 Saturation 97% มีโรคประจำตัวคือ โรคหัวใจเต้นผิดจังหวะ (AF) รับประทานยา Amiodarone และ Rivaroxaban และโรคไขมันในเลือดสูงรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg แพทย์ต้องการสั่งจ่ายยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) จงวิเคราะห์ความปลอดภัยและข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Severe COVID-19 Therapy]</b></span>: ผู้ป่วยชายอายุ 58 ปี ติดเชื้อ COVID-19 มา 8 วัน มีอาการเหนื่อยหอบมากขึ้นเรื่อยๆ อุณหภูมิ 38.8 C, O2 Saturation 88% on Room Air, ผล X-ray ปอดพบ Bilateral Patchy Infiltrates เข้าได้กับ Severe COVID-19 Pneumonia จงวางแผนการรักษาด้วยยาตามแนวทางเวชปฏิบัติ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6090,68 +6198,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น 6 เดือนมาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6162,8 +6210,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6174,8 +6222,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6186,20 +6234,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6210,20 +6246,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (<span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก <span style=\"color:#d97706\"><b>600 mg</b></span> OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6234,8 +6270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6246,8 +6282,116 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "สรุปกลไกการออกฤทธิ์ของยารักษาวัณโรค (Mechanism of Action) จำแนกตาม 6 ตำแหน่งเป้าหมายของเซลล์แบคทีเรียตามสไลด์บรรยาย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethionamide</b></span>/<span style=\"color:#0284c7\"><b>Prothionamide</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EmbB), <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (D-alanine li<span style=\"color:#7c3aed\"><i><b>gas</b></i></span>e)<br>   2. RNA Polymerase: <span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Rifabutin</b></span>, <span style=\"color:#0284c7\"><b>Rifapentine</b></span><br>   3. DNA Gyrase: <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span><br>   4. Ribosome (การสังเคราะห์โปรตีน): <span style=\"color:#0284c7\"><b>Streptomycin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Amikacin</b></span> (30S), <span style=\"color:#0284c7\"><b>Linezolid</b></span> (50S)<br>   5. Proton Motive Force / Energy: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (เปลี่ยนเป็น POA รบกวนเยื่อหุ้มเซลล์)<br>   6. ATP Synthase (ยาใหม่): <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (ยับยั้งการสร้างพลังงาน ATP)",
+      "answerImage": "",
+      "note": "TB Mechanisms of Action 6 Targets Slide 12"
+    },
+    {
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) และ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): มีกลไกการออกฤทธิ์และจุดเด่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): ยับยั้งเอนไซม์ mycobacterial ATP Synthase (ที่ Subunit c ผ่านยีน atpE) ทำให้แบคทีเรียขาดพลังงานและตาย เป็นยากลุ่ม Diarylquinoline<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): เป็นยากลุ่ม Nitroimidazole ออกฤทธิ์ 2 กลไก ➔ ในภาวะมีออกซิเจน (Aerobic) จะยับยั้งการสังเคราะห์กรด Mycolic acid ในผนังเซลล์ / ในภาวะไม่มีออกซิเจน (Anaerobic) จะปลดปล่อย Reactive Nitric Oxide ทำลายระบบการหายใจของเชื้อ",
+      "answerImage": "",
+      "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
+    },
+    {
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>) จากยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> มีการตรวจติดตามและรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Ethionamide</b></span> / <span style=\"color:#0284c7\"><b>Prothionamide</b></span> <span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>]:<br>   ↳ พยาธิสภาพ: ตัวยามีโครงสร้างคล้าย Thioamides ยับยั้งการรวมตัวของไอโอดีนในการสร้างฮอร์โมนไทรอยด์ (Thyroid Hormone Synthesis Inhibition)<br>   ↳ อาการ: อ่อนเพลีย ขี้หนาว น้ำหนักขึ้น ผิวแห้ง หน้าบวม<br>   ↳ การตรวจติดตาม: ตรวจระดับ TSH และ Free T4 ทุก 3 เดือนระหว่างได้รับยา<br>   ↳ การรักษา: ไม่จำเป็นต้องหยุดยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> แต่ให้เสริมด้วยฮอร์โมน <span style=\"color:#0284c7\"><b>Levothyroxine</b></span> ทดแทนจนจบคอร์สการรักษา",
+      "answerImage": "",
+      "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
+    },
+    {
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>6 เดือน</b></span>มาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6258,8 +6402,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6270,8 +6414,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6282,104 +6426,260 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen ประกอบด้วยยาอะไรบ้าง ใช้ระยะเวลากี่เดือน และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง 6 เดือน (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#0284c7\"><b>Sirturo</b></span>) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน <span style=\"color:#d97706\"><b>400 mg</b></span> วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> ในสูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span>/<span style=\"color:#16a34a\"><b>BPaL</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> 200 mg PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (6 เดือน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#d97706\"><b>6 เดือน</b></span>)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>First-Line</b></span> Anti-TB Regimen (2HRZE/4HR) สำหรับ Drug-Susceptible TB คืออะไร และยาแต่ละตัวมีกลไกอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ 6 เดือน<br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน 6 เดือน (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา 6 เดือน)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา <span style=\"color:#d97706\"><b>6 เดือน</b></span>)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ประเภทต่างๆ (Mono-resistant, Poly-resistant, และ MDR-TB) ตามเกณฑ์องค์การอนามัยโลก (WHO) และแนวทางประเทศไทยคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (Definitions)]:<br>   1. Mono-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งเพียง ตัวเดียว เท่านั้น (เช่น Mono-INH, Mono-RIF)<br>   2. Poly-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งตั้งแต่ 2 ตัวขึ้นไป แต่ไม่ดื้อพร้อมกันทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span><br>   3. MDR-TB (Multidrug-Resistant TB): ดื้อต่อยารักษาวัณโรคตัวหลักอย่างน้อย 2 ตัวพร้อมกัน คือ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)",
+      "answerImage": "",
+      "note": "TB Definitions: Mono vs Poly vs MDR-TB"
+    },
+    {
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-XDR-TB และ XDR-TB (Extensively Drug-Resistant TB) ตามเกณฑ์สากลและคู่มือวัณโรคแห่งประเทศไทยฉบับล่าสุดคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) ตัวใดตัวหนึ่ง<br>   ↳ XDR-TB: ผู้ป่วยวัณโรคที่เข้าเกณฑ์ MDR/RR-TB + ดื้อต่อ Fluoroquinolones + ดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอย่างน้อย 1 ตัว (ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span>)",
+      "answerImage": "",
+      "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
+    },
+    {
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH Resistance Genes) ระหว่างการกลายพันธุ์ที่ยีน katG กับยีน inhA มีความแตกต่างและส่งผลต่อการเลือกยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ katG Mutation: สูญเสียเอนไซม์ Catalase-Peroxidase ไม่สามารถเปลี่ยน INH prodrug เป็นรูปออกฤทธิ์ได้ ➔ เกิด High-Level INH Resistance (<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> INH ต่อ แม้เพิ่มขนาด)<br>   ↳ inhA Promoter Mutation: เกิด Overexpression ของเอนไซม์ InhA ➔ เกิด Low-Level INH Resistance (สามารถใช้ High-Dose INH 10–15 mg/kg ได้ แต่ จะเกิดการดื้อข้ามกลุ่ม Cross-Resistance ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> ทันที!)",
+      "answerImage": "",
+      "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
+    },
+    {
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF Resistance) เกิดจากการกลายพันธุ์ที่ยีนใด และเครื่องตรวจ GeneXpert MTB/RIF ใช้หลักการตรวจอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> และ GeneXpert]:<br>   ↳ ยีน<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>: ยีน rpoB (&gt; 95% เกิดการกลายพันธุ์ที่บริเวณ 81-bp <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance Determining Region - RRDR ของ RNA Polymerase Beta-subunit)<br>   ↳ GeneXpert MTB/RIF: ใช้เทคนิค Real-time Nested PCR ตรวจจับสาย DNA ของเชื้อ <span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการกลายพันธุ์ของยีน rpoB รู้ผล<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> ภายใน 2 ชั่วโมง และให้ถือว่าผู้ป่วยที่มีผล RIF-Resistant เข้าข่ายเป็น MDR-TB ทันที!",
+      "answerImage": "",
+      "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
+    },
+    {
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>เดี่ยว (Mono-resistant TB) ต่อ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (Mono-INH) และดื้อต่อยาตัวอื่นมีสูตรการรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> Resistant (ดื้อเฉพาะ INH - พบบ่อยสุด): สูตร 6 R-Z-E-Lfx ➔ ให้ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> + <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> + <span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   2. Mono-<span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistant (ดื้อเฉพาะ RIF): ให้รักษาเสมือนเป็น MDR-TB (ใช้สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> หรือ All-Oral Shorter Regimen)<br>   3. Mono-<span style=\"color:#0284c7\"><b>Ethambutol</b></span> Resistant (ดื้อเฉพาะ EMB): สูตร 2 HRZ / 4 HR (รวม <span style=\"color:#d97706\"><b>6 เดือน</b></span>)<br>   4. Mono-<span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> Resistant (ดื้อเฉพาะ PZA เช่น M. bovis): สูตร 2 HRE / 7 HR (รวม 9 เดือน)",
+      "answerImage": "",
+      "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
+    },
+    {
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#d97706\"><b>6 เดือน</b></span> <span style=\"color:#16a34a\"><b>BPaLM</b></span> (<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> + <span style=\"color:#0284c7\"><b>Linezolid</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>): มีขนาดยา การรับประทาน และข้อบ่งชี้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> <span style=\"color:#d97706\"><b>6 เดือน</b></span> สำหรับ MDR/RR-TB]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): <span style=\"color:#d97706\"><b>400 mg</b></span> OD ใน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก ➔ จากนั้น <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง ในสัปดาห์ที่ 3–24 (ต้องรับประทาน พร้อมอาหารไขมันสูง)<br>   2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): <span style=\"color:#d97706\"><b>200 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ต้องรับประทาน พร้อมอาหาร)<br>   3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD): <span style=\"color:#d97706\"><b>600 mg</b></span> OD นาน 16–2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากเกิดพิษต่อไขกระดูกหรือปลายประสาท สามารถลดเหลือ 300 mg OD ได้)<br>   4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (Mfx): <span style=\"color:#d97706\"><b>400 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากตรวจพบว่าดื้อต่อ FQ ให้ตัด Mfx ออก กลายเป็นสูตร <span style=\"color:#16a34a\"><b>BPaL</b></span>)",
+      "answerImage": "",
+      "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
+    },
+    {
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษา MDR-TB มีแนวทางการตรวจติดตามและปรับยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> Monitoring]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Linezolid</b></span> ยับยั้ง Mitochondrial Protein Synthesis ทำให้เกิด Anemia, <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> และ Leukopenia เมื่อใช้นานเกิน 2–<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ การตรวจติดตาม: ตรวจความสมบูรณ์ของเม็ดเลือด (CBC) ทุก 1–<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ แนวทางการปรับยา:<br>      • หาก <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL หรือ Platelets &lt; 50,000 /mcL ➔ ให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว<br>      • เมื่อผลเลือดฟื้นตัว ให้เริ่มยาใหม่ด้วยขนาดลดลงเหลือ 300 mg วันละ 1 ครั้ง",
+      "answerImage": "",
+      "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
+    },
+    {
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ของยา <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และเกณฑ์การตรวจเลือดติดตามพิษไขกระดูกของ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในสูตรวัณโรคมีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก QTc &gt; 500 ms ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: 600 mg วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): Hb &lt; 8 g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
       "answerImage": "",
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (TB Drug-Induced Liver Injury: DILI) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> (ข้อใดข้อหนึ่ง)]:<br>   1. ALT หรือ AST &gt; 3 เท่าของ ULN ร่วมกับ มีอาการตับอักเสบ (เบื่ออาหาร คลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง)<br>   2. ALT หรือ AST &gt; 5 เท่าของ ULN แม้ ไม่มีอาการ<br>   3. Total Bilirubin &gt; 2.0 mg/dL<br><br>▶ [ขั้นตอนการ Rechallenge ยาอย่างปลอดภัย]:<br>   1. หยุดยาทุกตัวที่สงสัยทันที -&gt; ให้สูตรชั่วคราวที่ไม่ผ่านตับ (<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
       "answerImage": "",
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และเกณฑ์คัดออก (Exclusion Criteria) ของสูตรยา All-Oral Shorter Regimen (สูตรสั้น <span style=\"color:#d97706\"><b>9–11 เดือน</b></span>) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>สูตรสั้น All-Oral Shorter Regimen (<span style=\"color:#d97706\"><b>9–11 เดือน</b></span>)]:<br>   1. ตรวจพบหรือสงสัยการดื้อต่อยากลุ่ม Fluoroquinolones หรือ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span><br>   2. มีการแพ้ยาหรือทนต่อยาหลักในสูตรไม่ได้<br>   3. เคยได้รับยารักษาวัณโรคแนวที่สอง (Second-line drugs) มาก่อนนานเกิน 1 เดือน<br>   4. มีรอยโรควัณโรคนอกปอดรุนแรง เช่น วัณโรคเยื่อหุ้มสมอง (TB Meningitis) หรือ Disseminated TB<br>   5. หญิงตั้งครรภ์หรือให้นมบุตร",
+      "answerImage": "",
+      "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
+    },
+    {
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) จากยาวัณโรค: ยาใดมีความเสี่ยงสูงสุด และมีกฎการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> จากยาวัณโรคและลำดับการเกิดพิษ]:<br>   ↳ ลำดับพิษต่อตับจากมากไปน้อย: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA - พิษตับสูงสุดและรุนแรงสุด) &gt; <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) &gt; <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)<br>   ↳ กฎการหยุดยา: หยุดยาทั้งหมดทันทีเมื่อ <span style=\"color:#d97706\"><b>ALT &gt; 3x ULN</b></span> ร่วมกับมีอาการตับอักเสบ/ตัวเหลือง หรือ <span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span> แม้ไม่มีอาการ<br><br>▶ [Rechallenge Protocol (กฎการเริ่มยาทีละตัวเมื่อ LFT &lt; 2x ULN)]:<br>   ↳ เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (พิษตับต่ำสุด)<br>   ↳ เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ↳ เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ⚠️ [ข้อห้ามเด็ดขาด]: ห้าม Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) กลับมาเด็ดขาด!",
+      "answerImage": "",
+      "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
+    },
+    {
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Psychosis</b></span>, และ Seizure?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ชาปลายมือปลายเท้า): <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เกิดจากการแย่งจับ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>), <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Ethionamide</b></span> ➔ ป้องกันด้วย <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span>) <span style=\"color:#d97706\"><b>50–100 mg/day</b></span><br>   2. <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสีแดง-เขียว): <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (#1 ต้องตรวจการมองเห็นสม่ำเสมอ), <span style=\"color:#0284c7\"><b>Linezolid</b></span><br>   3. <span style=\"color:#dc2626\"><b>Psychosis</b></span> &amp; Depression (ประสาทหลอน ซึมเศร้า อยากฆ่าตัวตาย): <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (#1 เกิดจากแย่งสารสื่อประสาท GABA/NMDA <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในคนมีโรคจิตเวช), Fluoroquinolones ➔ เสริม <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> 100–<span style=\"color:#d97706\"><b>200 mg</b></span>/day<br>   4. Seizure (ชัก): <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Isoniazid</b></span>",
+      "answerImage": "",
+      "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
+    },
+    {
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> (ยืดคลื่น QTc) และมีแนวทางการเฝ้าระวังอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span>]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   2. <span style=\"color:#0284c7\"><b>Clofazimine</b></span> (Cfz)<br>   3. Fluoroquinolones (<span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> &gt; <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>)<br>   4. <span style=\"color:#0284c7\"><b>Delamanid</b></span> (Dlm)<br><br>▶ [แนวทางการเฝ้าระวัง (Monitoring Protocol)]:<br>   ↳ ตรวจ EKG และระดับเกลือแร่ Potassium (K+) และ Magnesium (Mg2+) ก่อนเริ่มยา และติดตามทุกเดือน<br>   ↳ หากพบค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ➔ ต้องหยุดยาที่ทำให้ QT ยืดทันที และแก้ไขภาวะ Hypokalemia / Hypomagnesemia!",
+      "answerImage": "",
+      "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
+    },
+    {
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span>) มีข้อควรระวังอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> กับ CYP3A4 Inducers (<span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>): ตัวเหนี่ยวนำเอนไซม์จะเร่งการกำจัด BDQ ทำให้ระดับยาในเลือดลดลงมากกว่า 50% ➔ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br>   2. <span style=\"color:#0284c7\"><b>Linezolid</b></span> กับ ยากลุ่ม Serotonergic (SSRIs เช่น Fluoxetine, Sertraline / SNRIs / TCAs): <span style=\"color:#0284c7\"><b>Linezolid</b></span> มีฤทธิ์ยับยั้งเอนไซม์ MAO แบบไม่จำเพาะ การใช้ร่วมกับ SSRI จะทำให้เกิด <span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span> (สับสน เพ้อ กล้ามเนื้อกระตุก ตัวร้อนจัด ความดันแกว่ง) ➔ ต้องหลีกเลี่ยงการใช้ร่วมกัน!",
+      "answerImage": "",
+      "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
+    },
+    {
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation in MDR-TB): ยาใดปลอดภัย และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span>, <span style=\"color:#0284c7\"><b>Ethambutol</b></span> และ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (WHO อนุญาตให้ใช้เมื่อจำเป็น)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)]:<br>   1. <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span>: มีฤทธิ์ก่อมัยรูปทารกพิการรุนแรง (Teratogenic)<br>   2. ยาฉีดกลุ่ม Aminoglycosides (<span style=\"color:#0284c7\"><b>Amikacin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Streptomycin</b></span>): ทำลายเส้นประสาทหูคู่ที่ 8 ก่อให้เกิดภาวะหูหนวกแต่กำเนิดในทารก (Congenital Deafness)",
+      "answerImage": "",
+      "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
+    },
+    {
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า QTc &gt; 500 ms ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6390,92 +6690,92 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-200 mg/day) เสริมเสมอ?",
+      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) เสริมเสมอ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-200 mg/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> / <span style=\"color:#dc2626\"><b>Myelosuppression</b></span>)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว ทันที<br>   ↳ 2. ตรวจติดตามผล CBC สัปดาห์ละ 1-2 ครั้ง จนกระทั่งระดับเกล็ดเลือดฟื้นตัวกลับมา &gt; 100,000 cells/mcL<br>   ↳ 3. เมื่อเกล็ดเลือดฟื้นตัว สามารถเริ่มยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ใหม่โดยปรับลดขนาดยาลงเหลือ 300 mg PO วันละ 1 ครั้ง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับสูตร <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Clofazimine</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ตรวจ ECG ติดตามที่สัปดาห์ที่ 8 พบค่า QTc = 525 ms (เดิม 420 ms) ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged QTc &gt; 500 ms):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: DILI) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: <span style=\"color:#dc2626\"><b>DILI</b></span>) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
       "questionImage": "",
-      "answer": "▶ เกณฑ์การวินิจฉัยและการหยุดยา (DILI Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-DILI ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-<span style=\"color:#dc2626\"><b>DILI</b></span> ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ 1. เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (หรือยากลุ่ม Aminoglycoside) ขนาดเต็ม (พิษต่อตับต่ำที่สุด)<br>   ↳ 2. เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (ให้ขนาดต่ำก่อน เช่น 150-300 mg แล้วปรับเป็นขนาดเต็มใน 3-<span style=\"color:#d97706\"><b>7 วัน</b></span>หากเอนไซม์ตับปกติ)<br>   ↳ 3. เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เริ่มขนาด 100-150 mg แล้วปรับเป็นขนาดเต็ม)<br>   ↳ ⚠️ กฎสำคัญ: *หลีกเลี่ยงการ Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด* เนื่องจาก PZA เป็นสาเหตุของตับอักเสบรุนแรงและตับวายเฉียบพลันมากที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB รับประทานยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> 750 mg/day แล้วเริ่มมีอาการหงุดหงิด หวาดระแวง หูแว่ว และมีพฤติกรรมก้าวร้าว ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น 200 mg/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น <span style=\"color:#d97706\"><b>200 mg</b></span>/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6486,8 +6786,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6498,80 +6798,92 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้สัมผัสใกล้ชิดในบ้านของผู้ป่วย MDR-TB ตรวจคัดกรองพบว่าเป็น Latent TB Infection (LTBI - การติดเชื้อวัณโรคระยะแฝง) ควรให้การรักษาป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน 6 เดือน (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-6 เดือนเป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-<span style=\"color:#d97706\"><b>6 เดือน</b></span>เป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> มา 3 เดือน แจ้งว่าเริ่มมองเห็นภาพไม่ชัดเจนและเริ่มแยกสีเขียว-แดงไม่ออก ควรสงสัยภาวะใดและต้องทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen เหมาะสำหรับผู้ป่วยกลุ่มใด และใช้ระยะเวลากี่เดือน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>) จากยา <span style=\"color:#0284c7\"><b>Clofazimine</b></span> มีลักษณะอย่างไร และผู้ป่วยต้องทราบข้อมูลใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Clofazimine</b></span> <span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Clofazimine</b></span> เป็นสารสีแดงละลายในไขมันสูง จะเข้าไปสะสมที่ชั้นไขมันใต้ผิวหนัง เซลล์ Reticuloendothelial และผิวหนัง<br>   ↳ ลักษณะที่พบ: ผิวหนังจะเปลี่ยนเป็น สีแดงอมชมพู จนถึง สีน้ำตาลคล้ำหรือดำ (Reddish-brown to Black discoloration) ร่วมกับผิวแห้งแตกลาย (Ichthyosis) พบในผู้ป่วยเกือบ 100%<br>   ↳ คำแนะนำผู้ป่วย: อาการนี้ไม่เป็น<span style=\"color:#dc2626\"><b>อันตราย</b></span>ถึงชีวิต และสามารถหายกลับคืนสู่ปกติได้ แต่ต้องใช้เวลานานหลายเดือนถึงหลายปีหลังหยุดยา",
+      "answerImage": "",
+      "note": "TB Clofazimine Skin Discoloration reddish-brown black"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - TB Renal Dose Adjustment]</b></span>: ผู้ป่วยวัณโรคปอดมีภาวะไตเสื่อมขั้นรุนแรง (CrCl = 22 mL/min) ในสูตรยา 2HRZE ยาตัวใดที่ สามารถให้ขนาดปกติได้ และยาตัวใดที่ ต้องปรับลดความถี่ในการให้ยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-600 mg PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ Hyperuricemia/Gout (จาก Z)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-<span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ <span style=\"color:#dc2626\"><b>Hyperuricemia</b></span>/Gout (จาก Z)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - DILI Rechallenge Protocol]</b></span>: ผู้ป่วยวัณโรคปอดรับประทานสูตร 2HRZE มาได้ 3 สัปดาห์ เกิดอาการคลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง ผลตรวจการทำงานของตับพบ AST = 320 U/L, ALT = 380 U/L, Total Bilirubin = 3.8 mg/dL แพทย์สั่งหยุดยาทั้งหมด จงอธิบายเกณฑ์และลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-600 mg/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span>):<br>   ↳ ค่า AST/ALT &gt; 3 เท่าของค่าปกติร่วมกับมีอาการ หรือ &gt; 5 เท่าของค่าปกติแม้ไม่มีอาการ หรือ Total Bilirubin &gt; 2 mg/dL<br>   ↳ ขั้นตอนการ Rechallenge หลังหยุดยาจน LFT กลับสู่เกณฑ์ปลอดภัย (ALT &lt; 2 เท่าของ ULN และ Total Bili &lt; 1.5 mg/dL):<br>   ↳ ขั้นที่ 1: เริ่มให้ยาที่มีพิษต่อตับน้อยที่สุดก่อน คือ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-<span style=\"color:#d97706\"><b>600 mg</b></span>/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
+      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6582,8 +6894,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6594,8 +6906,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6606,8 +6918,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6618,8 +6930,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6630,8 +6942,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6642,8 +6954,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6654,8 +6966,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6666,8 +6978,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6678,8 +6990,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6690,8 +7002,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6702,20 +7014,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (CA-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/<span style=\"color:#d97706\"><b>800 mg</b></span>) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6726,32 +7038,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6762,8 +7050,32 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6774,8 +7086,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6786,8 +7098,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6798,8 +7110,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6810,8 +7122,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6822,8 +7134,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6834,8 +7146,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6846,8 +7158,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6858,8 +7170,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6870,8 +7182,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6882,8 +7194,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6894,8 +7206,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6906,8 +7218,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6918,8 +7230,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6930,8 +7242,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6942,8 +7254,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6954,8 +7266,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6966,8 +7278,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6978,8 +7290,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6990,8 +7302,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7002,8 +7314,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7014,8 +7326,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7026,8 +7338,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7038,20 +7350,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
       "questionImage": "",
-      "answer": "▶ [กฎเหล็กเรื่อง RIG]: ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:<br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= <span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
       "answerImage": "",
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7062,8 +7374,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7074,8 +7386,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7086,8 +7398,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7098,8 +7410,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -11490,18 +11802,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
-      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
-      "questionImage": "",
-      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
-      "answerImage": "",
-      "note": "PT2 อ.แสง"
-    },
-    {
-      "id": "16. Others & Toxic::11",
-      "itemNo": "9",
-      "group": "16. Others & Toxic",
-      "subTopic": "Antimicrobial Resistance (AMR)",
-      "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span> ต่อยา <span style=\"color:#0284c7\"><b>Colistin</b></span> หมายถึงอะไร และส่งผลต่อการรักษาอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Colistin</b></span> แฝงตัวอยู่ปะปนกับประชากรส่วนใหญ่ที่ตรวจแล็บพบว่าไวต่อยา<br><br>▶ ผลกระทบทางคลินิก (Clinical Impact):<br>   ↳ หากใช้ยา <span style=\"color:#0284c7\"><b>Colistin</b></span> เพียงตัวเดียวรักษา (Monotherapy) ยาจะฆ่าเชื้อส่วนใหญ่ที่ไว แต่เชื้อกลุ่มย่อยที่<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>จะเพิ่มจำนวนขึ้นมาแทนที่อย่างรวดเร็ว ทำให้การรักษาล้มเหลว<br><br>▶ แนวทางแก้ไข:<br>   ↳ ต้องใช้ยาปฏิชีวนะแบบผสมผสาน (Combination Therapy) เสมอ เช่น <span style=\"color:#0284c7\"><b>Colistin</b></span> ร่วมกับ <span style=\"color:#0284c7\"><b>Meropenem</b></span> High-dose หรือ <span style=\"color:#0284c7\"><b>Sulbactam</b></span>",
@@ -11509,8 +11809,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::12",
-      "itemNo": "10",
+      "id": "16. Others & Toxic::11",
+      "itemNo": "9",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11521,8 +11821,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::13",
-      "itemNo": "11",
+      "id": "16. Others & Toxic::12",
+      "itemNo": "10",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11533,8 +11833,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::14",
-      "itemNo": "12",
+      "id": "16. Others & Toxic::13",
+      "itemNo": "11",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11545,8 +11845,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::15",
-      "itemNo": "13",
+      "id": "16. Others & Toxic::14",
+      "itemNo": "12",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11557,8 +11857,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::16",
-      "itemNo": "14",
+      "id": "16. Others & Toxic::15",
+      "itemNo": "13",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11569,8 +11869,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::17",
-      "itemNo": "15",
+      "id": "16. Others & Toxic::16",
+      "itemNo": "14",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11581,8 +11881,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::18",
-      "itemNo": "16",
+      "id": "16. Others & Toxic::17",
+      "itemNo": "15",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11593,8 +11893,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture AMR Part 1: Carbapenem High-dose Extended Infusion"
     },
     {
-      "id": "16. Others & Toxic::19",
-      "itemNo": "17",
+      "id": "16. Others & Toxic::18",
+      "itemNo": "16",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11605,8 +11905,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture AMR Part 1: D-test interpretation & erm gene"
     },
     {
-      "id": "16. Others & Toxic::20",
-      "itemNo": "18",
+      "id": "16. Others & Toxic::19",
+      "itemNo": "17",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -11615,6 +11915,18 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#7c3aed\"><i><b>VISA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Intermediate <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: 4–8 mcg/mL<br>   ↳ กลไก: เกิดจาก ผนังเซลล์หนาตัวผิดปกติ (Thickened Peptidoglycan Cell Wall) ดักจับโมเลกุล <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไว้ด้านนอกจนไม่สามารถซึมเข้าถึงเป้าหมายได้<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose 8–10 mg/kg), <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span><br><br>▶ [<span style=\"color:#7c3aed\"><i><b>VRSA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: &gt;= 16 mcg/mL<br>   ↳ กลไก: ได้รับ Plasmid ถ่ายทอดยีน vanA มาจากเชื้อ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>) เปลี่ยนปลายสาย D-Ala-D-Ala เป็น D-Ala-D-Lac ทำให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หมดความสามารถในการจับเป้าหมาย<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>",
       "answerImage": "",
       "note": "Lecture AMR Part 1: VISA vs VRSA Mechanisms & Breakpoints"
+    },
+    {
+      "id": "16. Others & Toxic::20",
+      "itemNo": "18",
+      "group": "16. Others & Toxic",
+      "subTopic": "Antimicrobial Resistance (AMR)",
+      "track": "Clinic",
+      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
+      "questionImage": "",
+      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
+      "answerImage": "",
+      "note": "PT2 อ.แสง"
     },
     {
       "id": "16. Others & Toxic::21",
@@ -11720,7 +12032,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> และยาทางเลือกสำหรับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span> (<span style=\"color:#7c3aed\"><i><b>VRE</b></i></span>) มีอะไรบ้าง และมีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด 600 mg IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด <span style=\"color:#d97706\"><b>600 mg</b></span> IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -11828,7 +12140,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Osteomyelitis ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> รับประทานต่อเนื่องมาเป็นเวลา 5 สัปดาห์ ผู้ป่วยเริ่มมีอาการชาปลายนิ้วมือและนิ้วเท้าทั้งสองข้าง ควรสงสัยภาวะใดและจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -11900,7 +12212,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Complex Resistance]</b></span>: ผู้ป่วยชายอายุ 68 ปี ในหอผู้ป่วยหนัก (ICU) ใส่สายสวนปัสสาวะและท่อช่วยหายใจ มีภาวะ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ผลเพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> ที่ดื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> และ <span style=\"color:#0284c7\"><b>Meropenem</b></span> (MIC &gt; 8 mcg/mL) ตรวจพบยีนสร้างเอนไซม์ NDM-1 (New Delhi Metallo-beta-lactamase) มีแนวทางการเลือกใช้ยาปฏิชีวนะอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading 200 mg แล้วตามด้วย 100 mg q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading <span style=\"color:#d97706\"><b>200 mg</b></span> แล้วตามด้วย 100 mg q 12h)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย CRE/NDM)"
     },
@@ -11948,7 +12260,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในผู้ป่วยติดเชื้อ HIV ที่มีระดับ CD4 &lt; 200 cells/mm3 ข้อบ่งชี้และสูตรยาในการป้องกันโรคติดเชื้อฉวยโอกาส (Opportunistic Infections Prophylaxis) หลัก 3 โรคมีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,200 mg PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,<span style=\"color:#d97706\"><b>200 mg</b></span> PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
       "answerImage": "",
       "note": "PT2 โพย Opportunistic Infections"
     },
@@ -11970,18 +12282,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
-      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
-      "questionImage": "",
-      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::51",
-      "itemNo": "49",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) แตกต่างจาก Late-Onset HAP/VAP (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>) อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มักเกิดจากเชื้อแบคทีเรียที่ยังไวต่อยา (Community-acquired flora)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span>, <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Susceptible <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>), ไวรัสทางเดินหายใจ<br><br>▶ 2. Late-Onset (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มีความเสี่ยงสูงมากต่อการติดเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในโรงพยาบาล (MDR Hospital Pathogens)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> (ESBL/CRE), <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)",
@@ -11989,8 +12289,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::52",
-      "itemNo": "50",
+      "id": "16. Others & Toxic::51",
+      "itemNo": "49",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12001,8 +12301,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::53",
-      "itemNo": "51",
+      "id": "16. Others & Toxic::52",
+      "itemNo": "50",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12013,8 +12313,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::54",
-      "itemNo": "52",
+      "id": "16. Others & Toxic::53",
+      "itemNo": "51",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12025,8 +12325,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::55",
-      "itemNo": "53",
+      "id": "16. Others & Toxic::54",
+      "itemNo": "52",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12037,20 +12337,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::56",
-      "itemNo": "54",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::57",
-      "itemNo": "55",
+      "id": "16. Others & Toxic::55",
+      "itemNo": "53",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12061,8 +12349,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::58",
-      "itemNo": "56",
+      "id": "16. Others & Toxic::56",
+      "itemNo": "54",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12073,8 +12361,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::59",
-      "itemNo": "57",
+      "id": "16. Others & Toxic::57",
+      "itemNo": "55",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12085,8 +12373,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::60",
-      "itemNo": "58",
+      "id": "16. Others & Toxic::58",
+      "itemNo": "56",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12097,8 +12385,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::61",
-      "itemNo": "59",
+      "id": "16. Others & Toxic::59",
+      "itemNo": "57",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12109,8 +12397,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::62",
-      "itemNo": "60",
+      "id": "16. Others & Toxic::60",
+      "itemNo": "58",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -12119,6 +12407,30 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span>) หรืออุณหภูมิกายต่ำผิดปกติ (<span style=\"color:#d97706\"><b>&lt; 36.0°C</b></span>), หนาวสั่น<br>   ↳ ทางเดินหายใจ: ไอมีเสมหะขุ่นเปลี่ยนสีเป็นหนอง (Purulent Tracheal Secretions / Discolored Sputum), เจ็บแน่นหน้าอก (Pleuritic chest pain), หายใจหอบเหนื่อย (Tachypnea, Dyspnea)<br>   ↳ ฟังปอด (Chest Auscultation): ได้ยินเสียงผิดปกติ เช่น Crepitation (Crackle), Rhonchi หรือ Tubular breath sounds<br><br>▶ [ผลตรวจทางห้องปฏิบัติการและรังสีวิทยา (Lab &amp; Imaging)]:<br>   1. Complete Blood Count (CBC): พบ Leukocytosis (<span style=\"color:#d97706\"><b>WBC &gt; 10,000</b></span>–12,000 /mcL) โดยมี <span style=\"color:#d97706\"><b>Neutrophils</b></span> (<span style=\"color:#d97706\"><b>PMN</b></span>) เด่น &gt; 80% หรือมี Band form &gt; 10% (Left shift) หรือ Leukopenia (&lt; 4,000 /mcL)<br>   2. การแลกเปลี่ยนก๊าซ (<span style=\"color:#7c3aed\"><i><b>Gas</b></i></span> Exchange): ค่า <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> ลดลง (Hypoxemia / Oxygen desaturation)<br>   3. Chest X-Ray (CXR): ตรวจพบ New หรือ Progressive Pulmonary Infiltrate, <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation หรือ Cavitation",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Clinical Presentation & Diagnostic Triad"
+    },
+    {
+      "id": "16. Others & Toxic::61",
+      "itemNo": "59",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
+      "questionImage": "",
+      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
+    },
+    {
+      "id": "16. Others & Toxic::62",
+      "itemNo": "60",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
     },
     {
       "id": "16. Others & Toxic::63",
@@ -12224,7 +12536,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับผู้ป่วย VAP ที่มีความเสี่ยงสูงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12236,7 +12548,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา Aspiration Pneumonia คือยาใด และมีทางเลือกใดในผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> 400 mg IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12260,7 +12572,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยนอน รพ. มา <span style=\"color:#d97706\"><b>7 วัน</b></span> เกิดไข้สูง ไอเสมหะขุ่น หอบเหนื่อย X-ray ปอดพบฝ้าขาวใหม่ ตรวจเสมหะพบ Gram-negative bacilli กำลังรอผลเพาะเชื้อ ควรเริ่มยา Empiric อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h) ร่วมด้วย",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h) ร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12332,7 +12644,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>แพทย์ต้องการสั่งยา <span style=\"color:#0284c7\"><b>Daptomycin</b></span> 8 mg/kg IV OD เพื่อรักษาผู้ป่วย VAP ที่เพาะเชื้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> เภสัชกรควรให้คำแนะนำทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
+      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12380,7 +12692,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "ผู้ป่วย Hospital-Acquired Pneumonia (HAP) หรือ VAP ในกลุ่มที่มีความเสี่ยงสูง (High Mortality Risk หรือ มีความเสี่ยงต่อ MDR Pathogens) มีเกณฑ์ตัดสินใจอย่างไร และสูตรยา Empiric Regimen ต้องประกอบด้วยยากี่ตัว กลุ่มใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
+      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Empiric Triple coverage for MDR Risk"
     },
@@ -12452,7 +12764,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Late-Onset VAP]</b></span>: ผู้ป่วยชายอายุ 60 ปี ใส่ท่อช่วยหายใจและเครื่องช่วยหายใจใน ICU มานาน 8 วัน เกิดไข้สูง 39.2 C เสมหะมีหนองข้น ดูดเสมหะได้ปริมาณมาก X-ray ปอดพบรอยโรคฝ้าขาวใหม่ (New Infiltrate) ที่ปอดทั้งสองข้าง มีประวัติได้รับ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มาก่อนเมื่อ <span style=\"color:#d97706\"><b>5 วัน</b></span>ที่แล้ว จงวางแผนสูตรยาปฏิชีวนะเชิงประจักษ์ (Empiric VAP Regimen)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย VAP)"
     },
@@ -12668,7 +12980,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group En<span style=\"color:#16a34a\"><b>doc</b></span>arditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12716,7 +13028,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis (IE) มีอะไรบ้าง แบ่งตามกลุ่มความเสี่ยง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรกหลังผ่าตัด)<br><br>▶ กลุ่มความเสี่ยงปานกลาง (Moderate Risk):<br>   ↳ โรคลิ้นหัวใจ (Valvular Heart Disease) เช่น Mitral Valve Prolapse ที่มีลิ้นหัวใจรั่ว, Rheumatic Heart Disease<br>   ↳ Hypertrophic Cardiomy<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12836,7 +13148,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรก<br>   4. ผู้ได้รับการปลูกถ่ายหัวใจแล้วลิ้นหัวใจทำงานผิดปกติ (Cardiac Transplant with Valvul<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO (เด็ก: 20 mg/kg)",
       "answerImage": "",
       "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
     },
@@ -12980,7 +13292,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ลิ้นหัวใจเทียม เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Candida albicans</b></i></span> มีแนวทางการรักษาด้วยยาและการผ่าตัดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-800 mg PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
+      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-<span style=\"color:#d97706\"><b>800 mg</b></span> PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13028,7 +13340,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
@@ -13100,7 +13412,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Dental Prophylaxis]</b></span>: ผู้ป่วยชายอายุ 55 ปี เคยผ่าตัดเปลี่ยนลิ้นหัวใจเป็นลิ้นเทียมชนิดโลหะ (Mechanical Aortic Valve) เมื่อ 2 ปีก่อน กำลังจะไปพบทันตแพทย์เพื่อทำหัตถการถอนฟันคุดและขูดหินปูน มีประวัติแพ้ยา <span style=\"color:#0284c7\"><b>Penicillin</b></span> แบบเกิดผื่นลมพิษ (Urticaria) ทันที ควรให้ยาปฏิชีวนะป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
@@ -13460,7 +13772,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-200 mg/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
+      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13472,7 +13784,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ยา <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> อย่างเด็ดขาดในทารกแรกเกิด (Neonates อายุ &lt; 1 เดือน / &lt; 28 วัน) ที่สงสัยภาวะเยื่อหุ้มสมองอักเสบ และควรเลือกใช้ยาใดแทน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–200 mg/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
+      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
       "answerImage": "",
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
@@ -13544,7 +13856,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "ยาปฏิชีวนะที่แนะนำสำหรับการให้เพื่อป้องกัน (Chemoprophylaxis) ในผู้สัมผัสใกล้ชิดผู้ป่วย Meningococcal Meningitis มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13556,7 +13868,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13568,7 +13880,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Anaphylaxis) คือสูตรใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13592,7 +13904,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>นักศึกษาในหอพักได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis รูมเมทที่พักในห้องเดียวกันควรได้รับการป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13640,7 +13952,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -13688,7 +14000,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> แตกต่างจาก <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> อย่างไร และหญิงตั้งครรภ์ควรใช้ยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
       "answerImage": "",
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
@@ -13724,7 +14036,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> มีเกณฑ์และสูตรยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
       "answerImage": "",
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
@@ -13748,7 +14060,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Meningococcal Contact Prophylaxis]</b></span>: นักศึกษาหญิงอายุ 20 ปี พักในหอพักห้องเดียวกับเพื่อนที่เพิ่งได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis (<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span>) ผู้สัมผัสใกล้ชิดรายนี้ควรได้รับยาป้องกัน (Chemoprophylaxis) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
+      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
@@ -13916,7 +14228,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
       "questionImage": "",
-      "answer": "▶ อาการทางคลินิกที่พบบ่อยที่สุด:<br>   ↳ 1. อ่อนเพลียเรื้อรัง เหนื่อยง่าย (Chronic Fatigue): พบบ่อยอันดับ 1<br>   ↳ 2. อาการหมดแรงทรุดลงหลังออกแรงเพียงเล็กน้อย (Post-Exertional Malaise: PEM)<br>   ↳ 3. ภาวะสมองล้า (Brain Fog): มึนงง สมาธิสั้น คิดช้า ความจำระยะสั้นลดลง<br>   ↳ 4. หายใจไม่อิ่ม แน่นหน้าอก หอบเหนื่อย (Dyspnea / Breathlessness)<br>   ↳ 5. ปวดข้อและกล้ามเนื้อเรื้อรัง (Arthralgia / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
+      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
@@ -13976,7 +14288,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
       "answerImage": "",
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
@@ -13986,15 +14298,39 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: มีข้อจำกัดเรื่องการคุมกำเนิด (Contraception Requirements) สำหรับผู้หญิงและผู้ชายที่รับประทานยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ผู้หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ผู้ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดด้วยวิธีที่มีประสิทธิภาพ (ใช้ถุงยางอนามัย) ตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 3 เดือน (<span style=\"color:#d97706\"><b>90 วัน</b></span>) หลังหยุดยา เนื่องจากยายังอาจตกค้างในตัวอสุจิ!",
       "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
+      "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
       "id": "16. Others & Toxic::219",
       "itemNo": "217",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span>) และข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ต่อตับ]:<br>   ↳ การตรวจติดตาม: ต้องตรวจค่าเอนไซม์ตับ (ALT, AST, Total Bilirubin) ก่อนเริ่มยาและติดตามระหว่างการรักษา<br>   ↳ ข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที:<br>      1. เมื่อระดับ ALT หรือ AST เพิ่มสูงขึ้นมากกว่า 5 เท่าของค่าบนปกติ (<span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span>)<br>      2. หรือ เมื่อมีระดับ ALT เพิ่มขึ้นร่วมกับมีอาการตับอักเสบ หรือมีค่า Total Bilirubin / INR สูงขึ้น",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
+    },
+    {
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> ใน Room air หรือหายใจเร็ว (RR &gt;= 30 ครั้ง/นาที)<br>   ↳ 5. Critical (วิกฤต): ภาวะหายใจล้มเหลวเฉียบพลัน (ARDS), ช็อกจากการติดเชื้อ (<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14005,20 +14341,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ eGFR &gt;= 60 mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
       "answerImage": "",
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14029,32 +14365,68 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 (Disease Severity Classification) ตามแนวทางเวชปฏิบัติแบ่งเป็นกี่ระดับ และมีเกณฑ์ตัดสินอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span><br>   2. Moderate (ปานกลาง): มีอาการปอดอักเสบ (Pneumonia) ทางคลินิกหรือภาพถ่ายรังสี แต่ยัง ไม่ต้องการ ออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> ในรูมแอร์)<br>   3. Severe (รุนแรง): ปอดอักเสบร่วมกับ มีภาวะขาดออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>, หายใจเร็ว RR &gt; 30 ครั้ง/นาที, หรือ Lung Infiltrates &gt; 50%)<br>   4. Critical (วิกฤต): เกิดภาวะหายใจล้มเหลว (ARDS), <span style=\"color:#dc2626\"><b>Septic Shock</b></span>, หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "COVID-19 Disease Severity Classification"
+    },
+    {
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> x 4 แคปซูล) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่เคร่งครัดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
       "answerImage": "",
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาดของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) เกิดจากกลไกใด และมียาสำคัญใดบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 ที่แรงมาก (Potent CYP3A4 Inhibitor) ทำให้ระดับยาอื่นที่ผ่าน CYP3A4 สูงขึ้นจนเกิดพิษร้ายแรง<br><br>⚠️ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> DDIs - Red Alert 🔥)]:<br>   1. ยาลดไขมัน Statins: <span style=\"color:#0284c7\"><b>Simvastatin</b></span>, <span style=\"color:#0284c7\"><b>Lovastatin</b></span> (เสี่ยงเกิดกล้ามเนื้อสลาย <span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span> ➔ ให้หยุด Statin ชั่วคราวระหว่างกิน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   2. ยาต้านการแข็งตัวของเลือด: Rivaroxaban (เสี่ยงเลือดออกรุนแรง)<br>   3. ยาหัวใจ: Amiodarone, Flecainide (เสี่ยง Arrhythmia)<br>   4. ยาต้านชักกลุ่ม CYP Inducer: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span> (จะลดระดับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
+    },
+    {
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation) และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (ตัวเลือกแรกที่ปลอดภัยที่สุด): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) เป็นยาที่มีข้อมูลความปลอดภัยสูงสุดในหญิงตั้งครรภ์ทุกไตรมาส<br>   ↳ ทางเลือกที่สอง: <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (พิจารณาใช้เมื่อประโยชน์เหนือความเสี่ยง)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร รวมถึงเด็ก &lt; 18 ปี เด็ดขาด เนื่องจากมีพิษต่อการสร้างกระดูกและกระดูกอ่อนของทารก (Teratogenicity)!",
+      "answerImage": "",
+      "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
+    },
+    {
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14065,20 +14437,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
+      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14089,32 +14461,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14125,8 +14497,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14137,8 +14509,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14149,8 +14521,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14161,8 +14533,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14173,32 +14545,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยโรคไตวายเรื้อรังระยะสุดท้าย (CKD Stage 5, eGFR 18 mL/min) ติดเชื้อ COVID-19 วันที่ 3 มีไข้ ไอ SpO2 96% ควรเลือกยาต้านไวรัสใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (200 mg IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> 800 mg PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (<span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (<span style=\"color:#d97706\"><b>200 mg</b></span> Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14209,32 +14581,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ COVID-19 มีปอดอักเสบ SpO2 91% หอบเหนื่อย ต้องใช้ออกซิเจน Cannula 4 LPM ควรเริ่มแผนการรักษาด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Severe COVID-19 ได้รับ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> มา 24 ชม. แต่อาการทรุดลง ต้องใส่ High-flow Nasal Cannula ตรวจ CRP ได้ 120 mg/L ควรเพิ่มยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน <span style=\"color:#d97706\"><b>800 mg</b></span>) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14245,20 +14617,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่ได้รับ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ตรวจติดตามการทำงานของตับในวันที่ 3 พบค่า ALT สูงขึ้นเป็น 340 U/L (เดิม 35 U/L, ค่าปกติ &lt; 50 U/L) ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced Hepatotoxicity / DILI)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced <span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span> / <span style=\"color:#dc2626\"><b>DILI</b></span>)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14269,8 +14641,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14281,56 +14653,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "แนวทางการรักษาผู้ป่วย COVID-19 ในระยะรุนแรง (Severe: SpO2 &lt; 94%) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
+      "question": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> รูมแอร์, ต้องการ O2 Low-flow)]:<br>   ↳ ให้ ยาต้านไวรัสร่วมกับสเตียรอยด์:<br>     • <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
       "answerImage": "",
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>) ในผู้ป่วย COVID-19 คืออะไร และเหตุใดจึงห้ามให้ในกลุ่มอาการเล็กน้อย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>]:<br>   ↳ ข้อบ่งชี้: ให้เฉพาะในผู้ป่วยระดับ Severe หรือ Critical ที่ ต้องการออกซิเจนเสริม (Supplemental O2) หรือใช้เครื่องช่วยหายใจเท่านั้น<br>   ↳ ขนาดยามาตรฐาน: <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>❌ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในกลุ่ม Mild / Moderate (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ห้ามให้ สเตียรอยด์ในผู้ป่วยที่ <span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> และไม่ได้ใช้ออกซิเจนเสริม เพราะการให้เร็วเกินไปจะ กดภูมิต้านทาน ทำให้ร่างกายกำจัดเชื้อไวรัสช้าลงและเพิ่มอัตราการเสียชีวิต!",
+      "answerImage": "",
+      "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
+    },
+    {
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>): มีข้อบ่งชี้ ขนาดยาปกติ และการปรับขนาดยาในผู้ป่วยโรคไต (Renal Impairment) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (เริ่มภายใน <span style=\"color:#d97706\"><b>5 วัน</b></span>แรกของอาการ)]:<br>   ↳ การทำงานของไตปกติ (<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (พร้อมหรือไม่พร้อมอาหารก็ได้)<br>   ↳ ไตบกพร่องปานกลาง (<span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min): ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ไตรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min): <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> / Avoid) เนื่องจากยังไม่มีข้อมูลขนาดยาที่ปลอดภัย",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
+    },
+    {
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) คืออะไร และผู้ป่วยมักบ่นถึงอาการใดมากที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   1. <span style=\"color:#dc2626\"><b>Dysgeusia</b></span> (การรับรสชาติผิดปกติ): ผู้ป่วยมากกว่า 6% จะรู้สึก &#039;รสขมจัดหรือรสโลหะในปาก&#039; (Metallic/Bitter Taste) ตลอดการรับประทานยา (เป็นผลจากตัวยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เอง สามารถหายได้เองหลังหยุดยา แนะนำให้จิบน้ำหรืออมลูกอมเพื่อบรรเทา)<br>   2. ถ่ายเหลว / ท้องเสีย (Diarrhea ~3%)<br>   3. ความดันโลหิตเพิ่มขึ้นชั่วคราว (Hypertension)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
+    },
+    {
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: มีกลไกการออกฤทธิ์ ขั้นตอนการเตรียมยาฉีด (IV Preparation) และระยะเวลาการรักษาในผู้ป่วยนอก vs ผู้ป่วยในอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>]:<br>   ↳ กลไก: เป็น Prodrug ยับยั้งเอนไซม์ RNA-dependent RNA Polymerase (RdRp) ของไวรัส<br>   ↳ ผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient Mild-Moderate): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D3 (รวม 3 วัน เริ่มภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>ของอาการ)<br>   ↳ ผู้ป่วยในที่ต้องการออกซิเจน (Inpatient Severe): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [ขั้นตอนการเตรียมยา (IV Preparation)]:<br>   ↳ ละลายผงยา Lyophilized powder 100 mg ด้วย Sterile Water 19 mL ➔ เจือจางใน NSS หรือ D5W ➔ Drip ทางหลอดเลือดดำช้าๆ นาน 30–120 นาที",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
+    },
+    {
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Paxlovid Renal Dosing]</b></span>: ผู้ป่วยหญิงอายุ 62 ปี เป็นโรคเบาหวานและโรคไตเรื้อรัง (eGFR 45 mL/min) ติดเชื้อ COVID-19 วันที่ 2 มีอาการไอ มีไข้ O2 Sat 96% มีข้อบ่งชี้ในการได้รับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จะต้องปรับขนาดยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า eGFR &gt;= 60 mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Paxlovid Drug Interactions]</b></span>: ผู้ป่วยชายอายุ 65 ปี ตรวจพบ ATK ผลบวก COVID-19 มีอาการไอ เจ็บคอ มีไข้มา 2 วัน O2 Saturation 97% มีโรคประจำตัวคือ โรคหัวใจเต้นผิดจังหวะ (AF) รับประทานยา Amiodarone และ Rivaroxaban และโรคไขมันในเลือดสูงรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg แพทย์ต้องการสั่งจ่ายยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) จงวิเคราะห์ความปลอดภัยและข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Severe COVID-19 Therapy]</b></span>: ผู้ป่วยชายอายุ 58 ปี ติดเชื้อ COVID-19 มา 8 วัน มีอาการเหนื่อยหอบมากขึ้นเรื่อยๆ อุณหภูมิ 38.8 C, O2 Saturation 88% on Room Air, ผล X-ray ปอดพบ Bilateral Patchy Infiltrates เข้าได้กับ Severe COVID-19 Pneumonia จงวางแผนการรักษาด้วยยาตามแนวทางเวชปฏิบัติ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -14341,68 +14761,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น 6 เดือนมาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14413,8 +14773,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14425,8 +14785,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14437,20 +14797,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14461,20 +14809,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (<span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก <span style=\"color:#d97706\"><b>600 mg</b></span> OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14485,8 +14833,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14497,8 +14845,116 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "สรุปกลไกการออกฤทธิ์ของยารักษาวัณโรค (Mechanism of Action) จำแนกตาม 6 ตำแหน่งเป้าหมายของเซลล์แบคทีเรียตามสไลด์บรรยาย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethionamide</b></span>/<span style=\"color:#0284c7\"><b>Prothionamide</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EmbB), <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (D-alanine li<span style=\"color:#7c3aed\"><i><b>gas</b></i></span>e)<br>   2. RNA Polymerase: <span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Rifabutin</b></span>, <span style=\"color:#0284c7\"><b>Rifapentine</b></span><br>   3. DNA Gyrase: <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span><br>   4. Ribosome (การสังเคราะห์โปรตีน): <span style=\"color:#0284c7\"><b>Streptomycin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Amikacin</b></span> (30S), <span style=\"color:#0284c7\"><b>Linezolid</b></span> (50S)<br>   5. Proton Motive Force / Energy: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (เปลี่ยนเป็น POA รบกวนเยื่อหุ้มเซลล์)<br>   6. ATP Synthase (ยาใหม่): <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (ยับยั้งการสร้างพลังงาน ATP)",
+      "answerImage": "",
+      "note": "TB Mechanisms of Action 6 Targets Slide 12"
+    },
+    {
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) และ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): มีกลไกการออกฤทธิ์และจุดเด่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): ยับยั้งเอนไซม์ mycobacterial ATP Synthase (ที่ Subunit c ผ่านยีน atpE) ทำให้แบคทีเรียขาดพลังงานและตาย เป็นยากลุ่ม Diarylquinoline<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): เป็นยากลุ่ม Nitroimidazole ออกฤทธิ์ 2 กลไก ➔ ในภาวะมีออกซิเจน (Aerobic) จะยับยั้งการสังเคราะห์กรด Mycolic acid ในผนังเซลล์ / ในภาวะไม่มีออกซิเจน (Anaerobic) จะปลดปล่อย Reactive Nitric Oxide ทำลายระบบการหายใจของเชื้อ",
+      "answerImage": "",
+      "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
+    },
+    {
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>) จากยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> มีการตรวจติดตามและรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Ethionamide</b></span> / <span style=\"color:#0284c7\"><b>Prothionamide</b></span> <span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>]:<br>   ↳ พยาธิสภาพ: ตัวยามีโครงสร้างคล้าย Thioamides ยับยั้งการรวมตัวของไอโอดีนในการสร้างฮอร์โมนไทรอยด์ (Thyroid Hormone Synthesis Inhibition)<br>   ↳ อาการ: อ่อนเพลีย ขี้หนาว น้ำหนักขึ้น ผิวแห้ง หน้าบวม<br>   ↳ การตรวจติดตาม: ตรวจระดับ TSH และ Free T4 ทุก 3 เดือนระหว่างได้รับยา<br>   ↳ การรักษา: ไม่จำเป็นต้องหยุดยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> แต่ให้เสริมด้วยฮอร์โมน <span style=\"color:#0284c7\"><b>Levothyroxine</b></span> ทดแทนจนจบคอร์สการรักษา",
+      "answerImage": "",
+      "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
+    },
+    {
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>6 เดือน</b></span>มาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14509,8 +14965,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14521,8 +14977,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14533,104 +14989,260 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen ประกอบด้วยยาอะไรบ้าง ใช้ระยะเวลากี่เดือน และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง 6 เดือน (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#0284c7\"><b>Sirturo</b></span>) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน <span style=\"color:#d97706\"><b>400 mg</b></span> วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> ในสูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span>/<span style=\"color:#16a34a\"><b>BPaL</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> 200 mg PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (6 เดือน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#d97706\"><b>6 เดือน</b></span>)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>First-Line</b></span> Anti-TB Regimen (2HRZE/4HR) สำหรับ Drug-Susceptible TB คืออะไร และยาแต่ละตัวมีกลไกอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ 6 เดือน<br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน 6 เดือน (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา 6 เดือน)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา <span style=\"color:#d97706\"><b>6 เดือน</b></span>)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ประเภทต่างๆ (Mono-resistant, Poly-resistant, และ MDR-TB) ตามเกณฑ์องค์การอนามัยโลก (WHO) และแนวทางประเทศไทยคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (Definitions)]:<br>   1. Mono-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งเพียง ตัวเดียว เท่านั้น (เช่น Mono-INH, Mono-RIF)<br>   2. Poly-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งตั้งแต่ 2 ตัวขึ้นไป แต่ไม่ดื้อพร้อมกันทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span><br>   3. MDR-TB (Multidrug-Resistant TB): ดื้อต่อยารักษาวัณโรคตัวหลักอย่างน้อย 2 ตัวพร้อมกัน คือ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)",
+      "answerImage": "",
+      "note": "TB Definitions: Mono vs Poly vs MDR-TB"
+    },
+    {
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-XDR-TB และ XDR-TB (Extensively Drug-Resistant TB) ตามเกณฑ์สากลและคู่มือวัณโรคแห่งประเทศไทยฉบับล่าสุดคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) ตัวใดตัวหนึ่ง<br>   ↳ XDR-TB: ผู้ป่วยวัณโรคที่เข้าเกณฑ์ MDR/RR-TB + ดื้อต่อ Fluoroquinolones + ดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอย่างน้อย 1 ตัว (ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span>)",
+      "answerImage": "",
+      "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
+    },
+    {
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH Resistance Genes) ระหว่างการกลายพันธุ์ที่ยีน katG กับยีน inhA มีความแตกต่างและส่งผลต่อการเลือกยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ katG Mutation: สูญเสียเอนไซม์ Catalase-Peroxidase ไม่สามารถเปลี่ยน INH prodrug เป็นรูปออกฤทธิ์ได้ ➔ เกิด High-Level INH Resistance (<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> INH ต่อ แม้เพิ่มขนาด)<br>   ↳ inhA Promoter Mutation: เกิด Overexpression ของเอนไซม์ InhA ➔ เกิด Low-Level INH Resistance (สามารถใช้ High-Dose INH 10–15 mg/kg ได้ แต่ จะเกิดการดื้อข้ามกลุ่ม Cross-Resistance ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> ทันที!)",
+      "answerImage": "",
+      "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
+    },
+    {
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF Resistance) เกิดจากการกลายพันธุ์ที่ยีนใด และเครื่องตรวจ GeneXpert MTB/RIF ใช้หลักการตรวจอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> และ GeneXpert]:<br>   ↳ ยีน<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>: ยีน rpoB (&gt; 95% เกิดการกลายพันธุ์ที่บริเวณ 81-bp <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance Determining Region - RRDR ของ RNA Polymerase Beta-subunit)<br>   ↳ GeneXpert MTB/RIF: ใช้เทคนิค Real-time Nested PCR ตรวจจับสาย DNA ของเชื้อ <span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการกลายพันธุ์ของยีน rpoB รู้ผล<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> ภายใน 2 ชั่วโมง และให้ถือว่าผู้ป่วยที่มีผล RIF-Resistant เข้าข่ายเป็น MDR-TB ทันที!",
+      "answerImage": "",
+      "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
+    },
+    {
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>เดี่ยว (Mono-resistant TB) ต่อ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (Mono-INH) และดื้อต่อยาตัวอื่นมีสูตรการรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> Resistant (ดื้อเฉพาะ INH - พบบ่อยสุด): สูตร 6 R-Z-E-Lfx ➔ ให้ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> + <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> + <span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   2. Mono-<span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistant (ดื้อเฉพาะ RIF): ให้รักษาเสมือนเป็น MDR-TB (ใช้สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> หรือ All-Oral Shorter Regimen)<br>   3. Mono-<span style=\"color:#0284c7\"><b>Ethambutol</b></span> Resistant (ดื้อเฉพาะ EMB): สูตร 2 HRZ / 4 HR (รวม <span style=\"color:#d97706\"><b>6 เดือน</b></span>)<br>   4. Mono-<span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> Resistant (ดื้อเฉพาะ PZA เช่น M. bovis): สูตร 2 HRE / 7 HR (รวม 9 เดือน)",
+      "answerImage": "",
+      "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
+    },
+    {
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#d97706\"><b>6 เดือน</b></span> <span style=\"color:#16a34a\"><b>BPaLM</b></span> (<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> + <span style=\"color:#0284c7\"><b>Linezolid</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>): มีขนาดยา การรับประทาน และข้อบ่งชี้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> <span style=\"color:#d97706\"><b>6 เดือน</b></span> สำหรับ MDR/RR-TB]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): <span style=\"color:#d97706\"><b>400 mg</b></span> OD ใน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก ➔ จากนั้น <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง ในสัปดาห์ที่ 3–24 (ต้องรับประทาน พร้อมอาหารไขมันสูง)<br>   2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): <span style=\"color:#d97706\"><b>200 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ต้องรับประทาน พร้อมอาหาร)<br>   3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD): <span style=\"color:#d97706\"><b>600 mg</b></span> OD นาน 16–2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากเกิดพิษต่อไขกระดูกหรือปลายประสาท สามารถลดเหลือ 300 mg OD ได้)<br>   4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (Mfx): <span style=\"color:#d97706\"><b>400 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากตรวจพบว่าดื้อต่อ FQ ให้ตัด Mfx ออก กลายเป็นสูตร <span style=\"color:#16a34a\"><b>BPaL</b></span>)",
+      "answerImage": "",
+      "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
+    },
+    {
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษา MDR-TB มีแนวทางการตรวจติดตามและปรับยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> Monitoring]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Linezolid</b></span> ยับยั้ง Mitochondrial Protein Synthesis ทำให้เกิด Anemia, <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> และ Leukopenia เมื่อใช้นานเกิน 2–<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ การตรวจติดตาม: ตรวจความสมบูรณ์ของเม็ดเลือด (CBC) ทุก 1–<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ แนวทางการปรับยา:<br>      • หาก <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL หรือ Platelets &lt; 50,000 /mcL ➔ ให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว<br>      • เมื่อผลเลือดฟื้นตัว ให้เริ่มยาใหม่ด้วยขนาดลดลงเหลือ 300 mg วันละ 1 ครั้ง",
+      "answerImage": "",
+      "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
+    },
+    {
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ของยา <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และเกณฑ์การตรวจเลือดติดตามพิษไขกระดูกของ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในสูตรวัณโรคมีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก QTc &gt; 500 ms ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: 600 mg วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): Hb &lt; 8 g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
       "answerImage": "",
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (TB Drug-Induced Liver Injury: DILI) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> (ข้อใดข้อหนึ่ง)]:<br>   1. ALT หรือ AST &gt; 3 เท่าของ ULN ร่วมกับ มีอาการตับอักเสบ (เบื่ออาหาร คลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง)<br>   2. ALT หรือ AST &gt; 5 เท่าของ ULN แม้ ไม่มีอาการ<br>   3. Total Bilirubin &gt; 2.0 mg/dL<br><br>▶ [ขั้นตอนการ Rechallenge ยาอย่างปลอดภัย]:<br>   1. หยุดยาทุกตัวที่สงสัยทันที -&gt; ให้สูตรชั่วคราวที่ไม่ผ่านตับ (<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
       "answerImage": "",
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และเกณฑ์คัดออก (Exclusion Criteria) ของสูตรยา All-Oral Shorter Regimen (สูตรสั้น <span style=\"color:#d97706\"><b>9–11 เดือน</b></span>) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>สูตรสั้น All-Oral Shorter Regimen (<span style=\"color:#d97706\"><b>9–11 เดือน</b></span>)]:<br>   1. ตรวจพบหรือสงสัยการดื้อต่อยากลุ่ม Fluoroquinolones หรือ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span><br>   2. มีการแพ้ยาหรือทนต่อยาหลักในสูตรไม่ได้<br>   3. เคยได้รับยารักษาวัณโรคแนวที่สอง (Second-line drugs) มาก่อนนานเกิน 1 เดือน<br>   4. มีรอยโรควัณโรคนอกปอดรุนแรง เช่น วัณโรคเยื่อหุ้มสมอง (TB Meningitis) หรือ Disseminated TB<br>   5. หญิงตั้งครรภ์หรือให้นมบุตร",
+      "answerImage": "",
+      "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
+    },
+    {
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) จากยาวัณโรค: ยาใดมีความเสี่ยงสูงสุด และมีกฎการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> จากยาวัณโรคและลำดับการเกิดพิษ]:<br>   ↳ ลำดับพิษต่อตับจากมากไปน้อย: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA - พิษตับสูงสุดและรุนแรงสุด) &gt; <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) &gt; <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)<br>   ↳ กฎการหยุดยา: หยุดยาทั้งหมดทันทีเมื่อ <span style=\"color:#d97706\"><b>ALT &gt; 3x ULN</b></span> ร่วมกับมีอาการตับอักเสบ/ตัวเหลือง หรือ <span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span> แม้ไม่มีอาการ<br><br>▶ [Rechallenge Protocol (กฎการเริ่มยาทีละตัวเมื่อ LFT &lt; 2x ULN)]:<br>   ↳ เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (พิษตับต่ำสุด)<br>   ↳ เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ↳ เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ⚠️ [ข้อห้ามเด็ดขาด]: ห้าม Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) กลับมาเด็ดขาด!",
+      "answerImage": "",
+      "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
+    },
+    {
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Psychosis</b></span>, และ Seizure?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ชาปลายมือปลายเท้า): <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เกิดจากการแย่งจับ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>), <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Ethionamide</b></span> ➔ ป้องกันด้วย <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span>) <span style=\"color:#d97706\"><b>50–100 mg/day</b></span><br>   2. <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสีแดง-เขียว): <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (#1 ต้องตรวจการมองเห็นสม่ำเสมอ), <span style=\"color:#0284c7\"><b>Linezolid</b></span><br>   3. <span style=\"color:#dc2626\"><b>Psychosis</b></span> &amp; Depression (ประสาทหลอน ซึมเศร้า อยากฆ่าตัวตาย): <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (#1 เกิดจากแย่งสารสื่อประสาท GABA/NMDA <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในคนมีโรคจิตเวช), Fluoroquinolones ➔ เสริม <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> 100–<span style=\"color:#d97706\"><b>200 mg</b></span>/day<br>   4. Seizure (ชัก): <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Isoniazid</b></span>",
+      "answerImage": "",
+      "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
+    },
+    {
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> (ยืดคลื่น QTc) และมีแนวทางการเฝ้าระวังอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span>]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   2. <span style=\"color:#0284c7\"><b>Clofazimine</b></span> (Cfz)<br>   3. Fluoroquinolones (<span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> &gt; <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>)<br>   4. <span style=\"color:#0284c7\"><b>Delamanid</b></span> (Dlm)<br><br>▶ [แนวทางการเฝ้าระวัง (Monitoring Protocol)]:<br>   ↳ ตรวจ EKG และระดับเกลือแร่ Potassium (K+) และ Magnesium (Mg2+) ก่อนเริ่มยา และติดตามทุกเดือน<br>   ↳ หากพบค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ➔ ต้องหยุดยาที่ทำให้ QT ยืดทันที และแก้ไขภาวะ Hypokalemia / Hypomagnesemia!",
+      "answerImage": "",
+      "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
+    },
+    {
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span>) มีข้อควรระวังอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> กับ CYP3A4 Inducers (<span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>): ตัวเหนี่ยวนำเอนไซม์จะเร่งการกำจัด BDQ ทำให้ระดับยาในเลือดลดลงมากกว่า 50% ➔ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br>   2. <span style=\"color:#0284c7\"><b>Linezolid</b></span> กับ ยากลุ่ม Serotonergic (SSRIs เช่น Fluoxetine, Sertraline / SNRIs / TCAs): <span style=\"color:#0284c7\"><b>Linezolid</b></span> มีฤทธิ์ยับยั้งเอนไซม์ MAO แบบไม่จำเพาะ การใช้ร่วมกับ SSRI จะทำให้เกิด <span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span> (สับสน เพ้อ กล้ามเนื้อกระตุก ตัวร้อนจัด ความดันแกว่ง) ➔ ต้องหลีกเลี่ยงการใช้ร่วมกัน!",
+      "answerImage": "",
+      "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
+    },
+    {
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation in MDR-TB): ยาใดปลอดภัย และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span>, <span style=\"color:#0284c7\"><b>Ethambutol</b></span> และ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (WHO อนุญาตให้ใช้เมื่อจำเป็น)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)]:<br>   1. <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span>: มีฤทธิ์ก่อมัยรูปทารกพิการรุนแรง (Teratogenic)<br>   2. ยาฉีดกลุ่ม Aminoglycosides (<span style=\"color:#0284c7\"><b>Amikacin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Streptomycin</b></span>): ทำลายเส้นประสาทหูคู่ที่ 8 ก่อให้เกิดภาวะหูหนวกแต่กำเนิดในทารก (Congenital Deafness)",
+      "answerImage": "",
+      "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
+    },
+    {
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า QTc &gt; 500 ms ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14641,92 +15253,92 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-200 mg/day) เสริมเสมอ?",
+      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) เสริมเสมอ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-200 mg/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> / <span style=\"color:#dc2626\"><b>Myelosuppression</b></span>)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว ทันที<br>   ↳ 2. ตรวจติดตามผล CBC สัปดาห์ละ 1-2 ครั้ง จนกระทั่งระดับเกล็ดเลือดฟื้นตัวกลับมา &gt; 100,000 cells/mcL<br>   ↳ 3. เมื่อเกล็ดเลือดฟื้นตัว สามารถเริ่มยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ใหม่โดยปรับลดขนาดยาลงเหลือ 300 mg PO วันละ 1 ครั้ง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับสูตร <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Clofazimine</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ตรวจ ECG ติดตามที่สัปดาห์ที่ 8 พบค่า QTc = 525 ms (เดิม 420 ms) ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged QTc &gt; 500 ms):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: DILI) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: <span style=\"color:#dc2626\"><b>DILI</b></span>) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
       "questionImage": "",
-      "answer": "▶ เกณฑ์การวินิจฉัยและการหยุดยา (DILI Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-DILI ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-<span style=\"color:#dc2626\"><b>DILI</b></span> ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ 1. เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (หรือยากลุ่ม Aminoglycoside) ขนาดเต็ม (พิษต่อตับต่ำที่สุด)<br>   ↳ 2. เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (ให้ขนาดต่ำก่อน เช่น 150-300 mg แล้วปรับเป็นขนาดเต็มใน 3-<span style=\"color:#d97706\"><b>7 วัน</b></span>หากเอนไซม์ตับปกติ)<br>   ↳ 3. เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เริ่มขนาด 100-150 mg แล้วปรับเป็นขนาดเต็ม)<br>   ↳ ⚠️ กฎสำคัญ: *หลีกเลี่ยงการ Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด* เนื่องจาก PZA เป็นสาเหตุของตับอักเสบรุนแรงและตับวายเฉียบพลันมากที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB รับประทานยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> 750 mg/day แล้วเริ่มมีอาการหงุดหงิด หวาดระแวง หูแว่ว และมีพฤติกรรมก้าวร้าว ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น 200 mg/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น <span style=\"color:#d97706\"><b>200 mg</b></span>/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14737,8 +15349,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14749,80 +15361,92 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้สัมผัสใกล้ชิดในบ้านของผู้ป่วย MDR-TB ตรวจคัดกรองพบว่าเป็น Latent TB Infection (LTBI - การติดเชื้อวัณโรคระยะแฝง) ควรให้การรักษาป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน 6 เดือน (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-6 เดือนเป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-<span style=\"color:#d97706\"><b>6 เดือน</b></span>เป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> มา 3 เดือน แจ้งว่าเริ่มมองเห็นภาพไม่ชัดเจนและเริ่มแยกสีเขียว-แดงไม่ออก ควรสงสัยภาวะใดและต้องทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen เหมาะสำหรับผู้ป่วยกลุ่มใด และใช้ระยะเวลากี่เดือน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>) จากยา <span style=\"color:#0284c7\"><b>Clofazimine</b></span> มีลักษณะอย่างไร และผู้ป่วยต้องทราบข้อมูลใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Clofazimine</b></span> <span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Clofazimine</b></span> เป็นสารสีแดงละลายในไขมันสูง จะเข้าไปสะสมที่ชั้นไขมันใต้ผิวหนัง เซลล์ Reticuloendothelial และผิวหนัง<br>   ↳ ลักษณะที่พบ: ผิวหนังจะเปลี่ยนเป็น สีแดงอมชมพู จนถึง สีน้ำตาลคล้ำหรือดำ (Reddish-brown to Black discoloration) ร่วมกับผิวแห้งแตกลาย (Ichthyosis) พบในผู้ป่วยเกือบ 100%<br>   ↳ คำแนะนำผู้ป่วย: อาการนี้ไม่เป็น<span style=\"color:#dc2626\"><b>อันตราย</b></span>ถึงชีวิต และสามารถหายกลับคืนสู่ปกติได้ แต่ต้องใช้เวลานานหลายเดือนถึงหลายปีหลังหยุดยา",
+      "answerImage": "",
+      "note": "TB Clofazimine Skin Discoloration reddish-brown black"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - TB Renal Dose Adjustment]</b></span>: ผู้ป่วยวัณโรคปอดมีภาวะไตเสื่อมขั้นรุนแรง (CrCl = 22 mL/min) ในสูตรยา 2HRZE ยาตัวใดที่ สามารถให้ขนาดปกติได้ และยาตัวใดที่ ต้องปรับลดความถี่ในการให้ยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-600 mg PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ Hyperuricemia/Gout (จาก Z)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-<span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ <span style=\"color:#dc2626\"><b>Hyperuricemia</b></span>/Gout (จาก Z)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - DILI Rechallenge Protocol]</b></span>: ผู้ป่วยวัณโรคปอดรับประทานสูตร 2HRZE มาได้ 3 สัปดาห์ เกิดอาการคลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง ผลตรวจการทำงานของตับพบ AST = 320 U/L, ALT = 380 U/L, Total Bilirubin = 3.8 mg/dL แพทย์สั่งหยุดยาทั้งหมด จงอธิบายเกณฑ์และลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-600 mg/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span>):<br>   ↳ ค่า AST/ALT &gt; 3 เท่าของค่าปกติร่วมกับมีอาการ หรือ &gt; 5 เท่าของค่าปกติแม้ไม่มีอาการ หรือ Total Bilirubin &gt; 2 mg/dL<br>   ↳ ขั้นตอนการ Rechallenge หลังหยุดยาจน LFT กลับสู่เกณฑ์ปลอดภัย (ALT &lt; 2 เท่าของ ULN และ Total Bili &lt; 1.5 mg/dL):<br>   ↳ ขั้นที่ 1: เริ่มให้ยาที่มีพิษต่อตับน้อยที่สุดก่อน คือ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-<span style=\"color:#d97706\"><b>600 mg</b></span>/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
+      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14833,8 +15457,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14845,8 +15469,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14857,8 +15481,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14869,8 +15493,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14881,8 +15505,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14893,8 +15517,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14905,8 +15529,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14917,8 +15541,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14929,8 +15553,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14941,8 +15565,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14953,20 +15577,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (CA-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/<span style=\"color:#d97706\"><b>800 mg</b></span>) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14977,32 +15601,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15013,8 +15613,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15025,8 +15649,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15037,8 +15661,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15049,8 +15673,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15061,8 +15685,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15073,8 +15697,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15085,8 +15709,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15097,8 +15721,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15109,8 +15733,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15121,8 +15745,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15133,8 +15757,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15145,8 +15769,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15157,8 +15781,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15169,8 +15793,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15181,8 +15805,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15193,8 +15817,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15205,8 +15829,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15217,8 +15841,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15229,8 +15853,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15241,8 +15865,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15253,8 +15877,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15265,8 +15889,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15277,8 +15901,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15289,20 +15913,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
       "questionImage": "",
-      "answer": "▶ [กฎเหล็กเรื่อง RIG]: ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:<br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= <span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
       "answerImage": "",
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15313,8 +15937,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15325,8 +15949,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15337,8 +15961,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15349,8 +15973,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -19727,18 +20351,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
-      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
-      "questionImage": "",
-      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
-      "answerImage": "",
-      "note": "PT2 อ.แสง"
-    },
-    {
-      "id": "16. Others & Toxic::11",
-      "itemNo": "9",
-      "group": "16. Others & Toxic",
-      "subTopic": "Antimicrobial Resistance (AMR)",
-      "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span> ต่อยา <span style=\"color:#0284c7\"><b>Colistin</b></span> หมายถึงอะไร และส่งผลต่อการรักษาอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Colistin</b></span> แฝงตัวอยู่ปะปนกับประชากรส่วนใหญ่ที่ตรวจแล็บพบว่าไวต่อยา<br><br>▶ ผลกระทบทางคลินิก (Clinical Impact):<br>   ↳ หากใช้ยา <span style=\"color:#0284c7\"><b>Colistin</b></span> เพียงตัวเดียวรักษา (Monotherapy) ยาจะฆ่าเชื้อส่วนใหญ่ที่ไว แต่เชื้อกลุ่มย่อยที่<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>จะเพิ่มจำนวนขึ้นมาแทนที่อย่างรวดเร็ว ทำให้การรักษาล้มเหลว<br><br>▶ แนวทางแก้ไข:<br>   ↳ ต้องใช้ยาปฏิชีวนะแบบผสมผสาน (Combination Therapy) เสมอ เช่น <span style=\"color:#0284c7\"><b>Colistin</b></span> ร่วมกับ <span style=\"color:#0284c7\"><b>Meropenem</b></span> High-dose หรือ <span style=\"color:#0284c7\"><b>Sulbactam</b></span>",
@@ -19746,8 +20358,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::12",
-      "itemNo": "10",
+      "id": "16. Others & Toxic::11",
+      "itemNo": "9",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19758,8 +20370,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::13",
-      "itemNo": "11",
+      "id": "16. Others & Toxic::12",
+      "itemNo": "10",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19770,8 +20382,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::14",
-      "itemNo": "12",
+      "id": "16. Others & Toxic::13",
+      "itemNo": "11",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19782,8 +20394,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.แสง"
     },
     {
-      "id": "16. Others & Toxic::15",
-      "itemNo": "13",
+      "id": "16. Others & Toxic::14",
+      "itemNo": "12",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19794,8 +20406,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::16",
-      "itemNo": "14",
+      "id": "16. Others & Toxic::15",
+      "itemNo": "13",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19806,8 +20418,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::17",
-      "itemNo": "15",
+      "id": "16. Others & Toxic::16",
+      "itemNo": "14",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19818,8 +20430,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::18",
-      "itemNo": "16",
+      "id": "16. Others & Toxic::17",
+      "itemNo": "15",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19830,8 +20442,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture AMR Part 1: Carbapenem High-dose Extended Infusion"
     },
     {
-      "id": "16. Others & Toxic::19",
-      "itemNo": "17",
+      "id": "16. Others & Toxic::18",
+      "itemNo": "16",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19842,8 +20454,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture AMR Part 1: D-test interpretation & erm gene"
     },
     {
-      "id": "16. Others & Toxic::20",
-      "itemNo": "18",
+      "id": "16. Others & Toxic::19",
+      "itemNo": "17",
       "group": "16. Others & Toxic",
       "subTopic": "Antimicrobial Resistance (AMR)",
       "track": "Clinic",
@@ -19852,6 +20464,18 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#7c3aed\"><i><b>VISA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Intermediate <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: 4–8 mcg/mL<br>   ↳ กลไก: เกิดจาก ผนังเซลล์หนาตัวผิดปกติ (Thickened Peptidoglycan Cell Wall) ดักจับโมเลกุล <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไว้ด้านนอกจนไม่สามารถซึมเข้าถึงเป้าหมายได้<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose 8–10 mg/kg), <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span><br><br>▶ [<span style=\"color:#7c3aed\"><i><b>VRSA</b></i></span> (<span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)]:<br>   ↳ MIC: &gt;= 16 mcg/mL<br>   ↳ กลไก: ได้รับ Plasmid ถ่ายทอดยีน vanA มาจากเชื้อ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>) เปลี่ยนปลายสาย D-Ala-D-Ala เป็น D-Ala-D-Lac ทำให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หมดความสามารถในการจับเป้าหมาย<br>   ↳ ยาที่เลือกใช้: <span style=\"color:#0284c7\"><b>Ceftaroline</b></span>, <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>",
       "answerImage": "",
       "note": "Lecture AMR Part 1: VISA vs VRSA Mechanisms & Breakpoints"
+    },
+    {
+      "id": "16. Others & Toxic::20",
+      "itemNo": "18",
+      "group": "16. Others & Toxic",
+      "subTopic": "Antimicrobial Resistance (AMR)",
+      "track": "Clinic",
+      "question": "นิยามของ MDR, XDR และ PDR แตกต่างกันอย่างไรตามเกณฑ์สากล (Magiorakos et al.)?",
+      "questionImage": "",
+      "answer": "▶ 1. Multidrug-Resistant (MDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะอย่างน้อย 1 ตัว ในกลุ่มยาตั้งแต่ 3 กลุ่มขึ้นไป (Non-susceptible to &gt;= 1 agent in &gt;= 3 antimicrobial categories)<br><br>▶ 2. Extensively Drug-Resistant (XDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะเกือบทุกกลุ่ม โดยเหลือกลุ่มยาที่ยังไวอยู่เพียง 1 หรือ 2 กลุ่มเท่านั้น<br><br>▶ 3. Pan-Drug Resistant (PDR):<br>   ↳ เชื้อดื้อต่อยาปฏิชีวนะทุกกลุ่ม ทุกชนิดที่มีการทดสอบ (ไม่มียามาตรฐานใดรักษาได้เลย)",
+      "answerImage": "",
+      "note": "PT2 อ.แสง"
     },
     {
       "id": "16. Others & Toxic::21",
@@ -19957,7 +20581,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> และยาทางเลือกสำหรับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span> (<span style=\"color:#7c3aed\"><i><b>VRE</b></i></span>) มีอะไรบ้าง และมีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด 600 mg IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ขนาด <span style=\"color:#d97706\"><b>600 mg</b></span> IV หรือ PO ทุก 12 ชั่วโมง (Bioavailability 100%)<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Daptomycin</b></span> (High-dose):<br>   ↳ ขนาด 8 - 12 mg/kg IV วันละ 1 ครั้ง<br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Crucial Warning):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาปอดอักเสบ (Pneumonia) เด็ดขาด* เพราะยาถูกสารลดแรงตึงผิวในถุงลมปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ยับยั้งฤทธิ์จนหมด ทำให้การรักษาล้มเหลวและเสียชีวิต",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -20065,7 +20689,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Osteomyelitis ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> รับประทานต่อเนื่องมาเป็นเวลา 5 สัปดาห์ ผู้ป่วยเริ่มมีอาการชาปลายนิ้วมือและนิ้วเท้าทั้งสองข้าง ควรสงสัยภาวะใดและจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>) ซึ่งเป็นพิษต่อระบบประสาทที่เกิดจากการใช้ยาต่อเนื่องนานเกิน 28 วัน (ยับยั้ง Mitochondrial protein synthesis)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ แนะนำให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (เพราะหากใช้ต่อนานอาจเกิดภาวะเส้นประสาทตาอักเสบ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> จนตาบอดถาวรได้)<br>   ↳ เปลี่ยนยาปฏิชีวนะเป็นกลุ่มอื่น เช่น <span style=\"color:#0284c7\"><b>Daptomycin</b></span>, <span style=\"color:#0284c7\"><b>Vancomycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> ตามผลความไวของเชื้อ",
       "answerImage": "",
       "note": "PT2 อ.แสง"
     },
@@ -20137,7 +20761,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Complex Resistance]</b></span>: ผู้ป่วยชายอายุ 68 ปี ในหอผู้ป่วยหนัก (ICU) ใส่สายสวนปัสสาวะและท่อช่วยหายใจ มีภาวะ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ผลเพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> ที่ดื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> และ <span style=\"color:#0284c7\"><b>Meropenem</b></span> (MIC &gt; 8 mcg/mL) ตรวจพบยีนสร้างเอนไซม์ NDM-1 (New Delhi Metallo-beta-lactamase) มีแนวทางการเลือกใช้ยาปฏิชีวนะอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading 200 mg แล้วตามด้วย 100 mg q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Avibactam</b></span>, <span style=\"color:#0284c7\"><b>Vaborbactam</b></span> หรือ <span style=\"color:#0284c7\"><b>Relebactam</b></span><br><br>▶ สูตรยาที่แนะนำตาม IDSA &amp; Thai Guidelines:<br>   ↳ สูตรหลักอันดับ 1: <span style=\"color:#0284c7\"><b>Ceftazidime/Avibactam</b></span> (CZA) 2.5 g IV q 8h (หยดยา 2-3 ชั่วโมง) + <span style=\"color:#0284c7\"><b>Aztreonam</b></span> 2 g IV q 8h (หยดยา 2-3 ชั่วโมง)<br>   ↳ เหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ไม่ถูกย่อยโดย NDM-1 แต่จะถูกย่อยโดย ESBL/AmpC ที่สร้างร่วมกัน ดังนั้น <span style=\"color:#0284c7\"><b>Avibactam</b></span> ใน CZA จะไปยับยั้ง ESBL/AmpC เพื่อเปิดทางให้ <span style=\"color:#0284c7\"><b>Aztreonam</b></span> ฆ่าเชื้อได้สำเร็จ<br>   ↳ ยาทางเลือกสำรอง: <span style=\"color:#0284c7\"><b>Colistin</b></span> (<span style=\"color:#0284c7\"><b>Colistimethate sodium</b></span>) loading 300 mg (9 ล้าน IU) แล้วตามด้วย 150 mg q 12h ร่วมกับ High-dose <span style=\"color:#0284c7\"><b>Tigecycline</b></span> (loading <span style=\"color:#d97706\"><b>200 mg</b></span> แล้วตามด้วย 100 mg q 12h)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย CRE/NDM)"
     },
@@ -20185,7 +20809,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในผู้ป่วยติดเชื้อ HIV ที่มีระดับ CD4 &lt; 200 cells/mm3 ข้อบ่งชี้และสูตรยาในการป้องกันโรคติดเชื้อฉวยโอกาส (Opportunistic Infections Prophylaxis) หลัก 3 โรคมีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,200 mg PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Pneumocystis jirovecii</b></i></span> Pneumonia (PJP):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 200 cells/mm3 หรือ Oral Candidiasis<br>   ↳ ยาป้องกันอันดับ 1 (Primary Prophylaxis): <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด Double Strength (DS) หรือ 1 เม็ด Single Strength (SS) PO วันละ 1 ครั้ง<br><br>▶ 2. Toxoplasma gondii Encephalitis (TE):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 100 cells/mm3 และผลตรวจ Toxoplasma IgG Antibody เป็นบวก<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>) 1 เม็ด DS PO วันละ 1 ครั้ง (ยาตัวเดียวกับ PJP ช่วยป้องกันทั้งสองโรคพร้อมกัน)<br><br>▶ 3. Mycobacterium avium Complex (MAC):<br>   ↳ ข้อบ่งชี้: CD4 &lt; 50 cells/mm3 (ในผู้ป่วยที่ยังไม่ได้เริ่มยาต้านไวรัสหรือไม่สามารถกดไวรัสได้)<br>   ↳ ยาป้องกันอันดับ 1: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 1,<span style=\"color:#d97706\"><b>200 mg</b></span> PO สัปดาห์ละ 1 ครั้ง หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO วันละ 2 ครั้ง",
       "answerImage": "",
       "note": "PT2 โพย Opportunistic Infections"
     },
@@ -20207,18 +20831,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
-      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
-      "questionImage": "",
-      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::51",
-      "itemNo": "49",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) แตกต่างจาก Late-Onset HAP/VAP (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>) อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มักเกิดจากเชื้อแบคทีเรียที่ยังไวต่อยา (Community-acquired flora)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span>, <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Susceptible <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>), ไวรัสทางเดินหายใจ<br><br>▶ 2. Late-Onset (&gt;= <span style=\"color:#d97706\"><b>5 วัน</b></span>ของการนอน รพ.):<br>   ↳ มีความเสี่ยงสูงมากต่อการติดเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในโรงพยาบาล (MDR Hospital Pathogens)<br>   ↳ เชื้อเด่น: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Klebsiella pneumoniae</b></i></span> (ESBL/CRE), <span style=\"color:#0284c7\"><b>Methicillin</b></span>-Resistant <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)",
@@ -20226,8 +20838,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::52",
-      "itemNo": "50",
+      "id": "16. Others & Toxic::51",
+      "itemNo": "49",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20238,8 +20850,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::53",
-      "itemNo": "51",
+      "id": "16. Others & Toxic::52",
+      "itemNo": "50",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20250,8 +20862,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::54",
-      "itemNo": "52",
+      "id": "16. Others & Toxic::53",
+      "itemNo": "51",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20262,8 +20874,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::55",
-      "itemNo": "53",
+      "id": "16. Others & Toxic::54",
+      "itemNo": "52",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20274,20 +20886,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::56",
-      "itemNo": "54",
-      "group": "16. Others & Toxic",
-      "subTopic": "Pneumonia (CAP / HAP / VAP)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::57",
-      "itemNo": "55",
+      "id": "16. Others & Toxic::55",
+      "itemNo": "53",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20298,8 +20898,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::58",
-      "itemNo": "56",
+      "id": "16. Others & Toxic::56",
+      "itemNo": "54",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20310,8 +20910,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::59",
-      "itemNo": "57",
+      "id": "16. Others & Toxic::57",
+      "itemNo": "55",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20322,8 +20922,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::60",
-      "itemNo": "58",
+      "id": "16. Others & Toxic::58",
+      "itemNo": "56",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20334,8 +20934,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::61",
-      "itemNo": "59",
+      "id": "16. Others & Toxic::59",
+      "itemNo": "57",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20346,8 +20946,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::62",
-      "itemNo": "60",
+      "id": "16. Others & Toxic::60",
+      "itemNo": "58",
       "group": "16. Others & Toxic",
       "subTopic": "Pneumonia (CAP / HAP / VAP)",
       "track": "Clinic",
@@ -20356,6 +20956,30 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span>) หรืออุณหภูมิกายต่ำผิดปกติ (<span style=\"color:#d97706\"><b>&lt; 36.0°C</b></span>), หนาวสั่น<br>   ↳ ทางเดินหายใจ: ไอมีเสมหะขุ่นเปลี่ยนสีเป็นหนอง (Purulent Tracheal Secretions / Discolored Sputum), เจ็บแน่นหน้าอก (Pleuritic chest pain), หายใจหอบเหนื่อย (Tachypnea, Dyspnea)<br>   ↳ ฟังปอด (Chest Auscultation): ได้ยินเสียงผิดปกติ เช่น Crepitation (Crackle), Rhonchi หรือ Tubular breath sounds<br><br>▶ [ผลตรวจทางห้องปฏิบัติการและรังสีวิทยา (Lab &amp; Imaging)]:<br>   1. Complete Blood Count (CBC): พบ Leukocytosis (<span style=\"color:#d97706\"><b>WBC &gt; 10,000</b></span>–12,000 /mcL) โดยมี <span style=\"color:#d97706\"><b>Neutrophils</b></span> (<span style=\"color:#d97706\"><b>PMN</b></span>) เด่น &gt; 80% หรือมี Band form &gt; 10% (Left shift) หรือ Leukopenia (&lt; 4,000 /mcL)<br>   2. การแลกเปลี่ยนก๊าซ (<span style=\"color:#7c3aed\"><i><b>Gas</b></i></span> Exchange): ค่า <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> ลดลง (Hypoxemia / Oxygen desaturation)<br>   3. Chest X-Ray (CXR): ตรวจพบ New หรือ Progressive Pulmonary Infiltrate, <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation หรือ Cavitation",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Clinical Presentation & Diagnostic Triad"
+    },
+    {
+      "id": "16. Others & Toxic::61",
+      "itemNo": "59",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "คำนิยามและเกณฑ์การวินิจฉัยของ Hospital-Acquired Pneumonia (HAP) และ Ventilator-Associated Pneumonia (VAP) คืออะไร?",
+      "questionImage": "",
+      "answer": "▶ 1. Hospital-Acquired Pneumonia (HAP - ปอดอักเสบในโรงพยาบาล):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังเข้ารับการรักษาในโรงพยาบาล โดยที่ผู้ป่วยไม่ได้ใส่ท่อช่วยหายใจขณะเข้ารับการรักษา<br><br>▶ 2. Ventilator-Associated Pneumonia (VAP - ปอดอักเสบจากการใช้เครื่องช่วยหายใจ):<br>   ↳ การติดเชื้อปอดอักเสบที่เกิดขึ้นตั้งแต่ 48 ชั่วโมงขึ้นไปหลังได้รับการใส่ท่อช่วยหายใจ (Endotracheal intubation)<br><br>▶ เกณฑ์การวินิจฉัยทางคลินิก:<br>   ↳ ภาพรังสีทรวงอก (Chest X-ray) พบฝ้าขาวรอยโรคใหม่ (New or progressive infiltrate) ร่วมกับอาการอย่างน้อย 2 ใน 3 ข้อ: ไข้ (&gt; 38 C), เม็ดเลือดขาวสูง (Leukocytosis &gt; 12,000 หรือ Leukopenia &lt; 4,000), เสมหะขุ่นเป็นหนอง (Purulent sputum)",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
+    },
+    {
+      "id": "16. Others & Toxic::62",
+      "itemNo": "60",
+      "group": "16. Others & Toxic",
+      "subTopic": "Pneumonia (CAP / HAP / VAP)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Colistin</b></span> หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span>) มีบทบาทอย่างไรใน VAP?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ ใช้เป็น ยาเสริมร่วมกับยาฉีดทางหลอดเลือด (Adjunctive therapy with systemic IV antibiotics) เฉพาะในผู้ป่วย VAP ที่เกิดจากเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>แกรมลบขั้นรุนแรง (เช่น XDR <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span> หรือ CRAB) ที่ตอบสนองต่อยาฉีดเพียงอย่างเดียวได้ไม่ดี<br><br>▶ เหตุผลทางเภสัชวิทยา:<br>   ↳ การพ่นยาเข้าทางเดินหายใจโดยตรงจะช่วยเพิ่มความเข้มข้นของยาในเยื่อบุผิวถุงลมปอด (ELF) ได้สูงกว่าระดับ MIC ของเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายร้อยเท่า โดยไม่เพิ่มระดับยาในกระแสเลือดและไม่เพิ่มพิษต่อไต",
+      "answerImage": "",
+      "note": "PT2 อ.ชาญกิจ"
     },
     {
       "id": "16. Others & Toxic::63",
@@ -20461,7 +21085,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับผู้ป่วย VAP ที่มีความเสี่ยงสูงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และ <span style=\"color:#dc2626\"><b>Septic Shock</b></span> ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h)",
+      "answer": "<span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h) หรือ Pip-Tazo (4.5 g IV q 6h)<br>   ↳ 2. Second Anti-pseudomonal agent (ตัวเสริมที่ 2 ต่างกลุ่ม):<br>   ↳ Aminoglycoside: <span style=\"color:#0284c7\"><b>Amikacin</b></span> (15-20 mg/kg IV OD) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (5-7 mg/kg IV OD) หรือ Fluoroquinolone (<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV OD / <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h)<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> agent (ตัวครอบคลุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20473,7 +21097,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา Aspiration Pneumonia คือยาใด และมีทางเลือกใดในผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> 400 mg IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (<span style=\"color:#0284c7\"><b>Unasyn</b></span>) 1.5 - 3 g IV ทุก 6 ชั่วโมง (ครอบคลุมทั้งเชื้อแบคทีเรียไม่ใช้ออกซิเจนในช่องปาก Oral Anaerobes และเชื้อ Streptococci / Gram-negative)<br>   ↳ ทางเลือกยากิน: <span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span> (<span style=\"color:#0284c7\"><b>Augmentin</b></span>) 875/125 mg PO วันละ 2 ครั้ง<br><br>▶ ทางเลือกสำหรับผู้ป่วยแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV/PO วันละ 1 ครั้ง หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) ร่วมกับ Metronidazole (500 mg IV/PO q 8h) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20497,7 +21121,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยนอน รพ. มา <span style=\"color:#d97706\"><b>7 วัน</b></span> เกิดไข้สูง ไอเสมหะขุ่น หอบเหนื่อย X-ray ปอดพบฝ้าขาวใหม่ ตรวจเสมหะพบ Gram-negative bacilli กำลังรอผลเพาะเชื้อ ควรเริ่มยา Empiric อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg IV q 12h) ร่วมด้วย",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) เสี่ยงต่อเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#7c3aed\"><i><b>P. aeruginosa</b></i></span>, Acinetobacter และ Enterobacterales<br><br>▶ 💡 สูตรยาเชิงประจักษ์ (Empiric Regimen):<br>   ↳ ให้ยาครอบคลุม Pseudomonas และเชื้อแกรมลบ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> เช่น <span style=\"color:#0284c7\"><b>Meropenem</b></span> (1 g IV q 8h) หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> (2 g IV q 8h)<br>   ↳ หากหอผู้ป่วยมีความชุกของ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20% หรือผู้ป่วยมีภาวะวิกฤต: ให้เพิ่ม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h คุม Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h) ร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20569,7 +21193,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>แพทย์ต้องการสั่งยา <span style=\"color:#0284c7\"><b>Daptomycin</b></span> 8 mg/kg IV OD เพื่อรักษาผู้ป่วย VAP ที่เพาะเชื้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> เภสัชกรควรให้คำแนะนำทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
+      "answer": "<span style=\"color:#0284c7\"><b>Daptomycin</b></span> ในการรักษาโรคปอดอักเสบ (Pneumonia) โดยเด็ดขาด<br>   ↳ อธิบายเหตุผลทางเภสัชวิทยา: <span style=\"color:#0284c7\"><b>Daptomycin</b></span> ถูกยับยั้งฤทธิ์จนหมดโดยสารลดแรงตึงผิวในปอด (<span style=\"color:#dc2626\"><b>Pulmonary Surfactant</b></span>) ทำให้ยาไม่สามารถฆ่าเชื้อในเนื้อปอดได้<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) แทนทันที",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20617,7 +21241,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "ผู้ป่วย Hospital-Acquired Pneumonia (HAP) หรือ VAP ในกลุ่มที่มีความเสี่ยงสูง (High Mortality Risk หรือ มีความเสี่ยงต่อ MDR Pathogens) มีเกณฑ์ตัดสินใจอย่างไร และสูตรยา Empiric Regimen ต้องประกอบด้วยยากี่ตัว กลุ่มใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
+      "answer": "<span style=\"color:#dc2626\"><b>Septic Shock</b></span> หรือต้องการเครื่องช่วยหายใจ<br>   ↳ ได้รับยาปฏิชีวนะฉีดทางหลอดเลือดดำ (IV Antibiotics) ในช่วง <span style=\"color:#d97706\"><b>90 วัน</b></span>ที่ผ่านมา<br>   ↳ หอผู้ป่วยมีอัตราเชื้อ Gram-negative <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> &gt; 10% หรือ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> &gt; 20%<br><br>▶ [สูตรยาปฏิชีวนะเชิงประจักษ์ (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> - 3 ตัว)]:<br>   1. 1st Anti-pseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h หรือ <span style=\"color:#0284c7\"><b>Cefepime</b></span> 2 g IV q 8h หรือ <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h<br>   2. 2nd Anti-pseudomonal Agent (ต่างกลุ่มกลไก): <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h / <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> 750 mg IV q 24h หรือ <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV q 24h<br>   3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (<span style=\"color:#d97706\"><b>AUC 400-600</b></span>) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h<br><br>✦ ข้อควรระวัง: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> Beta-lactam ซ้ำกัน 2 ตัว (เช่น <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Cefepime</b></span> + <span style=\"color:#0284c7\"><b>Meropenem</b></span> ร่วมกัน)",
       "answerImage": "",
       "note": "Lecture HAP/VAP: Empiric Triple coverage for MDR Risk"
     },
@@ -20689,7 +21313,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Late-Onset VAP]</b></span>: ผู้ป่วยชายอายุ 60 ปี ใส่ท่อช่วยหายใจและเครื่องช่วยหายใจใน ICU มานาน 8 วัน เกิดไข้สูง 39.2 C เสมหะมีหนองข้น ดูดเสมหะได้ปริมาณมาก X-ray ปอดพบรอยโรคฝ้าขาวใหม่ (New Infiltrate) ที่ปอดทั้งสองข้าง มีประวัติได้รับ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มาก่อนเมื่อ <span style=\"color:#d97706\"><b>5 วัน</b></span>ที่แล้ว จงวางแผนสูตรยาปฏิชีวนะเชิงประจักษ์ (Empiric VAP Regimen)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 400 mg IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg IV q 12h",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>) และมีปัจจัยเสี่ยงเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> MDR สูง (เคยได้ยาปฏิชีวนะมาก่อน)<br>   ↳ เชื้อก่อโรคที่ต้องครอบคลุม: <span style=\"color:#7c3aed\"><i><b>Pseudomonas aeruginosa</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Acinetobacter baumannii</b></i></span>, Enterobacterales <span style=\"color:#dc2626\"><b>ดื้อยา</b></span> และ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ สูตรยา Empiric <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ที่ถูกต้อง:<br>   ↳ 1. Antipseudomonal Beta-lactam: <span style=\"color:#0284c7\"><b>Meropenem</b></span> 1 g IV q 8h (<span style=\"color:#16a34a\"><b>Extended Infusion</b></span> 3 ชม.) หรือ <span style=\"color:#0284c7\"><b>Piperacillin/Tazobactam</b></span> 4.5 g IV q 6h<br>   ↳ 2. Second Antipseudomonal Agent: <span style=\"color:#0284c7\"><b>Amikacin</b></span> 15-20 mg/kg IV OD หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> <span style=\"color:#d97706\"><b>400 mg</b></span> IV q 8h<br>   ↳ 3. Anti-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Agent: <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15-20 mg/kg IV q 8-12h (Target AUC/MIC 400-600 หรือ Trough 15-20 mcg/mL) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> IV q 12h",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย VAP)"
     },
@@ -20905,7 +21529,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group En<span style=\"color:#16a34a\"><b>doc</b></span>arditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve En<span style=\"color:#16a34a\"><b>doc</b></span>arditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20953,7 +21577,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis (IE) มีอะไรบ้าง แบ่งตามกลุ่มความเสี่ยง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรกหลังผ่าตัด)<br><br>▶ กลุ่มความเสี่ยงปานกลาง (Moderate Risk):<br>   ↳ โรคลิ้นหัวใจ (Valvular Heart Disease) เช่น Mitral Valve Prolapse ที่มีลิ้นหัวใจรั่ว, Rheumatic Heart Disease<br>   ↳ Hypertrophic Cardiomy<span style=\"color:#16a34a\"><b>opat</b></span>hy<br><br>▶ กลุ่มความเสี่ยงจากกิจกรรม (Procedural/Behavioral Risk):<br>   ↳ ฉีดยาเสพติดเข้าเส้น (IVDA)<br>   ↳ ผู้ป่วยที่มีสาย Central Venous Catheter หรือ Temporary Pacemaker",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21073,7 +21697,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>แรก<br>   4. ผู้ได้รับการปลูกถ่ายหัวใจแล้วลิ้นหัวใจทำงานผิดปกติ (Cardiac Transplant with Valvul<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ [หัตถการทันตกรรมที่ต้องให้ยา]:<br>   ↳ การทำหัตถการที่มีการรุกล้ำเนื้อเยื่อเหงือก, ปลายรากฟัน หรือเจาะทะลุเยื่อบุช่องปากที่มีเลือดออก (เช่น ถอนฟัน, ผ่าฟันคุด, ขูดหินปูน, รักษารากฟัน)<br><br>▶ [สูตรยาและขนาดยา (รับประทานครั้งเดียวก่อนทำหัตถการ 30–60 นาที)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO (เด็ก: 20 mg/kg)",
       "answerImage": "",
       "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
     },
@@ -21217,7 +21841,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ลิ้นหัวใจเทียม เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>Candida albicans</b></i></span> มีแนวทางการรักษาด้วยยาและการผ่าตัดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-800 mg PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
+      "answer": "<span style=\"color:#16a34a\"><b>doc</b></span>arditis Management):<br>   ↳ 1. การผ่าตัดด่วน (Urgent Valve Replacement): ต้องผ่าตัดเปลี่ยนลิ้นหัวใจเทียมที่ติดเชื้อออกทุกรายเสมอ (การใช้ยาต้านเชื้อราเพียงอย่างเดียวไม่สามารถรักษา Fungal IE ให้หายได้ อัตราตายเกือบ 100%)<br>   ↳ 2. ยาต้านเชื้อราระยะเริ่มต้น (Induction): ให้ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-5 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO) หรือ High-dose Echinocandin (<span style=\"color:#0284c7\"><b>Caspofungin</b></span>) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ 3. ยาต้านเชื้อราระยะยาว (Suppression): ให้ <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400-<span style=\"color:#d97706\"><b>800 mg</b></span> PO OD ต่อเนื่องตลอดชีวิตเพื่อป้องกันการกลับเป็นซ้ำ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21265,7 +21889,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ <span style=\"color:#0284c7\"><b>Penicillin</b></span>:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
@@ -21337,7 +21961,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Dental Prophylaxis]</b></span>: ผู้ป่วยชายอายุ 55 ปี เคยผ่าตัดเปลี่ยนลิ้นหัวใจเป็นลิ้นเทียมชนิดโลหะ (Mechanical Aortic Valve) เมื่อ 2 ปีก่อน กำลังจะไปพบทันตแพทย์เพื่อทำหัตถการถอนฟันคุดและขูดหินปูน มีประวัติแพ้ยา <span style=\"color:#0284c7\"><b>Penicillin</b></span> แบบเกิดผื่นลมพิษ (Urticaria) ทันที ควรให้ยาปฏิชีวนะป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Type I / IgE-mediated):<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Clindamycin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO รับประทานครั้งเดียว 30-60 นาทีก่อนทำหัตถการ<br>   ↳ ยาทางเลือกอันดับ 2: <span style=\"color:#0284c7\"><b>Azithromycin</b></span> 500 mg PO หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO รับประทาน 30-60 นาทีก่อนทำหัตถการ<br>   ✦ ข้อยกเว้น: ห้ามให้ <span style=\"color:#0284c7\"><b>Cephalexin</b></span> หรือ <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ในผู้ที่มีประวัติแพ้แบบ Anaphylaxis หรือ Urticaria ต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
@@ -21697,7 +22321,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-200 mg/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
+      "answer": "<span style=\"color:#0284c7\"><b>Ampicillin</b></span> (150-300 mg/kg/day แบ่ง q 6-8h) ร่วมกับ <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day แบ่ง q 6-8h) หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span><br><br>▶ ⚠️ ข้อห้ามเด็ดขาดของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในทารกแรกเกิด:<br>   ↳ 1. แย่งจับกับ Albumin ในกระแสเลือด ทำให้ระดับบิลิรูบินอิสระสูงขึ้น เสี่ยงต่อภาวะ <span style=\"color:#dc2626\"><b>Kernicterus</b></span> (บิลิรูบินคั่งในเนื้อสมองทำให้สมองพิการถาวร)<br>   ↳ 2. ทำปฏิกิริยากับ <span style=\"color:#0284c7\"><b>Calcium</b></span> ทางหลอดเลือด เกิดการตกตะกอนของ <span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในปอดและไตจนเสียชีวิตเฉียบพลัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21709,7 +22333,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ยา <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> อย่างเด็ดขาดในทารกแรกเกิด (Neonates อายุ &lt; 1 เดือน / &lt; 28 วัน) ที่สงสัยภาวะเยื่อหุ้มสมองอักเสบ และควรเลือกใช้ยาใดแทน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–200 mg/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
+      "answer": "<span style=\"color:#dc2626\"><b>อันตราย</b></span>ของ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในเด็กแรกเกิด]:<br>   1. ภาวะตัวเหลืองรุนแรงและ <span style=\"color:#dc2626\"><b>Kernicterus</b></span>: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> มีการจับกับโปรตีนสูงและจะไปแย่งจับกับ Albumin ส่งผลให้ระดับ Unconjugated Bilirubin อิสระในเลือดพุ่งสูงขึ้น ซึมผ่านเข้าสู่เนื้อสมองของทารกจนเกิดสมองพิการถาวร (<span style=\"color:#dc2626\"><b>Kernicterus</b></span>)<br>   2. ตกตะกอนในปอดและไต (<span style=\"color:#0284c7\"><b>Calcium</b></span>-<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> Precipitation): เกิดการตกตะกอนร่วมกับแคลเซียมในกระแสเลือดและอวัยวะสำคัญจนถึงแก่ชีวิตได้<br><br>▶ [ยาที่เลือกใช้แทน (<span style=\"color:#16a34a\"><b>DOC</b></span>)]: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> (100–<span style=\"color:#d97706\"><b>200 mg</b></span>/kg/day) ร่วมกับ <span style=\"color:#0284c7\"><b>Ampicillin</b></span><br>   ↳ เหตุผล: <span style=\"color:#0284c7\"><b>Cefotaxime</b></span> ไม่แย่งจับกับ Albumin และไม่ตกตะกอนกับแคลเซียม ปลอดภัยสูงสุดในทารกแรกเกิด",
       "answerImage": "",
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
@@ -21781,7 +22405,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "ยาปฏิชีวนะที่แนะนำสำหรับการให้เพื่อป้องกัน (Chemoprophylaxis) ในผู้สัมผัสใกล้ชิดผู้ป่วย Meningococcal Meningitis มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: ผู้ใหญ่ <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (ในเด็กให้ 10 mg/kg q 12h x 2 วัน)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose) (ข้อดี: สะดวก กินครั้งเดียว)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg ฉีดเข้ากล้ามเนื้อ (IM) ครั้งเดียว (เป็น <span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์)<br><br>▶ ระยะเวลา:<br>   ↳ ต้องเริ่มยาป้องกันให้เร็วที่สุดภายใน 24 ชั่วโมงหลังสัมผัสผู้ป่วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21793,7 +22417,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Liposomal Amphotericin B</b></span> (3-4 mg/kg/day IV) ร่วมกับ <span style=\"color:#0284c7\"><b>Flucytosine</b></span> (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: <span style=\"color:#0284c7\"><b>Amphotericin B deoxycholate</b></span> (0.7-1.0 mg/kg/day IV) + <span style=\"color:#0284c7\"><b>Flucytosine</b></span><br><br>▶ 2. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ <span style=\"color:#0284c7\"><b>Fluconazole</b></span>: ขนาด <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21805,7 +22429,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> ชนิดรุนแรง (Anaphylaxis) คือสูตรใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin</b></span> รุนแรง:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (15-20 mg/kg IV q 8-12h) ร่วมกับ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> IV OD) หรือ <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (500 mg IV q 12h) ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Aztreonam</b></span> (2 g IV q 6-8h) หรือ Chloramphenicol (1 g IV q 6h)<br>   ↳ 4. หากอายุ <span style=\"color:#d97706\"><b>&gt; 50 ปี</b></span> (ต้องการครอบคลุม Listeria): ให้เพิ่ม <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span> 5 mg/kg IV q 6-8h) ทดแทน <span style=\"color:#0284c7\"><b>Ampicillin</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21829,7 +22453,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>นักศึกษาในหอพักได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis รูมเมทที่พักในห้องเดียวกันควรได้รับการป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทาน 1 เม็ด ครั้งเดียว หรือ<br>   ↳ ทางเลือกที่ 2: <span style=\"color:#0284c7\"><b>Rifampin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   ↳ แนะนำสังเกตอาการไข้และผื่นตามผิวหนังอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21877,7 +22501,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation &amp; Maintenance):<br>   ↳ 1. <span style=\"color:#7c3aed\"><i><b>Cons</b></i></span>olidation Phase: <span style=\"color:#0284c7\"><b>Fluconazole</b></span> 400 - <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): <span style=\"color:#0284c7\"><b>Fluconazole</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -21925,7 +22549,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> แตกต่างจาก <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> อย่างไร และหญิงตั้งครรภ์ควรใช้ยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> (Meningococcal Disease)]:<br>   1. <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO กินครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ 🤰)<br><br>▶ [ผู้สัมผัสโรค <span style=\"color:#7c3aed\"><i><b>Haemophilus influenzae</b></i></span> type b (Hib)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง นาน 4 วัน (สังเกต: ให้นาน 4 วัน ไม่ใช่ 2 วัน)<br><br>✦ ข้อควรระวัง: <span style=\"color:#0284c7\"><b>Rifampin</b></span> ทำให้สารคัดหลั่ง ปัสสาวะ น้ำตา เหงื่อ เปลี่ยนเป็นสีส้มแดง และเป็น Strong CYP3A4 Inducer",
       "answerImage": "",
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
@@ -21961,7 +22585,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span> มีเกณฑ์และสูตรยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
+      "answer": "<span style=\"color:#0284c7\"><b>Rifampin</b></span>: <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (เด็ก: 10 mg/kg q 12h x 2 วัน)<br>   2. <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span>: 500 mg PO รับประทานครั้งเดียว (Single dose)<br>   3. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: 250 mg IM ฉีดครั้งเดียว (ทางเลือกอันดับ 1 สำหรับ หญิงตั้งครรภ์)",
       "answerImage": "",
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
@@ -21985,7 +22609,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Meningococcal Contact Prophylaxis]</b></span>: นักศึกษาหญิงอายุ 20 ปี พักในหอพักห้องเดียวกับเพื่อนที่เพิ่งได้รับการวินิจฉัยว่าเป็น Meningococcal Meningitis (<span style=\"color:#7c3aed\"><i><b>Neisseria meningitidis</b></i></span>) ผู้สัมผัสใกล้ชิดรายนี้ควรได้รับยาป้องกัน (Chemoprophylaxis) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> 600 mg PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
+      "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>ก่อนผู้ป่วยเริ่มมีอาการ<br><br>▶ สูตรยาป้องกันที่แนะนำ (เลือก 1 สูตร):<br>   ↳ สูตรที่ 1 (<span style=\"color:#16a34a\"><b>DOC</b></span>): <span style=\"color:#0284c7\"><b>Rifampicin</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> PO ทุก 12 ชั่วโมง นาน 2 วัน (รวม 4 มื้อ) (คำแนะนำ: ปัสสาวะ/น้ำตาจะเปลี่ยนเป็นสีส้มแดง)<br>   ↳ สูตรที่ 2: <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> 500 mg PO รับประทานครั้งเดียว (Single Dose) สะดวกที่สุด<br>   ↳ สูตรที่ 3 (สำหรับหญิงตั้งครรภ์): <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 250 mg IM ฉีดครั้งเดียว (Single Dose)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
@@ -22153,7 +22777,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
       "questionImage": "",
-      "answer": "▶ อาการทางคลินิกที่พบบ่อยที่สุด:<br>   ↳ 1. อ่อนเพลียเรื้อรัง เหนื่อยง่าย (Chronic Fatigue): พบบ่อยอันดับ 1<br>   ↳ 2. อาการหมดแรงทรุดลงหลังออกแรงเพียงเล็กน้อย (Post-Exertional Malaise: PEM)<br>   ↳ 3. ภาวะสมองล้า (Brain Fog): มึนงง สมาธิสั้น คิดช้า ความจำระยะสั้นลดลง<br>   ↳ 4. หายใจไม่อิ่ม แน่นหน้าอก หอบเหนื่อย (Dyspnea / Breathlessness)<br>   ↳ 5. ปวดข้อและกล้ามเนื้อเรื้อรัง (Arthralgia / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
+      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
@@ -22213,7 +22837,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
       "answerImage": "",
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
@@ -22223,15 +22847,39 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: มีข้อจำกัดเรื่องการคุมกำเนิด (Contraception Requirements) สำหรับผู้หญิงและผู้ชายที่รับประทานยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ผู้หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ผู้ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดด้วยวิธีที่มีประสิทธิภาพ (ใช้ถุงยางอนามัย) ตลอดช่วงที่รับประทานยา และ ต่อเนื่องไปอีกอย่างน้อย 3 เดือน (<span style=\"color:#d97706\"><b>90 วัน</b></span>) หลังหยุดยา เนื่องจากยายังอาจตกค้างในตัวอสุจิ!",
       "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
+      "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
       "id": "16. Others & Toxic::219",
       "itemNo": "217",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span>) และข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ต่อตับ]:<br>   ↳ การตรวจติดตาม: ต้องตรวจค่าเอนไซม์ตับ (ALT, AST, Total Bilirubin) ก่อนเริ่มยาและติดตามระหว่างการรักษา<br>   ↳ ข้อบ่งชี้ในการหยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที:<br>      1. เมื่อระดับ ALT หรือ AST เพิ่มสูงขึ้นมากกว่า 5 เท่าของค่าบนปกติ (<span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span>)<br>      2. หรือ เมื่อมีระดับ ALT เพิ่มขึ้นร่วมกับมีอาการตับอักเสบ หรือมีค่า Total Bilirubin / INR สูงขึ้น",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
+    },
+    {
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> ใน Room air หรือหายใจเร็ว (RR &gt;= 30 ครั้ง/นาที)<br>   ↳ 5. Critical (วิกฤต): ภาวะหายใจล้มเหลวเฉียบพลัน (ARDS), ช็อกจากการติดเชื้อ (<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22242,20 +22890,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ eGFR &gt;= 60 mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
       "answerImage": "",
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22266,32 +22914,68 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 (Disease Severity Classification) ตามแนวทางเวชปฏิบัติแบ่งเป็นกี่ระดับ และมีเกณฑ์ตัดสินอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span><br>   2. Moderate (ปานกลาง): มีอาการปอดอักเสบ (Pneumonia) ทางคลินิกหรือภาพถ่ายรังสี แต่ยัง ไม่ต้องการ ออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> ในรูมแอร์)<br>   3. Severe (รุนแรง): ปอดอักเสบร่วมกับ มีภาวะขาดออกซิเจน (<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>, หายใจเร็ว RR &gt; 30 ครั้ง/นาที, หรือ Lung Infiltrates &gt; 50%)<br>   4. Critical (วิกฤต): เกิดภาวะหายใจล้มเหลว (ARDS), <span style=\"color:#dc2626\"><b>Septic Shock</b></span>, หรืออวัยวะล้มเหลวหลายระบบ",
+      "answerImage": "",
+      "note": "COVID-19 Disease Severity Classification"
+    },
+    {
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> x 4 แคปซูล) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่สำคัญที่สุด (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations):<br>   ↳ 1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน หญิงตั้งครรภ์และให้นมบุตร เด็ดขาด (เนื่องจากมีความเป็นพิษต่อตัวอ่อนและก่อความพิการ Teratogenicity)<br>   ↳ 2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ใน ผู้ป่วยอายุน้อยกว่า 18 ปี (เนื่องจากมีผลเสียต่อการเจริญเติบโตของกระดูกและกระดูกอ่อน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ที่เคร่งครัดของยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
+      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และพิษวิทยา (Contrain<span style=\"color:#dc2626\"><b>dic</b></span>ations)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
       "answerImage": "",
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาดของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) เกิดจากกลไกใด และมียาสำคัญใดบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 ที่แรงมาก (Potent CYP3A4 Inhibitor) ทำให้ระดับยาอื่นที่ผ่าน CYP3A4 สูงขึ้นจนเกิดพิษร้ายแรง<br><br>⚠️ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> DDIs - Red Alert 🔥)]:<br>   1. ยาลดไขมัน Statins: <span style=\"color:#0284c7\"><b>Simvastatin</b></span>, <span style=\"color:#0284c7\"><b>Lovastatin</b></span> (เสี่ยงเกิดกล้ามเนื้อสลาย <span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span> ➔ ให้หยุด Statin ชั่วคราวระหว่างกิน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   2. ยาต้านการแข็งตัวของเลือด: Rivaroxaban (เสี่ยงเลือดออกรุนแรง)<br>   3. ยาหัวใจ: Amiodarone, Flecainide (เสี่ยง Arrhythmia)<br>   4. ยาต้านชักกลุ่ม CYP Inducer: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span> (จะลดระดับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
+    },
+    {
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation) และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (ตัวเลือกแรกที่ปลอดภัยที่สุด): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) เป็นยาที่มีข้อมูลความปลอดภัยสูงสุดในหญิงตั้งครรภ์ทุกไตรมาส<br>   ↳ ทางเลือกที่สอง: <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (พิจารณาใช้เมื่อประโยชน์เหนือความเสี่ยง)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)]:<br>   ↳ <span style=\"color:#0284c7\"><b>Molnupiravir</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร รวมถึงเด็ก &lt; 18 ปี เด็ดขาด เนื่องจากมีพิษต่อการสร้างกระดูกและกระดูกอ่อนของทารก (Teratogenicity)!",
+      "answerImage": "",
+      "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
+    },
+    {
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22302,20 +22986,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
+      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22326,32 +23010,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
+      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22362,8 +23046,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22374,8 +23058,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22386,8 +23070,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22398,8 +23082,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22410,32 +23094,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยโรคไตวายเรื้อรังระยะสุดท้าย (CKD Stage 5, eGFR 18 mL/min) ติดเชื้อ COVID-19 วันที่ 3 มีไข้ ไอ SpO2 96% ควรเลือกยาต้านไวรัสใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (200 mg IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> 800 mg PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3-Day IV Regimen (<span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1, 100 mg IV Day 2-3) หรือ<br>   ↳ ยารับประทาน: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> <span style=\"color:#d97706\"><b>800 mg</b></span> PO วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br><br>▶ ⚠️ ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด* เนื่องจากผู้ป่วยมี <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min ซึ่งระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> จะสะสมจนเกิดความเป็นพิษรุนแรง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
+      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (<span style=\"color:#d97706\"><b>200 mg</b></span> Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22446,32 +23130,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยติดเชื้อ COVID-19 มีปอดอักเสบ SpO2 91% หอบเหนื่อย ต้องใช้ออกซิเจน Cannula 4 LPM ควรเริ่มแผนการรักษาด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: 200 mg IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Dexamethasone</b></span>: 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Enoxaparin</b></span>: 40 mg SC วันละ 1 ครั้ง เพื่อป้องกันลิ่มเลือดอุดตัน (VTE Prophylaxis)<br>   ↳ 4. ให้ออกซิเจนบำบัดและจัดท่านอนคว่ำ (Prone positioning) เพื่อเพิ่มการแลกเปลี่ยนก๊าซในปอด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Severe COVID-19 ได้รับ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> มา 24 ชม. แต่อาการทรุดลง ต้องใส่ High-flow Nasal Cannula ตรวจ CRP ได้ 120 mg/L ควรเพิ่มยาใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน 800 mg) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> (IL-6 Receptor Antagonist) ขนาด 8 mg/kg IV Single Dose (ขนาดยาสูงสุดไม่เกิน <span style=\"color:#d97706\"><b>800 mg</b></span>) หรือ<br>   ↳ เพิ่ม <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน<br><br>▶ 💡 เหตุผล:<br>   ↳ เพื่อยับยั้งภาวะพายุไซโตไคน์ (Cytokine Storm) อย่างรวดเร็วก่อนที่เนื้อปอดจะถูกทำลายถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22482,20 +23166,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่ได้รับ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ตรวจติดตามการทำงานของตับในวันที่ 3 พบค่า ALT สูงขึ้นเป็น 340 U/L (เดิม 35 U/L, ค่าปกติ &lt; 50 U/L) ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced Hepatotoxicity / DILI)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Remdesivir</b></span>-induced <span style=\"color:#dc2626\"><b>Hepatotoxicity</b></span> / <span style=\"color:#dc2626\"><b>DILI</b></span>)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ เกณฑ์มาตรฐาน: หากค่า ALT หรือ AST สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) หรือมีอาการตับอักเสบตัวเหลืองตาเหลือง ให้ หยุดยา <span style=\"color:#0284c7\"><b>Remdesivir</b></span> ทันที<br>   ↳ ตรวจติดตามค่า LFT ซ้ำทุก 24-48 ชั่วโมงจนกว่าเอนไซม์ตับจะลดลงสู่ระดับปลอดภัย",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22506,8 +23190,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22518,56 +23202,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "แนวทางการรักษาผู้ป่วย COVID-19 ในระยะรุนแรง (Severe: SpO2 &lt; 94%) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
+      "question": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span>) และระยะวิกฤต (Critical: ใช้ High-flow หรือเครื่องช่วยหายใจ) ตามคำแนะนำล่าสุดมีอย่างไร และทำไมจึงไม่แนะนำยาปฏิชีวนะ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
+      "answer": "<span style=\"color:#d97706\"><b>SpO2 &lt; 94%</b></span> รูมแอร์, ต้องการ O2 Low-flow)]:<br>   ↳ ให้ ยาต้านไวรัสร่วมกับสเตียรอยด์:<br>     • <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 5–10 วัน<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>▶ [ระยะ Critical (O2 High-flow, ใส่ท่อช่วยหายใจ, Cytokine Storm)]:<br>   ↳ เป็นระยะ Hyper-inflammation ต้องเน้น ยาลดการอักเสบขั้นสูง:<br>     • <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV OD<br>     • ร่วมกับ <span style=\"color:#0284c7\"><b>Tocilizumab</b></span> IV (IL-6 Receptor Antagonist) หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> PO (JAK Inhibitor)<br><br>▶ [เหตุผลที่ไม่แนะนำยาปฏิชีวนะ (Antibiotic Stewardship)]:<br>   ↳ COVID-19 เกิดจากเชื้อไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> อัตราการติดเชื้อแบคทีเรียแทรกซ้อนในวันแรกรับมีน้อยกว่า 5–8% การให้ยาปฏิชีวนะโดยไม่มีหลักฐานการติดเชื้อแบคทีเรียจะเพิ่มเชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>และเกิดผลเสีย",
       "answerImage": "",
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>) ในผู้ป่วย COVID-19 คืออะไร และเหตุใดจึงห้ามให้ในกลุ่มอาการเล็กน้อย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span>]:<br>   ↳ ข้อบ่งชี้: ให้เฉพาะในผู้ป่วยระดับ Severe หรือ Critical ที่ ต้องการออกซิเจนเสริม (Supplemental O2) หรือใช้เครื่องช่วยหายใจเท่านั้น<br>   ↳ ขนาดยามาตรฐาน: <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg IV/PO วันละ 1 ครั้ง นานสูงสุด 10 วัน<br><br>❌ [ข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในกลุ่ม Mild / Moderate (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ ห้ามให้ สเตียรอยด์ในผู้ป่วยที่ <span style=\"color:#d97706\"><b>SpO2 &gt;= 94%</b></span> และไม่ได้ใช้ออกซิเจนเสริม เพราะการให้เร็วเกินไปจะ กดภูมิต้านทาน ทำให้ร่างกายกำจัดเชื้อไวรัสช้าลงและเพิ่มอัตราการเสียชีวิต!",
+      "answerImage": "",
+      "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
+    },
+    {
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>): มีข้อบ่งชี้ ขนาดยาปกติ และการปรับขนาดยาในผู้ป่วยโรคไต (Renal Impairment) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (เริ่มภายใน <span style=\"color:#d97706\"><b>5 วัน</b></span>แรกของอาการ)]:<br>   ↳ การทำงานของไตปกติ (<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (พร้อมหรือไม่พร้อมอาหารก็ได้)<br>   ↳ ไตบกพร่องปานกลาง (<span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min): ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ไตรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min): <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> / Avoid) เนื่องจากยังไม่มีข้อมูลขนาดยาที่ปลอดภัย",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
+    },
+    {
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) คืออะไร และผู้ป่วยมักบ่นถึงอาการใดมากที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>]:<br>   1. <span style=\"color:#dc2626\"><b>Dysgeusia</b></span> (การรับรสชาติผิดปกติ): ผู้ป่วยมากกว่า 6% จะรู้สึก &#039;รสขมจัดหรือรสโลหะในปาก&#039; (Metallic/Bitter Taste) ตลอดการรับประทานยา (เป็นผลจากตัวยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เอง สามารถหายได้เองหลังหยุดยา แนะนำให้จิบน้ำหรืออมลูกอมเพื่อบรรเทา)<br>   2. ถ่ายเหลว / ท้องเสีย (Diarrhea ~3%)<br>   3. ความดันโลหิตเพิ่มขึ้นชั่วคราว (Hypertension)",
+      "answerImage": "",
+      "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
+    },
+    {
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
+      "group": "16. Others & Toxic",
+      "subTopic": "COVID-19",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>: มีกลไกการออกฤทธิ์ ขั้นตอนการเตรียมยาฉีด (IV Preparation) และระยะเวลาการรักษาในผู้ป่วยนอก vs ผู้ป่วยในอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span>]:<br>   ↳ กลไก: เป็น Prodrug ยับยั้งเอนไซม์ RNA-dependent RNA Polymerase (RdRp) ของไวรัส<br>   ↳ ผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient Mild-Moderate): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D3 (รวม 3 วัน เริ่มภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>ของอาการ)<br>   ↳ ผู้ป่วยในที่ต้องการออกซิเจน (Inpatient Severe): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV D1 ➔ 100 mg IV D2–D5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [ขั้นตอนการเตรียมยา (IV Preparation)]:<br>   ↳ ละลายผงยา Lyophilized powder 100 mg ด้วย Sterile Water 19 mL ➔ เจือจางใน NSS หรือ D5W ➔ Drip ทางหลอดเลือดดำช้าๆ นาน 30–120 นาที",
+      "answerImage": "",
+      "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
+    },
+    {
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - Paxlovid Renal Dosing]</b></span>: ผู้ป่วยหญิงอายุ 62 ปี เป็นโรคเบาหวานและโรคไตเรื้อรัง (eGFR 45 mL/min) ติดเชื้อ COVID-19 วันที่ 2 มีอาการไอ มีไข้ O2 Sat 96% มีข้อบ่งชี้ในการได้รับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จะต้องปรับขนาดยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า eGFR &gt;= 60 mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ตามการทำงานของไต:<br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min (ปกติ): <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง (เช้า-เย็น) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า eGFR 30 - 59 mL/min (Moderate Renal Impairment):<br>   ↳ ลดขนาดยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> ลงครึ่งหนึ่ง: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ค่า <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min หรือผู้ป่วยฟอกไต (Severe Renal Impairment):<br>   ↳ ไม่แนะนำให้ใช้ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (แนะนำให้เปลี่ยนไปใช้ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 3 วันแทน)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Paxlovid Drug Interactions]</b></span>: ผู้ป่วยชายอายุ 65 ปี ตรวจพบ ATK ผลบวก COVID-19 มีอาการไอ เจ็บคอ มีไข้มา 2 วัน O2 Saturation 97% มีโรคประจำตัวคือ โรคหัวใจเต้นผิดจังหวะ (AF) รับประทานยา Amiodarone และ Rivaroxaban และโรคไขมันในเลือดสูงรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg แพทย์ต้องการสั่งจ่ายยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span>) จงวิเคราะห์ความปลอดภัยและข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
+      "answer": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็น Potent CYP3A4 and P-gp Inhibitor ที่รุนแรงมาก<br>   ↳ 1. Amiodarone: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เนื่องจากระดับ Amiodarone ในเลือดจะพุ่งสูง เกิดพิษร้ายแรงต่อหัวใจและหัวใจหยุดเต้น<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Simvastatin</b></span>: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) ระดับยาจะเพิ่มขึ้นมหาศาล เสี่ยงต่อภาวะกล้ามเนื้อสลาย (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวาย<br>   ↳ 3. Rivaroxaban: เพิ่มความเข้มข้นยาต้านการแข็งตัวของเลือด เสี่ยงต่อภาวะเลือดออกรุนแรงถึงชีวิต<br><br>▶ แนวทางการจัดการ:<br>   ↳ ผู้ป่วยรายนี้ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เด็ดขาด<br>   ↳ ยาทางเลือกอันดับ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-3 (รวม 3 วัน) ปลอดภัยต่อปฏิกิริยาระหว่างยา",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Severe COVID-19 Therapy]</b></span>: ผู้ป่วยชายอายุ 58 ปี ติดเชื้อ COVID-19 มา 8 วัน มีอาการเหนื่อยหอบมากขึ้นเรื่อยๆ อุณหภูมิ 38.8 C, O2 Saturation 88% on Room Air, ผล X-ray ปอดพบ Bilateral Patchy Infiltrates เข้าได้กับ Severe COVID-19 Pneumonia จงวางแผนการรักษาด้วยยาตามแนวทางเวชปฏิบัติ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): 200 mg IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> (ยาลดการอักเสบหลัก): 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (ช่วยลดอัตราการเสียชีวิตอย่างมีนัยสำคัญ)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Remdesivir</b></span> (ยาต้านไวรัส): <span style=\"color:#d97706\"><b>200 mg</b></span> IV วันแรก แล้วตามด้วย 100 mg IV OD ในวันที่ 2-5 (รวม <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br>   ↳ 4. เพิ่ม Immunomodulator (<span style=\"color:#0284c7\"><b>Tocilizumab</b></span> หรือ <span style=\"color:#0284c7\"><b>Baricitinib</b></span>): หากผู้ป่วยมีอาการทรุดลงรวดเร็วและต้องการออกซิเจนขนาดสูงขึ้นภายใน 24-48 ชั่วโมงแรก",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -22578,68 +23310,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น 6 เดือนมาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22650,8 +23322,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22662,8 +23334,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22674,20 +23346,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "Tuberculosis (MDR-TB)",
-      "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22698,20 +23358,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (<span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก <span style=\"color:#d97706\"><b>600 mg</b></span> OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22722,8 +23382,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22734,8 +23394,116 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "สรุปกลไกการออกฤทธิ์ของยารักษาวัณโรค (Mechanism of Action) จำแนกตาม 6 ตำแหน่งเป้าหมายของเซลล์แบคทีเรียตามสไลด์บรรยาย?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethionamide</b></span>/<span style=\"color:#0284c7\"><b>Prothionamide</b></span> (InhA), <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EmbB), <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (D-alanine li<span style=\"color:#7c3aed\"><i><b>gas</b></i></span>e)<br>   2. RNA Polymerase: <span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Rifabutin</b></span>, <span style=\"color:#0284c7\"><b>Rifapentine</b></span><br>   3. DNA Gyrase: <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span><br>   4. Ribosome (การสังเคราะห์โปรตีน): <span style=\"color:#0284c7\"><b>Streptomycin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Amikacin</b></span> (30S), <span style=\"color:#0284c7\"><b>Linezolid</b></span> (50S)<br>   5. Proton Motive Force / Energy: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (เปลี่ยนเป็น POA รบกวนเยื่อหุ้มเซลล์)<br>   6. ATP Synthase (ยาใหม่): <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (ยับยั้งการสร้างพลังงาน ATP)",
+      "answerImage": "",
+      "note": "TB Mechanisms of Action 6 Targets Slide 12"
+    },
+    {
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) และ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): มีกลไกการออกฤทธิ์และจุดเด่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): ยับยั้งเอนไซม์ mycobacterial ATP Synthase (ที่ Subunit c ผ่านยีน atpE) ทำให้แบคทีเรียขาดพลังงานและตาย เป็นยากลุ่ม Diarylquinoline<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): เป็นยากลุ่ม Nitroimidazole ออกฤทธิ์ 2 กลไก ➔ ในภาวะมีออกซิเจน (Aerobic) จะยับยั้งการสังเคราะห์กรด Mycolic acid ในผนังเซลล์ / ในภาวะไม่มีออกซิเจน (Anaerobic) จะปลดปล่อย Reactive Nitric Oxide ทำลายระบบการหายใจของเชื้อ",
+      "answerImage": "",
+      "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
+    },
+    {
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>) จากยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> มีการตรวจติดตามและรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Ethionamide</b></span> / <span style=\"color:#0284c7\"><b>Prothionamide</b></span> <span style=\"color:#dc2626\"><b>Hypothyroidism</b></span>]:<br>   ↳ พยาธิสภาพ: ตัวยามีโครงสร้างคล้าย Thioamides ยับยั้งการรวมตัวของไอโอดีนในการสร้างฮอร์โมนไทรอยด์ (Thyroid Hormone Synthesis Inhibition)<br>   ↳ อาการ: อ่อนเพลีย ขี้หนาว น้ำหนักขึ้น ผิวแห้ง หน้าบวม<br>   ↳ การตรวจติดตาม: ตรวจระดับ TSH และ Free T4 ทุก 3 เดือนระหว่างได้รับยา<br>   ↳ การรักษา: ไม่จำเป็นต้องหยุดยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> แต่ให้เสริมด้วยฮอร์โมน <span style=\"color:#0284c7\"><b>Levothyroxine</b></span> ทดแทนจนจบคอร์สการรักษา",
+      "answerImage": "",
+      "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
+    },
+    {
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>หลายขนาน) ตามเกณฑ์องค์การอนามัยโลก (WHO) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span>) ที่ดื้อต่อยาต้านวัณโรคแนวที่หนึ่ง (<span style=\"color:#16a34a\"><b>First-line</b></span> Anti-TB drugs) อย่างน้อยทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) พร้อมกัน โดยอาจจะดื้อหรือไม่ดื้อต่อยาตัวอื่นร่วมด้วยก็ได้<br><br>▶ ความสำคัญทางคลินิก:<br>   ↳ INH และ RIF เป็นยาหลัก 2 ตัวที่มีฤทธิ์ฆ่าเชื้อวัณโรคได้รุนแรงและรวดเร็วที่สุด การที่เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ทั้งสองตัวนี้ทำให้ไม่สามารถใช้สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>6 เดือน</b></span>มาตรฐานได้ และต้องใช้ยาแนวที่สองที่มีผลข้างเคียงสูงกว่า",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-Extensively Drug-Resistant TB (Pre-XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>▶ ความสำคัญ:<br>   ↳ บ่งชี้ว่าเชื้อเริ่มสูญเสียยาหลักในกลุ่ม Group A ไปอีก 1 กลุ่ม ทำให้การจัดสูตรยารักษามีความซับซ้อนและต้องพึ่งพายาตัวใหม่ เช่น <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> เป็นแกนหลัก",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Extensively Drug-Resistant TB (XDR-TB) ตามเกณฑ์ใหม่ของ WHO คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) และ<br>   ↳ เชื้อดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอีกอย่างน้อย 1 ชนิด ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ) หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD)<br><br>▶ ความสำคัญ:<br>   ↳ เป็นวัณโรค<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ขั้นรุนแรงสูงสุดที่เหลือยาในการรักษาน้อยมากและมีอัตราการเสียชีวิตสูง",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>dic</b></span>al)<br>   ↳ การกลายพันธุ์ที่ตำแหน่ง katG S315T ทำให้สูญเสียการทำงานของเอนไซม์นี้ ยา INH จึงไม่สามารถเปลี่ยนเป็นรูปออกฤทธิ์ได้<br><br>▶ ผลทางคลินิก:<br>   ↳ ก่อให้เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับสูง (High-level INH Resistance, MIC &gt; 1.0 mcg/mL)<br>   ↳ *ไม่สามารถใช้ยา INH ขนาดสูง (High-dose INH) ในการรักษาได้*",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> อย่างไร และส่งผลต่อยาตัวอื่นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH ในระดับต่ำ (Low-level INH Resistance, MIC 0.2 - 1.0 mcg/mL) ซึ่ง *สามารถใช้ยา High-dose INH (10-15 mg/kg/day) รักษาได้*<br>   ↳ *เกิดการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ข้ามกลุ่ม (Cross-Resistance)* ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> (ETH) และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> (PTO)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (rpoB mutation) พร้อมกันได้โดยตรงจากเสมหะ<br>   ↳ ทราบผลรวดเร็วภายใน 2 ชั่วโมง ช่วยให้เริ่มการรักษา MDR-TB ได้ทันทีโดยไม่ต้องรอเพาะเชื้อ 4-8 สัปดาห์<br><br>▶ 2. Line Probe Assay (LPA):<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> LPA (GenoType MTBDRplus): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> RIF (rpoB) และ INH (katG, inhA) พร้อมกัน<br>   ↳ Second-line LPA (GenoType MTBDRsl): ตรวจการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> Fluoroquinolones (gyrA, gyrB) และยากลุ่มฉีด (rrs)",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22746,8 +23514,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22758,8 +23526,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22770,104 +23538,260 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen ประกอบด้วยยาอะไรบ้าง ใช้ระยะเวลากี่เดือน และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง 6 เดือน (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง<br>   ↳ 4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ เพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month all-oral short regimen)<br><br>▶ ข้อบ่งใช้และข้อดี:<br>   ↳ ใช้รักษาผู้ป่วย MDR-TB หรือ RR-TB ที่ยังไม่ดื้อต่อยากลุ่ม Fluoroquinolones<br>   ↳ เป็นยารับประทานล้วน 100% ไม่ต้องฉีดยา ประสิทธิภาพการรักษาหายสูงถึงเกือบ 90% และลดระยะเวลาการรักษาจากเดิม 18-24 เดือนเหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#0284c7\"><b>Sirturo</b></span>) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน <span style=\"color:#d97706\"><b>400 mg</b></span> วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> ในสูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span>/<span style=\"color:#16a34a\"><b>BPaL</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> 200 mg PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (6 เดือน)",
+      "answer": "<span style=\"color:#0284c7\"><b>Pretomanid</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> PO วันละ 1 ครั้ง พร้อมอาหาร นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#d97706\"><b>6 เดือน</b></span>)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>First-Line</b></span> Anti-TB Regimen (2HRZE/4HR) สำหรับ Drug-Susceptible TB คืออะไร และยาแต่ละตัวมีกลไกอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ 6 เดือน<br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH): ยับยั้ง InhA → หยุดสร้าง Mycolic acid (ผนังเซลล์)<br>   ↳ R = <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF): ยับยั้ง DNA-dependent RNA Polymerase (rpoB)<br>   ↳ Z = <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA): ออกฤทธิ์ในสภาวะกรด กำจัดเชื้อในสภาวะ Intracellular / Dormant<br>   ↳ E = <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (EMB): ยับยั้ง embB → หยุดสร้าง Arabinogalactan (ผนังเซลล์)<br><br>▶ หน้าที่ของยาแต่ละตัว:<br>   ↳ INH + RIF: ยาหลักฆ่าเชื้อ (Bactericidal) — ขาดไม่ได้<br>   ↳ PZA: ฆ่าเชื้อ Dormant ใน Macrophage — ลดระยะรักษาจาก 9 เดือน เหลือ <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   ↳ EMB: ป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ต่อ INH/RIF (Resistance Prevention)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน 6 เดือน (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ระยะสั้นสูตรกินล้วน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (All-oral 6-month regimen) สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> และ <span style=\"color:#16a34a\"><b>BPaL</b></span> ประกอบด้วยตัวยาใดบ้าง และมีข้อบ่งใช้ต่างกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา 6 เดือน)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง 6 เดือน",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen (ระยะเวลา <span style=\"color:#d97706\"><b>6 เดือน</b></span>)]:<br>   ↳ ประกอบด้วย 4 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (M)<br>   ↳ ข้อบ่งใช้: แนะนำเป็น สูตรมาตรฐานอันดับ 1 สำหรับ MDR/RR-TB ที่ ยังไม่ดื้อต่อ Fluoroquinolones<br><br>▶ [สูตร <span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen (ระยะเวลา 6–9 เดือน)]:<br>   ↳ ประกอบด้วย 3 ตัวยา: <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (B) + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa) + <span style=\"color:#0284c7\"><b>Linezolid</b></span> (L) (ตัด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ออก)<br>   ↳ ข้อบ่งใช้: ใช้สำหรับผู้ป่วยที่เป็น Pre-XDR TB (ยืนยันว่าดื้อต่อยา Fluoroquinolones แล้ว) หรือผู้ที่มีข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>/แพ้ยา <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span><br><br>✦ จุดเด่น: เป็นสูตรยากินล้วน 100% ไม่ต้องฉีดยาเจ็บก้น (No injectables) และร่นระยะเวลาการรักษาจากเดิม 18–24 เดือน เหลือเพียง <span style=\"color:#d97706\"><b>6 เดือน</b></span>",
       "answerImage": "",
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ประเภทต่างๆ (Mono-resistant, Poly-resistant, และ MDR-TB) ตามเกณฑ์องค์การอนามัยโลก (WHO) และแนวทางประเทศไทยคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (Definitions)]:<br>   1. Mono-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งเพียง ตัวเดียว เท่านั้น (เช่น Mono-INH, Mono-RIF)<br>   2. Poly-Resistant TB: ดื้อต่อยารักษาวัณโรคแนวที่หนึ่งตั้งแต่ 2 ตัวขึ้นไป แต่ไม่ดื้อพร้อมกันทั้ง <span style=\"color:#0284c7\"><b>Isoniazid</b></span> และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span><br>   3. MDR-TB (Multidrug-Resistant TB): ดื้อต่อยารักษาวัณโรคตัวหลักอย่างน้อย 2 ตัวพร้อมกัน คือ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) และ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)",
+      "answerImage": "",
+      "note": "TB Definitions: Mono vs Poly vs MDR-TB"
+    },
+    {
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "นิยามของ Pre-XDR-TB และ XDR-TB (Extensively Drug-Resistant TB) ตามเกณฑ์สากลและคู่มือวัณโรคแห่งประเทศไทยฉบับล่าสุดคืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>) ตัวใดตัวหนึ่ง<br>   ↳ XDR-TB: ผู้ป่วยวัณโรคที่เข้าเกณฑ์ MDR/RR-TB + ดื้อต่อ Fluoroquinolones + ดื้อต่อยาในกลุ่ม Group A เพิ่มเติมอย่างน้อย 1 ตัว (ได้แก่ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> หรือ <span style=\"color:#0284c7\"><b>Linezolid</b></span>)",
+      "answerImage": "",
+      "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
+    },
+    {
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH Resistance Genes) ระหว่างการกลายพันธุ์ที่ยีน katG กับยีน inhA มีความแตกต่างและส่งผลต่อการเลือกยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> INH (จุดเน้นข้อสอบ 🔥)]:<br>   ↳ katG Mutation: สูญเสียเอนไซม์ Catalase-Peroxidase ไม่สามารถเปลี่ยน INH prodrug เป็นรูปออกฤทธิ์ได้ ➔ เกิด High-Level INH Resistance (<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span> INH ต่อ แม้เพิ่มขนาด)<br>   ↳ inhA Promoter Mutation: เกิด Overexpression ของเอนไซม์ InhA ➔ เกิด Low-Level INH Resistance (สามารถใช้ High-Dose INH 10–15 mg/kg ได้ แต่ จะเกิดการดื้อข้ามกลุ่ม Cross-Resistance ไปยังยา <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span> ทันที!)",
+      "answerImage": "",
+      "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
+    },
+    {
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF Resistance) เกิดจากการกลายพันธุ์ที่ยีนใด และเครื่องตรวจ GeneXpert MTB/RIF ใช้หลักการตรวจอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> และ GeneXpert]:<br>   ↳ ยีน<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>: ยีน rpoB (&gt; 95% เกิดการกลายพันธุ์ที่บริเวณ 81-bp <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance Determining Region - RRDR ของ RNA Polymerase Beta-subunit)<br>   ↳ GeneXpert MTB/RIF: ใช้เทคนิค Real-time Nested PCR ตรวจจับสาย DNA ของเชื้อ <span style=\"color:#7c3aed\"><i><b>M. tuberculosis</b></i></span> และตรวจการกลายพันธุ์ของยีน rpoB รู้ผล<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> <span style=\"color:#0284c7\"><b>Rifampicin</b></span> ภายใน 2 ชั่วโมง และให้ถือว่าผู้ป่วยที่มีผล RIF-Resistant เข้าข่ายเป็น MDR-TB ทันที!",
+      "answerImage": "",
+      "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
+    },
+    {
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>เดี่ยว (Mono-resistant TB) ต่อ <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (Mono-INH) และดื้อต่อยาตัวอื่นมีสูตรการรักษาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> Resistant (ดื้อเฉพาะ INH - พบบ่อยสุด): สูตร 6 R-Z-E-Lfx ➔ ให้ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> + <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> + <span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span><br>   2. Mono-<span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistant (ดื้อเฉพาะ RIF): ให้รักษาเสมือนเป็น MDR-TB (ใช้สูตร <span style=\"color:#16a34a\"><b>BPaLM</b></span> หรือ All-Oral Shorter Regimen)<br>   3. Mono-<span style=\"color:#0284c7\"><b>Ethambutol</b></span> Resistant (ดื้อเฉพาะ EMB): สูตร 2 HRZ / 4 HR (รวม <span style=\"color:#d97706\"><b>6 เดือน</b></span>)<br>   4. Mono-<span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> Resistant (ดื้อเฉพาะ PZA เช่น M. bovis): สูตร 2 HRE / 7 HR (รวม 9 เดือน)",
+      "answerImage": "",
+      "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
+    },
+    {
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#d97706\"><b>6 เดือน</b></span> <span style=\"color:#16a34a\"><b>BPaLM</b></span> (<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Pretomanid</b></span> + <span style=\"color:#0284c7\"><b>Linezolid</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>): มีขนาดยา การรับประทาน และข้อบ่งชี้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> <span style=\"color:#d97706\"><b>6 เดือน</b></span> สำหรับ MDR/RR-TB]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ): <span style=\"color:#d97706\"><b>400 mg</b></span> OD ใน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก ➔ จากนั้น <span style=\"color:#d97706\"><b>200 mg</b></span> สัปดาห์ละ 3 ครั้ง ในสัปดาห์ที่ 3–24 (ต้องรับประทาน พร้อมอาหารไขมันสูง)<br>   2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa): <span style=\"color:#d97706\"><b>200 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ต้องรับประทาน พร้อมอาหาร)<br>   3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD): <span style=\"color:#d97706\"><b>600 mg</b></span> OD นาน 16–2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากเกิดพิษต่อไขกระดูกหรือปลายประสาท สามารถลดเหลือ 300 mg OD ได้)<br>   4. <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (Mfx): <span style=\"color:#d97706\"><b>400 mg</b></span> OD นาน 2<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (หากตรวจพบว่าดื้อต่อ FQ ให้ตัด Mfx ออก กลายเป็นสูตร <span style=\"color:#16a34a\"><b>BPaL</b></span>)",
+      "answerImage": "",
+      "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
+    },
+    {
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษา MDR-TB มีแนวทางการตรวจติดตามและปรับยาอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> Monitoring]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Linezolid</b></span> ยับยั้ง Mitochondrial Protein Synthesis ทำให้เกิด Anemia, <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> และ Leukopenia เมื่อใช้นานเกิน 2–<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ การตรวจติดตาม: ตรวจความสมบูรณ์ของเม็ดเลือด (CBC) ทุก 1–<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ แนวทางการปรับยา:<br>      • หาก <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL หรือ Platelets &lt; 50,000 /mcL ➔ ให้หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว<br>      • เมื่อผลเลือดฟื้นตัว ให้เริ่มยาใหม่ด้วยขนาดลดลงเหลือ 300 mg วันละ 1 ครั้ง",
+      "answerImage": "",
+      "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
+    },
+    {
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ของยา <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และเกณฑ์การตรวจเลือดติดตามพิษไขกระดูกของ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในสูตรวัณโรคมีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก QTc &gt; 500 ms ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: 600 mg วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): Hb &lt; 8 g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ / <span style=\"color:#0284c7\"><b>Sirturo</b></span>)]:<br>   ↳ MOA: ยับยั้งเอนไซม์ Mycobacterial ATP Synthase ทำให้เชื้อวัณโรคขาดพลังงาน<br>   ↳ วิธีรับประทาน: ต้องกิน พร้อมอาหารมื้อที่มีไขมัน (Fatty Meal) เสมอ เพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า<br>   ↳ เภสัชจลนศาสตร์: มี Half-life ยาวนานมากถึง 5 เดือน (~160 วัน)<br>   ↳ ADR สำคัญ: คลื่นไฟฟ้าหัวใจผิดปกติ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ต้องตรวจ EKG ก่อนเริ่มยาและทุกเดือน หาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ต้องหยุดยาทันที<br><br>▶ [<span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) ในวัณโรค]:<br>   ↳ ขนาดยา: <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ต่ำกว่าขนาดในแบคทีเรียทั่วไปเพื่อลดพิษ)<br>   ↳ เกณฑ์ CBC ที่ห้ามเริ่มยา (Baseline Exclusion): <span style=\"color:#d97706\"><b>Hb &lt; 8</b></span> g/dL, ANC &lt; 750 /mcL, หรือ Platelet &lt; 50,000 /mcL",
       "answerImage": "",
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (TB Drug-Induced Liver Injury: DILI) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) มีอะไรบ้าง และมีลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> (ข้อใดข้อหนึ่ง)]:<br>   1. ALT หรือ AST &gt; 3 เท่าของ ULN ร่วมกับ มีอาการตับอักเสบ (เบื่ออาหาร คลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง)<br>   2. ALT หรือ AST &gt; 5 เท่าของ ULN แม้ ไม่มีอาการ<br>   3. Total Bilirubin &gt; 2.0 mg/dL<br><br>▶ [ขั้นตอนการ Rechallenge ยาอย่างปลอดภัย]:<br>   1. หยุดยาทุกตัวที่สงสัยทันที -&gt; ให้สูตรชั่วคราวที่ไม่ผ่านตับ (<span style=\"color:#0284c7\"><b>Ethambutol</b></span> + <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> + <span style=\"color:#0284c7\"><b>Amikacin</b></span>)<br>   2. รอจนเอนไซม์ตับลดลงจน &lt; 2 เท่าของ ULN<br>   3. เริ่ม Rechallenge ทีละตัวแบบ Full Dose ห่างกันตัวละ 3–<span style=\"color:#d97706\"><b>7 วัน</b></span> ตามลำดับ:<br>      $$\\text{<span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R)} \\longrightarrow \\text{<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H)}$$<br>   4. ❌ ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เนื่องจากเป็นตัวการก่อมะเร็งตับวายรุนแรงที่สุดและเสี่ยงต่อการกลับเป็นซ้ำสูง",
       "answerImage": "",
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>และเกณฑ์คัดออก (Exclusion Criteria) ของสูตรยา All-Oral Shorter Regimen (สูตรสั้น <span style=\"color:#d97706\"><b>9–11 เดือน</b></span>) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>สูตรสั้น All-Oral Shorter Regimen (<span style=\"color:#d97706\"><b>9–11 เดือน</b></span>)]:<br>   1. ตรวจพบหรือสงสัยการดื้อต่อยากลุ่ม Fluoroquinolones หรือ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span><br>   2. มีการแพ้ยาหรือทนต่อยาหลักในสูตรไม่ได้<br>   3. เคยได้รับยารักษาวัณโรคแนวที่สอง (Second-line drugs) มาก่อนนานเกิน 1 เดือน<br>   4. มีรอยโรควัณโรคนอกปอดรุนแรง เช่น วัณโรคเยื่อหุ้มสมอง (TB Meningitis) หรือ Disseminated TB<br>   5. หญิงตั้งครรภ์หรือให้นมบุตร",
+      "answerImage": "",
+      "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
+    },
+    {
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>DILI</b></span>) จากยาวัณโรค: ยาใดมีความเสี่ยงสูงสุด และมีกฎการเริ่มยาใหม่ (Rechallenge Protocol) อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> จากยาวัณโรคและลำดับการเกิดพิษ]:<br>   ↳ ลำดับพิษต่อตับจากมากไปน้อย: <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA - พิษตับสูงสุดและรุนแรงสุด) &gt; <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) &gt; <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF)<br>   ↳ กฎการหยุดยา: หยุดยาทั้งหมดทันทีเมื่อ <span style=\"color:#d97706\"><b>ALT &gt; 3x ULN</b></span> ร่วมกับมีอาการตับอักเสบ/ตัวเหลือง หรือ <span style=\"color:#d97706\"><b>ALT &gt; 5x ULN</b></span> แม้ไม่มีอาการ<br><br>▶ [Rechallenge Protocol (กฎการเริ่มยาทีละตัวเมื่อ LFT &lt; 2x ULN)]:<br>   ↳ เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (พิษตับต่ำสุด)<br>   ↳ เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ↳ เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (หลัง 3–<span style=\"color:#d97706\"><b>7 วัน</b></span>)<br>   ⚠️ [ข้อห้ามเด็ดขาด]: ห้าม Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) กลับมาเด็ดขาด!",
+      "answerImage": "",
+      "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
+    },
+    {
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>, <span style=\"color:#dc2626\"><b>Psychosis</b></span>, และ Seizure?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ชาปลายมือปลายเท้า): <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เกิดจากการแย่งจับ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>), <span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Ethionamide</b></span> ➔ ป้องกันด้วย <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span>) <span style=\"color:#d97706\"><b>50–100 mg/day</b></span><br>   2. <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสีแดง-เขียว): <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (#1 ต้องตรวจการมองเห็นสม่ำเสมอ), <span style=\"color:#0284c7\"><b>Linezolid</b></span><br>   3. <span style=\"color:#dc2626\"><b>Psychosis</b></span> &amp; Depression (ประสาทหลอน ซึมเศร้า อยากฆ่าตัวตาย): <span style=\"color:#0284c7\"><b>Cycloserine</b></span> (#1 เกิดจากแย่งสารสื่อประสาท GABA/NMDA <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในคนมีโรคจิตเวช), Fluoroquinolones ➔ เสริม <span style=\"color:#0284c7\"><b>Vitamin B6</b></span> 100–<span style=\"color:#d97706\"><b>200 mg</b></span>/day<br>   4. Seizure (ชัก): <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Isoniazid</b></span>",
+      "answerImage": "",
+      "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
+    },
+    {
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> (ยืดคลื่น QTc) และมีแนวทางการเฝ้าระวังอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span>]:<br>   1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   2. <span style=\"color:#0284c7\"><b>Clofazimine</b></span> (Cfz)<br>   3. Fluoroquinolones (<span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> &gt; <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>)<br>   4. <span style=\"color:#0284c7\"><b>Delamanid</b></span> (Dlm)<br><br>▶ [แนวทางการเฝ้าระวัง (Monitoring Protocol)]:<br>   ↳ ตรวจ EKG และระดับเกลือแร่ Potassium (K+) และ Magnesium (Mg2+) ก่อนเริ่มยา และติดตามทุกเดือน<br>   ↳ หากพบค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ➔ ต้องหยุดยาที่ทำให้ QT ยืดทันที และแก้ไขภาวะ Hypokalemia / Hypomagnesemia!",
+      "answerImage": "",
+      "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
+    },
+    {
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> และ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span>) มีข้อควรระวังอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> กับ CYP3A4 Inducers (<span style=\"color:#0284c7\"><b>Rifampin</b></span>, <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>): ตัวเหนี่ยวนำเอนไซม์จะเร่งการกำจัด BDQ ทำให้ระดับยาในเลือดลดลงมากกว่า 50% ➔ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกันเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br>   2. <span style=\"color:#0284c7\"><b>Linezolid</b></span> กับ ยากลุ่ม Serotonergic (SSRIs เช่น Fluoxetine, Sertraline / SNRIs / TCAs): <span style=\"color:#0284c7\"><b>Linezolid</b></span> มีฤทธิ์ยับยั้งเอนไซม์ MAO แบบไม่จำเพาะ การใช้ร่วมกับ SSRI จะทำให้เกิด <span style=\"color:#dc2626\"><b>Serotonin Syndrome</b></span> (สับสน เพ้อ กล้ามเนื้อกระตุก ตัวร้อนจัด ความดันแกว่ง) ➔ ต้องหลีกเลี่ยงการใช้ร่วมกัน!",
+      "answerImage": "",
+      "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
+    },
+    {
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (Pregnancy &amp; Lactation in MDR-TB): ยาใดปลอดภัย และยาใดเป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>อย่างเด็ดขาด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Cycloserine</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span>, <span style=\"color:#0284c7\"><b>Ethambutol</b></span> และ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (WHO อนุญาตให้ใช้เมื่อจำเป็น)<br><br>❌ [ยาที่เป็นข้อ<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)]:<br>   1. <span style=\"color:#0284c7\"><b>Ethionamide</b></span> และ <span style=\"color:#0284c7\"><b>Prothionamide</b></span>: มีฤทธิ์ก่อมัยรูปทารกพิการรุนแรง (Teratogenic)<br>   2. ยาฉีดกลุ่ม Aminoglycosides (<span style=\"color:#0284c7\"><b>Amikacin</b></span>, <span style=\"color:#0284c7\"><b>Kanamycin</b></span>, <span style=\"color:#0284c7\"><b>Streptomycin</b></span>): ทำลายเส้นประสาทหูคู่ที่ 8 ก่อให้เกิดภาวะหูหนวกแต่กำเนิดในทารก (Congenital Deafness)",
+      "answerImage": "",
+      "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
+    },
+    {
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า QTc &gt; 500 ms ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
+      "answer": "<span style=\"color:#dc2626\"><b>QT Prolongation</b></span> / Prolonged QTc Interval) ซึ่งเสี่ยงต่อการเกิดภาวะหัวใจเต้นผิดจังหวะชนิดรุนแรงถึงแก่ชีวิต (Torsades de Pointes)<br><br>▶ การติดตามความปลอดภัย (ECG Monitoring):<br>   ↳ ตรวจคลื่นไฟฟ้าหัวใจ (12-lead ECG) ก่อนเริ่มยา และตรวจติดตามที่สัปดาห์ที่ 2, 4, 8, 12 และ 24<br>   ↳ ระวังเป็นพิเศษเมื่อใช้ร่วมกับยาอื่นที่ยืด QT เช่น <span style=\"color:#0284c7\"><b>Clofazimine</b></span>, <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>, <span style=\"color:#0284c7\"><b>Levofloxacin</b></span>, <span style=\"color:#0284c7\"><b>Delamanid</b></span><br>   ↳ หากค่า <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span> ให้หยุดยาที่ยืด QT ทันทีและตรวจเช็กเกลือแร่ (K+, Mg2+)",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22878,92 +23802,92 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-200 mg/day) เสริมเสมอ?",
+      "question": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> (CS) จึงจำเป็นต้องได้รับวิตามินบี 6 (<span style=\"color:#0284c7\"><b>Pyridoxine</b></span> 100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) เสริมเสมอ?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-200 mg/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span> ยับยั้งเอนไซม์ Alanine Racemase และไปแย่งจับกับสาร Pyridoxal Phosphate (รูปออกฤทธิ์ของ <span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) ในสมอง<br>   ↳ ส่งผลให้สารสื่อประสาท GABA ในสมองลดลง นำไปสู่ พิษต่อระบบประสาทและจิตเวชรุนแรง (Neuropsychiatric Toxicity) เช่น อาการโรคจิต (<span style=\"color:#dc2626\"><b>Psychosis</b></span>), สับสน, ซึมเศร้ารุนแรง, ความคิดอยากฆ่าตัวตาย (Suicidal ideation) และอาการชัก<br><br>▶ การป้องกัน:<br>   ↳ การเสริม <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> ขนาดสูง (100-<span style=\"color:#d97706\"><b>200 mg</b></span>/day) จะช่วยป้องกันและบรรเทาพิษต่อระบบประสาทได้อย่างมีประสิทธิภาพ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> 600 mg OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> <span style=\"color:#d97706\"><b>600 mg</b></span> OD มา <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ผลตรวจ CBC พบเกล็ดเลือดลดลงจาก 260,000 เหลือ 48,000 cells/mcL ควรจัดการอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span> / <span style=\"color:#dc2626\"><b>Myelosuppression</b></span>)<br><br>▶ 💡 แนวทางการจัดการ (Management):<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ชั่วคราว ทันที<br>   ↳ 2. ตรวจติดตามผล CBC สัปดาห์ละ 1-2 ครั้ง จนกระทั่งระดับเกล็ดเลือดฟื้นตัวกลับมา &gt; 100,000 cells/mcL<br>   ↳ 3. เมื่อเกล็ดเลือดฟื้นตัว สามารถเริ่มยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ใหม่โดยปรับลดขนาดยาลงเหลือ 300 mg PO วันละ 1 ครั้ง",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับสูตร <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Clofazimine</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> ตรวจ ECG ติดตามที่สัปดาห์ที่ 8 พบค่า QTc = 525 ms (เดิม 420 ms) ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged QTc &gt; 500 ms):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span> (Severe Prolonged <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>):<br>   ↳ มีความเสี่ยงสูงมากต่อการเกิดหัวใจเต้นผิดจังหวะ Torsades de Pointes<br><br>▶ 💡 แนวทางการแก้ไขเร่งด่วน:<br>   ↳ 1. ตรวจเช็กระดับเกลือแร่ในเลือด (Serum K+, Mg2+, Ca2+) และแก้ไขให้กลับสู่ระดับปกติทันที<br>   ↳ 2. หยุดยาที่ทำให้เกิด <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> ตัวเสริมออก (เช่น หยุด <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> หรือปรับเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> หรือหยุด <span style=\"color:#0284c7\"><b>Clofazimine</b></span> ชั่วคราว)<br>   ↳ 3. ตรวจติดตาม ECG ซ้ำทุก 48-72 ชั่วโมงจนกว่าค่า QTc จะลดลงมาต่ำกว่า 480 ms",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: DILI) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เกณฑ์การวินิจฉัยภาวะตับอักเสบจากยาต้านวัณโรค (Drug-Induced Liver Injury: <span style=\"color:#dc2626\"><b>DILI</b></span>) ที่ต้องหยุดยาทั้งหมดมีเกณฑ์อย่างไร?",
       "questionImage": "",
-      "answer": "▶ เกณฑ์การวินิจฉัยและการหยุดยา (DILI Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span> Diagnostic Criteria):<br>   ↳ 1. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 3 เท่าของค่าปกติ (&gt; 3x ULN) ร่วมกับ ผู้ป่วยมีอาการตับอักเสบทางคลินิก (เบื่ออาหาร คลื่นไส้ อาเจียน ปวดท้องใต้ชายโครงขวา ตัวเหลืองตาเหลือง) หรือ<br>   ↳ 2. ค่าเอนไซม์ตับ AST หรือ ALT สูงขึ้นเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) แม้ผู้ป่วย จะไม่มีอาการใดๆ เลยก็ตาม หรือ<br>   ↳ 3. ค่า Total Bilirubin ในเลือดสูงเกิน 2.0 mg/dL<br><br>▶ ข้อปฏิบัติ:<br>   ↳ ต้อง หยุดยาต้านวัณโรคที่สงสัยทั้งหมดทันที",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-DILI ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>เมื่อผู้ป่วยเกิดภาวะ TB-<span style=\"color:#dc2626\"><b>DILI</b></span> ต้องหยุดยาทั้งหมด และเมื่อตับฟื้นตัว (AST/ALT &lt; 2x ULN) ลำดับการเริ่มยาใหม่ทีละตัว (Rechallenge Protocol) ที่ถูกต้องคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ 1. เริ่มตัวที่ 1: <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (หรือยากลุ่ม Aminoglycoside) ขนาดเต็ม (พิษต่อตับต่ำที่สุด)<br>   ↳ 2. เริ่มตัวที่ 2: <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (ให้ขนาดต่ำก่อน เช่น 150-300 mg แล้วปรับเป็นขนาดเต็มใน 3-<span style=\"color:#d97706\"><b>7 วัน</b></span>หากเอนไซม์ตับปกติ)<br>   ↳ 3. เริ่มตัวที่ 3: <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (เริ่มขนาด 100-150 mg แล้วปรับเป็นขนาดเต็ม)<br>   ↳ ⚠️ กฎสำคัญ: *หลีกเลี่ยงการ Rechallenge ยา <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด* เนื่องจาก PZA เป็นสาเหตุของตับอักเสบรุนแรงและตับวายเฉียบพลันมากที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB รับประทานยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> 750 mg/day แล้วเริ่มมีอาการหงุดหงิด หวาดระแวง หูแว่ว และมีพฤติกรรมก้าวร้าว ควรจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น 200 mg/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
+      "answer": "<span style=\"color:#0284c7\"><b>Cycloserine</b></span>-induced <span style=\"color:#dc2626\"><b>Psychosis</b></span> (อาการโรคจิตจากยา)<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Cycloserine</b></span> ทันที<br>   ↳ 2. เพิ่มขนาดยา <span style=\"color:#0284c7\"><b>Pyridoxine</b></span> (<span style=\"color:#0284c7\"><b>Vitamin B6</b></span>) เป็น <span style=\"color:#d97706\"><b>200 mg</b></span>/day ทางปาก<br>   ↳ 3. ปรึกษาจิตแพทย์และให้ยาต้านโรคจิต (Antipsychotics เช่น Haloperidol หรือ Risperidone) ระยะสั้นจนกว่าอาการทางจิตจะสงบ<br>   ↳ 4. ปรับเปลี่ยนสูตรยาต้านวัณโรคโดยใช้ยาตัวอื่นในกลุ่ม Group C ทดแทน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22974,8 +23898,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22986,80 +23910,92 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้สัมผัสใกล้ชิดในบ้านของผู้ป่วย MDR-TB ตรวจคัดกรองพบว่าเป็น Latent TB Infection (LTBI - การติดเชื้อวัณโรคระยะแฝง) ควรให้การรักษาป้องกันอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน 6 เดือน (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-6 เดือนเป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
+      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span> (MDR-TB Contact Preventive Therapy):<br>   ↳ ให้ยา <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> (LFX) หรือ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (MFX) รับประทานวันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> (6-month Daily Fluoroquinolone Preventive Treatment)<br>   ↳ ตรวจติดตามอาการทางคลินิกและเอกซเรย์ปอดอย่างใกล้ชิดทุก 3-<span style=\"color:#d97706\"><b>6 เดือน</b></span>เป็นเวลาอย่างน้อย 2 ปีเพื่อเฝ้าระวังการเปลี่ยนเป็น Active TB",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย MDR-TB ได้รับยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> มา 3 เดือน แจ้งว่าเริ่มมองเห็นภาพไม่ชัดเจนและเริ่มแยกสีเขียว-แดงไม่ออก ควรสงสัยภาวะใดและต้องทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#0284c7\"><b>Linezolid</b></span>-induced <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span>)<br><br>▶ 💡 แนวทางการจัดการเร่งด่วน:<br>   ↳ 1. หยุดยา <span style=\"color:#0284c7\"><b>Linezolid</b></span> ทันที (ห้ามให้ยาต่อเด็ดขาด)<br>   ↳ 2. ส่งพบจักษุแพทย์เพื่อตรวจ Visual Acuity, Visual Field และ Color Vision อย่างละเอียด<br>   ↳ 3. การหยุดยาอย่างรวดเร็วจะช่วยให้การมองเห็นฟื้นตัวกลับมาได้ หากหยุดยาช้าอาจตาบอดถาวร",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>BPaL</b></span> Regimen เหมาะสำหรับผู้ป่วยกลุ่มใด และใช้ระยะเวลากี่เดือน?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) 600 mg วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaL</b></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (BDQ)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (Pa)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Linezolid</b></span> (LZD) <span style=\"color:#d97706\"><b>600 mg</b></span> วันละ 1 ครั้ง (ปรับลดเป็น 300 mg หากมีผลข้างเคียง)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ 6 - 9 เดือน<br><br>▶ กลุ่มผู้ป่วยที่เหมาะสม (Target Population):<br>   ↳ ผู้ป่วย Pre-XDR TB (MDR-TB ที่ดื้อต่อ Fluoroquinolones) หรือ<br>   ↳ ผู้ป่วย MDR-TB ที่แพ้หรือไม่สามารถทนต่อยา Fluoroquinolones ได้",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
+      "group": "16. Others & Toxic",
+      "subTopic": "Tuberculosis (MDR-TB)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>) จากยา <span style=\"color:#0284c7\"><b>Clofazimine</b></span> มีลักษณะอย่างไร และผู้ป่วยต้องทราบข้อมูลใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Clofazimine</b></span> <span style=\"color:#dc2626\"><b>Skin Discoloration</b></span>]:<br>   ↳ พยาธิสภาพ: <span style=\"color:#0284c7\"><b>Clofazimine</b></span> เป็นสารสีแดงละลายในไขมันสูง จะเข้าไปสะสมที่ชั้นไขมันใต้ผิวหนัง เซลล์ Reticuloendothelial และผิวหนัง<br>   ↳ ลักษณะที่พบ: ผิวหนังจะเปลี่ยนเป็น สีแดงอมชมพู จนถึง สีน้ำตาลคล้ำหรือดำ (Reddish-brown to Black discoloration) ร่วมกับผิวแห้งแตกลาย (Ichthyosis) พบในผู้ป่วยเกือบ 100%<br>   ↳ คำแนะนำผู้ป่วย: อาการนี้ไม่เป็น<span style=\"color:#dc2626\"><b>อันตราย</b></span>ถึงชีวิต และสามารถหายกลับคืนสู่ปกติได้ แต่ต้องใช้เวลานานหลายเดือนถึงหลายปีหลังหยุดยา",
+      "answerImage": "",
+      "note": "TB Clofazimine Skin Discoloration reddish-brown black"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Easy - TB Renal Dose Adjustment]</b></span>: ผู้ป่วยวัณโรคปอดมีภาวะไตเสื่อมขั้นรุนแรง (CrCl = 22 mL/min) ในสูตรยา 2HRZE ยาตัวใดที่ สามารถให้ขนาดปกติได้ และยาตัวใดที่ ต้องปรับลดความถี่ในการให้ยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-600 mg PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ Hyperuricemia/Gout (จาก Z)",
+      "answer": "<span style=\"color:#0284c7\"><b>Isoniazid</b></span> (H): 300 mg PO วันละ 1 ครั้ง (ขับออกทางตับ)<br>   ↳ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (R): 450-<span style=\"color:#d97706\"><b>600 mg</b></span> PO วันละ 1 ครั้ง (ขับออกทางตับและน้ำดี)<br>   ↳ 2. ยาที่ต้องปรับลดความถี่เป็น 3 ครั้งต่อสัปดาห์ (3 times/week):<br>   ↳ <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (Z): 25-35 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ <span style=\"color:#0284c7\"><b>Ethambutol</b></span> (E): 15-25 mg/kg รับประทาน 3 ครั้ง/สัปดาห์<br>   ↳ เหตุผล:* ยา Z และ E ขับออกทางไตเป็นหลัก หากให้ทุกวันจะเกิดการสะสมยา ทำให้เกิด Optic Neuritis (จาก E) และ <span style=\"color:#dc2626\"><b>Hyperuricemia</b></span>/Gout (จาก Z)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - DILI Rechallenge Protocol]</b></span>: ผู้ป่วยวัณโรคปอดรับประทานสูตร 2HRZE มาได้ 3 สัปดาห์ เกิดอาการคลื่นไส้ อาเจียน ตัวเหลืองตาเหลือง ผลตรวจการทำงานของตับพบ AST = 320 U/L, ALT = 380 U/L, Total Bilirubin = 3.8 mg/dL แพทย์สั่งหยุดยาทั้งหมด จงอธิบายเกณฑ์และลำดับขั้นตอนการเริ่มยาใหม่ (Rechallenge Protocol)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-600 mg/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
+      "answer": "<span style=\"color:#dc2626\"><b>DILI</b></span>):<br>   ↳ ค่า AST/ALT &gt; 3 เท่าของค่าปกติร่วมกับมีอาการ หรือ &gt; 5 เท่าของค่าปกติแม้ไม่มีอาการ หรือ Total Bilirubin &gt; 2 mg/dL<br>   ↳ ขั้นตอนการ Rechallenge หลังหยุดยาจน LFT กลับสู่เกณฑ์ปลอดภัย (ALT &lt; 2 เท่าของ ULN และ Total Bili &lt; 1.5 mg/dL):<br>   ↳ ขั้นที่ 1: เริ่มให้ยาที่มีพิษต่อตับน้อยที่สุดก่อน คือ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> (RIF) ขนาด 300 mg/วัน แล้วเพิ่มเป็น 450-<span style=\"color:#d97706\"><b>600 mg</b></span>/วัน ตรวจติดตาม LFT ทุก 3-<span style=\"color:#d97706\"><b>7 วัน</b></span><br>   ↳ ขั้นที่ 2: หากตับปกติ ให้เติม <span style=\"color:#0284c7\"><b>Isoniazid</b></span> (INH) ขนาด 150 mg/วัน แล้วเพิ่มเป็น 300 mg/วัน ตรวจติดตาม LFT ซ้ำ<br>   ↳ ขั้นที่ 3 (กฎเหล็ก): ห้าม Rechallenge <span style=\"color:#0284c7\"><b>Pyrazinamide</b></span> (PZA) เด็ดขาด เนื่องจาก PZA เป็นยาที่มีพิษต่อตับรุนแรงที่สุดและเป็นสาเหตุตับวายซ้ำ<br>   ↳ การปรับสูตรยาต่อ: ใช้สูตร 2HRE / 7HR (ให้ยานานขึ้นเป็น 9 เดือน) หรือใช้สูตรผสม <span style=\"color:#0284c7\"><b>Levofloxacin</b></span> แทน PZA",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
+      "question": "<span style=\"color:#0284c7\"><b>Case [Hard - BPaLM Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน <span style=\"color:#d97706\"><b>6 เดือน</b></span> จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ Optic Neur<span style=\"color:#16a34a\"><b>opat</b></span>hy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย <span style=\"color:#d97706\"><b>200 mg</b></span> 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (<span style=\"color:#d97706\"><b>200 mg</b></span> OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (<span style=\"color:#d97706\"><b>600 mg</b></span> OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (<span style=\"color:#d97706\"><b>400 mg</b></span> OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก <span style=\"color:#d97706\"><b>QTc &gt; 500 ms</b></span>)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), <span style=\"color:#dc2626\"><b>Peripheral Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> และ <span style=\"color:#dc2626\"><b>Optic Neur</b></span><span style=\"color:#16a34a\"><b>opat</b></span><span style=\"color:#dc2626\"><b>hy</b></span> (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -23070,8 +24006,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -23082,8 +24018,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23094,8 +24030,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23106,8 +24042,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23118,8 +24054,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23130,8 +24066,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23142,8 +24078,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23154,8 +24090,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23166,8 +24102,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23178,8 +24114,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23190,20 +24126,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (CA-<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>:<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span> (<span style=\"color:#0284c7\"><b>TMP-SMX</b></span>): ขนาด 1 - 2 Double-Strength tablets (160/<span style=\"color:#d97706\"><b>800 mg</b></span>) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Doxycycline</b></span>: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Clindamycin</b></span>: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br>▶ หมายเหตุ:<br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23214,32 +24150,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23250,8 +24162,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Salmonella</b></i></span> Osteomyelitis",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>ทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br>▶ ระบาดวิทยา:<br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:<br>   ↳ ผู้ใหญ่ทั่วไป: <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: <span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: <span style=\"color:#7c3aed\"><i><b>GBS</b></i></span> (Group B Strep), <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23262,8 +24198,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23274,8 +24210,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23286,8 +24222,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23298,8 +24234,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23310,8 +24246,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23322,8 +24258,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23334,8 +24270,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23346,8 +24282,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23358,8 +24294,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23370,8 +24306,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23382,8 +24318,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23394,8 +24330,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23406,8 +24342,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23418,8 +24354,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23430,8 +24366,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23442,8 +24378,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23454,8 +24390,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23466,8 +24402,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23478,8 +24414,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23490,8 +24426,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23502,8 +24438,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23514,8 +24450,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23526,20 +24462,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
       "questionImage": "",
-      "answer": "▶ [กฎเหล็กเรื่อง RIG]: ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:<br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
+      "answer": "<span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= <span style=\"color:#d97706\"><b>6 เดือน</b></span>: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose): ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม",
       "answerImage": "",
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23550,8 +24486,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23562,8 +24498,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23574,8 +24510,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -23586,8 +24522,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
