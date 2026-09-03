@@ -148,6 +148,11 @@ for title, track in all_ordered_tabs:
             def get_val(idx):
                 if idx < len(cells):
                     c = cells[idx]
+                    formula = c.get('userEnteredValue', {}).get('formulaValue', '')
+                    if formula and 'IMAGE' in formula.upper():
+                        m = re.search(r'["\']([^"\']+)["\']', formula)
+                        if m:
+                            return m.group(1)
                     return c.get('formattedValue') or c.get('userEnteredValue', {}).get('stringValue') or str(c.get('userEnteredValue', {}).get('numberValue', ''))
                 return ""
 
