@@ -7,7 +7,14 @@ echo   PharmaCU Flashcard Private - Push to GitHub
 echo ============================================
 echo.
 
-git status --porcelain > tmp_status.txt 2>nul
+echo [1/3] Compiling offline database and extracting in-cell images...
+python compile_offline_db.py
+if %ERRORLEVEL% NEQ 0 (
+    echo [WARNING] Compilation had an issue, continuing with existing files...
+)
+echo.
+
+echo [2/3] Checking for Git changes...
 set size=0
 for %%A in (tmp_status.txt) do set size=%%~zA
 del tmp_status.txt 2>nul
