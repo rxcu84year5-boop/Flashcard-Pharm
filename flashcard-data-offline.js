@@ -5735,18 +5735,6 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วยใส่สายระบายน้ำไขสันหลัง (EVD) เกิด Shunt Infection จากเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ดื้อยาสูงและให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดแล้วอาการไม่ดีขึ้น พิจารณาแนวทางใด?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แนวทางการรักษาผสมผสาน:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ฉีดเข้าสู่โพรงสมองโดยตรง (Intraventricular </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">: ขนาด 5 - 20 mg/day ฉีดเข้าสายระบาย) เพื่อสร้างระดับยาเข้มข้นสูงใน CSF<br>   ↳ 2. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดดำ (IV) ต่อเนื่อง<br>   ↳ 3. *การผ่าตัด:* นำสายระบายน้ำไขสันหลัง (Shunt) ที่ติดเชื้อออกทันที และใส่สายระบายชั่วคราวใหม่</span>",
@@ -5754,8 +5742,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5766,8 +5754,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5778,8 +5766,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5790,8 +5778,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5802,8 +5790,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5814,8 +5802,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5826,8 +5814,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5838,8 +5826,8 @@ window.OFFLINE_CARDS = {
       "note": "Meningitis Mandatory Ampicillin for Listeria Cephalosporin Resistance"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5850,8 +5838,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5862,8 +5850,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5874,8 +5862,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5886,8 +5874,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5898,8 +5886,8 @@ window.OFFLINE_CARDS = {
       "note": "Meningitis MCQ: Close Contact Chemoprophylaxis Indications & Regimens"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5910,8 +5898,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5922,8 +5910,8 @@ window.OFFLINE_CARDS = {
       "note": "ข้อสอบจริง MCQ: Post-neurosurgery Meningitis Empiric Regimen"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5934,8 +5922,8 @@ window.OFFLINE_CARDS = {
       "note": "Meningitis MCQ: CT before LP Indications & Never Delay ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5946,8 +5934,8 @@ window.OFFLINE_CARDS = {
       "note": "Meningitis MCQ: Neonatal Meningitis Ceftriaxone Contraindication & Amp+Cefotaxime"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5958,8 +5946,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5970,8 +5958,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5982,8 +5970,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5994,8 +5982,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -6006,8 +5994,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -6018,8 +6006,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -6030,8 +6018,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6042,8 +6030,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6054,8 +6042,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6066,8 +6054,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6078,8 +6066,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6090,8 +6078,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6102,8 +6090,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6114,8 +6102,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6126,8 +6114,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6138,8 +6126,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6150,8 +6138,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6162,8 +6150,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6174,8 +6162,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6186,8 +6174,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6198,8 +6186,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6210,8 +6198,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6222,8 +6210,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6234,8 +6222,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6246,8 +6234,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6258,8 +6246,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6270,8 +6258,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6282,8 +6270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6294,8 +6282,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6306,8 +6294,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6318,8 +6306,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6330,8 +6318,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6342,8 +6330,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6354,8 +6342,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6366,8 +6354,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6378,8 +6366,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6390,8 +6378,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6402,8 +6390,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6414,8 +6402,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6426,8 +6414,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6438,8 +6426,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6450,8 +6438,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6462,8 +6450,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6474,8 +6462,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6486,8 +6474,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6498,8 +6486,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6510,8 +6498,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6522,8 +6510,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6534,8 +6522,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6546,8 +6534,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6558,8 +6546,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6570,8 +6558,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6582,8 +6570,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6594,8 +6582,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6606,8 +6594,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6618,8 +6606,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6630,8 +6618,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6642,8 +6630,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6654,8 +6642,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6666,8 +6654,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6678,8 +6666,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6690,8 +6678,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6702,8 +6690,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6714,8 +6702,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6726,8 +6714,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6738,8 +6726,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6750,8 +6738,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6762,8 +6750,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6774,8 +6762,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6786,8 +6774,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6798,8 +6786,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6810,8 +6798,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6822,8 +6810,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6834,8 +6822,8 @@ window.OFFLINE_CARDS = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6846,32 +6834,32 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของ Cellulitis แบ่งเป็นกี่ชนิดตามลักษณะทางคลินิก และส่งผลต่อการเลือกยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):<br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br>   ↳ 2. Purulent Cellulitis (ชนิดมีหนอง):<br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br></span><span style=\"color:#1e293b\"><b>   2. Purulent Cellulitis (ชนิดมีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br> </span><span style=\"color:#1e293b\"><b>  ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
       "id": "16. Others & Toxic::312",
       "itemNo": "310",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):<br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br>   ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):<br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6882,8 +6870,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6894,8 +6882,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6906,56 +6894,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#1e293b\">ยาปฏิชีวนะชนิดรับประทานที่แนะนำสำหรับ Purulent Cellulitis ที่สงสัยเชื้อ Community-Acquired </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> (CA-</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">) มีอะไรบ้าง?</span>",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Co-trimoxazole (TMP-SMX): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1.</span><span style=\"color:#7c3aed\"><b> Co-trimoxazole (TMP-SMX):</b></span><span style=\"color:#1e293b\"> ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6966,8 +6918,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6978,8 +6930,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6990,8 +6942,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7002,32 +6954,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7038,56 +6966,56 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับบาดแผลถูกสัตว์กัด (สุนัข/แมว) และคนกัดคือยาใด และรักษานานกี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Augmentin</b></span><span style=\"color:#1e293b\">) ขนาด 875/125 mg PO วันละ 2 ครั้ง (หรือ 1,000 mg ER BID)<br>   ↳ กรณีฉีดเข้าหลอดเลือด: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> (Unasyn) 1.5 - 3 g IV ทุก 6 ชั่วโมง<br><br></span><span style=\"color:#0284c7\"><b>▶ ระยะเวลาการให้ยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ เพื่อการป้องกัน (Prophylaxis สำหรับแผลลึก/แผลที่มือ): ให้ยานาน 3 - 5 วัน<br>   ↳ เพื่อการรักษาแผลที่มีการติดเชื้อแล้ว (Treatment): ให้ยานาน 7 - 10 วัน<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผล:</b></span><span style=\"color:#1e293b\"><br>   ↳ ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Pasteurella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>Eikenella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Strep และ Anaerobes ในช่องปากได้ครบถ้วนในยาตัวเดียว</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของการติดเชื้อผิวหนังและเนื้อเยื่ออ่อน (Skin &amp; Soft Tissue Infections - SSTI) ตาม IDSA Guidelines มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):<br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br>   ↳ 2. Purulent SSTI (มีหนอง):<br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   ↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):<br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Purulent SSTI (มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   </span><span style=\"color:#1e293b\"><b>↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):</b></span><span style=\"color:#1e293b\"><br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกความรุนแรงของโรคผิวหนังและเนื้อเยื่อใต้ผิวหนังอักเสบชนิดไม่มีหนอง (Non-purulent Cellulitis) มีเกณฑ์อย่างไร และสูตรยาปฏิชีวนะที่แนะนำในระดับ Mild vs Moderate คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [เชื้อก่อโรคหลัก]:</b></span><span style=\"color:#1e293b\"> </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep) และ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Mild (ไม่มีอาการทางทั้งระบบ / No Systemic Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: ผิวหนังบวม แดง ร้อน ขอบเขตไม่ชัดเจน ไม่มีไข้ ชีพจรปกติ<br>   ↳ ยาที่แนะนำ (ยากิน 5 วัน): </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง หรือ </span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300–450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Moderate (มีอาการทางทั้งระบบ / SIRS Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: มีไข้ &gt; 38°C, หายใจเร็ว, หรือชีพจรเต้นเร็ว &gt; 90 ครั้ง/นาที<br>   ↳ ยาที่แนะนำ (ยาฉีด IV): </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 1–2 g IV ทุก 8 ชั่วโมง หรือ </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> 1.5–3 g IV ทุก 6 ชั่วโมง</span>",
-      "answerImage": "",
+      "answerImage": "images/extracted_16__Others___Toxic_r322_c4.png",
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><span style=\"color:#1e293b\"><br>   ↳ Category I (ไม่มีความเสี่ยง): สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br>   ↳ Category II (ความเสี่ยงปานกลาง): ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br>   ↳ Category III (ความเสี่ยงสูง): ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*</span>",
-      "answerImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7098,8 +7026,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7110,8 +7038,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7122,8 +7050,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7134,8 +7062,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7146,8 +7074,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7158,8 +7086,8 @@ window.OFFLINE_CARDS = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7170,20 +7098,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7194,8 +7110,104 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
+      "answerImage": "",
+      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
+    },
+    {
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "หนองในปวดข้ออาการเด่น Gonococall arthitis  Classic triad",
+      "questionImage": "",
+      "answer": "ปวดหลายข้อ  dermatitis, tenosynovitis, polyathriti",
+      "answerImage": "",
+      "note": ""
+    },
+    {
       "id": "16. Others & Toxic::340",
       "itemNo": "338",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระยะเวลารักษา ข้ออักเสบ และ กระดูกอักเสบ",
+      "questionImage": "",
+      "answer": "ข้อ 3-4 Week , กระดูก 6 week",
+      "answerImage": "",
+      "note": ""
+    },
+    {
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7206,8 +7218,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7218,8 +7230,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7230,8 +7242,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7242,8 +7254,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7254,8 +7266,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7266,8 +7278,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7276,18 +7288,6 @@ window.OFFLINE_CARDS = {
       "answer": "<span style=\"color:#0284c7\"><b>▶ 📋 เกณฑ์การเปลี่ยนเป็นยารับประทาน (Oral Switch Criteria):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน ไม่มีไข้ แผลแห้งดี<br>   ↳ 2. ค่าการอักเสบในเลือด (ESR และ CRP) มีแนวโน้มลดลงอย่างต่อเนื่อง<br>   ↳ 3. ทราบผลความไวของเชื้อจากห้องปฏิบัติการที่แน่นอน<br>   ↳ 4. มียาปฏิชีวนะชนิดรับประทานที่มีการดูดซึมดีเยี่ยม (High Oral Bioavailability) และซึมเข้าสู่เนื้อกระดูกได้สูง (เช่น Fluoroquinolones, </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">, Co-trimoxazole)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
-      "answerImage": "",
-      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
       "id": "16. Others & Toxic::348",
@@ -16002,18 +16002,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วยใส่สายระบายน้ำไขสันหลัง (EVD) เกิด Shunt Infection จากเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ดื้อยาสูงและให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดแล้วอาการไม่ดีขึ้น พิจารณาแนวทางใด?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แนวทางการรักษาผสมผสาน:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ฉีดเข้าสู่โพรงสมองโดยตรง (Intraventricular </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">: ขนาด 5 - 20 mg/day ฉีดเข้าสายระบาย) เพื่อสร้างระดับยาเข้มข้นสูงใน CSF<br>   ↳ 2. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดดำ (IV) ต่อเนื่อง<br>   ↳ 3. *การผ่าตัด:* นำสายระบายน้ำไขสันหลัง (Shunt) ที่ติดเชื้อออกทันที และใส่สายระบายชั่วคราวใหม่</span>",
@@ -16021,8 +16009,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16033,8 +16021,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16045,8 +16033,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16057,8 +16045,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16069,8 +16057,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16081,8 +16069,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16093,8 +16081,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16105,8 +16093,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis Mandatory Ampicillin for Listeria Cephalosporin Resistance"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16117,8 +16105,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16129,8 +16117,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16141,8 +16129,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16153,8 +16141,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16165,8 +16153,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: Close Contact Chemoprophylaxis Indications & Regimens"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16177,8 +16165,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16189,8 +16177,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Post-neurosurgery Meningitis Empiric Regimen"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16201,8 +16189,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: CT before LP Indications & Never Delay ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16213,8 +16201,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: Neonatal Meningitis Ceftriaxone Contraindication & Amp+Cefotaxime"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16225,8 +16213,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16237,8 +16225,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16249,8 +16237,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16261,8 +16249,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16273,8 +16261,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16285,8 +16273,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -16297,8 +16285,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16309,8 +16297,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16321,8 +16309,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16333,8 +16321,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16345,8 +16333,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16357,8 +16345,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16369,8 +16357,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16381,8 +16369,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16393,8 +16381,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16405,8 +16393,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16417,8 +16405,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16429,8 +16417,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16441,8 +16429,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16453,8 +16441,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16465,8 +16453,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16477,8 +16465,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16489,8 +16477,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16501,8 +16489,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16513,8 +16501,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16525,8 +16513,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16537,8 +16525,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16549,8 +16537,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16561,8 +16549,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16573,8 +16561,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16585,8 +16573,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16597,8 +16585,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16609,8 +16597,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16621,8 +16609,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16633,8 +16621,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -16645,8 +16633,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16657,8 +16645,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16669,8 +16657,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16681,8 +16669,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16693,8 +16681,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16705,8 +16693,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16717,8 +16705,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16729,8 +16717,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16741,8 +16729,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16753,8 +16741,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16765,8 +16753,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16777,8 +16765,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16789,8 +16777,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16801,8 +16789,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16813,8 +16801,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16825,8 +16813,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16837,8 +16825,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16849,8 +16837,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16861,8 +16849,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16873,8 +16861,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16885,8 +16873,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16897,8 +16885,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16909,8 +16897,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16921,8 +16909,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16933,8 +16921,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16945,8 +16933,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16957,8 +16945,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16969,8 +16957,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16981,8 +16969,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16993,8 +16981,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17005,8 +16993,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17017,8 +17005,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17029,8 +17017,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17041,8 +17029,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17053,8 +17041,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17065,8 +17053,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17077,8 +17065,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17089,8 +17077,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -17101,8 +17089,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17113,32 +17101,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของ Cellulitis แบ่งเป็นกี่ชนิดตามลักษณะทางคลินิก และส่งผลต่อการเลือกยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):<br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br>   ↳ 2. Purulent Cellulitis (ชนิดมีหนอง):<br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br></span><span style=\"color:#1e293b\"><b>   2. Purulent Cellulitis (ชนิดมีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br> </span><span style=\"color:#1e293b\"><b>  ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
       "id": "16. Others & Toxic::312",
       "itemNo": "310",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):<br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br>   ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):<br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17149,8 +17137,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17161,8 +17149,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17173,56 +17161,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#1e293b\">ยาปฏิชีวนะชนิดรับประทานที่แนะนำสำหรับ Purulent Cellulitis ที่สงสัยเชื้อ Community-Acquired </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> (CA-</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">) มีอะไรบ้าง?</span>",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Co-trimoxazole (TMP-SMX): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1.</span><span style=\"color:#7c3aed\"><b> Co-trimoxazole (TMP-SMX):</b></span><span style=\"color:#1e293b\"> ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17233,8 +17185,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17245,8 +17197,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17257,8 +17209,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17269,32 +17221,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17305,56 +17233,56 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับบาดแผลถูกสัตว์กัด (สุนัข/แมว) และคนกัดคือยาใด และรักษานานกี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Augmentin</b></span><span style=\"color:#1e293b\">) ขนาด 875/125 mg PO วันละ 2 ครั้ง (หรือ 1,000 mg ER BID)<br>   ↳ กรณีฉีดเข้าหลอดเลือด: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> (Unasyn) 1.5 - 3 g IV ทุก 6 ชั่วโมง<br><br></span><span style=\"color:#0284c7\"><b>▶ ระยะเวลาการให้ยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ เพื่อการป้องกัน (Prophylaxis สำหรับแผลลึก/แผลที่มือ): ให้ยานาน 3 - 5 วัน<br>   ↳ เพื่อการรักษาแผลที่มีการติดเชื้อแล้ว (Treatment): ให้ยานาน 7 - 10 วัน<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผล:</b></span><span style=\"color:#1e293b\"><br>   ↳ ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Pasteurella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>Eikenella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Strep และ Anaerobes ในช่องปากได้ครบถ้วนในยาตัวเดียว</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของการติดเชื้อผิวหนังและเนื้อเยื่ออ่อน (Skin &amp; Soft Tissue Infections - SSTI) ตาม IDSA Guidelines มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):<br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br>   ↳ 2. Purulent SSTI (มีหนอง):<br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   ↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):<br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Purulent SSTI (มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   </span><span style=\"color:#1e293b\"><b>↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):</b></span><span style=\"color:#1e293b\"><br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกความรุนแรงของโรคผิวหนังและเนื้อเยื่อใต้ผิวหนังอักเสบชนิดไม่มีหนอง (Non-purulent Cellulitis) มีเกณฑ์อย่างไร และสูตรยาปฏิชีวนะที่แนะนำในระดับ Mild vs Moderate คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [เชื้อก่อโรคหลัก]:</b></span><span style=\"color:#1e293b\"> </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep) และ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Mild (ไม่มีอาการทางทั้งระบบ / No Systemic Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: ผิวหนังบวม แดง ร้อน ขอบเขตไม่ชัดเจน ไม่มีไข้ ชีพจรปกติ<br>   ↳ ยาที่แนะนำ (ยากิน 5 วัน): </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง หรือ </span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300–450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Moderate (มีอาการทางทั้งระบบ / SIRS Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: มีไข้ &gt; 38°C, หายใจเร็ว, หรือชีพจรเต้นเร็ว &gt; 90 ครั้ง/นาที<br>   ↳ ยาที่แนะนำ (ยาฉีด IV): </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 1–2 g IV ทุก 8 ชั่วโมง หรือ </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> 1.5–3 g IV ทุก 6 ชั่วโมง</span>",
-      "answerImage": "",
+      "answerImage": "images/extracted_16__Others___Toxic_r322_c4.png",
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><span style=\"color:#1e293b\"><br>   ↳ Category I (ไม่มีความเสี่ยง): สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br>   ↳ Category II (ความเสี่ยงปานกลาง): ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br>   ↳ Category III (ความเสี่ยงสูง): ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*</span>",
-      "answerImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17365,8 +17293,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17377,8 +17305,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17389,8 +17317,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17401,8 +17329,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17413,8 +17341,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17425,8 +17353,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17437,20 +17365,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17461,8 +17377,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
+      "answerImage": "",
+      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
+    },
+    {
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "หนองในปวดข้ออาการเด่น Gonococall arthitis  Classic triad",
+      "questionImage": "",
+      "answer": "ปวดหลายข้อ  dermatitis, tenosynovitis, polyathriti",
+      "answerImage": "",
+      "note": ""
+    },
+    {
       "id": "16. Others & Toxic::340",
       "itemNo": "338",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระยะเวลารักษา ข้ออักเสบ และ กระดูกอักเสบ",
+      "questionImage": "",
+      "answer": "ข้อ 3-4 Week , กระดูก 6 week",
+      "answerImage": "",
+      "note": ""
+    },
+    {
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17473,8 +17485,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17485,8 +17497,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17497,8 +17509,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17509,8 +17521,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17521,8 +17533,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17533,8 +17545,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -17543,18 +17555,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#0284c7\"><b>▶ 📋 เกณฑ์การเปลี่ยนเป็นยารับประทาน (Oral Switch Criteria):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน ไม่มีไข้ แผลแห้งดี<br>   ↳ 2. ค่าการอักเสบในเลือด (ESR และ CRP) มีแนวโน้มลดลงอย่างต่อเนื่อง<br>   ↳ 3. ทราบผลความไวของเชื้อจากห้องปฏิบัติการที่แน่นอน<br>   ↳ 4. มียาปฏิชีวนะชนิดรับประทานที่มีการดูดซึมดีเยี่ยม (High Oral Bioavailability) และซึมเข้าสู่เนื้อกระดูกได้สูง (เช่น Fluoroquinolones, </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">, Co-trimoxazole)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
-      "answerImage": "",
-      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
       "id": "16. Others & Toxic::348",
@@ -26255,18 +26255,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.ชาญกิจ"
-    },
-    {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
-      "group": "16. Others & Toxic",
-      "subTopic": "Meningitis",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><span style=\"color:#1e293b\"><br>ผู้ป่วยใส่สายระบายน้ำไขสันหลัง (EVD) เกิด Shunt Infection จากเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ดื้อยาสูงและให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดแล้วอาการไม่ดีขึ้น พิจารณาแนวทางใด?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ 📋 แนวทางการรักษาผสมผสาน:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ฉีดเข้าสู่โพรงสมองโดยตรง (Intraventricular </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">: ขนาด 5 - 20 mg/day ฉีดเข้าสายระบาย) เพื่อสร้างระดับยาเข้มข้นสูงใน CSF<br>   ↳ 2. ให้ยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> ทางหลอดเลือดดำ (IV) ต่อเนื่อง<br>   ↳ 3. *การผ่าตัด:* นำสายระบายน้ำไขสันหลัง (Shunt) ที่ติดเชื้อออกทันที และใส่สายระบายชั่วคราวใหม่</span>",
@@ -26274,8 +26262,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26286,8 +26274,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26298,8 +26286,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26310,8 +26298,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26322,8 +26310,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26334,8 +26322,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26346,8 +26334,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26358,8 +26346,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis Mandatory Ampicillin for Listeria Cephalosporin Resistance"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26370,8 +26358,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26382,8 +26370,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26394,8 +26382,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26406,8 +26394,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26418,8 +26406,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: Close Contact Chemoprophylaxis Indications & Regimens"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26430,8 +26418,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26442,8 +26430,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Post-neurosurgery Meningitis Empiric Regimen"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26454,8 +26442,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: CT before LP Indications & Never Delay ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26466,8 +26454,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Meningitis MCQ: Neonatal Meningitis Ceftriaxone Contraindication & Amp+Cefotaxime"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26478,8 +26466,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26490,8 +26478,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26502,8 +26490,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26514,8 +26502,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26526,8 +26514,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26538,8 +26526,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -26550,8 +26538,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26562,8 +26550,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26574,8 +26562,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26586,8 +26574,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26598,8 +26586,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26610,8 +26598,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26622,8 +26610,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26634,8 +26622,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26646,8 +26634,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26658,8 +26646,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26670,8 +26658,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26682,8 +26670,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26694,8 +26682,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26706,8 +26694,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26718,8 +26706,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26730,8 +26718,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26742,8 +26730,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26754,8 +26742,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26766,8 +26754,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26778,8 +26766,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26790,8 +26778,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26802,8 +26790,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26814,8 +26802,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26826,8 +26814,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26838,8 +26826,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26850,8 +26838,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26862,8 +26850,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26874,8 +26862,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26886,8 +26874,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -26898,8 +26886,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26910,8 +26898,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26922,8 +26910,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26934,8 +26922,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26946,8 +26934,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26958,8 +26946,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26970,8 +26958,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26982,8 +26970,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -26994,8 +26982,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27006,8 +26994,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27018,8 +27006,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27030,8 +27018,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27042,8 +27030,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27054,8 +27042,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27066,8 +27054,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27078,8 +27066,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27090,8 +27078,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27102,8 +27090,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27114,8 +27102,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27126,8 +27114,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27138,8 +27126,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27150,8 +27138,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27162,8 +27150,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27174,8 +27162,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27186,8 +27174,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27198,8 +27186,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27210,8 +27198,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27222,8 +27210,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27234,8 +27222,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27246,8 +27234,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27258,8 +27246,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27270,8 +27258,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27282,8 +27270,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27294,8 +27282,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27306,8 +27294,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27318,8 +27306,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27330,8 +27318,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27342,8 +27330,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -27354,8 +27342,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": ""
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27366,32 +27354,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของ Cellulitis แบ่งเป็นกี่ชนิดตามลักษณะทางคลินิก และส่งผลต่อการเลือกยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):<br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br>   ↳ 2. Purulent Cellulitis (ชนิดมีหนอง):<br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนกตามแนวทาง IDSA Guidelines:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   1. Non-Purulent Cellulitis (ชนิดไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: ผื่นแดง บวม ร้อน กระจายตัว ไม่มีหนอง ไม่มีตุ่มหนอง ไม่มีฝี<br>   ↳ เชื้อเด่น: เชื้อกลุ่ม Streptococci (&gt; 90%)<br>   ↳ การรักษา: ใช้ยาปฏิชีวนะที่เน้นฆ่าเชื้อ Strep (เช่น </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> V, </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">)<br></span><span style=\"color:#1e293b\"><b>   2. Purulent Cellulitis (ชนิดมีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ ลักษณะ: มีหนอง ไหลซึม มีตุ่มหนอง (Pustules) หรือมีฝีหนอง (Abscess / Furuncle / Carbuncle)<br>   ↳ เชื้อเด่น: </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ การรักษา: ต้องทำการผ่าระบายหนอง (Incision &amp; Drainage) ร่วมกับยาที่ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br> </span><span style=\"color:#1e293b\"><b>  ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):</b></span><span style=\"color:#1e293b\"><br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
       "id": "16. Others & Toxic::312",
       "itemNo": "310",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกชนิดของภาวะ Necrotizing Fasciitis (การติดเชื้อเนื้อตายลุกลามชั้นพังผืด) แบ่งเป็นกี่ประเภทตามชนิดของเชื้อก่อโรค?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การจำแนก 2 ประเภทหลัก:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Type I Necrotizing Fasciitis (Polymicrobial - ติดเชื้อหลายชนิดร่วมกัน):<br>   ↳ เชื้อก่อโรค: แบคทีเรียหลายชนิดทำงานร่วมกัน ได้แก่ Aerobic bacteria (Streptococci, </span><span style=\"color:#7c3aed\"><i><b>E. coli</b></i></span><span style=\"color:#1e293b\">, Klebsiella) ร่วมกับ Anaerobic bacteria (Bacteroides, Peptostreptococcus, Clostridium)<br>   ↳ กลุ่มผู้ป่วย: พบบ่อยในผู้ป่วยเบาหวาน (Diabetic foot), ผู้ป่วยหลังผ่าตัดช่องท้อง/ทวารหนัก (Fournier&#039;s Gangrene)<br>   ↳ 2. Type II Necrotizing Fasciitis (Monomicrobial - แบคทีเรียกินเนื้อชนิดเดี่ยว):<br>   ↳ เชื้อก่อโรค: </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep - Flesh-Eating Bacteria) หรือ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (รวมทั้ง </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ กลุ่มผู้ป่วย: พบได้ในคนทั่วไปที่มีสุขภาพดี เกิดตามหลังอุบัติเหตุ แผลถลอก หรือแมลงสัตว์กัดต่อย</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27402,8 +27390,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27414,8 +27402,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27426,56 +27414,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#1e293b\">ยาปฏิชีวนะชนิดรับประทานที่แนะนำสำหรับ Purulent Cellulitis ที่สงสัยเชื้อ Community-Acquired </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> (CA-</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">) มีอะไรบ้าง?</span>",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Co-trimoxazole (TMP-SMX): ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ รายการยาชนิดรับประทานครอบคลุม CA-MRSA:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1.</span><span style=\"color:#7c3aed\"><b> Co-trimoxazole (TMP-SMX):</b></span><span style=\"color:#1e293b\"> ขนาด 1 - 2 Double-Strength tablets (160/800 mg) PO วันละ 2 ครั้ง (BID)<br>   ↳ 2. </span><span style=\"color:#0284c7\"><b>Doxycycline</b></span><span style=\"color:#1e293b\">: ขนาด 100 mg PO วันละ 2 ครั้ง (BID)<br>   ↳ 3. </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">: ขนาด 300 - 450 mg PO วันละ 3 ครั้ง (TID) (ใช้ได้เฉพาะเมื่อผลตรวจ D-Test ให้ผลลบ)<br><br></span><span style=\"color:#d97706\"><b>▶ หมายเหตุ:</b></span><span style=\"color:#1e293b\"><br>   ↳ ห้ามลืมการผ่าระบายหนอง (Incision &amp; Drainage) ซึ่งเป็นการรักษาหลักที่สำคัญที่สุด</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27486,8 +27438,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27498,8 +27450,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27510,8 +27462,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27522,32 +27474,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27558,56 +27486,56 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับบาดแผลถูกสัตว์กัด (สุนัข/แมว) และคนกัดคือยาใด และรักษานานกี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Amoxicillin/Clavulanate</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Augmentin</b></span><span style=\"color:#1e293b\">) ขนาด 875/125 mg PO วันละ 2 ครั้ง (หรือ 1,000 mg ER BID)<br>   ↳ กรณีฉีดเข้าหลอดเลือด: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> (Unasyn) 1.5 - 3 g IV ทุก 6 ชั่วโมง<br><br></span><span style=\"color:#0284c7\"><b>▶ ระยะเวลาการให้ยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ เพื่อการป้องกัน (Prophylaxis สำหรับแผลลึก/แผลที่มือ): ให้ยานาน 3 - 5 วัน<br>   ↳ เพื่อการรักษาแผลที่มีการติดเชื้อแล้ว (Treatment): ให้ยานาน 7 - 10 วัน<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผล:</b></span><span style=\"color:#1e293b\"><br>   ↳ ครอบคลุมเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Pasteurella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>Eikenella</b></i></span><span style=\"color:#1e293b\">, </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Strep และ Anaerobes ในช่องปากได้ครบถ้วนในยาตัวเดียว</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกประเภทของการติดเชื้อผิวหนังและเนื้อเยื่ออ่อน (Skin &amp; Soft Tissue Infections - SSTI) ตาม IDSA Guidelines มีอะไรบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):<br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br>   ↳ 2. Purulent SSTI (มีหนอง):<br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   ↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):<br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ IDSA Classification ตามความลึกและความรุนแรง:</b></span><span style=\"color:#1e293b\"><br></span><span style=\"color:#1e293b\"><b>   ↳ 1. Non-purulent SSTI (ไม่มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Erysipelas: ชั้น Superficial Dermis + Lymphatics — ขอบชัด นูน แดง เจ็บ<br>   ↳ Non-purulent Cellulitis: Deep Dermis + Subcutaneous — ขอบไม่ชัด<br>   ↳ Erythema/Wound Infection ไม่มีหนอง<br> </span><span style=\"color:#1e293b\"><b>  ↳ 2. Purulent SSTI (มีหนอง):</b></span><span style=\"color:#1e293b\"><br>   ↳ Furuncle (ฝีขุมขน): ฝีขนาดเล็กจากรูขุมขน<br>   ↳ Carbuncle (ฝีรวม): ฝีขนาดใหญ่รวมหลาย Furuncles<br>   ↳ Abscess: ฝีหนองรวมใต้ผิวหนัง ต้องผ่าระบาย<br>   </span><span style=\"color:#1e293b\"><b>↳ 3. Necrotizing SSTI (เนื้อตาย — ฉุกเฉินมาก):</b></span><span style=\"color:#1e293b\"><br>   ↳ Necrotizing Fasciitis Type I (Polymicrobial) และ Type II (GAS/</span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br>   ↳ Clostridial Myonecrosis (Gas Gangrene)</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การจำแนกความรุนแรงของโรคผิวหนังและเนื้อเยื่อใต้ผิวหนังอักเสบชนิดไม่มีหนอง (Non-purulent Cellulitis) มีเกณฑ์อย่างไร และสูตรยาปฏิชีวนะที่แนะนำในระดับ Mild vs Moderate คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [เชื้อก่อโรคหลัก]:</b></span><span style=\"color:#1e293b\"> </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pyogenes</b></i></span><span style=\"color:#1e293b\"> (Group A Strep) และ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Mild (ไม่มีอาการทางทั้งระบบ / No Systemic Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: ผิวหนังบวม แดง ร้อน ขอบเขตไม่ชัดเจน ไม่มีไข้ ชีพจรปกติ<br>   ↳ ยาที่แนะนำ (ยากิน 5 วัน): </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง หรือ </span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\"> 500 mg PO วันละ 4 ครั้ง<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300–450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#0284c7\"><b>▶ [ระดับ Moderate (มีอาการทางทั้งระบบ / SIRS Signs)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ อาการ: มีไข้ &gt; 38°C, หายใจเร็ว, หรือชีพจรเต้นเร็ว &gt; 90 ครั้ง/นาที<br>   ↳ ยาที่แนะนำ (ยาฉีด IV): </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 1–2 g IV ทุก 8 ชั่วโมง หรือ </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Sulbactam</b></span><span style=\"color:#1e293b\"> 1.5–3 g IV ทุก 6 ชั่วโมง</span>",
-      "answerImage": "",
+      "answerImage": "images/extracted_16__Others___Toxic_r322_c4.png",
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><span style=\"color:#1e293b\"><br>   ↳ Category I (ไม่มีความเสี่ยง): สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br>   ↳ Category II (ความเสี่ยงปานกลาง): ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br>   ↳ Category III (ความเสี่ยงสูง): ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*</span>",
-      "answerImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
+      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27618,8 +27546,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27630,8 +27558,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27642,8 +27570,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27654,8 +27582,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27666,8 +27594,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27678,8 +27606,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27690,20 +27618,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ Mild Non-Purulent Cellulitis ในผู้ป่วยนอกคือยาใด และมีระยะเวลาการรักษากี่วัน?</span>",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Dicloxacillin</b></span><span style=\"color:#1e293b\">: ขนาด 500 mg PO วันละ 4 ครั้ง (ก่อนอาหาร 1 ชั่วโมง) หรือ<br>   ↳ </span><span style=\"color:#0284c7\"><b>Cefalexin</b></span><span style=\"color:#1e293b\"> (</span><span style=\"color:#0284c7\"><b>Cephalexin</b></span><span style=\"color:#1e293b\">): ขนาด 500 mg PO วันละ 4 ครั้ง (QID)<br>   ↳ กรณีแพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\"> 300-450 mg PO วันละ 3 ครั้ง<br><br></span><span style=\"color:#16a34a\"><b>▶ ระยะเวลาการรักษา (Duration):</b></span><span style=\"color:#1e293b\"><br>   ↳ นาน 5 - 7 วัน (หากผู้ป่วยมีอาการบวมแดงดีขึ้นชัดเจน ไม่มีไข้ สามารถหยุดยาได้ที่ 5 วัน)</span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27714,8 +27630,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
+      "answerImage": "",
+      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
+    },
+    {
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทของกระดูกอักเสบติดเชื้อ (Osteomyelitis) ตามกลไกการเกิดโรค (Waldvogel Classification) แบ่งเป็นกี่ประเภท?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ 1. Hematogenous Osteomyelitis (การแพร่กระจายผ่านกระแสเลือด):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยในเด็กเล็ก (เกิดที่บริเวณ Metaphysis ของกระดูกยาว เช่น Femur, Tibia) หรือในผู้สูงอายุ (เกิดที่กระดูกสันหลัง Vertebral Osteomyelitis)<br><br></span><span style=\"color:#0284c7\"><b>▶ 2. Contiguous Focus Osteomyelitis (การลุกลามจากเนื้อเยื่อข้างเคียงหรืออุบัติเหตุ):</b></span><span style=\"color:#1e293b\"><br>   ↳ เกิดจากการติดเชื้อของเนื้อเยื่อผิวหนังข้างเคียงลุกลามเข้าสู่กระดูก หรือเกิดตามหลังอุบัติเหตุกระดูกหักทิ่มทะลุผิวหนัง (Open fracture) หรือการผ่าตัดใส่อุปกรณ์ดามกระดูก<br><br></span><span style=\"color:#0284c7\"><b>▶ 3. Vascular Insufficiency Osteomyelitis (เกิดจากหลอดเลือดส่วนปลายเสื่อม):</b></span><span style=\"color:#1e293b\"><br>   ↳ พบบ่อยที่สุดใน ผู้ป่วยเบาหวาน (Diabetic Foot Infections) ร่วมกับมีภาวะหลอดเลือดแดงส่วนปลายตีบ (Peripheral Artery Disease) และปลายประสาทชา</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "เชื้อก่อโรคอันดับ 1 ของ Osteomyelitis และ Septic Arthritis ในทุกกลุ่มประชากรคือเชื้อใด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคอันดับ 1 ตลอดกาล:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\"> (พบได้มากกว่า 50 - 70% ทั้งสายพันธุ์ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> และ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">)<br><br></span><span style=\"color:#0284c7\"><b>▶ เหตุผลทางจุลชีววิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> มีโปรตีนยึดเกาะผิวเซลล์ (Adhesins / MSCRAMMs) ที่สามารถจับกับ Fibronectin, Collagen และ Bone Sialoprotein บนกระดูกและกระดูกอ่อนข้อต่อได้อย่างเหนียวแน่น<br>   ↳ สามารถสร้าง Biofilm บนพื้นผิวเนื้อกระดูกที่ตาย (Sequestrum) และวัสดุดามกระดูกโลหะได้ดีเยี่ยม</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ลักษณะผลตรวจน้ำไขข้อ (Synovial Fluid Analysis) ในภาวะข้ออักเสบติดเชื้อจากแบคทีเรีย (Bacterial Septic Arthritis) เป็นอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>ผลการตรวจน้ำไขข้อลักษณะเฉพาะ (Diagnostic Synovial Fluid Findings):<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>1. ลักษณะทางกายภาพ: ขุ่นข้น คล้ายหนอง หรือสีเหลืองขุ่นทึบ (Purulent / Turbid) ความหนืดลดลง<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>2. จำนวนเม็ดเลือดขาว (WBC Count): สูงมากผิดปกติ &gt; 50,000 cells/mcL (โดยทั่วไปมักสูง &gt; 100,000 cells/mcL)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>3. ชนิดเม็ดเลือดขาว (Differential): มีเซลล์ Neutrophils (PMN) เด่น &gt; 75 - 90%<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>4. ระดับน้ำตาลกลูโคส: ต่ำกว่าระดับน้ำตาลในกระแสเลือดอย่างมาก (Synovial:Blood Glucose Ratio &lt; 0.5)<br>   <span style=\"color:#64748b; font-weight:bold; margin-right:4px;\">↳</span>5. Gram stain &amp; Culture: ย้อมพบตัวเชื้อและเพาะเชื้อขึ้น 60 - 80%",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระบาดวิทยา ปัจจัยเสี่ยง และนิยามของ Osteomyelitis (กระดูกอักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การอักเสบของกระดูกจากการติดเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria โดยอาจเกิดเฉพาะที่ (Focal) หรือลามกว้าง (Diffuse)<br><br></span><span style=\"color:#0284c7\"><b>▶ การจำแนก (Waldvogel):</b></span><span style=\"color:#1e293b\"><br>   ↳ Hematogenous (พบในเด็ก): กระดูก Metaphysis ของกระดูกยาว เพราะไหลเลือดช้าในบริเวณนี้<br>   ↳ Contiguous Focus: จากการบาดเจ็บหรือผ่าตัด, การลุกลามจากเนื้อเยื่อข้างเคียง<br>   ↳ Vascular Insufficiency: ผู้ป่วยเบาหวาน + PAD<br><br></span><span style=\"color:#0284c7\"><b>▶ ปัจจัยเสี่ยงสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ เบาหวาน (Diabetic foot — SSTI → Osteomyelitis บ่อยที่สุด)<br>   ↳ กระดูกหักแบบเปิด (Open Fracture)<br>   ↳ ผ่าตัดใส่อุปกรณ์โลหะ (Hardware เช่น Plate, Screw, Joint prosthesis)<br>   ↳ ผู้ป่วยโรคเม็ดเลือดแดงรูปเคียว (Sickle Cell Disease) — เสี่ยง Salmonella Osteomyelitis</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "นิยาม ระบาดวิทยา และเชื้อก่อโรคหลักในภาวะ Septic Arthritis (ข้ออักเสบติดเชื้อ) คืออะไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>▶ นิยาม:</b></span><span style=\"color:#1e293b\"><br>   ↳ การติดเชื้อในช่องข้อต่อ (Synovial space) จากเชื้อแบคทีเรีย เชื้อรา หรือ Mycobacteria ที่เป็นภาวะฉุกเฉินทางกระดูกและข้อ หากไม่รักษาเร่งด่วนจะทำลายกระดูกอ่อนข้อต่อถาวร<br><br></span><span style=\"color:#0284c7\"><b>▶ ระบาดวิทยา:</b></span><span style=\"color:#1e293b\"><br>   ↳ อุบัติการณ์: 2-10 ราย / 100,000 คน / ปี<br>   ↳ ข้อที่ติดเชื้อบ่อยที่สุด: เข่า (&gt;50%), สะโพก, ข้อเท้า, ข้อไหล่<br><br></span><span style=\"color:#0284c7\"><b>▶ เชื้อก่อโรคตามกลุ่มผู้ป่วย:</b></span><span style=\"color:#1e293b\"><br>   ↳ ผู้ใหญ่ทั่วไป: </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\"> (อันดับ 1 &gt; 50%), Streptococci<br>   ↳ ผู้ใหญ่อายุน้อย เพศสัมพันธ์: </span><span style=\"color:#7c3aed\"><i><b>Neisseria gonorrhoeae</b></i></span><span style=\"color:#1e293b\"> (Gonococcal Arthritis)<br>   ↳ เด็กแรกเกิด: GBS (Group B Strep), </span><span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span><span style=\"color:#1e293b\">, Gram-negative<br>   ↳ ผู้ป่วยโรคข้ออักเสบรูมาตอยด์ + ยา TNF-inhibitor: เสี่ยง Mycobacterial arthritis สูงขึ้น</span>",
+      "answerImage": "",
+      "note": "PT2 อ.โชติรัตน์"
+    },
+    {
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "หนองในปวดข้ออาการเด่น Gonococall arthitis  Classic triad",
+      "questionImage": "",
+      "answer": "ปวดหลายข้อ  dermatitis, tenosynovitis, polyathriti",
+      "answerImage": "",
+      "note": ""
+    },
+    {
       "id": "16. Others & Toxic::340",
       "itemNo": "338",
+      "group": "16. Others & Toxic",
+      "subTopic": "Bone & Joint / SSTI / Rabies",
+      "track": "Clinic",
+      "question": "ระยะเวลารักษา ข้ออักเสบ และ กระดูกอักเสบ",
+      "questionImage": "",
+      "answer": "ข้อ 3-4 Week , กระดูก 6 week",
+      "answerImage": "",
+      "note": ""
+    },
+    {
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27726,8 +27738,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27738,8 +27750,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27750,8 +27762,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27762,8 +27774,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27774,8 +27786,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27786,8 +27798,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -27796,18 +27808,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "answer": "<span style=\"color:#0284c7\"><b>▶ 📋 เกณฑ์การเปลี่ยนเป็นยารับประทาน (Oral Switch Criteria):</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน ไม่มีไข้ แผลแห้งดี<br>   ↳ 2. ค่าการอักเสบในเลือด (ESR และ CRP) มีแนวโน้มลดลงอย่างต่อเนื่อง<br>   ↳ 3. ทราบผลความไวของเชื้อจากห้องปฏิบัติการที่แน่นอน<br>   ↳ 4. มียาปฏิชีวนะชนิดรับประทานที่มีการดูดซึมดีเยี่ยม (High Oral Bioavailability) และซึมเข้าสู่เนื้อกระดูกได้สูง (เช่น Fluoroquinolones, </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\">, </span><span style=\"color:#0284c7\"><b>Clindamycin</b></span><span style=\"color:#1e293b\">, Co-trimoxazole)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน</span>",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
-      "group": "16. Others & Toxic",
-      "subTopic": "Bone & Joint / SSTI / Rabies",
-      "track": "Clinic",
-      "question": "ผู้ป่วยเคยได้รับวัคซีนพิษสุนัขบ้าครบถ้วนมาก่อนถูกสุนัขกัดซ้ำ มีแนวทางการให้วัคซีนกระตุ้น (Booster) อย่างไร และมีข้อห้ามเรื่อง RIG อย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>▶ [กฎเหล็กเรื่อง RIG]:</b></span><span style=\"color:#1e293b\"> ผู้ที่เคยได้รับวัคซีนครบถ้วนมาก่อน ห้ามให้ RIG เด็ดขาด! ไม่ว่าจะสัมผัสรุนแรงระดับใด เพราะร่างกายมี Memory cells อยู่แล้ว การให้ RIG จะไปกดภูมิคุ้มกันที่สร้างจากวัคซีนกระตุ้น<br><br></span><span style=\"color:#0284c7\"><b>▶ [สูตรการฉีดวัคซีนกระตุ้น (Booster Dose)]:</b></span><span style=\"color:#1e293b\"><br>   1. เข็มสุดท้าย &lt; 6 เดือน: ฉีดกระตุ้นเพียง 1 เข็ม (ใน Day 0) ทาง ID (0.1 mL 1 จุด) หรือ IM (1 dose)<br>   2. เข็มสุดท้าย &gt;= 6 เดือน: ฉีดกระตุ้น 2 ครั้ง (ใน Day 0 และ Day 3) ทาง ID หรือ IM<br><br></span><span style=\"color:#0284c7\"><b>✦ กรณีลืมมาฉีดวัคซีนตามนัด (Missed Dose):</b></span><span style=\"color:#1e293b\"> ไม่ต้องเริ่มนับหนึ่งใหม่ ให้ฉีดเข็มที่ลืมทันทีที่มาถึง แล้วนับระยะห่างของเข็มถัดไปตามตารางเดิม</span>",
-      "answerImage": "",
-      "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
       "id": "16. Others & Toxic::348",
