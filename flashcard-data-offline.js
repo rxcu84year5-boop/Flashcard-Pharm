@@ -106,7 +106,7 @@ window.OFFLINE_CATEGORIES = [
   {
     "name": "16. Others & Toxic",
     "track": "Clinic",
-    "count": 323,
+    "count": 333,
     "subtopics": [
       "Antimicrobial Resistance (AMR)",
       "Bone & Joint / SSTI / Rabies",
@@ -3649,7 +3649,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span> กับ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษาปอดอักเสบจากเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> HAP/VAP)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; 2 สัปดาห์, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4009,7 +4009,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ปัจจัยข้อใดต่อไปนี้ ไม่ใช่ ปัจจัยเสี่ยงและ ไม่ใช่ เกณฑ์ในการประเมินผลการรักษาปอดอักเสบที่ข้อสอบมักนำมาหลอก?",
       "questionImage": "",
-      "answer": "▶ สิ่งที่ ไม่ใช่ เกณฑ์ทางคลินิก (หลุมพรางข้อสอบ):<br>   ↳ 1. ค่า BUN &lt; 19 mg/dL: ไม่ใช่ เกณฑ์ประเมินการตอบสนองหรือการเปลี่ยนเป็นยากิน (BUN เป็นเพียงตัวชี้วัดความรุนแรงตอนแรกรับใน CURB-65 เท่านั้น)<br>   ↳ 2. ภาพถ่ายรังสีปอด (Chest X-ray) กลับเป็นปกติทันที: ไม่ใช่ เกณฑ์ตัดสิน (รอยฝ้าขาวบน X-ray อาจคงอยู่นาน 4-12 สัปดาห์แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part I"
     },
@@ -4093,7 +4093,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - IV-to-Oral Switch Criteria]</b></span>: ผู้ป่วย CAP รับการรักษาด้วย <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> IV + <span style=\"color:#0284c7\"><b>Azithromycin</b></span> IV มาแล้ว 3 วัน แพทย์ต้องการพิจารณาเปลี่ยนเป็นยารับประทานกลับบ้าน (Switch to Oral Therapy) ข้อใดคือเกณฑ์ทางคลินิกที่ถูกต้องและข้อใดไม่ใช่เกณฑ์?",
       "questionImage": "",
-      "answer": "↳ เกณฑ์ที่ถูกต้องในการเปลี่ยนเป็นยารับประทาน (Clinical Stability Criteria):<br>   ↳ 1. อุณหภูมิร่างกายลดลง &lt;= 37.8 องศาเซลเซียส ต่อเนื่องอย่างน้อย 24 ชั่วโมง<br>   ↳ 2. อัตราการเต้นของหัวใจ (Heart rate) &lt;= 100 ครั้ง/นาที<br>   ↳ 3. อัตราการหายใจ (Respiratory rate) &lt;= 24 ครั้ง/นาที<br>   ↳ 4. ความดันโลหิต Systolic &gt;= 90 mmHg โดยไม่ต้องใช้ยากระตุ้นความดัน<br>   ↳ 5. ออกซิเจนในเลือด (O2 Saturation) &gt;= 90% ใน Room air<br>   ↳ 6. สามารถรับประทานอาหารและยาทางปากได้ ทางเดินอาหารทำงานปกติ<br>   ↳ 7. สภาพจิตใจและสติสัมปชัญญะกลับสู่ปกติ (Normal mental status)<br><br>▶ ข้อที่ข้อสอบมักหลอก (ไม่ใช่เกณฑ์):<br>   ↳ ค่า BUN &lt; 19 mg/dL หรือ ผล X-ray ปอดกลับเป็นปกติ (Infiltrate บน X-ray อาจใช้เวลานานถึง 4-12 สัปดาห์จึงจะยุบหมด!)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>จึงจะยุบหมด!)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Switch IV-to-Oral)"
     },
@@ -4139,7 +4139,7 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "หากผลเพาะเชื้อในเลือดพบ Streptococcus gallolyticus (Streptococcus bovis) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Streptococcus gallolyticus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Streptococcus bovis</b></i></span>) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
       "questionImage": "",
       "answer": "▶ การส่งตรวจเพิ่มเติมที่จำเป็นอย่างยิ่ง:<br>   ↳ ต้องส่งตรวจ ส่องกล้องตรวจดูลำไส้ใหญ่และทวารหนัก (Colonoscopy) ทุกรายเสมอ<br><br>▶ เหตุผลทางพยาธิสรีรวิทยา (Pathological Association):<br>   ↳ เชื้อ S. gallolyticus อาศัยอยู่ในทางเดินอาหาร และมีความสัมพันธ์อย่างมีนัยสำคัญกับการมีเนื้องอกหรือมะเร็งลำไส้ใหญ่และทวารหนัก (Colorectal Carcinoma / Adenomatous Polyps) ซึ่งทำให้เยื่อบุลำไส้มีแผลและเชื้อเล็ดลอดเข้าสู่กระแสเลือดไปเกาะที่ลิ้นหัวใจ",
       "answerImage": "",
@@ -4177,7 +4177,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "เกณฑ์หลัก (Major Criteria) 2 ข้อ ตาม Modified Duke Criteria ในการวินิจฉัย IE มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (Perivalvular Abscess)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4189,7 +4189,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "เกณฑ์รอง (Minor Criteria) 5 ข้อ ตาม Modified Duke Criteria มีอะไรบ้าง พร้อมคำอธิบาย?",
       "questionImage": "",
-      "answer": "▶ 1. Predisposition (ภาวะเอื้ออำนวย / ปัจจัยเสี่ยง):<br>   ↳ มีโรคหัวใจเสี่ยงสูง (ใส่ลิ้นหัวใจเทียม, เคยเป็น IE มาก่อน) หรือมีประวัติฉีดยาเสพติดเข้าเส้น (IVDA)<br><br>▶ 2. Fever (มีไข้):<br>   ↳ อุณหภูมิร่างกาย &gt;= 38.0 องศาเซลเซียส<br><br>▶ 3. Vascular Phenomena (ความผิดปกติของหลอดเลือดและการอุดตัน):<br>   ↳ ลิ่มเลือดหลุดไปอุดตัน (Major arterial emboli), กล้ามเนื้อปอดตายจากลิ่มเลือดติดเชื้อ (Septic pulmonary infarcts), หลอดเลือดโป่งพองติดเชื้อ (Mycotic aneurysm), จุดเลือดออกใต้เยื่อบุตา (Conjunctival hemorrhages), แผล Janeway lesions<br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ Osler&#039;s nodes, จุดเลือดออกที่จอตา Roth&#039;s spots, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
+      "answer": "<span style=\"color:#dc2626\"><b>Janeway lesions</b></span><br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ <span style=\"color:#dc2626\"><b>Osler&#039;s nodes</b></span>, จุดเลือดออกที่จอตา <span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span>, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4199,9 +4199,9 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC &lt;= 0.12 mcg/mL) คืออะไร?",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน 4 สัปดาห์ หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์ (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก OPAT)<br><br>▶ สูตรยาระยะสั้น 2 สัปดาห์ (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์ (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4225,7 +4225,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Prosthetic Valve Endocarditis (PVE - ลิ้นหัวใจเทียม) ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง 2 สัปดาห์แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
+      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4261,7 +4261,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group Endocarditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน 4 สัปดาห์ สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4321,7 +4321,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาการเกิด Vegetation ในภาวะ Infective Endocarditis เกิดขึ้นได้อย่างไร?",
       "questionImage": "",
-      "answer": "▶ ขั้นตอนการเกิดโรค (Pathogenesis - 4 Steps):<br>   ↳ 1. Endothelial Injury: ลิ้นหัวใจได้รับบาดเจ็บจากแรงไหลเลือดสูงผิดปกติ (Turbulent flow) หรือบาดแผลทางกล ทำให้ผิวเยื่อบุเสียหาย<br>   ↳ 2. Non-Bacterial Thrombotic Endocarditis (NBTE): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span>): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -4345,7 +4345,7 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> ทำไมจึงนิยมใช้สูตร <span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> (<span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>) มากกว่าสูตรดั้งเดิม <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน 4–<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
+      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
       "answerImage": "",
       "note": "Lecture IE: Double beta-lactam PBP saturation in Enterococcus"
     },
@@ -4357,13 +4357,85 @@ window.OFFLINE_CARDS = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> ต้องใช้สูตรยาใด และมีเทคนิคการเริ่มยา Rifampin อย่างไรเพื่อป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ 2 สัปดาห์แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
       "answerImage": "",
       "note": "Lecture IE: PVE Triple regimen & delayed Rifampin timing"
     },
     {
       "id": "16. Others & Toxic::119",
       "itemNo": "117",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span> Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (<span style=\"color:#dc2626\"><b>NBTE</b></span>)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน <span style=\"color:#dc2626\"><b>NBTE</b></span> แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก",
+      "answerImage": "",
+      "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
+    },
+    {
+      "id": "16. Others & Toxic::120",
+      "itemNo": "118",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทและความรุนแรงของ Infective Endocarditis (IE Classification: Acute vs Subacute, NVE vs PVE, และ Left vs Right-sided) มีความแตกต่างกันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>) เกิดได้ทั้งบนลิ้นหัวใจปกติและลิ้นผิดปกติ มีไข้สูง ทำลายลิ้นหัวใจฉับพลัน<br>   ↳ Subacute IE: ดำเนินโรคช้าๆ เป็นสัปดาห์ถึงหลายเดือน เชื้อดุร้ายต่ำ (Most common: <span style=\"color:#7c3aed\"><i><b>Viridans group streptococci</b></i></span>) มักเกิดบนลิ้นหัวใจที่มีความผิดปกติเดิม มีไข้ต่ำๆ อ่อนเพลีย น้ำหนักลด<br><br>▶ [2. Native Valve (NVE) vs Prosthetic Valve (PVE)]:<br>   ↳ Early PVE (&lt; 1 ปีหลังผ่าตัด): มักติดเชื้อใน รพ. (<span style=\"color:#7c3aed\"><i><b>Staphylococcus epidermidis</b></i></span> <span style=\"color:#7c3aed\"><i><b>CoNS</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, GNB)<br>   ↳ Late PVE (&gt;= 1 ปีหลังผ่าตัด): เชื้อเหมือน NVE ในชุมชน (<span style=\"color:#7c3aed\"><i><b>Viridans streptococci</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)<br><br>▶ [3. Left-Sided vs Right-Sided IE]:<br>   ↳ Left-Sided (Mitral #1, Aortic #2): พบบ่อยสุดในคนทั่วไป เสี่ยงลิ่มเลือดหลุดไปอุดสมอง/ไต/ม้าม (Systemic Emboli)<br>   ↳ Right-Sided (Tricuspid #1): พบบ่อยใน ผู้ฉีดสารเสพติดเข้าเส้น (IVDU &gt; 70% เป็น <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>) เสี่ยงลิ่มเลือดหลุดไปปอด (Septic Pulmonary Emboli)",
+      "answerImage": "",
+      "note": "Lecture IE: Acute vs Subacute, NVE vs PVE, Left vs Right sided classification"
+    },
+    {
+      "id": "16. Others & Toxic::121",
+      "itemNo": "119",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>, เชื้อรา Candida)",
+      "answerImage": "",
+      "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
+    },
+    {
+      "id": "16. Others & Toxic::122",
+      "itemNo": "120",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ Modified Duke Criteria สำหรับการวินิจฉัย Infective Endocarditis ประกอบด้วย Major, Minor criteria อะไรบ้าง และมีเกณฑ์ตัดสิน Definite, Possible, Rejected อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span><br>   3. Vascular Phenomena: ลิ่มเลือดอุดตันหลอดเลือดใหญ่, ปอดติดเชื้อ, <span style=\"color:#dc2626\"><b>Janeway lesions</b></span>, เลือดออกในสมอง<br>   4. Immunologic Phenomena: Glomerulonephritis, <span style=\"color:#dc2626\"><b>Osler’s nodes</b></span>, <span style=\"color:#dc2626\"><b>Roth’s spots</b></span>, ผล RF เป็นบวก<br>   5. Microbiologic Evidence: ผลเพาะเชื้อบวกแต่ไม่เข้าเกณฑ์ Major<br><br>▶ [เกณฑ์ตัดสินชี้ขาด (Definite IE)]:<br>   $$\\mathbf{2\\text{ Major}} \\quad\\text{หรือ}\\quad \\mathbf{1\\text{ Major} + 3\\text{ Minor}} \\quad\\text{หรือ}\\quad \\mathbf{5\\text{ Minor}}$$<br>   ↳ Possible IE: 1 Major + 1 Minor หรือ 3 Minor<br>   ↳ Rejected IE: มีการวินิจฉัยอื่นชัดเจน หรืออาการหายหลังให้ยา &lt; 4 วัน",
+      "answerImage": "",
+      "note": "Lecture IE: Modified Duke Criteria (Major, Minor, Definite/Possible/Rejected cutoffs)"
+    },
+    {
+      "id": "16. Others & Toxic::123",
+      "itemNo": "121",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) มีหลักการเลือกใช้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> - ไวต่อ Penicillin MIC &lt;= 0.12)]:<br>   ↳ สูตรมาตรฐาน: <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (12–18 ล้าน units/day) หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เหมาะมากสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ [2. <span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> vs <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)]:<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV q 4h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ห้ามเติม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> / Rifampin!)<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15–20 mg/kg IV q 8–12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (Target AUC/MIC <span style=\"color:#d97706\"><b>400–600</b></span>)<br>   ↳ Prosthetic Valve (PVE): <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ➔ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>) + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h (เฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก) + Rifampin 300 mg q 8h (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> โดยเริ่มดีเลย์หลัง Vanco 3–<span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [3. <span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> (Enterococcal IE)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> Preferred: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> 2 g IV q 4h + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV q 12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> PBP synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero Nephrotoxicity)<br>   ↳ Alternative: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h นาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> (ต้องติดตามค่าไตและ TDM ใกล้ชิด)",
+      "answerImage": "",
+      "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
+    },
+    {
+      "id": "16. Others & Toxic::124",
+      "itemNo": "122",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิด Infective Endocarditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>First-line</b></span> <span style=\"color:#16a34a\"><b>DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answerImage": "",
+      "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
+    },
+    {
+      "id": "16. Others & Toxic::125",
+      "itemNo": "123",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4374,44 +4446,44 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::120",
-      "itemNo": "118",
+      "id": "16. Others & Toxic::126",
+      "itemNo": "124",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "Roth&#039;s spots และ Splinter hemorrhages ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
+      "question": "<span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span> และ <span style=\"color:#dc2626\"><b>Splinter hemorrhages</b></span> ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
       "questionImage": "",
       "answer": "▶ 1. Roth&#039;s Spots:<br>   ↳ จุดเลือดออกที่จอประสาทตา (Retinal hemorrhage) รูปวงรีที่มีศูนย์กลางสีขาวซีด (Pale central fibrin-platelet thrombus) ส่องดูได้จาก Ophthalmoscope จัดเป็น Immunologic Phenomena<br><br>▶ 2. Splinter Hemorrhages:<br>   ↳ เส้นเลือดออกสีแดงเข้มหรือน้ำตาลตามยาวใต้แผ่นเล็บ (คล้ายเสี้ยนไม้ตำใต้เล็บ) เกิดจากลิ่มเลือดขนาดเล็กหลุดไปอุดตันหลอดเลือดฝอยใต้เล็บ (Microemboli) จัดเป็น Vascular Phenomena",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::121",
-      "itemNo": "119",
+      "id": "16. Others & Toxic::127",
+      "itemNo": "125",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เหตุใดการตรวจคลื่นเสียงสะท้อนหัวใจผ่านทางหลอดอาหาร (TEE) จึงมีความแม่นยำกว่าผ่านผนังทรวงอก (TTE) ในผู้ป่วย IE?",
       "questionImage": "",
-      "answer": "▶ ข้อเปรียบเทียบทางเทคนิค (TEE vs TTE):<br>   ↳ TTE (Transthoracic): หัวตรวจอยู่หน้าอก ต้องผ่านกระดูกซี่โครง ผนังหน้าอก และเนื้อปอด ความไว (Sensitivity) ในการเห็น Vegetation อยู่ที่ประมาณ 60-75%<br>   ↳ TEE (Transesophageal): หัวตรวจถูกสอดเข้าไปในหลอดอาหารซึ่งอยู่ชิดติดกับด้านหลังของหัวใจห้องบนซ้ายและลิ้นหัวใจโดยตรง<br><br>▶ ข้อดีของ TEE:<br>   ↳ ให้ความไวสูงถึง 90 - 100%<br>   ↳ มองเห็น Vegetation ขนาดเล็กมาก (&lt; 5 mm) ได้ชัดเจน<br>   ↳ ตรวจพบภาวะแทรกซ้อนฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::122",
-      "itemNo": "120",
+      "id": "16. Others & Toxic::128",
+      "itemNo": "126",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "ข้อบ่งชี้หลัก 3 ประการในการผ่าตัดเปลี่ยนลิ้นหัวใจด่วน (Urgent / Emergency Valve Surgery) ในผู้ป่วย IE คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ทวารทะลุ (Fistula), เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::123",
-      "itemNo": "121",
+      "id": "16. Others & Toxic::129",
+      "itemNo": "127",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4422,20 +4494,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::124",
-      "itemNo": "122",
+      "id": "16. Others & Toxic::130",
+      "itemNo": "128",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเปลี่ยนลิ้นหัวใจเทียมแบบโลหะมา 4 เดือน มีไข้สูง หนาวสั่น เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> ควรเลือกสูตรยาปฏิชีวนะใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง 2 สัปดาห์แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::125",
-      "itemNo": "123",
+      "id": "16. Others & Toxic::131",
+      "itemNo": "129",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4446,8 +4518,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::126",
-      "itemNo": "124",
+      "id": "16. Others & Toxic::132",
+      "itemNo": "130",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4458,8 +4530,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::127",
-      "itemNo": "125",
+      "id": "16. Others & Toxic::133",
+      "itemNo": "131",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4470,20 +4542,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::128",
-      "itemNo": "126",
+      "id": "16. Others & Toxic::134",
+      "itemNo": "132",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (First-degree AV Block) ควรสงสัยภาวะแทรกซ้อนใด?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (<span style=\"color:#dc2626\"><b>First-degree AV Block</b></span>) ควรสงสัยภาวะแทรกซ้อนใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span> / Aortic Root Abscess)<br><br>▶ 💡 พยาธิสรีรวิทยา:<br>   ↳ ฝีหนองลุกลามจากลิ้นหัวใจ Aortic valve กัดเซาะเข้าสู่ Interventricular septum กดเบียดและทำลายระบบนำไฟฟ้าหัวใจ (AV node / Bundle of His)<br><br>▶ แนวทางการจัดการ:<br>   ↳ ส่งตรวจ TEE อย่างเร่งด่วน และปรึกษาศัลยแพทย์หัวใจเพื่อเตรียมผ่าตัด<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::129",
-      "itemNo": "127",
+      "id": "16. Others & Toxic::135",
+      "itemNo": "133",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4494,8 +4566,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::130",
-      "itemNo": "128",
+      "id": "16. Others & Toxic::136",
+      "itemNo": "134",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4506,32 +4578,32 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::131",
-      "itemNo": "129",
+      "id": "16. Others & Toxic::137",
+      "itemNo": "135",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย PVE ได้รับสูตร <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> + Rifampin + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แล้วค่า Serum Creatinine เพิ่มขึ้นจาก 0.9 เป็น 2.3 mg/dL ตรวจระดับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Trough ได้ 2.1 mcg/mL ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ 2 สัปดาห์แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::132",
-      "itemNo": "130",
+      "id": "16. Others & Toxic::138",
+      "itemNo": "136",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ Streptococcus mitis ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ <span style=\"color:#7c3aed\"><i><b>Streptococcus mitis</b></i></span> ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์<br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
+      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::133",
-      "itemNo": "131",
+      "id": "16. Others & Toxic::139",
+      "itemNo": "137",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4542,56 +4614,104 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::134",
-      "itemNo": "132",
+      "id": "16. Others & Toxic::140",
+      "itemNo": "138",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในการส่งตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography) เพื่อวินิจฉัย IE เมื่อใดที่ต้องทำ Transesophageal Echocardiography (TEE) แทนที่จะทำเพียง Transthoracic Echocardiography (TTE)?",
       "questionImage": "",
-      "answer": "▶ ข้อบ่งชี้ในการทำ TEE (Gold Standard):<br>   ↳ 1. ผู้ป่วยมี ลิ้นหัวใจเทียม (Prosthetic Valve) หรืออุปกรณ์ฝังในหัวใจ (Pacemaker/ICD)<br>   ↳ 2. ผลตรวจ TTE เป็นลบหรือไม่ชัดเจน แต่ทางคลินิก สงสัย IE สูงมาก<br>   ↳ 3. สงสัยภาวะแทรกซ้อนในหัวใจ เช่น ฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::135",
-      "itemNo": "133",
+      "id": "16. Others & Toxic::141",
+      "itemNo": "139",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC &lt;= 0.125 mcg/mL) มีสูตรยามาตรฐาน 4 สัปดาห์ และสูตรย่อ 2 สัปดาห์อย่างไร?",
+      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC <span style=\"color:#d97706\"><b>&lt;= 0.125 mcg/mL</b></span>) มีสูตรยามาตรฐาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> และสูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน 4 สัปดาห์ หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน 4 สัปดาห์ (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ 2 สัปดาห์ (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์<br>   ↳ เงื่อนไขสูตร 2 สัปดาห์:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (Standard 4-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ เงื่อนไขสูตร <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::136",
-      "itemNo": "134",
+      "id": "16. Others & Toxic::142",
+      "itemNo": "140",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Amoxicillin</b></span> 2 g รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
     {
-      "id": "16. Others & Toxic::137",
-      "itemNo": "135",
+      "id": "16. Others & Toxic::143",
+      "itemNo": "141",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย Infective Endocarditis จากเชื้อ Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน 4 สัปดาห์<br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด 4 สัปดาห์<br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span>]: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
       "answerImage": "",
       "note": "Lecture IE: OPAT with once-daily Ceftriaxone"
     },
     {
-      "id": "16. Others & Toxic::138",
-      "itemNo": "136",
+      "id": "16. Others & Toxic::144",
+      "itemNo": "142",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "อาการแสดงทางกาย (Physical Signs &amp; Peripheral Stigmata) ของผู้ป่วย Infective Endocarditis (IE) มีอะไรบ้าง และจำแนก Vascular vs Immunologic Phenomena อย่างไร?",
+      "questionImage": "",
+      "answer": "▶ [อาการตรวจร่างกายทั่วไป]:<br>   ↳ มีไข้สูงเรื้อรัง (Persistent Fever), ฟังพบเสียงหัวใจผิดปกติใหม่หรือเปลี่ยนแปลงไป (New or changing Regurgitant Murmur), ม้ามโต (Splenomegaly), นิ้วปุ้ม (Clubbing of fingers)<br><br>▶ [รอยโรคที่ผิวหนังและตา (Peripheral Stigmata - จุดเน้นข้อสอบ 🔥)]:<br>   1. Janeway Lesions (Vascular Phenomenon): ตุ่มหรือปื้นแดง ไม่เจ็บ (Painless) ที่ ฝ่ามือและฝ่าเท้า เกิดจาก Septic Microemboli<br>   2. Osler’s Nodes (Immunologic Phenomenon): ตุ่มไตแข็ง สีม่วง เจ็บมาก (Painful / Tender) ที่ ปลายนิ้วมือและปลายนิ้วเท้า เกิดจาก Immune Complex Deposition<br>   3. Roth’s Spots (Immunologic Phenomenon): จุดเลือดออกในจอประสาทตาที่มีจุดขาวซีดตรงกลาง (Retinal hemorrhage with pale center)<br>   4. Splinter Hemorrhages: เส้นเลือดออกสีแดงคล้ำแนวยาวใต้เล็บมือ/เล็บเท้า<br>   5. Petechiae: จุดเลือดออกเล็กๆ ตามเยื่อบุตา (Conjunctiva), เยื่อบุช่องปาก และผิวหนัง",
+      "answerImage": "",
+      "note": "Lecture IE: Physical signs, Janeway vs Osler vs Roth spots vs Splinter hemorrhages"
+    },
+    {
+      "id": "16. Others & Toxic::145",
+      "itemNo": "143",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การคำนวณและนับระยะเวลาการรักษาด้วยยาปฏิชีวนะ (Duration of Antimicrobial Therapy) ในผู้ป่วย Infective Endocarditis มีกฎเหล็กในการเริ่มนับวันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>) จาก วันแรกที่ผลเพาะเชื้อในเลือดกลายเป็นลบ (First Day of Negative Blood Culture)&#039;<br>   ↳ ไม่ใช่นับจากวันแรกที่เริ่มฉีดยาปฏิชีวนะ!<br><br>▶ [แนวทางปฏิบัติทางคลินิก (Monitoring Protocol)]:<br>   ↳ ต้องเจาะเลือดตรวจเพาะเชื้อซ้ำ (Repeat Blood Cultures) ทุก 24–48 ชั่วโมง หลังจากเริ่มยาปฏิชีวนะ จนกระทั่งผลเลือดไม่พบเชื้อ (Clearance of Bacteremia)<br>   ↳ ตัวอย่าง: เริ่มยาปฏิชีวนะวันที่ 1 ก.ย., ตรวจเลือดซ้ำวันที่ 3 ก.ย. ยังขึ้นเชื้อ, ตรวจเลือดซ้ำวันที่ 5 ก.ย. ได้ผลลบ (Negative) ➔ ให้เริ่มนับ Day 1 ของคอร์ส <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>ตั้งแต่วันที่ 5 กันยายน เป็นต้นไป!",
+      "answerImage": "",
+      "note": "Lecture IE: Calculation of duration from first day of negative blood culture"
+    },
+    {
+      "id": "16. Others & Toxic::146",
+      "itemNo": "144",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย IE มีข้อบ่งชี้อย่างไร และยาใดเป็นตัวเลือกที่เหมาะสมที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span> ใน IE]:<br>   1. ผู้ป่วยมีสัญญาณชีพและอาการทางคลินิกคงที่ (Hemodynamically stable)<br>   2. ผลเพาะเชื้อในเลือดกลายเป็นลบแล้ว (Blood culture cleared)<br>   3. ไม่มีภาวะแทรกซ้อนของหัวใจ เช่น หัวใจวาย (Heart Failure) หรือความผิดปกติของคลื่นไฟฟ้าหัวใจ (Conduction Block)<br>   4. ตรวจ Echo ซ้ำแล้วไม่พบฝีรอบลิ้นหัวใจ (Perivalvular abscess) หรือก้อน Vegetation ขนาดใหญ่ที่เสี่ยงหลุดอุดตัน<br>   5. ผู้ป่วยหรือญาติมีความเข้าใจและสามารถดูแลสายสวน IV Catheter ได้อย่างถูกต้อง<br><br>▶ [ยาปฏิชีวนะที่เหมาะสมที่สุดสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily): เป็นยาอันดับ 1 สำหรับ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> หรือ Enterococcal IE เนื่องจากฉีดแค่วันละครั้ง สะดวก ปลอดภัย ไม่ต้องทำ TDM<br>   ↳ <span style=\"color:#0284c7\"><b>Daptomycin</b></span> IV วันละ 1 ครั้ง: สำหรับ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> ที่เชื้อไวต่อยา",
+      "answerImage": "",
+      "note": "Lecture IE: OPAT criteria & Once-daily Ceftriaxone/Daptomycin selection"
+    },
+    {
+      "id": "16. Others & Toxic::147",
+      "itemNo": "145",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "แผนการติดตามการรักษา (Monitoring Plan) ในผู้ป่วย Infective Endocarditis ทั้งด้านประสิทธิผลและความปลอดภัยจากยาประกอบด้วยอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span>, <span style=\"color:#0284c7\"><b>Gentamicin</b></span>)<br>   ↳ คลื่นไฟฟ้าหัวใจ (EKG): ตรวจติดตาม PR Interval สม่ำเสมอ หากพบ PR ยาวขึ้น (First-degree AV block) ต้องสงสัย ภาวะฝีรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) ลุกลามกดทับ Conduction pathway!<br>   ↳ ระดับยาในเลือด (TDM): ตรวจระดับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> AUC หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Peak/Trough สม่ำเสมอ",
+      "answerImage": "",
+      "note": "Lecture IE: Efficacy & Safety Monitoring Plan, PR interval & Perivalvular abscess"
+    },
+    {
+      "id": "16. Others & Toxic::148",
+      "itemNo": "146",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4602,8 +4722,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
     {
-      "id": "16. Others & Toxic::139",
-      "itemNo": "137",
+      "id": "16. Others & Toxic::149",
+      "itemNo": "147",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4614,8 +4734,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย MSSA NVE)"
     },
     {
-      "id": "16. Others & Toxic::140",
-      "itemNo": "138",
+      "id": "16. Others & Toxic::150",
+      "itemNo": "148",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4626,8 +4746,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Duration IE)"
     },
     {
-      "id": "16. Others & Toxic::141",
-      "itemNo": "139",
+      "id": "16. Others & Toxic::151",
+      "itemNo": "149",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -4638,8 +4758,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Dual Beta-lactam)"
     },
     {
-      "id": "16. Others & Toxic::142",
-      "itemNo": "140",
+      "id": "16. Others & Toxic::152",
+      "itemNo": "150",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4650,8 +4770,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::143",
-      "itemNo": "141",
+      "id": "16. Others & Toxic::153",
+      "itemNo": "151",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4662,8 +4782,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::144",
-      "itemNo": "142",
+      "id": "16. Others & Toxic::154",
+      "itemNo": "152",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4674,8 +4794,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::145",
-      "itemNo": "143",
+      "id": "16. Others & Toxic::155",
+      "itemNo": "153",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4686,8 +4806,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::146",
-      "itemNo": "144",
+      "id": "16. Others & Toxic::156",
+      "itemNo": "154",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4698,8 +4818,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::147",
-      "itemNo": "145",
+      "id": "16. Others & Toxic::157",
+      "itemNo": "155",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4710,8 +4830,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::148",
-      "itemNo": "146",
+      "id": "16. Others & Toxic::158",
+      "itemNo": "156",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4722,8 +4842,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::149",
-      "itemNo": "147",
+      "id": "16. Others & Toxic::159",
+      "itemNo": "157",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4734,20 +4854,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::150",
-      "itemNo": "148",
+      "id": "16. Others & Toxic::160",
+      "itemNo": "158",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "การแบ่งประเภท Meningitis ตามระยะเวลาการดำเนินโรค (Time Course Classification) และความสำคัญทางคลินิก?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า 4 สัปดาห์):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::151",
-      "itemNo": "149",
+      "id": "16. Others & Toxic::161",
+      "itemNo": "159",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4758,8 +4878,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Clinical Triad & Petechial Rash in N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::152",
-      "itemNo": "150",
+      "id": "16. Others & Toxic::162",
+      "itemNo": "160",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4770,8 +4890,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::153",
-      "itemNo": "151",
+      "id": "16. Others & Toxic::163",
+      "itemNo": "161",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4782,8 +4902,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::154",
-      "itemNo": "152",
+      "id": "16. Others & Toxic::164",
+      "itemNo": "162",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4794,8 +4914,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::155",
-      "itemNo": "153",
+      "id": "16. Others & Toxic::165",
+      "itemNo": "163",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4806,8 +4926,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::156",
-      "itemNo": "154",
+      "id": "16. Others & Toxic::166",
+      "itemNo": "164",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4818,8 +4938,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::157",
-      "itemNo": "155",
+      "id": "16. Others & Toxic::167",
+      "itemNo": "165",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4830,8 +4950,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::158",
-      "itemNo": "156",
+      "id": "16. Others & Toxic::168",
+      "itemNo": "166",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4842,8 +4962,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::159",
-      "itemNo": "157",
+      "id": "16. Others & Toxic::169",
+      "itemNo": "167",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4854,8 +4974,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::160",
-      "itemNo": "158",
+      "id": "16. Others & Toxic::170",
+      "itemNo": "168",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4866,8 +4986,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: CSF Analysis differential diagnostic matrix"
     },
     {
-      "id": "16. Others & Toxic::161",
-      "itemNo": "159",
+      "id": "16. Others & Toxic::171",
+      "itemNo": "169",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4878,8 +4998,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: CSF Analysis & Mechanism of Low CSF Glucose"
     },
     {
-      "id": "16. Others & Toxic::162",
-      "itemNo": "160",
+      "id": "16. Others & Toxic::172",
+      "itemNo": "170",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4890,8 +5010,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
-      "id": "16. Others & Toxic::163",
-      "itemNo": "161",
+      "id": "16. Others & Toxic::173",
+      "itemNo": "171",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4902,8 +5022,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Dexamethasone 10 mg q6h x 4d Timing & Hearing Loss Prevention"
     },
     {
-      "id": "16. Others & Toxic::164",
-      "itemNo": "162",
+      "id": "16. Others & Toxic::174",
+      "itemNo": "172",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4914,8 +5034,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::165",
-      "itemNo": "163",
+      "id": "16. Others & Toxic::175",
+      "itemNo": "173",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4926,8 +5046,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::166",
-      "itemNo": "164",
+      "id": "16. Others & Toxic::176",
+      "itemNo": "174",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4938,8 +5058,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
     {
-      "id": "16. Others & Toxic::167",
-      "itemNo": "165",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4950,8 +5070,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Dexamethasone indication and strict timing"
     },
     {
-      "id": "16. Others & Toxic::168",
-      "itemNo": "166",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4962,8 +5082,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::169",
-      "itemNo": "167",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4974,8 +5094,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::170",
-      "itemNo": "168",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4986,8 +5106,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::171",
-      "itemNo": "169",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -4998,8 +5118,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::172",
-      "itemNo": "170",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5010,20 +5130,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::173",
-      "itemNo": "171",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "▶ 1. Induction Phase (ระยะเหนี่ยวนำ - นานอย่างน้อย 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::174",
-      "itemNo": "172",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5034,8 +5154,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::175",
-      "itemNo": "173",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5046,8 +5166,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::176",
-      "itemNo": "174",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5058,8 +5178,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5070,8 +5190,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5082,8 +5202,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5094,20 +5214,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5118,8 +5238,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5130,8 +5250,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5142,8 +5262,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5154,8 +5274,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5166,8 +5286,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5178,8 +5298,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5190,8 +5310,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5202,8 +5322,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5214,8 +5334,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5226,8 +5346,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5238,20 +5358,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Cryptococcal Meningitis &amp; Timing of ART]</b></span>: ผู้ป่วยติดเชื้อ HIV รายใหม่ มี CD4 = 25 cells/mm3 ได้รับการวินิจฉัยว่าเป็น Cryptococcal Meningitis และเริ่มได้รับยาฉีด Amphotericin B + Flucytosine ในช่วง Induction Phase เมื่ออาการทางคลินิกเริ่มคงที่ ทำไมจึงต้อง ชะลอการเริ่มยาต้านไวรัส HIV (ART) ออกไป 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>) และอยู่ในช่วง Consolidation Phase โดยผลตรวจ CSF ควบคุมได้ดี จึงเริ่มยา ART ที่ 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5262,8 +5382,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5274,8 +5394,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5286,8 +5406,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5298,8 +5418,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5310,8 +5430,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5322,8 +5442,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -5334,8 +5454,8 @@ window.OFFLINE_CARDS = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5346,8 +5466,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5358,8 +5478,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5370,8 +5490,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5382,8 +5502,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5394,8 +5514,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5406,8 +5526,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5418,8 +5538,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5430,8 +5550,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5442,8 +5562,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5454,8 +5574,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5466,8 +5586,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5478,8 +5598,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5490,8 +5610,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5502,8 +5622,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5514,8 +5634,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5526,8 +5646,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5538,8 +5658,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5550,8 +5670,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5562,8 +5682,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5574,8 +5694,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5586,8 +5706,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5598,8 +5718,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5610,8 +5730,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5622,8 +5742,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5634,20 +5754,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 22 สัปดาห์ ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5658,8 +5778,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5670,8 +5790,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5682,8 +5802,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5694,8 +5814,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5706,8 +5826,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5718,8 +5838,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5730,8 +5850,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5742,8 +5862,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5754,8 +5874,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5766,8 +5886,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5778,8 +5898,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -5790,8 +5910,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5802,8 +5922,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5814,8 +5934,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5826,8 +5946,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5838,8 +5958,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5850,8 +5970,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5862,8 +5982,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5874,8 +5994,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5886,8 +6006,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5898,8 +6018,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5910,20 +6030,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-2 สัปดาห์<br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5934,8 +6054,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5946,8 +6066,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5958,8 +6078,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5970,8 +6090,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5982,8 +6102,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -5994,20 +6114,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (Sirturo) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "▶ กลไกการออกฤทธิ์ (Novel Mechanism):<br>   ↳ ออกฤทธิ์จำเพาะโดยยับยั้งเอนไซม์ Mycobacterial ATP Synthase (Subunit c) ขัดขวางการสร้างพลังงาน ATP ของเชื้อวัณโรค<br><br>▶ ขนาดยาและการบริหาร (Dosing Schedule นาน 24 สัปดาห์):<br>   ↳ 2 สัปดาห์แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6018,8 +6138,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6030,8 +6150,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6042,8 +6162,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6054,8 +6174,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6066,8 +6186,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6078,8 +6198,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6090,8 +6210,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6102,20 +6222,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x 2 สัปดาห์ ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 22 สัปดาห์)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6126,8 +6246,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6138,8 +6258,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6150,8 +6270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6162,8 +6282,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6174,8 +6294,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6186,8 +6306,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6198,8 +6318,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6210,8 +6330,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6222,8 +6342,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6234,8 +6354,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6246,8 +6366,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6258,8 +6378,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6270,8 +6390,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6282,20 +6402,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - </b></span><span style=\"color:#16a34a\"><b>BPaLM</b></span><span style=\"color:#0284c7\"><b> Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD 2 สัปดาห์แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-4 สัปดาห์ (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก 2 สัปดาห์ และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6306,8 +6426,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6318,8 +6438,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6330,8 +6450,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6342,8 +6462,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6354,8 +6474,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6366,8 +6486,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6378,8 +6498,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6390,8 +6510,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6402,8 +6522,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6414,8 +6534,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6426,8 +6546,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6438,8 +6558,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6450,8 +6570,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6462,8 +6582,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6474,8 +6594,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6486,8 +6606,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6498,8 +6618,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6510,8 +6630,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6522,8 +6642,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6534,8 +6654,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6546,8 +6666,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6558,8 +6678,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6570,8 +6690,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6582,8 +6702,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6594,8 +6714,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6606,8 +6726,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6618,8 +6738,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6630,8 +6750,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6642,8 +6762,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6654,8 +6774,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6666,20 +6786,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ชายสูงอายุมีไข้ ปวดข้อสะโพกขยับไม่ได้ เจาะน้ำข้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> ควรเลือกยาปฏิชีวนะและระยะเวลาการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - 4 สัปดาห์<br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6690,8 +6810,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6702,8 +6822,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6714,8 +6834,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6726,20 +6846,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว 2 สัปดาห์ อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Clindamycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6750,8 +6870,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6762,8 +6882,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6774,8 +6894,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6786,8 +6906,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6798,8 +6918,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6810,8 +6930,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6822,8 +6942,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -6834,8 +6954,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -11672,7 +11792,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span> กับ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษาปอดอักเสบจากเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> HAP/VAP)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; 2 สัปดาห์, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12032,7 +12152,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ปัจจัยข้อใดต่อไปนี้ ไม่ใช่ ปัจจัยเสี่ยงและ ไม่ใช่ เกณฑ์ในการประเมินผลการรักษาปอดอักเสบที่ข้อสอบมักนำมาหลอก?",
       "questionImage": "",
-      "answer": "▶ สิ่งที่ ไม่ใช่ เกณฑ์ทางคลินิก (หลุมพรางข้อสอบ):<br>   ↳ 1. ค่า BUN &lt; 19 mg/dL: ไม่ใช่ เกณฑ์ประเมินการตอบสนองหรือการเปลี่ยนเป็นยากิน (BUN เป็นเพียงตัวชี้วัดความรุนแรงตอนแรกรับใน CURB-65 เท่านั้น)<br>   ↳ 2. ภาพถ่ายรังสีปอด (Chest X-ray) กลับเป็นปกติทันที: ไม่ใช่ เกณฑ์ตัดสิน (รอยฝ้าขาวบน X-ray อาจคงอยู่นาน 4-12 สัปดาห์แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part I"
     },
@@ -12116,7 +12236,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - IV-to-Oral Switch Criteria]</b></span>: ผู้ป่วย CAP รับการรักษาด้วย <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> IV + <span style=\"color:#0284c7\"><b>Azithromycin</b></span> IV มาแล้ว 3 วัน แพทย์ต้องการพิจารณาเปลี่ยนเป็นยารับประทานกลับบ้าน (Switch to Oral Therapy) ข้อใดคือเกณฑ์ทางคลินิกที่ถูกต้องและข้อใดไม่ใช่เกณฑ์?",
       "questionImage": "",
-      "answer": "↳ เกณฑ์ที่ถูกต้องในการเปลี่ยนเป็นยารับประทาน (Clinical Stability Criteria):<br>   ↳ 1. อุณหภูมิร่างกายลดลง &lt;= 37.8 องศาเซลเซียส ต่อเนื่องอย่างน้อย 24 ชั่วโมง<br>   ↳ 2. อัตราการเต้นของหัวใจ (Heart rate) &lt;= 100 ครั้ง/นาที<br>   ↳ 3. อัตราการหายใจ (Respiratory rate) &lt;= 24 ครั้ง/นาที<br>   ↳ 4. ความดันโลหิต Systolic &gt;= 90 mmHg โดยไม่ต้องใช้ยากระตุ้นความดัน<br>   ↳ 5. ออกซิเจนในเลือด (O2 Saturation) &gt;= 90% ใน Room air<br>   ↳ 6. สามารถรับประทานอาหารและยาทางปากได้ ทางเดินอาหารทำงานปกติ<br>   ↳ 7. สภาพจิตใจและสติสัมปชัญญะกลับสู่ปกติ (Normal mental status)<br><br>▶ ข้อที่ข้อสอบมักหลอก (ไม่ใช่เกณฑ์):<br>   ↳ ค่า BUN &lt; 19 mg/dL หรือ ผล X-ray ปอดกลับเป็นปกติ (Infiltrate บน X-ray อาจใช้เวลานานถึง 4-12 สัปดาห์จึงจะยุบหมด!)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>จึงจะยุบหมด!)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Switch IV-to-Oral)"
     },
@@ -12162,7 +12282,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "หากผลเพาะเชื้อในเลือดพบ Streptococcus gallolyticus (Streptococcus bovis) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Streptococcus gallolyticus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Streptococcus bovis</b></i></span>) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
       "questionImage": "",
       "answer": "▶ การส่งตรวจเพิ่มเติมที่จำเป็นอย่างยิ่ง:<br>   ↳ ต้องส่งตรวจ ส่องกล้องตรวจดูลำไส้ใหญ่และทวารหนัก (Colonoscopy) ทุกรายเสมอ<br><br>▶ เหตุผลทางพยาธิสรีรวิทยา (Pathological Association):<br>   ↳ เชื้อ S. gallolyticus อาศัยอยู่ในทางเดินอาหาร และมีความสัมพันธ์อย่างมีนัยสำคัญกับการมีเนื้องอกหรือมะเร็งลำไส้ใหญ่และทวารหนัก (Colorectal Carcinoma / Adenomatous Polyps) ซึ่งทำให้เยื่อบุลำไส้มีแผลและเชื้อเล็ดลอดเข้าสู่กระแสเลือดไปเกาะที่ลิ้นหัวใจ",
       "answerImage": "",
@@ -12200,7 +12320,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์หลัก (Major Criteria) 2 ข้อ ตาม Modified Duke Criteria ในการวินิจฉัย IE มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (Perivalvular Abscess)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12212,7 +12332,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์รอง (Minor Criteria) 5 ข้อ ตาม Modified Duke Criteria มีอะไรบ้าง พร้อมคำอธิบาย?",
       "questionImage": "",
-      "answer": "▶ 1. Predisposition (ภาวะเอื้ออำนวย / ปัจจัยเสี่ยง):<br>   ↳ มีโรคหัวใจเสี่ยงสูง (ใส่ลิ้นหัวใจเทียม, เคยเป็น IE มาก่อน) หรือมีประวัติฉีดยาเสพติดเข้าเส้น (IVDA)<br><br>▶ 2. Fever (มีไข้):<br>   ↳ อุณหภูมิร่างกาย &gt;= 38.0 องศาเซลเซียส<br><br>▶ 3. Vascular Phenomena (ความผิดปกติของหลอดเลือดและการอุดตัน):<br>   ↳ ลิ่มเลือดหลุดไปอุดตัน (Major arterial emboli), กล้ามเนื้อปอดตายจากลิ่มเลือดติดเชื้อ (Septic pulmonary infarcts), หลอดเลือดโป่งพองติดเชื้อ (Mycotic aneurysm), จุดเลือดออกใต้เยื่อบุตา (Conjunctival hemorrhages), แผล Janeway lesions<br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ Osler&#039;s nodes, จุดเลือดออกที่จอตา Roth&#039;s spots, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
+      "answer": "<span style=\"color:#dc2626\"><b>Janeway lesions</b></span><br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ <span style=\"color:#dc2626\"><b>Osler&#039;s nodes</b></span>, จุดเลือดออกที่จอตา <span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span>, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12222,9 +12342,9 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC &lt;= 0.12 mcg/mL) คืออะไร?",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน 4 สัปดาห์ หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์ (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก OPAT)<br><br>▶ สูตรยาระยะสั้น 2 สัปดาห์ (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์ (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12248,7 +12368,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Prosthetic Valve Endocarditis (PVE - ลิ้นหัวใจเทียม) ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง 2 สัปดาห์แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
+      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12284,7 +12404,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group Endocarditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน 4 สัปดาห์ สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12344,7 +12464,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาการเกิด Vegetation ในภาวะ Infective Endocarditis เกิดขึ้นได้อย่างไร?",
       "questionImage": "",
-      "answer": "▶ ขั้นตอนการเกิดโรค (Pathogenesis - 4 Steps):<br>   ↳ 1. Endothelial Injury: ลิ้นหัวใจได้รับบาดเจ็บจากแรงไหลเลือดสูงผิดปกติ (Turbulent flow) หรือบาดแผลทางกล ทำให้ผิวเยื่อบุเสียหาย<br>   ↳ 2. Non-Bacterial Thrombotic Endocarditis (NBTE): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span>): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -12368,7 +12488,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> ทำไมจึงนิยมใช้สูตร <span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> (<span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>) มากกว่าสูตรดั้งเดิม <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน 4–<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
+      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
       "answerImage": "",
       "note": "Lecture IE: Double beta-lactam PBP saturation in Enterococcus"
     },
@@ -12380,13 +12500,85 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> ต้องใช้สูตรยาใด และมีเทคนิคการเริ่มยา Rifampin อย่างไรเพื่อป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ 2 สัปดาห์แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
       "answerImage": "",
       "note": "Lecture IE: PVE Triple regimen & delayed Rifampin timing"
     },
     {
       "id": "16. Others & Toxic::119",
       "itemNo": "117",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span> Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (<span style=\"color:#dc2626\"><b>NBTE</b></span>)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน <span style=\"color:#dc2626\"><b>NBTE</b></span> แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก",
+      "answerImage": "",
+      "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
+    },
+    {
+      "id": "16. Others & Toxic::120",
+      "itemNo": "118",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทและความรุนแรงของ Infective Endocarditis (IE Classification: Acute vs Subacute, NVE vs PVE, และ Left vs Right-sided) มีความแตกต่างกันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>) เกิดได้ทั้งบนลิ้นหัวใจปกติและลิ้นผิดปกติ มีไข้สูง ทำลายลิ้นหัวใจฉับพลัน<br>   ↳ Subacute IE: ดำเนินโรคช้าๆ เป็นสัปดาห์ถึงหลายเดือน เชื้อดุร้ายต่ำ (Most common: <span style=\"color:#7c3aed\"><i><b>Viridans group streptococci</b></i></span>) มักเกิดบนลิ้นหัวใจที่มีความผิดปกติเดิม มีไข้ต่ำๆ อ่อนเพลีย น้ำหนักลด<br><br>▶ [2. Native Valve (NVE) vs Prosthetic Valve (PVE)]:<br>   ↳ Early PVE (&lt; 1 ปีหลังผ่าตัด): มักติดเชื้อใน รพ. (<span style=\"color:#7c3aed\"><i><b>Staphylococcus epidermidis</b></i></span> <span style=\"color:#7c3aed\"><i><b>CoNS</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, GNB)<br>   ↳ Late PVE (&gt;= 1 ปีหลังผ่าตัด): เชื้อเหมือน NVE ในชุมชน (<span style=\"color:#7c3aed\"><i><b>Viridans streptococci</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)<br><br>▶ [3. Left-Sided vs Right-Sided IE]:<br>   ↳ Left-Sided (Mitral #1, Aortic #2): พบบ่อยสุดในคนทั่วไป เสี่ยงลิ่มเลือดหลุดไปอุดสมอง/ไต/ม้าม (Systemic Emboli)<br>   ↳ Right-Sided (Tricuspid #1): พบบ่อยใน ผู้ฉีดสารเสพติดเข้าเส้น (IVDU &gt; 70% เป็น <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>) เสี่ยงลิ่มเลือดหลุดไปปอด (Septic Pulmonary Emboli)",
+      "answerImage": "",
+      "note": "Lecture IE: Acute vs Subacute, NVE vs PVE, Left vs Right sided classification"
+    },
+    {
+      "id": "16. Others & Toxic::121",
+      "itemNo": "119",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>, เชื้อรา Candida)",
+      "answerImage": "",
+      "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
+    },
+    {
+      "id": "16. Others & Toxic::122",
+      "itemNo": "120",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ Modified Duke Criteria สำหรับการวินิจฉัย Infective Endocarditis ประกอบด้วย Major, Minor criteria อะไรบ้าง และมีเกณฑ์ตัดสิน Definite, Possible, Rejected อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span><br>   3. Vascular Phenomena: ลิ่มเลือดอุดตันหลอดเลือดใหญ่, ปอดติดเชื้อ, <span style=\"color:#dc2626\"><b>Janeway lesions</b></span>, เลือดออกในสมอง<br>   4. Immunologic Phenomena: Glomerulonephritis, <span style=\"color:#dc2626\"><b>Osler’s nodes</b></span>, <span style=\"color:#dc2626\"><b>Roth’s spots</b></span>, ผล RF เป็นบวก<br>   5. Microbiologic Evidence: ผลเพาะเชื้อบวกแต่ไม่เข้าเกณฑ์ Major<br><br>▶ [เกณฑ์ตัดสินชี้ขาด (Definite IE)]:<br>   $$\\mathbf{2\\text{ Major}} \\quad\\text{หรือ}\\quad \\mathbf{1\\text{ Major} + 3\\text{ Minor}} \\quad\\text{หรือ}\\quad \\mathbf{5\\text{ Minor}}$$<br>   ↳ Possible IE: 1 Major + 1 Minor หรือ 3 Minor<br>   ↳ Rejected IE: มีการวินิจฉัยอื่นชัดเจน หรืออาการหายหลังให้ยา &lt; 4 วัน",
+      "answerImage": "",
+      "note": "Lecture IE: Modified Duke Criteria (Major, Minor, Definite/Possible/Rejected cutoffs)"
+    },
+    {
+      "id": "16. Others & Toxic::123",
+      "itemNo": "121",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) มีหลักการเลือกใช้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> - ไวต่อ Penicillin MIC &lt;= 0.12)]:<br>   ↳ สูตรมาตรฐาน: <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (12–18 ล้าน units/day) หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เหมาะมากสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ [2. <span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> vs <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)]:<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV q 4h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ห้ามเติม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> / Rifampin!)<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15–20 mg/kg IV q 8–12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (Target AUC/MIC <span style=\"color:#d97706\"><b>400–600</b></span>)<br>   ↳ Prosthetic Valve (PVE): <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ➔ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>) + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h (เฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก) + Rifampin 300 mg q 8h (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> โดยเริ่มดีเลย์หลัง Vanco 3–<span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [3. <span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> (Enterococcal IE)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> Preferred: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> 2 g IV q 4h + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV q 12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> PBP synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero Nephrotoxicity)<br>   ↳ Alternative: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h นาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> (ต้องติดตามค่าไตและ TDM ใกล้ชิด)",
+      "answerImage": "",
+      "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
+    },
+    {
+      "id": "16. Others & Toxic::124",
+      "itemNo": "122",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิด Infective Endocarditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>First-line</b></span> <span style=\"color:#16a34a\"><b>DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answerImage": "",
+      "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
+    },
+    {
+      "id": "16. Others & Toxic::125",
+      "itemNo": "123",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12397,44 +12589,44 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::120",
-      "itemNo": "118",
+      "id": "16. Others & Toxic::126",
+      "itemNo": "124",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "Roth&#039;s spots และ Splinter hemorrhages ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
+      "question": "<span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span> และ <span style=\"color:#dc2626\"><b>Splinter hemorrhages</b></span> ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
       "questionImage": "",
       "answer": "▶ 1. Roth&#039;s Spots:<br>   ↳ จุดเลือดออกที่จอประสาทตา (Retinal hemorrhage) รูปวงรีที่มีศูนย์กลางสีขาวซีด (Pale central fibrin-platelet thrombus) ส่องดูได้จาก Ophthalmoscope จัดเป็น Immunologic Phenomena<br><br>▶ 2. Splinter Hemorrhages:<br>   ↳ เส้นเลือดออกสีแดงเข้มหรือน้ำตาลตามยาวใต้แผ่นเล็บ (คล้ายเสี้ยนไม้ตำใต้เล็บ) เกิดจากลิ่มเลือดขนาดเล็กหลุดไปอุดตันหลอดเลือดฝอยใต้เล็บ (Microemboli) จัดเป็น Vascular Phenomena",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::121",
-      "itemNo": "119",
+      "id": "16. Others & Toxic::127",
+      "itemNo": "125",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เหตุใดการตรวจคลื่นเสียงสะท้อนหัวใจผ่านทางหลอดอาหาร (TEE) จึงมีความแม่นยำกว่าผ่านผนังทรวงอก (TTE) ในผู้ป่วย IE?",
       "questionImage": "",
-      "answer": "▶ ข้อเปรียบเทียบทางเทคนิค (TEE vs TTE):<br>   ↳ TTE (Transthoracic): หัวตรวจอยู่หน้าอก ต้องผ่านกระดูกซี่โครง ผนังหน้าอก และเนื้อปอด ความไว (Sensitivity) ในการเห็น Vegetation อยู่ที่ประมาณ 60-75%<br>   ↳ TEE (Transesophageal): หัวตรวจถูกสอดเข้าไปในหลอดอาหารซึ่งอยู่ชิดติดกับด้านหลังของหัวใจห้องบนซ้ายและลิ้นหัวใจโดยตรง<br><br>▶ ข้อดีของ TEE:<br>   ↳ ให้ความไวสูงถึง 90 - 100%<br>   ↳ มองเห็น Vegetation ขนาดเล็กมาก (&lt; 5 mm) ได้ชัดเจน<br>   ↳ ตรวจพบภาวะแทรกซ้อนฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::122",
-      "itemNo": "120",
+      "id": "16. Others & Toxic::128",
+      "itemNo": "126",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "ข้อบ่งชี้หลัก 3 ประการในการผ่าตัดเปลี่ยนลิ้นหัวใจด่วน (Urgent / Emergency Valve Surgery) ในผู้ป่วย IE คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ทวารทะลุ (Fistula), เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::123",
-      "itemNo": "121",
+      "id": "16. Others & Toxic::129",
+      "itemNo": "127",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12445,20 +12637,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::124",
-      "itemNo": "122",
+      "id": "16. Others & Toxic::130",
+      "itemNo": "128",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเปลี่ยนลิ้นหัวใจเทียมแบบโลหะมา 4 เดือน มีไข้สูง หนาวสั่น เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> ควรเลือกสูตรยาปฏิชีวนะใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง 2 สัปดาห์แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::125",
-      "itemNo": "123",
+      "id": "16. Others & Toxic::131",
+      "itemNo": "129",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12469,8 +12661,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::126",
-      "itemNo": "124",
+      "id": "16. Others & Toxic::132",
+      "itemNo": "130",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12481,8 +12673,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::127",
-      "itemNo": "125",
+      "id": "16. Others & Toxic::133",
+      "itemNo": "131",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12493,20 +12685,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::128",
-      "itemNo": "126",
+      "id": "16. Others & Toxic::134",
+      "itemNo": "132",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (First-degree AV Block) ควรสงสัยภาวะแทรกซ้อนใด?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (<span style=\"color:#dc2626\"><b>First-degree AV Block</b></span>) ควรสงสัยภาวะแทรกซ้อนใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span> / Aortic Root Abscess)<br><br>▶ 💡 พยาธิสรีรวิทยา:<br>   ↳ ฝีหนองลุกลามจากลิ้นหัวใจ Aortic valve กัดเซาะเข้าสู่ Interventricular septum กดเบียดและทำลายระบบนำไฟฟ้าหัวใจ (AV node / Bundle of His)<br><br>▶ แนวทางการจัดการ:<br>   ↳ ส่งตรวจ TEE อย่างเร่งด่วน และปรึกษาศัลยแพทย์หัวใจเพื่อเตรียมผ่าตัด<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::129",
-      "itemNo": "127",
+      "id": "16. Others & Toxic::135",
+      "itemNo": "133",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12517,8 +12709,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::130",
-      "itemNo": "128",
+      "id": "16. Others & Toxic::136",
+      "itemNo": "134",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12529,32 +12721,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::131",
-      "itemNo": "129",
+      "id": "16. Others & Toxic::137",
+      "itemNo": "135",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย PVE ได้รับสูตร <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> + Rifampin + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แล้วค่า Serum Creatinine เพิ่มขึ้นจาก 0.9 เป็น 2.3 mg/dL ตรวจระดับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Trough ได้ 2.1 mcg/mL ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ 2 สัปดาห์แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::132",
-      "itemNo": "130",
+      "id": "16. Others & Toxic::138",
+      "itemNo": "136",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ Streptococcus mitis ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ <span style=\"color:#7c3aed\"><i><b>Streptococcus mitis</b></i></span> ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์<br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
+      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::133",
-      "itemNo": "131",
+      "id": "16. Others & Toxic::139",
+      "itemNo": "137",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12565,56 +12757,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::134",
-      "itemNo": "132",
+      "id": "16. Others & Toxic::140",
+      "itemNo": "138",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในการส่งตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography) เพื่อวินิจฉัย IE เมื่อใดที่ต้องทำ Transesophageal Echocardiography (TEE) แทนที่จะทำเพียง Transthoracic Echocardiography (TTE)?",
       "questionImage": "",
-      "answer": "▶ ข้อบ่งชี้ในการทำ TEE (Gold Standard):<br>   ↳ 1. ผู้ป่วยมี ลิ้นหัวใจเทียม (Prosthetic Valve) หรืออุปกรณ์ฝังในหัวใจ (Pacemaker/ICD)<br>   ↳ 2. ผลตรวจ TTE เป็นลบหรือไม่ชัดเจน แต่ทางคลินิก สงสัย IE สูงมาก<br>   ↳ 3. สงสัยภาวะแทรกซ้อนในหัวใจ เช่น ฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::135",
-      "itemNo": "133",
+      "id": "16. Others & Toxic::141",
+      "itemNo": "139",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC &lt;= 0.125 mcg/mL) มีสูตรยามาตรฐาน 4 สัปดาห์ และสูตรย่อ 2 สัปดาห์อย่างไร?",
+      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC <span style=\"color:#d97706\"><b>&lt;= 0.125 mcg/mL</b></span>) มีสูตรยามาตรฐาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> และสูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน 4 สัปดาห์ หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน 4 สัปดาห์ (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ 2 สัปดาห์ (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์<br>   ↳ เงื่อนไขสูตร 2 สัปดาห์:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (Standard 4-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ เงื่อนไขสูตร <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::136",
-      "itemNo": "134",
+      "id": "16. Others & Toxic::142",
+      "itemNo": "140",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Amoxicillin</b></span> 2 g รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
     {
-      "id": "16. Others & Toxic::137",
-      "itemNo": "135",
+      "id": "16. Others & Toxic::143",
+      "itemNo": "141",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย Infective Endocarditis จากเชื้อ Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน 4 สัปดาห์<br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด 4 สัปดาห์<br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span>]: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
       "answerImage": "",
       "note": "Lecture IE: OPAT with once-daily Ceftriaxone"
     },
     {
-      "id": "16. Others & Toxic::138",
-      "itemNo": "136",
+      "id": "16. Others & Toxic::144",
+      "itemNo": "142",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "อาการแสดงทางกาย (Physical Signs &amp; Peripheral Stigmata) ของผู้ป่วย Infective Endocarditis (IE) มีอะไรบ้าง และจำแนก Vascular vs Immunologic Phenomena อย่างไร?",
+      "questionImage": "",
+      "answer": "▶ [อาการตรวจร่างกายทั่วไป]:<br>   ↳ มีไข้สูงเรื้อรัง (Persistent Fever), ฟังพบเสียงหัวใจผิดปกติใหม่หรือเปลี่ยนแปลงไป (New or changing Regurgitant Murmur), ม้ามโต (Splenomegaly), นิ้วปุ้ม (Clubbing of fingers)<br><br>▶ [รอยโรคที่ผิวหนังและตา (Peripheral Stigmata - จุดเน้นข้อสอบ 🔥)]:<br>   1. Janeway Lesions (Vascular Phenomenon): ตุ่มหรือปื้นแดง ไม่เจ็บ (Painless) ที่ ฝ่ามือและฝ่าเท้า เกิดจาก Septic Microemboli<br>   2. Osler’s Nodes (Immunologic Phenomenon): ตุ่มไตแข็ง สีม่วง เจ็บมาก (Painful / Tender) ที่ ปลายนิ้วมือและปลายนิ้วเท้า เกิดจาก Immune Complex Deposition<br>   3. Roth’s Spots (Immunologic Phenomenon): จุดเลือดออกในจอประสาทตาที่มีจุดขาวซีดตรงกลาง (Retinal hemorrhage with pale center)<br>   4. Splinter Hemorrhages: เส้นเลือดออกสีแดงคล้ำแนวยาวใต้เล็บมือ/เล็บเท้า<br>   5. Petechiae: จุดเลือดออกเล็กๆ ตามเยื่อบุตา (Conjunctiva), เยื่อบุช่องปาก และผิวหนัง",
+      "answerImage": "",
+      "note": "Lecture IE: Physical signs, Janeway vs Osler vs Roth spots vs Splinter hemorrhages"
+    },
+    {
+      "id": "16. Others & Toxic::145",
+      "itemNo": "143",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การคำนวณและนับระยะเวลาการรักษาด้วยยาปฏิชีวนะ (Duration of Antimicrobial Therapy) ในผู้ป่วย Infective Endocarditis มีกฎเหล็กในการเริ่มนับวันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>) จาก วันแรกที่ผลเพาะเชื้อในเลือดกลายเป็นลบ (First Day of Negative Blood Culture)&#039;<br>   ↳ ไม่ใช่นับจากวันแรกที่เริ่มฉีดยาปฏิชีวนะ!<br><br>▶ [แนวทางปฏิบัติทางคลินิก (Monitoring Protocol)]:<br>   ↳ ต้องเจาะเลือดตรวจเพาะเชื้อซ้ำ (Repeat Blood Cultures) ทุก 24–48 ชั่วโมง หลังจากเริ่มยาปฏิชีวนะ จนกระทั่งผลเลือดไม่พบเชื้อ (Clearance of Bacteremia)<br>   ↳ ตัวอย่าง: เริ่มยาปฏิชีวนะวันที่ 1 ก.ย., ตรวจเลือดซ้ำวันที่ 3 ก.ย. ยังขึ้นเชื้อ, ตรวจเลือดซ้ำวันที่ 5 ก.ย. ได้ผลลบ (Negative) ➔ ให้เริ่มนับ Day 1 ของคอร์ส <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>ตั้งแต่วันที่ 5 กันยายน เป็นต้นไป!",
+      "answerImage": "",
+      "note": "Lecture IE: Calculation of duration from first day of negative blood culture"
+    },
+    {
+      "id": "16. Others & Toxic::146",
+      "itemNo": "144",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย IE มีข้อบ่งชี้อย่างไร และยาใดเป็นตัวเลือกที่เหมาะสมที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span> ใน IE]:<br>   1. ผู้ป่วยมีสัญญาณชีพและอาการทางคลินิกคงที่ (Hemodynamically stable)<br>   2. ผลเพาะเชื้อในเลือดกลายเป็นลบแล้ว (Blood culture cleared)<br>   3. ไม่มีภาวะแทรกซ้อนของหัวใจ เช่น หัวใจวาย (Heart Failure) หรือความผิดปกติของคลื่นไฟฟ้าหัวใจ (Conduction Block)<br>   4. ตรวจ Echo ซ้ำแล้วไม่พบฝีรอบลิ้นหัวใจ (Perivalvular abscess) หรือก้อน Vegetation ขนาดใหญ่ที่เสี่ยงหลุดอุดตัน<br>   5. ผู้ป่วยหรือญาติมีความเข้าใจและสามารถดูแลสายสวน IV Catheter ได้อย่างถูกต้อง<br><br>▶ [ยาปฏิชีวนะที่เหมาะสมที่สุดสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily): เป็นยาอันดับ 1 สำหรับ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> หรือ Enterococcal IE เนื่องจากฉีดแค่วันละครั้ง สะดวก ปลอดภัย ไม่ต้องทำ TDM<br>   ↳ <span style=\"color:#0284c7\"><b>Daptomycin</b></span> IV วันละ 1 ครั้ง: สำหรับ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> ที่เชื้อไวต่อยา",
+      "answerImage": "",
+      "note": "Lecture IE: OPAT criteria & Once-daily Ceftriaxone/Daptomycin selection"
+    },
+    {
+      "id": "16. Others & Toxic::147",
+      "itemNo": "145",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "แผนการติดตามการรักษา (Monitoring Plan) ในผู้ป่วย Infective Endocarditis ทั้งด้านประสิทธิผลและความปลอดภัยจากยาประกอบด้วยอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span>, <span style=\"color:#0284c7\"><b>Gentamicin</b></span>)<br>   ↳ คลื่นไฟฟ้าหัวใจ (EKG): ตรวจติดตาม PR Interval สม่ำเสมอ หากพบ PR ยาวขึ้น (First-degree AV block) ต้องสงสัย ภาวะฝีรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) ลุกลามกดทับ Conduction pathway!<br>   ↳ ระดับยาในเลือด (TDM): ตรวจระดับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> AUC หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Peak/Trough สม่ำเสมอ",
+      "answerImage": "",
+      "note": "Lecture IE: Efficacy & Safety Monitoring Plan, PR interval & Perivalvular abscess"
+    },
+    {
+      "id": "16. Others & Toxic::148",
+      "itemNo": "146",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12625,8 +12865,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
     {
-      "id": "16. Others & Toxic::139",
-      "itemNo": "137",
+      "id": "16. Others & Toxic::149",
+      "itemNo": "147",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12637,8 +12877,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย MSSA NVE)"
     },
     {
-      "id": "16. Others & Toxic::140",
-      "itemNo": "138",
+      "id": "16. Others & Toxic::150",
+      "itemNo": "148",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12649,8 +12889,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Duration IE)"
     },
     {
-      "id": "16. Others & Toxic::141",
-      "itemNo": "139",
+      "id": "16. Others & Toxic::151",
+      "itemNo": "149",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -12661,8 +12901,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dual Beta-lactam)"
     },
     {
-      "id": "16. Others & Toxic::142",
-      "itemNo": "140",
+      "id": "16. Others & Toxic::152",
+      "itemNo": "150",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12673,8 +12913,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::143",
-      "itemNo": "141",
+      "id": "16. Others & Toxic::153",
+      "itemNo": "151",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12685,8 +12925,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::144",
-      "itemNo": "142",
+      "id": "16. Others & Toxic::154",
+      "itemNo": "152",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12697,8 +12937,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::145",
-      "itemNo": "143",
+      "id": "16. Others & Toxic::155",
+      "itemNo": "153",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12709,8 +12949,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::146",
-      "itemNo": "144",
+      "id": "16. Others & Toxic::156",
+      "itemNo": "154",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12721,8 +12961,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::147",
-      "itemNo": "145",
+      "id": "16. Others & Toxic::157",
+      "itemNo": "155",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12733,8 +12973,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::148",
-      "itemNo": "146",
+      "id": "16. Others & Toxic::158",
+      "itemNo": "156",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12745,8 +12985,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::149",
-      "itemNo": "147",
+      "id": "16. Others & Toxic::159",
+      "itemNo": "157",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12757,20 +12997,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::150",
-      "itemNo": "148",
+      "id": "16. Others & Toxic::160",
+      "itemNo": "158",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "การแบ่งประเภท Meningitis ตามระยะเวลาการดำเนินโรค (Time Course Classification) และความสำคัญทางคลินิก?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า 4 สัปดาห์):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::151",
-      "itemNo": "149",
+      "id": "16. Others & Toxic::161",
+      "itemNo": "159",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12781,8 +13021,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Clinical Triad & Petechial Rash in N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::152",
-      "itemNo": "150",
+      "id": "16. Others & Toxic::162",
+      "itemNo": "160",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12793,8 +13033,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::153",
-      "itemNo": "151",
+      "id": "16. Others & Toxic::163",
+      "itemNo": "161",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12805,8 +13045,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::154",
-      "itemNo": "152",
+      "id": "16. Others & Toxic::164",
+      "itemNo": "162",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12817,8 +13057,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::155",
-      "itemNo": "153",
+      "id": "16. Others & Toxic::165",
+      "itemNo": "163",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12829,8 +13069,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::156",
-      "itemNo": "154",
+      "id": "16. Others & Toxic::166",
+      "itemNo": "164",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12841,8 +13081,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::157",
-      "itemNo": "155",
+      "id": "16. Others & Toxic::167",
+      "itemNo": "165",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12853,8 +13093,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::158",
-      "itemNo": "156",
+      "id": "16. Others & Toxic::168",
+      "itemNo": "166",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12865,8 +13105,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::159",
-      "itemNo": "157",
+      "id": "16. Others & Toxic::169",
+      "itemNo": "167",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12877,8 +13117,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::160",
-      "itemNo": "158",
+      "id": "16. Others & Toxic::170",
+      "itemNo": "168",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12889,8 +13129,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: CSF Analysis differential diagnostic matrix"
     },
     {
-      "id": "16. Others & Toxic::161",
-      "itemNo": "159",
+      "id": "16. Others & Toxic::171",
+      "itemNo": "169",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12901,8 +13141,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: CSF Analysis & Mechanism of Low CSF Glucose"
     },
     {
-      "id": "16. Others & Toxic::162",
-      "itemNo": "160",
+      "id": "16. Others & Toxic::172",
+      "itemNo": "170",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12913,8 +13153,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
-      "id": "16. Others & Toxic::163",
-      "itemNo": "161",
+      "id": "16. Others & Toxic::173",
+      "itemNo": "171",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12925,8 +13165,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Dexamethasone 10 mg q6h x 4d Timing & Hearing Loss Prevention"
     },
     {
-      "id": "16. Others & Toxic::164",
-      "itemNo": "162",
+      "id": "16. Others & Toxic::174",
+      "itemNo": "172",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12937,8 +13177,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::165",
-      "itemNo": "163",
+      "id": "16. Others & Toxic::175",
+      "itemNo": "173",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12949,8 +13189,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::166",
-      "itemNo": "164",
+      "id": "16. Others & Toxic::176",
+      "itemNo": "174",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12961,8 +13201,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
     {
-      "id": "16. Others & Toxic::167",
-      "itemNo": "165",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12973,8 +13213,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Dexamethasone indication and strict timing"
     },
     {
-      "id": "16. Others & Toxic::168",
-      "itemNo": "166",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12985,8 +13225,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::169",
-      "itemNo": "167",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -12997,8 +13237,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::170",
-      "itemNo": "168",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13009,8 +13249,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::171",
-      "itemNo": "169",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13021,8 +13261,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::172",
-      "itemNo": "170",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13033,20 +13273,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::173",
-      "itemNo": "171",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "▶ 1. Induction Phase (ระยะเหนี่ยวนำ - นานอย่างน้อย 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::174",
-      "itemNo": "172",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13057,8 +13297,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::175",
-      "itemNo": "173",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13069,8 +13309,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::176",
-      "itemNo": "174",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13081,8 +13321,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13093,8 +13333,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13105,8 +13345,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13117,20 +13357,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13141,8 +13381,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13153,8 +13393,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13165,8 +13405,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13177,8 +13417,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13189,8 +13429,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13201,8 +13441,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13213,8 +13453,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13225,8 +13465,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13237,8 +13477,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13249,8 +13489,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13261,20 +13501,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Cryptococcal Meningitis &amp; Timing of ART]</b></span>: ผู้ป่วยติดเชื้อ HIV รายใหม่ มี CD4 = 25 cells/mm3 ได้รับการวินิจฉัยว่าเป็น Cryptococcal Meningitis และเริ่มได้รับยาฉีด Amphotericin B + Flucytosine ในช่วง Induction Phase เมื่ออาการทางคลินิกเริ่มคงที่ ทำไมจึงต้อง ชะลอการเริ่มยาต้านไวรัส HIV (ART) ออกไป 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>) และอยู่ในช่วง Consolidation Phase โดยผลตรวจ CSF ควบคุมได้ดี จึงเริ่มยา ART ที่ 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13285,8 +13525,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13297,8 +13537,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13309,8 +13549,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13321,8 +13561,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13333,8 +13573,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13345,8 +13585,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -13357,8 +13597,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13369,8 +13609,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13381,8 +13621,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13393,8 +13633,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13405,8 +13645,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13417,8 +13657,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13429,8 +13669,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13441,8 +13681,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13453,8 +13693,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13465,8 +13705,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13477,8 +13717,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13489,8 +13729,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13501,8 +13741,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13513,8 +13753,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13525,8 +13765,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13537,8 +13777,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13549,8 +13789,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13561,8 +13801,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13573,8 +13813,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13585,8 +13825,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13597,8 +13837,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13609,8 +13849,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13621,8 +13861,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13633,8 +13873,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13645,8 +13885,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13657,20 +13897,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 22 สัปดาห์ ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13681,8 +13921,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13693,8 +13933,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13705,8 +13945,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13717,8 +13957,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13729,8 +13969,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13741,8 +13981,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13753,8 +13993,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13765,8 +14005,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13777,8 +14017,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13789,8 +14029,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13801,8 +14041,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -13813,8 +14053,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13825,8 +14065,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13837,8 +14077,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13849,8 +14089,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13861,8 +14101,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13873,8 +14113,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13885,8 +14125,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13897,8 +14137,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13909,8 +14149,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13921,8 +14161,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13933,20 +14173,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-2 สัปดาห์<br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13957,8 +14197,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13969,8 +14209,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13981,8 +14221,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -13993,8 +14233,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14005,8 +14245,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14017,20 +14257,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (Sirturo) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "▶ กลไกการออกฤทธิ์ (Novel Mechanism):<br>   ↳ ออกฤทธิ์จำเพาะโดยยับยั้งเอนไซม์ Mycobacterial ATP Synthase (Subunit c) ขัดขวางการสร้างพลังงาน ATP ของเชื้อวัณโรค<br><br>▶ ขนาดยาและการบริหาร (Dosing Schedule นาน 24 สัปดาห์):<br>   ↳ 2 สัปดาห์แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14041,8 +14281,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14053,8 +14293,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14065,8 +14305,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14077,8 +14317,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14089,8 +14329,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14101,8 +14341,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14113,8 +14353,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14125,20 +14365,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x 2 สัปดาห์ ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 22 สัปดาห์)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14149,8 +14389,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14161,8 +14401,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14173,8 +14413,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14185,8 +14425,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14197,8 +14437,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14209,8 +14449,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14221,8 +14461,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14233,8 +14473,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14245,8 +14485,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14257,8 +14497,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14269,8 +14509,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14281,8 +14521,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14293,8 +14533,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -14305,20 +14545,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - </b></span><span style=\"color:#16a34a\"><b>BPaLM</b></span><span style=\"color:#0284c7\"><b> Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD 2 สัปดาห์แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-4 สัปดาห์ (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก 2 สัปดาห์ และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14329,8 +14569,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14341,8 +14581,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14353,8 +14593,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14365,8 +14605,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14377,8 +14617,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14389,8 +14629,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14401,8 +14641,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14413,8 +14653,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14425,8 +14665,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14437,8 +14677,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14449,8 +14689,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14461,8 +14701,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14473,8 +14713,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14485,8 +14725,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14497,8 +14737,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14509,8 +14749,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14521,8 +14761,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14533,8 +14773,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14545,8 +14785,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14557,8 +14797,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14569,8 +14809,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14581,8 +14821,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14593,8 +14833,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14605,8 +14845,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14617,8 +14857,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14629,8 +14869,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14641,8 +14881,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14653,8 +14893,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14665,8 +14905,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14677,8 +14917,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14689,20 +14929,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ชายสูงอายุมีไข้ ปวดข้อสะโพกขยับไม่ได้ เจาะน้ำข้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> ควรเลือกยาปฏิชีวนะและระยะเวลาการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - 4 สัปดาห์<br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14713,8 +14953,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14725,8 +14965,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14737,8 +14977,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14749,20 +14989,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว 2 สัปดาห์ อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Clindamycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14773,8 +15013,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14785,8 +15025,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14797,8 +15037,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14809,8 +15049,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14821,8 +15061,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14833,8 +15073,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14845,8 +15085,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -14857,8 +15097,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -19681,7 +19921,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span> กับ <span style=\"color:#0284c7\"><b>Linezolid</b></span> ในการรักษาปอดอักเสบจากเชื้อ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> HAP/VAP)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; 2 สัปดาห์, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>:<br>   ↳ ข้อดี: ซึมเข้าสู่เยื่อบุผิวถุงลมปอด (Epithelial Lining Fluid: ELF) ได้สูงมาก (ความเข้มข้นในปอดสูงกว่าในเลือด 2-4 เท่า), ไม่มีพิษต่อไต<br>   ↳ ข้อเสีย: เสี่ยงต่อภาวะเกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>) และกดไขกระดูกเมื่อใช้นาน &gt; <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>, มีราคาสูงกว่า<br><br>▶ 2. <span style=\"color:#0284c7\"><b>Vancomycin</b></span>:<br>   ↳ ข้อดี: เป็นยามาตรฐานดั้งเดิม มีราคาประหยัด มีข้อมูลทางคลินิกยาวนาน<br>   ↳ ข้อเสีย: ซึมเข้าเนื้อเยื่อปอดได้จำกัดและไม่แน่นอน (ความเข้มข้นในปอดเพียง 10-20% ของในเลือด), มีพิษต่อไตสูง (Nephrotoxicity) ต้องเจาะตรวจระดับยาในเลือด (Trough) สม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20041,7 +20281,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ปัจจัยข้อใดต่อไปนี้ ไม่ใช่ ปัจจัยเสี่ยงและ ไม่ใช่ เกณฑ์ในการประเมินผลการรักษาปอดอักเสบที่ข้อสอบมักนำมาหลอก?",
       "questionImage": "",
-      "answer": "▶ สิ่งที่ ไม่ใช่ เกณฑ์ทางคลินิก (หลุมพรางข้อสอบ):<br>   ↳ 1. ค่า BUN &lt; 19 mg/dL: ไม่ใช่ เกณฑ์ประเมินการตอบสนองหรือการเปลี่ยนเป็นยากิน (BUN เป็นเพียงตัวชี้วัดความรุนแรงตอนแรกรับใน CURB-65 เท่านั้น)<br>   ↳ 2. ภาพถ่ายรังสีปอด (Chest X-ray) กลับเป็นปกติทันที: ไม่ใช่ เกณฑ์ตัดสิน (รอยฝ้าขาวบน X-ray อาจคงอยู่นาน 4-12 สัปดาห์แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แม้ผู้ป่วยจะหายดีแล้ว)<br>   ↳ 3. ไขมันในเลือดสูง (Dyslipidemia): ไม่ใช่ ปัจจัยเสี่ยงหลักของปอดอักเสบ (ปัจจัยเสี่ยงที่แท้จริงคือ อายุมาก, เบาหวาน, โรคปอดเรื้อรัง COPD, การสูบบุหรี่, ติดแอลกอฮอล์)<br>   ↳ 4. การฉีดวัคซีนไข้หวัดใหญ่: ต้องแนะนำ Inactivated Influenza Vaccine (ห้ามแนะนำ Live-attenuated ในผู้มีภูมิคุ้มกันต่ำ)",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part I"
     },
@@ -20125,7 +20365,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - IV-to-Oral Switch Criteria]</b></span>: ผู้ป่วย CAP รับการรักษาด้วย <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> IV + <span style=\"color:#0284c7\"><b>Azithromycin</b></span> IV มาแล้ว 3 วัน แพทย์ต้องการพิจารณาเปลี่ยนเป็นยารับประทานกลับบ้าน (Switch to Oral Therapy) ข้อใดคือเกณฑ์ทางคลินิกที่ถูกต้องและข้อใดไม่ใช่เกณฑ์?",
       "questionImage": "",
-      "answer": "↳ เกณฑ์ที่ถูกต้องในการเปลี่ยนเป็นยารับประทาน (Clinical Stability Criteria):<br>   ↳ 1. อุณหภูมิร่างกายลดลง &lt;= 37.8 องศาเซลเซียส ต่อเนื่องอย่างน้อย 24 ชั่วโมง<br>   ↳ 2. อัตราการเต้นของหัวใจ (Heart rate) &lt;= 100 ครั้ง/นาที<br>   ↳ 3. อัตราการหายใจ (Respiratory rate) &lt;= 24 ครั้ง/นาที<br>   ↳ 4. ความดันโลหิต Systolic &gt;= 90 mmHg โดยไม่ต้องใช้ยากระตุ้นความดัน<br>   ↳ 5. ออกซิเจนในเลือด (O2 Saturation) &gt;= 90% ใน Room air<br>   ↳ 6. สามารถรับประทานอาหารและยาทางปากได้ ทางเดินอาหารทำงานปกติ<br>   ↳ 7. สภาพจิตใจและสติสัมปชัญญะกลับสู่ปกติ (Normal mental status)<br><br>▶ ข้อที่ข้อสอบมักหลอก (ไม่ใช่เกณฑ์):<br>   ↳ ค่า BUN &lt; 19 mg/dL หรือ ผล X-ray ปอดกลับเป็นปกติ (Infiltrate บน X-ray อาจใช้เวลานานถึง 4-12 สัปดาห์จึงจะยุบหมด!)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>จึงจะยุบหมด!)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Switch IV-to-Oral)"
     },
@@ -20171,7 +20411,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "หากผลเพาะเชื้อในเลือดพบ Streptococcus gallolyticus (Streptococcus bovis) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Streptococcus gallolyticus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>Streptococcus bovis</b></i></span>) แพทย์ต้องส่งตรวจเพิ่มเติมสิ่งใดเสมอ และเพราะเหตุใด?",
       "questionImage": "",
       "answer": "▶ การส่งตรวจเพิ่มเติมที่จำเป็นอย่างยิ่ง:<br>   ↳ ต้องส่งตรวจ ส่องกล้องตรวจดูลำไส้ใหญ่และทวารหนัก (Colonoscopy) ทุกรายเสมอ<br><br>▶ เหตุผลทางพยาธิสรีรวิทยา (Pathological Association):<br>   ↳ เชื้อ S. gallolyticus อาศัยอยู่ในทางเดินอาหาร และมีความสัมพันธ์อย่างมีนัยสำคัญกับการมีเนื้องอกหรือมะเร็งลำไส้ใหญ่และทวารหนัก (Colorectal Carcinoma / Adenomatous Polyps) ซึ่งทำให้เยื่อบุลำไส้มีแผลและเชื้อเล็ดลอดเข้าสู่กระแสเลือดไปเกาะที่ลิ้นหัวใจ",
       "answerImage": "",
@@ -20209,7 +20449,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์หลัก (Major Criteria) 2 ข้อ ตาม Modified Duke Criteria ในการวินิจฉัย IE มีรายละเอียดอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (Perivalvular Abscess)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) จากเลือด 2 ขวดแยกกัน หรือ<br>   ↳ เพาะเชื้อขึ้นแบคทีเรียอย่างต่อเนื่องจากขวดเลือดที่เจาะห่างกัน &gt; 12 ชั่วโมง<br><br>▶ 2. Evidence of Endocardial Involvement (หลักฐานการมีรอยโรคที่เยื่อบุหัวใจและลิ้นหัวใจ):<br>   ↳ ผลตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiogram) พบ:<br>   ↳ ก้อนเนื้อติดเชื้อเคลื่อนไหวได้ (Oscillating intracardiac mass / Vegetation) บนลิ้นหัวใจ<br>   ↳ โพรงฝีหนองรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>)<br>   ↳ การหลุดแยกของลิ้นหัวใจเทียม (New partial dehiscence of prosthetic valve)<br>   ↳ เสียงฟู่ของลิ้นหัวใจรั่วเกิดขึ้นใหม่ (New valvular regurgitation murmur)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20221,7 +20461,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "เกณฑ์รอง (Minor Criteria) 5 ข้อ ตาม Modified Duke Criteria มีอะไรบ้าง พร้อมคำอธิบาย?",
       "questionImage": "",
-      "answer": "▶ 1. Predisposition (ภาวะเอื้ออำนวย / ปัจจัยเสี่ยง):<br>   ↳ มีโรคหัวใจเสี่ยงสูง (ใส่ลิ้นหัวใจเทียม, เคยเป็น IE มาก่อน) หรือมีประวัติฉีดยาเสพติดเข้าเส้น (IVDA)<br><br>▶ 2. Fever (มีไข้):<br>   ↳ อุณหภูมิร่างกาย &gt;= 38.0 องศาเซลเซียส<br><br>▶ 3. Vascular Phenomena (ความผิดปกติของหลอดเลือดและการอุดตัน):<br>   ↳ ลิ่มเลือดหลุดไปอุดตัน (Major arterial emboli), กล้ามเนื้อปอดตายจากลิ่มเลือดติดเชื้อ (Septic pulmonary infarcts), หลอดเลือดโป่งพองติดเชื้อ (Mycotic aneurysm), จุดเลือดออกใต้เยื่อบุตา (Conjunctival hemorrhages), แผล Janeway lesions<br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ Osler&#039;s nodes, จุดเลือดออกที่จอตา Roth&#039;s spots, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
+      "answer": "<span style=\"color:#dc2626\"><b>Janeway lesions</b></span><br><br>▶ 4. Immunologic Phenomena (ความผิดปกติจากระบบภูมิคุ้มกัน):<br>   ↳ กรวยไตอักเสบจากอิมมูนคอมเพล็กซ์ (Glomerulonephritis), ตุ่มเจ็บ <span style=\"color:#dc2626\"><b>Osler&#039;s nodes</b></span>, จุดเลือดออกที่จอตา <span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span>, ตรวจพบ Rheumatoid Factor (RF positive)<br><br>▶ 5. Microbiologic Evidence (หลักฐานทางจุลชีววิทยา):<br>   ↳ ผลเพาะเชื้อเลือดขึ้น แต่ไม่เข้าเกณฑ์ Major criteria",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20231,9 +20471,9 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC &lt;= 0.12 mcg/mL) คืออะไร?",
+      "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา Viridans Group Streptococci NVE ที่ไวต่อ Penicillin (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน 4 สัปดาห์ หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์ (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก OPAT)<br><br>▶ สูตรยาระยะสั้น 2 สัปดาห์ (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์ (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
+      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20257,7 +20497,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> สำหรับ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Prosthetic Valve Endocarditis (PVE - ลิ้นหัวใจเทียม) ประกอบด้วยยาใดบ้าง?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง 2 สัปดาห์แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
+      "answer": "<span style=\"color:#16a34a\"><b>Triple Therapy</b></span> for Staph PVE):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Cloxacillin</b></span>: 2 g IV ทุก 4 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin: 300 mg PO/IV ทุก 8 ชั่วโมง นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span>: 1 mg/kg IV ทุก 8 ชั่วโมง (ให้เฉพาะช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา)<br><br>▶ เหตุผลที่ต้องใส่ Rifampin:<br>   ↳ เพื่อแทรกซึมและทำลายเชื้อ Staphylococci ที่สร้างแผ่นฟิล์มชีวภาพ (Biofilm) เกาะบนพื้นผิวลิ้นหัวใจเทียม",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20293,7 +20533,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> สำหรับการรักษา <span style=\"color:#7c3aed\"><i><b>HACEK</b></i></span> Group Endocarditis คือยาใด และรักษานานกี่สัปดาห์?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน 4 สัปดาห์ สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ขนาด 2 g IV วันละ 1 ครั้ง (OD)<br><br>▶ ระยะเวลาการรักษา:<br>   ↳ นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> สำหรับ Native Valve Endocarditis (NVE)<br>   ↳ นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> สำหรับ Prosthetic Valve Endocarditis (PVE)<br><br>▶ ยาทางเลือก (กรณีแพ้ Cephalosporin):<br>   ↳ <span style=\"color:#0284c7\"><b>Ampicillin/Sulbactam</b></span> (1.5-3 g IV q 6h) หรือ <span style=\"color:#0284c7\"><b>Ciprofloxacin</b></span> (400 mg IV q 12h / 500 mg PO BID)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20353,7 +20593,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาการเกิด Vegetation ในภาวะ Infective Endocarditis เกิดขึ้นได้อย่างไร?",
       "questionImage": "",
-      "answer": "▶ ขั้นตอนการเกิดโรค (Pathogenesis - 4 Steps):<br>   ↳ 1. Endothelial Injury: ลิ้นหัวใจได้รับบาดเจ็บจากแรงไหลเลือดสูงผิดปกติ (Turbulent flow) หรือบาดแผลทางกล ทำให้ผิวเยื่อบุเสียหาย<br>   ↳ 2. Non-Bacterial Thrombotic Endocarditis (NBTE): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span>): ไฟบรินและเกล็ดเลือดมาจับที่รอยบาดแผล เกิดเป็น Sterile vegetation ขนาดเล็ก<br>   ↳ 3. Bacteremia: เชื้อแบคทีเรียเข้าสู่กระแสเลือด (Transient Bacteremia) จากสาเหตุต่างๆ เช่น ทำหัตถการทันตกรรม ผ่าตัด ฉีดยาเสพติด<br>   ↳ 4. Seeding &amp; Vegetation Growth: เชื้อจับกับ Sterile vegetation และเพิ่มจำนวน ดึงดูดเกล็ดเลือดและไฟบรินมาเพิ่ม กลายเป็น Infected Vegetation ขนาดใหญ่ที่ซ่อนตัวจากระบบภูมิคุ้มกัน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
@@ -20377,7 +20617,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> ทำไมจึงนิยมใช้สูตร <span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> (<span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>) มากกว่าสูตรดั้งเดิม <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน 4–<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
+      "answer": "<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span>]:<br>   ↳ อิ่มตัวของ PBP เสริมกัน (Synergistic PBP Saturation): <span style=\"color:#0284c7\"><b>Ampicillin</b></span> ออกฤทธิ์จับและยับยั้ง PBP4 และ PBP5 ขณะที่ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เข้าไปจับและยับยั้ง PBP2 และ PBP3 อย่างสมบูรณ์ ทำให้ผนังเซลล์ของ <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span> ถูกทำลายอย่างมีประสิทธิภาพเทียบเท่าการใช้ยาฆ่าเชื้อร่วมกัน<br><br>▶ [ข้อได้เปรียบทางคลินิกที่สำคัญ]:<br>   ↳ ปลอดภัยต่อไต (Zero Nephrotoxicity): ผู้ป่วย IE มักต้องได้รับยานาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> การใช้ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> มีความเสี่ยงสูงมากต่อภาวะพิษต่อไตและหู (Nephrotoxicity / Ototoxicity)<br>   ↳ ประสิทธิผลทางคลินิก: งานวิจัยยืนยันว่าสูตร <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ให้ผลการรักษาและอัตราการรอดชีวิตเทียบเท่าสูตรผสม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แต่ลดภาวะไตวายได้อย่างมีนัยสำคัญ",
       "answerImage": "",
       "note": "Lecture IE: Double beta-lactam PBP saturation in Enterococcus"
     },
@@ -20389,13 +20629,85 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "track": "Clinic",
       "question": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> ต้องใช้สูตรยาใด และมีเทคนิคการเริ่มยา Rifampin อย่างไรเพื่อป้องกันการ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ 2 สัปดาห์แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span> (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>)]:<br>   1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>) หรือ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> (กรณี <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span>) ฉีด IV นาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   2. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> IV: ให้ร่วมเฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก เท่านั้น<br>   3. Rifampin 300 mg PO/IV ทุก 8 ชั่วโมง: ให้ต่อเนื่องนาน &gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> เพื่อฆ่าเชื้อที่เกาะใน Biofilm ของลิ้นหัวใจเทียม<br><br>▶ [เทคนิคการเริ่มยา Rifampin (Timing Pearl)]:<br>   ↳ ห้ามเริ่ม Rifampin พร้อม <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ในวันแรก!<br>   ↳ ต้องให้ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> ไปก่อนประมาณ 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จนกว่าปริมาณเชื้อในกระแสเลือด (Bacterial Load) ลดลงและผลเพาะเชื้อเลือดเป็นลบ จึงค่อยเริ่มเติม Rifampin<br>   ↳ เหตุผล: หากให้ Rifampin ขณะเชื้อยังมีปริมาณสูง เชื้อจะเกิดการกลายพันธุ์และดื้อต่อ Rifampin อย่างรวดเร็วในเวลาไม่กี่วัน",
       "answerImage": "",
       "note": "Lecture IE: PVE Triple regimen & delayed Rifampin timing"
     },
     {
       "id": "16. Others & Toxic::119",
       "itemNo": "117",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>NBTE</b></span> Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (<span style=\"color:#dc2626\"><b>NBTE</b></span>)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน <span style=\"color:#dc2626\"><b>NBTE</b></span> แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก",
+      "answerImage": "",
+      "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
+    },
+    {
+      "id": "16. Others & Toxic::120",
+      "itemNo": "118",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การจำแนกประเภทและความรุนแรงของ Infective Endocarditis (IE Classification: Acute vs Subacute, NVE vs PVE, และ Left vs Right-sided) มีความแตกต่างกันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>) เกิดได้ทั้งบนลิ้นหัวใจปกติและลิ้นผิดปกติ มีไข้สูง ทำลายลิ้นหัวใจฉับพลัน<br>   ↳ Subacute IE: ดำเนินโรคช้าๆ เป็นสัปดาห์ถึงหลายเดือน เชื้อดุร้ายต่ำ (Most common: <span style=\"color:#7c3aed\"><i><b>Viridans group streptococci</b></i></span>) มักเกิดบนลิ้นหัวใจที่มีความผิดปกติเดิม มีไข้ต่ำๆ อ่อนเพลีย น้ำหนักลด<br><br>▶ [2. Native Valve (NVE) vs Prosthetic Valve (PVE)]:<br>   ↳ Early PVE (&lt; 1 ปีหลังผ่าตัด): มักติดเชื้อใน รพ. (<span style=\"color:#7c3aed\"><i><b>Staphylococcus epidermidis</b></i></span> <span style=\"color:#7c3aed\"><i><b>CoNS</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>, GNB)<br>   ↳ Late PVE (&gt;= 1 ปีหลังผ่าตัด): เชื้อเหมือน NVE ในชุมชน (<span style=\"color:#7c3aed\"><i><b>Viridans streptococci</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>)<br><br>▶ [3. Left-Sided vs Right-Sided IE]:<br>   ↳ Left-Sided (Mitral #1, Aortic #2): พบบ่อยสุดในคนทั่วไป เสี่ยงลิ่มเลือดหลุดไปอุดสมอง/ไต/ม้าม (Systemic Emboli)<br>   ↳ Right-Sided (Tricuspid #1): พบบ่อยใน ผู้ฉีดสารเสพติดเข้าเส้น (IVDU &gt; 70% เป็น <span style=\"color:#7c3aed\"><i><b>S. aureus</b></i></span>) เสี่ยงลิ่มเลือดหลุดไปปอด (Septic Pulmonary Emboli)",
+      "answerImage": "",
+      "note": "Lecture IE: Acute vs Subacute, NVE vs PVE, Left vs Right sided classification"
+    },
+    {
+      "id": "16. Others & Toxic::121",
+      "itemNo": "119",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (<span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span>, <span style=\"color:#7c3aed\"><i><b>Enterococcus</b></i></span>, เชื้อรา Candida)",
+      "answerImage": "",
+      "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
+    },
+    {
+      "id": "16. Others & Toxic::122",
+      "itemNo": "120",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ Modified Duke Criteria สำหรับการวินิจฉัย Infective Endocarditis ประกอบด้วย Major, Minor criteria อะไรบ้าง และมีเกณฑ์ตัดสิน Definite, Possible, Rejected อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>&gt; 38.0°C</b></span><br>   3. Vascular Phenomena: ลิ่มเลือดอุดตันหลอดเลือดใหญ่, ปอดติดเชื้อ, <span style=\"color:#dc2626\"><b>Janeway lesions</b></span>, เลือดออกในสมอง<br>   4. Immunologic Phenomena: Glomerulonephritis, <span style=\"color:#dc2626\"><b>Osler’s nodes</b></span>, <span style=\"color:#dc2626\"><b>Roth’s spots</b></span>, ผล RF เป็นบวก<br>   5. Microbiologic Evidence: ผลเพาะเชื้อบวกแต่ไม่เข้าเกณฑ์ Major<br><br>▶ [เกณฑ์ตัดสินชี้ขาด (Definite IE)]:<br>   $$\\mathbf{2\\text{ Major}} \\quad\\text{หรือ}\\quad \\mathbf{1\\text{ Major} + 3\\text{ Minor}} \\quad\\text{หรือ}\\quad \\mathbf{5\\text{ Minor}}$$<br>   ↳ Possible IE: 1 Major + 1 Minor หรือ 3 Minor<br>   ↳ Rejected IE: มีการวินิจฉัยอื่นชัดเจน หรืออาการหายหลังให้ยา &lt; 4 วัน",
+      "answerImage": "",
+      "note": "Lecture IE: Modified Duke Criteria (Major, Minor, Definite/Possible/Rejected cutoffs)"
+    },
+    {
+      "id": "16. Others & Toxic::123",
+      "itemNo": "121",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#7c3aed\"><i><b>Enterococci</b></i></span>) มีหลักการเลือกใช้อย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> - ไวต่อ Penicillin MIC &lt;= 0.12)]:<br>   ↳ สูตรมาตรฐาน: <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (12–18 ล้าน units/day) หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> (2 g IV OD) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> เหมาะมากสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ [2. <span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span> (<span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> vs <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span>)]:<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV q 4h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (ห้ามเติม <span style=\"color:#0284c7\"><b>Gentamicin</b></span> / Rifampin!)<br>   ↳ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> Native Valve (NVE): <span style=\"color:#0284c7\"><b>Vancomycin</b></span> 15–20 mg/kg IV q 8–12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (Target AUC/MIC <span style=\"color:#d97706\"><b>400–600</b></span>)<br>   ↳ Prosthetic Valve (PVE): <span style=\"color:#16a34a\"><b>Triple Therapy</b></span> ➔ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> หรือ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>) + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h (เฉพาะ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก) + Rifampin 300 mg q 8h (&gt;= <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> โดยเริ่มดีเลย์หลัง Vanco 3–<span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ [3. <span style=\"color:#7c3aed\"><i><b>Enterococcus faecalis</b></i></span> (Enterococcal IE)]:<br>   ↳ <span style=\"color:#16a34a\"><b>First-line</b></span> Preferred: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> 2 g IV q 4h + <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV q 12h นาน <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> (<span style=\"color:#16a34a\"><b>Double Beta-lactam</b></span> PBP synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero Nephrotoxicity)<br>   ↳ Alternative: <span style=\"color:#0284c7\"><b>Ampicillin</b></span> + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 1 mg/kg q 8h นาน <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span> (ต้องติดตามค่าไตและ TDM ใกล้ชิด)",
+      "answerImage": "",
+      "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
+    },
+    {
+      "id": "16. Others & Toxic::124",
+      "itemNo": "122",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิด Infective Endocarditis ก่อนทำหัตถการทางทันตกรรม (Dental Prophylaxis) มีอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>First-line</b></span> <span style=\"color:#16a34a\"><b>DOC</b></span>: <span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin ไม่รุนแรง: <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (เด็ก: 50 mg/kg)<br>   ↳ แพ้ Penicillin รุนแรง (Anaphylaxis): <span style=\"color:#0284c7\"><b>Azithromycin</b></span> / <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO (เด็ก: 15 mg/kg) หรือ <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO (เด็ก: 20 mg/kg)",
+      "answerImage": "",
+      "note": "Lecture IE: High-risk 4 conditions & Dental prophylaxis regimens (Amox 2g)"
+    },
+    {
+      "id": "16. Others & Toxic::125",
+      "itemNo": "123",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20406,44 +20718,44 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::120",
-      "itemNo": "118",
+      "id": "16. Others & Toxic::126",
+      "itemNo": "124",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "Roth&#039;s spots และ Splinter hemorrhages ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
+      "question": "<span style=\"color:#dc2626\"><b>Roth&#039;s spots</b></span> และ <span style=\"color:#dc2626\"><b>Splinter hemorrhages</b></span> ในผู้ป่วย IE คืออะไร และเกิดจากกลไกใด?",
       "questionImage": "",
       "answer": "▶ 1. Roth&#039;s Spots:<br>   ↳ จุดเลือดออกที่จอประสาทตา (Retinal hemorrhage) รูปวงรีที่มีศูนย์กลางสีขาวซีด (Pale central fibrin-platelet thrombus) ส่องดูได้จาก Ophthalmoscope จัดเป็น Immunologic Phenomena<br><br>▶ 2. Splinter Hemorrhages:<br>   ↳ เส้นเลือดออกสีแดงเข้มหรือน้ำตาลตามยาวใต้แผ่นเล็บ (คล้ายเสี้ยนไม้ตำใต้เล็บ) เกิดจากลิ่มเลือดขนาดเล็กหลุดไปอุดตันหลอดเลือดฝอยใต้เล็บ (Microemboli) จัดเป็น Vascular Phenomena",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::121",
-      "itemNo": "119",
+      "id": "16. Others & Toxic::127",
+      "itemNo": "125",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เหตุใดการตรวจคลื่นเสียงสะท้อนหัวใจผ่านทางหลอดอาหาร (TEE) จึงมีความแม่นยำกว่าผ่านผนังทรวงอก (TTE) ในผู้ป่วย IE?",
       "questionImage": "",
-      "answer": "▶ ข้อเปรียบเทียบทางเทคนิค (TEE vs TTE):<br>   ↳ TTE (Transthoracic): หัวตรวจอยู่หน้าอก ต้องผ่านกระดูกซี่โครง ผนังหน้าอก และเนื้อปอด ความไว (Sensitivity) ในการเห็น Vegetation อยู่ที่ประมาณ 60-75%<br>   ↳ TEE (Transesophageal): หัวตรวจถูกสอดเข้าไปในหลอดอาหารซึ่งอยู่ชิดติดกับด้านหลังของหัวใจห้องบนซ้ายและลิ้นหัวใจโดยตรง<br><br>▶ ข้อดีของ TEE:<br>   ↳ ให้ความไวสูงถึง 90 - 100%<br>   ↳ มองเห็น Vegetation ขนาดเล็กมาก (&lt; 5 mm) ได้ชัดเจน<br>   ↳ ตรวจพบภาวะแทรกซ้อนฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) และรอยโรคในผู้ป่วยใส่ลิ้นหัวใจเทียม (Prosthetic valve) ได้แม่นยำที่สุด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::122",
-      "itemNo": "120",
+      "id": "16. Others & Toxic::128",
+      "itemNo": "126",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "ข้อบ่งชี้หลัก 3 ประการในการผ่าตัดเปลี่ยนลิ้นหัวใจด่วน (Urgent / Emergency Valve Surgery) ในผู้ป่วย IE คืออะไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ทวารทะลุ (Fistula), เชื้อ<span style=\"color:#dc2626\"><b>ดื้อยา</b></span>มาก, หรือติดเชื้อรา (Fungal IE เช่น Candida, <span style=\"color:#7c3aed\"><i><b>Aspergillus</b></i></span>)<br><br>▶ 3. การป้องกันลิ่มเลือดหลุดไปอุดตัน (Prevention of Embolism):<br>   ↳ ก้อน Vegetation ขนาดใหญ่มาก (&gt; 10 mm) ร่วมกับมีประวัติลิ่มเลือดหลุดไปอุดตันสมอง/อวัยวะซ้ำซ้อน",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::123",
-      "itemNo": "121",
+      "id": "16. Others & Toxic::129",
+      "itemNo": "127",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20454,20 +20766,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::124",
-      "itemNo": "122",
+      "id": "16. Others & Toxic::130",
+      "itemNo": "128",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเปลี่ยนลิ้นหัวใจเทียมแบบโลหะมา 4 เดือน มีไข้สูง หนาวสั่น เพาะเชื้อเลือดพบ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> ควรเลือกสูตรยาปฏิชีวนะใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง 2 สัปดาห์แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span><br><br>▶ 💡 สูตรยามาตรฐาน (<span style=\"color:#16a34a\"><b>Triple Therapy</b></span>):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Vancomycin</b></span> (คุม Trough 15-20 mcg/mL) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 2. Rifampin (300 mg PO/IV ทุก 8 ชั่วโมง) นานอย่างน้อย <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span> ร่วมกับ<br>   ↳ 3. <span style=\"color:#0284c7\"><b>Gentamicin</b></span> (1 mg/kg IV ทุก 8 ชั่วโมง) ในช่วง <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรกของการรักษา<br>   ↳ ปรึกษาศัลยแพทย์หัวใจเพื่อประเมินการผ่าตัดล้าง/เปลี่ยนลิ้นหัวใจเทียมร่วมด้วย",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::125",
-      "itemNo": "123",
+      "id": "16. Others & Toxic::131",
+      "itemNo": "129",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20478,8 +20790,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::126",
-      "itemNo": "124",
+      "id": "16. Others & Toxic::132",
+      "itemNo": "130",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20490,8 +20802,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::127",
-      "itemNo": "125",
+      "id": "16. Others & Toxic::133",
+      "itemNo": "131",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20502,20 +20814,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::128",
-      "itemNo": "126",
+      "id": "16. Others & Toxic::134",
+      "itemNo": "132",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (First-degree AV Block) ควรสงสัยภาวะแทรกซ้อนใด?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย IE ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> มาแล้ว <span style=\"color:#d97706\"><b>5 วัน</b></span> แต่ยังมีไข้สูงต่อเนื่อง ตรวจ ECG พบ PR interval ยาวขึ้นเรื่อยๆ (<span style=\"color:#dc2626\"><b>First-degree AV Block</b></span>) ควรสงสัยภาวะแทรกซ้อนใด?",
       "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span> / Aortic Root Abscess)<br><br>▶ 💡 พยาธิสรีรวิทยา:<br>   ↳ ฝีหนองลุกลามจากลิ้นหัวใจ Aortic valve กัดเซาะเข้าสู่ Interventricular septum กดเบียดและทำลายระบบนำไฟฟ้าหัวใจ (AV node / Bundle of His)<br><br>▶ แนวทางการจัดการ:<br>   ↳ ส่งตรวจ TEE อย่างเร่งด่วน และปรึกษาศัลยแพทย์หัวใจเพื่อเตรียมผ่าตัด<span style=\"color:#dc2626\"><b>ฉุกเฉิน</b></span>",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::129",
-      "itemNo": "127",
+      "id": "16. Others & Toxic::135",
+      "itemNo": "133",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20526,8 +20838,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::130",
-      "itemNo": "128",
+      "id": "16. Others & Toxic::136",
+      "itemNo": "134",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20538,32 +20850,32 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::131",
-      "itemNo": "129",
+      "id": "16. Others & Toxic::137",
+      "itemNo": "135",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย PVE ได้รับสูตร <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> + Rifampin + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> แล้วค่า Serum Creatinine เพิ่มขึ้นจาก 0.9 เป็น 2.3 mg/dL ตรวจระดับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Trough ได้ 2.1 mcg/mL ควรทำอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ 2 สัปดาห์แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
+      "answer": "<span style=\"color:#0284c7\"><b>Gentamicin</b></span> (<span style=\"color:#0284c7\"><b>Gentamicin</b></span>-induced Nephrotoxicity) เนื่องจากระดับ Trough สูงเกิน 1 mcg/mL<br><br>▶ 💡 แนวทางการจัดการ:<br>   ↳ หยุดยา <span style=\"color:#0284c7\"><b>Gentamicin</b></span> ทันที (หากได้รับยามาครบ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แล้วสามารถหยุดได้เลยโดยไม่ต้องให้ต่อ)<br>   ↳ ให้ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> และ Rifampin ต่อเนื่องจนครบ <span style=\"color:#d97706\"><b>6 สัปดาห์</b></span><br>   ↳ ติดตามการฟื้นตัวของการทำงานของไตอย่างใกล้ชิด",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::132",
-      "itemNo": "130",
+      "id": "16. Others & Toxic::138",
+      "itemNo": "136",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ Streptococcus mitis ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย NVE จากเชื้อ <span style=\"color:#7c3aed\"><i><b>Streptococcus mitis</b></i></span> ได้รับ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> ไป 3 วัน มีอาการผื่นแดงคันทั่วตัว (Maculopapular rash) ผลตรวจ MIC ของเชื้อต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> คือ 0.06 mcg/mL ควรปรับยาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน 4 สัปดาห์<br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
+      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 เหตุผลทางคลินิก:<br>   ↳ ผื่นแพ้ Penicillin เป็นแบบไม่รุนแรง (Mild Non-IgE rash) สามารถใช้ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ข้ามกลุ่มได้อย่างปลอดภัย<br>   ↳ เชื้อไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> ในระดับสูง และบริหารยาวันละครั้ง สะดวกต่อการรักษา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::133",
-      "itemNo": "131",
+      "id": "16. Others & Toxic::139",
+      "itemNo": "137",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20574,56 +20886,104 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::134",
-      "itemNo": "132",
+      "id": "16. Others & Toxic::140",
+      "itemNo": "138",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ในการส่งตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography) เพื่อวินิจฉัย IE เมื่อใดที่ต้องทำ Transesophageal Echocardiography (TEE) แทนที่จะทำเพียง Transthoracic Echocardiography (TTE)?",
       "questionImage": "",
-      "answer": "▶ ข้อบ่งชี้ในการทำ TEE (Gold Standard):<br>   ↳ 1. ผู้ป่วยมี ลิ้นหัวใจเทียม (Prosthetic Valve) หรืออุปกรณ์ฝังในหัวใจ (Pacemaker/ICD)<br>   ↳ 2. ผลตรวจ TTE เป็นลบหรือไม่ชัดเจน แต่ทางคลินิก สงสัย IE สูงมาก<br>   ↳ 3. สงสัยภาวะแทรกซ้อนในหัวใจ เช่น ฝีรอบโคนลิ้นหัวใจ (Perivalvular Abscess), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
+      "answer": "<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>), ลิ้นหัวใจทะลุ หรือ Fistula<br>   ↳ 4. ผู้ป่วยที่มีผนังหน้าอกหนา อ้วน หรือมีภาวะถุงลมโป่งพอง (Poor acoustic window on TTE)<br>   ✦ หมายเหตุ: TTE มี Sensitivity ~60-70% ขณะที่ TEE มี Sensitivity สูงถึง &gt; 90-95%",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::135",
-      "itemNo": "133",
+      "id": "16. Others & Toxic::141",
+      "itemNo": "139",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC &lt;= 0.125 mcg/mL) มีสูตรยามาตรฐาน 4 สัปดาห์ และสูตรย่อ 2 สัปดาห์อย่างไร?",
+      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> การรักษา Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) Native Valve Endocarditis ที่ไวต่อ Penicillin สูงมาก (MIC <span style=\"color:#d97706\"><b>&lt;= 0.125 mcg/mL</b></span>) มีสูตรยามาตรฐาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> และสูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>อย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน 4 สัปดาห์ หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน 4 สัปดาห์ (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ 2 สัปดาห์ (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน 2 สัปดาห์<br>   ↳ เงื่อนไขสูตร 2 สัปดาห์:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (Standard 4-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> Sodium 12-18 ล้านยูนิต/วัน IV (แบ่งให้ทุก 4 ชม. หรือหยดต่อเนื่อง) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (แนะนำในผู้ป่วยสูงอายุหรือไตเสื่อม)<br><br>▶ 2. สูตรย่อ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-Course 2-Week Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Penicillin G</b></span> (หรือ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD) ร่วมกับ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ เงื่อนไขสูตร <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>:* ใช้ได้เฉพาะใน Uncomplicated Native Valve, การทำงานของไตปกติ (CrCl &gt; 50), ไม่มีภาวะหัวใจวาย และไม่มีฝีในหัวใจเท่านั้น",
       "answerImage": "",
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::136",
-      "itemNo": "134",
+      "id": "16. Others & Toxic::142",
+      "itemNo": "140",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "เกณฑ์ข้อบ่งชี้และสูตรยาป้องกันการเกิดเยื่อบุหัวใจอักเสบติดเชื้อก่อนทำหัตถการทางทันตกรรม (IE Dental Prophylaxis) มีอะไรบ้าง และผู้ป่วยกลุ่มใดบ้างที่จำเป็นต้องได้รับยา?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Amoxicillin</b></span> 2 g รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
+      "answer": "<span style=\"color:#d97706\"><b>Amoxicillin 2 g</b></span> รับประทานครั้งเดียว (เด็ก: 50 mg/kg)<br>   ↳ กรณีแพ้ Penicillin:<br>     • <span style=\"color:#0284c7\"><b>Cephalexin</b></span> 2 g PO (ถ้าไม่แพ้แบบ Anaphylaxis)<br>     • <span style=\"color:#0284c7\"><b>Azithromycin</b></span> หรือ <span style=\"color:#0284c7\"><b>Clarithromycin</b></span> 500 mg PO<br>     • <span style=\"color:#0284c7\"><b>Clindamycin</b></span> 600 mg PO<br><br>✦ หมายเหตุ: หัตถการที่ต้องให้ยาคือ การขูดหินปูน ถอนฟัน หรือกรอฟันที่รุกล้ำเหงือก เลือดออก",
       "answerImage": "",
       "note": "Lecture IE: Prophylaxis criteria & 2g Amox timing"
     },
     {
-      "id": "16. Others & Toxic::137",
-      "itemNo": "135",
+      "id": "16. Others & Toxic::143",
+      "itemNo": "141",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย Infective Endocarditis จากเชื้อ Viridans Group Streptococci (<span style=\"color:#7c3aed\"><i><b>VGS</b></i></span>) นิยมเลือกใช้ยาใด และมีข้อดีอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน 4 สัปดาห์<br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด 4 สัปดาห์<br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span>]: <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ [ข้อดีและเหตุผลสนับสนุนทางคลินิก]:<br>   ↳ มีค่าครึ่งชีวิตยาวนาน (Long half-life ~8 ชั่วโมง) ทำให้บริหารยาเพียง วันละ 1 ครั้ง ผู้ป่วยสามารถมารับยาที่คลินิกหรือให้ยาที่บ้านได้โดยไม่ต้องนอนโรงพยาบาลตลอด <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br>   ↳ เชื้อ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> ไวต่อ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> สูงมาก (MIC ต่ำมาก) ให้ผลการรักษาสำเร็จเทียบเท่า <span style=\"color:#0284c7\"><b>Penicillin G</b></span> IV drip ต่อเนื่อง<br>   ↳ ปลอดภัย ไม่ต้องตรวจติดตามระดับยาในเลือด (TDM) เหมือนยากลุ่ม Aminoglycosides",
       "answerImage": "",
       "note": "Lecture IE: OPAT with once-daily Ceftriaxone"
     },
     {
-      "id": "16. Others & Toxic::138",
-      "itemNo": "136",
+      "id": "16. Others & Toxic::144",
+      "itemNo": "142",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "อาการแสดงทางกาย (Physical Signs &amp; Peripheral Stigmata) ของผู้ป่วย Infective Endocarditis (IE) มีอะไรบ้าง และจำแนก Vascular vs Immunologic Phenomena อย่างไร?",
+      "questionImage": "",
+      "answer": "▶ [อาการตรวจร่างกายทั่วไป]:<br>   ↳ มีไข้สูงเรื้อรัง (Persistent Fever), ฟังพบเสียงหัวใจผิดปกติใหม่หรือเปลี่ยนแปลงไป (New or changing Regurgitant Murmur), ม้ามโต (Splenomegaly), นิ้วปุ้ม (Clubbing of fingers)<br><br>▶ [รอยโรคที่ผิวหนังและตา (Peripheral Stigmata - จุดเน้นข้อสอบ 🔥)]:<br>   1. Janeway Lesions (Vascular Phenomenon): ตุ่มหรือปื้นแดง ไม่เจ็บ (Painless) ที่ ฝ่ามือและฝ่าเท้า เกิดจาก Septic Microemboli<br>   2. Osler’s Nodes (Immunologic Phenomenon): ตุ่มไตแข็ง สีม่วง เจ็บมาก (Painful / Tender) ที่ ปลายนิ้วมือและปลายนิ้วเท้า เกิดจาก Immune Complex Deposition<br>   3. Roth’s Spots (Immunologic Phenomenon): จุดเลือดออกในจอประสาทตาที่มีจุดขาวซีดตรงกลาง (Retinal hemorrhage with pale center)<br>   4. Splinter Hemorrhages: เส้นเลือดออกสีแดงคล้ำแนวยาวใต้เล็บมือ/เล็บเท้า<br>   5. Petechiae: จุดเลือดออกเล็กๆ ตามเยื่อบุตา (Conjunctiva), เยื่อบุช่องปาก และผิวหนัง",
+      "answerImage": "",
+      "note": "Lecture IE: Physical signs, Janeway vs Osler vs Roth spots vs Splinter hemorrhages"
+    },
+    {
+      "id": "16. Others & Toxic::145",
+      "itemNo": "143",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "การคำนวณและนับระยะเวลาการรักษาด้วยยาปฏิชีวนะ (Duration of Antimicrobial Therapy) ในผู้ป่วย Infective Endocarditis มีกฎเหล็กในการเริ่มนับวันอย่างไร?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>) จาก วันแรกที่ผลเพาะเชื้อในเลือดกลายเป็นลบ (First Day of Negative Blood Culture)&#039;<br>   ↳ ไม่ใช่นับจากวันแรกที่เริ่มฉีดยาปฏิชีวนะ!<br><br>▶ [แนวทางปฏิบัติทางคลินิก (Monitoring Protocol)]:<br>   ↳ ต้องเจาะเลือดตรวจเพาะเชื้อซ้ำ (Repeat Blood Cultures) ทุก 24–48 ชั่วโมง หลังจากเริ่มยาปฏิชีวนะ จนกระทั่งผลเลือดไม่พบเชื้อ (Clearance of Bacteremia)<br>   ↳ ตัวอย่าง: เริ่มยาปฏิชีวนะวันที่ 1 ก.ย., ตรวจเลือดซ้ำวันที่ 3 ก.ย. ยังขึ้นเชื้อ, ตรวจเลือดซ้ำวันที่ 5 ก.ย. ได้ผลลบ (Negative) ➔ ให้เริ่มนับ Day 1 ของคอร์ส <span style=\"color:#d97706\"><b>4–6 สัปดาห์</b></span>ตั้งแต่วันที่ 5 กันยายน เป็นต้นไป!",
+      "answerImage": "",
+      "note": "Lecture IE: Calculation of duration from first day of negative blood culture"
+    },
+    {
+      "id": "16. Others & Toxic::146",
+      "itemNo": "144",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "<span style=\"color:#16a34a\"><b>OPAT</b></span>) ในผู้ป่วย IE มีข้อบ่งชี้อย่างไร และยาใดเป็นตัวเลือกที่เหมาะสมที่สุด?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#16a34a\"><b>OPAT</b></span> ใน IE]:<br>   1. ผู้ป่วยมีสัญญาณชีพและอาการทางคลินิกคงที่ (Hemodynamically stable)<br>   2. ผลเพาะเชื้อในเลือดกลายเป็นลบแล้ว (Blood culture cleared)<br>   3. ไม่มีภาวะแทรกซ้อนของหัวใจ เช่น หัวใจวาย (Heart Failure) หรือความผิดปกติของคลื่นไฟฟ้าหัวใจ (Conduction Block)<br>   4. ตรวจ Echo ซ้ำแล้วไม่พบฝีรอบลิ้นหัวใจ (Perivalvular abscess) หรือก้อน Vegetation ขนาดใหญ่ที่เสี่ยงหลุดอุดตัน<br>   5. ผู้ป่วยหรือญาติมีความเข้าใจและสามารถดูแลสายสวน IV Catheter ได้อย่างถูกต้อง<br><br>▶ [ยาปฏิชีวนะที่เหมาะสมที่สุดสำหรับ <span style=\"color:#16a34a\"><b>OPAT</b></span>]:<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV วันละ 1 ครั้ง (Once-daily): เป็นยาอันดับ 1 สำหรับ <span style=\"color:#7c3aed\"><i><b>VGS</b></i></span> หรือ Enterococcal IE เนื่องจากฉีดแค่วันละครั้ง สะดวก ปลอดภัย ไม่ต้องทำ TDM<br>   ↳ <span style=\"color:#0284c7\"><b>Daptomycin</b></span> IV วันละ 1 ครั้ง: สำหรับ <span style=\"color:#7c3aed\"><i><b>MRSA</b></i></span> หรือ <span style=\"color:#7c3aed\"><i><b>VRE</b></i></span> ที่เชื้อไวต่อยา",
+      "answerImage": "",
+      "note": "Lecture IE: OPAT criteria & Once-daily Ceftriaxone/Daptomycin selection"
+    },
+    {
+      "id": "16. Others & Toxic::147",
+      "itemNo": "145",
+      "group": "16. Others & Toxic",
+      "subTopic": "Infective Endocarditis (IE)",
+      "track": "Clinic",
+      "question": "แผนการติดตามการรักษา (Monitoring Plan) ในผู้ป่วย Infective Endocarditis ทั้งด้านประสิทธิผลและความปลอดภัยจากยาประกอบด้วยอะไรบ้าง?",
+      "questionImage": "",
+      "answer": "<span style=\"color:#0284c7\"><b>Vancomycin</b></span>, <span style=\"color:#0284c7\"><b>Gentamicin</b></span>)<br>   ↳ คลื่นไฟฟ้าหัวใจ (EKG): ตรวจติดตาม PR Interval สม่ำเสมอ หากพบ PR ยาวขึ้น (First-degree AV block) ต้องสงสัย ภาวะฝีรอบลิ้นหัวใจ (<span style=\"color:#dc2626\"><b>Perivalvular Abscess</b></span>) ลุกลามกดทับ Conduction pathway!<br>   ↳ ระดับยาในเลือด (TDM): ตรวจระดับ <span style=\"color:#0284c7\"><b>Vancomycin</b></span> AUC หรือ <span style=\"color:#0284c7\"><b>Gentamicin</b></span> Peak/Trough สม่ำเสมอ",
+      "answerImage": "",
+      "note": "Lecture IE: Efficacy & Safety Monitoring Plan, PR interval & Perivalvular abscess"
+    },
+    {
+      "id": "16. Others & Toxic::148",
+      "itemNo": "146",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20634,8 +20994,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dental Prophylaxis)"
     },
     {
-      "id": "16. Others & Toxic::139",
-      "itemNo": "137",
+      "id": "16. Others & Toxic::149",
+      "itemNo": "147",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20646,8 +21006,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย MSSA NVE)"
     },
     {
-      "id": "16. Others & Toxic::140",
-      "itemNo": "138",
+      "id": "16. Others & Toxic::150",
+      "itemNo": "148",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20658,8 +21018,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Duration IE)"
     },
     {
-      "id": "16. Others & Toxic::141",
-      "itemNo": "139",
+      "id": "16. Others & Toxic::151",
+      "itemNo": "149",
       "group": "16. Others & Toxic",
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
@@ -20670,8 +21030,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dual Beta-lactam)"
     },
     {
-      "id": "16. Others & Toxic::142",
-      "itemNo": "140",
+      "id": "16. Others & Toxic::152",
+      "itemNo": "150",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20682,8 +21042,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::143",
-      "itemNo": "141",
+      "id": "16. Others & Toxic::153",
+      "itemNo": "151",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20694,8 +21054,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::144",
-      "itemNo": "142",
+      "id": "16. Others & Toxic::154",
+      "itemNo": "152",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20706,8 +21066,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::145",
-      "itemNo": "143",
+      "id": "16. Others & Toxic::155",
+      "itemNo": "153",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20718,8 +21078,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::146",
-      "itemNo": "144",
+      "id": "16. Others & Toxic::156",
+      "itemNo": "154",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20730,8 +21090,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::147",
-      "itemNo": "145",
+      "id": "16. Others & Toxic::157",
+      "itemNo": "155",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20742,8 +21102,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::148",
-      "itemNo": "146",
+      "id": "16. Others & Toxic::158",
+      "itemNo": "156",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20754,8 +21114,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::149",
-      "itemNo": "147",
+      "id": "16. Others & Toxic::159",
+      "itemNo": "157",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20766,20 +21126,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::150",
-      "itemNo": "148",
+      "id": "16. Others & Toxic::160",
+      "itemNo": "158",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "การแบ่งประเภท Meningitis ตามระยะเวลาการดำเนินโรค (Time Course Classification) และความสำคัญทางคลินิก?",
       "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า 4 สัปดาห์):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
+      "answer": "<span style=\"color:#7c3aed\"><i><b>N. meningitidis</b></i></span>, <span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span>) และ Viral (Enterovirus)<br>   ↳ ลักษณะ: ดำเนินโรคเร็ว รุนแรง ต้องรีบรักษา<br><br>▶ 2. Subacute Meningitis (อาการเกิดขึ้นใน 1-<span style=\"color:#d97706\"><b>7 วัน</b></span>):<br>   ↳ สาเหตุหลัก: Bacterial บางชนิด, Viral, Fungal เริ่มแรก<br>   ↳ ลักษณะ: อาการค่อยๆ มากขึ้น<br><br>▶ 3. Chronic Meningitis (อาการนานกว่า <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ สาเหตุหลัก: Tuberculous Meningitis, Cryptococcal Meningitis, Carcinomatous Meningitis<br>   ↳ ลักษณะ: วินิจฉัยยากที่สุด ต้องตรวจ CSF ซ้ำหลายครั้ง<br>   ↳ ตรวจพิเศษ: AFB smear &amp; Culture, Cryptococcal Antigen (CrAg), India Ink Stain, CSF Cytology",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::151",
-      "itemNo": "149",
+      "id": "16. Others & Toxic::161",
+      "itemNo": "159",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20790,8 +21150,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Clinical Triad & Petechial Rash in N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::152",
-      "itemNo": "150",
+      "id": "16. Others & Toxic::162",
+      "itemNo": "160",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20802,8 +21162,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::153",
-      "itemNo": "151",
+      "id": "16. Others & Toxic::163",
+      "itemNo": "161",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20814,8 +21174,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::154",
-      "itemNo": "152",
+      "id": "16. Others & Toxic::164",
+      "itemNo": "162",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20826,8 +21186,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::155",
-      "itemNo": "153",
+      "id": "16. Others & Toxic::165",
+      "itemNo": "163",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20838,8 +21198,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::156",
-      "itemNo": "154",
+      "id": "16. Others & Toxic::166",
+      "itemNo": "164",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20850,8 +21210,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::157",
-      "itemNo": "155",
+      "id": "16. Others & Toxic::167",
+      "itemNo": "165",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20862,8 +21222,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::158",
-      "itemNo": "156",
+      "id": "16. Others & Toxic::168",
+      "itemNo": "166",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20874,8 +21234,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::159",
-      "itemNo": "157",
+      "id": "16. Others & Toxic::169",
+      "itemNo": "167",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20886,8 +21246,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::160",
-      "itemNo": "158",
+      "id": "16. Others & Toxic::170",
+      "itemNo": "168",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20898,8 +21258,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: CSF Analysis differential diagnostic matrix"
     },
     {
-      "id": "16. Others & Toxic::161",
-      "itemNo": "159",
+      "id": "16. Others & Toxic::171",
+      "itemNo": "169",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20910,8 +21270,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: CSF Analysis & Mechanism of Low CSF Glucose"
     },
     {
-      "id": "16. Others & Toxic::162",
-      "itemNo": "160",
+      "id": "16. Others & Toxic::172",
+      "itemNo": "170",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20922,8 +21282,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
-      "id": "16. Others & Toxic::163",
-      "itemNo": "161",
+      "id": "16. Others & Toxic::173",
+      "itemNo": "171",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20934,8 +21294,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Dexamethasone 10 mg q6h x 4d Timing & Hearing Loss Prevention"
     },
     {
-      "id": "16. Others & Toxic::164",
-      "itemNo": "162",
+      "id": "16. Others & Toxic::174",
+      "itemNo": "172",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20946,8 +21306,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::165",
-      "itemNo": "163",
+      "id": "16. Others & Toxic::175",
+      "itemNo": "173",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20958,8 +21318,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::166",
-      "itemNo": "164",
+      "id": "16. Others & Toxic::176",
+      "itemNo": "174",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20970,8 +21330,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Neonatal Ceftriaxone contraindication & Kernicterus"
     },
     {
-      "id": "16. Others & Toxic::167",
-      "itemNo": "165",
+      "id": "16. Others & Toxic::177",
+      "itemNo": "175",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20982,8 +21342,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Dexamethasone indication and strict timing"
     },
     {
-      "id": "16. Others & Toxic::168",
-      "itemNo": "166",
+      "id": "16. Others & Toxic::178",
+      "itemNo": "176",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -20994,8 +21354,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::169",
-      "itemNo": "167",
+      "id": "16. Others & Toxic::179",
+      "itemNo": "177",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21006,8 +21366,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::170",
-      "itemNo": "168",
+      "id": "16. Others & Toxic::180",
+      "itemNo": "178",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21018,8 +21378,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::171",
-      "itemNo": "169",
+      "id": "16. Others & Toxic::181",
+      "itemNo": "179",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21030,8 +21390,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::172",
-      "itemNo": "170",
+      "id": "16. Others & Toxic::182",
+      "itemNo": "180",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21042,20 +21402,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::173",
-      "itemNo": "171",
+      "id": "16. Others & Toxic::183",
+      "itemNo": "181",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "สูตรยามาตรฐานสำหรับการรักษา Cryptococcal Meningitis ในผู้ป่วยติดเชื้อ HIV มีกี่ระยะและใช้ยาอะไรบ้าง?",
       "questionImage": "",
-      "answer": "▶ 1. Induction Phase (ระยะเหนี่ยวนำ - นานอย่างน้อย 2 สัปดาห์):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>):<br>   ↳ Liposomal Amphotericin B (3-4 mg/kg/day IV) ร่วมกับ Flucytosine (100 mg/kg/day PO แบ่ง 4 ครั้ง)<br>   ↳ ทางเลือก: Amphotericin B deoxycholate (0.7-1.0 mg/kg/day IV) + Flucytosine<br><br>▶ 2. Consolidation Phase (ระยะเสริมสร้าง - นาน 8 สัปดาห์):<br>   ↳ Fluconazole: ขนาด 400 - 800 mg PO วันละ 1 ครั้ง<br><br>▶ 3. Maintenance / Secondary Prophylaxis Phase (ระยะควบคุม - นานอย่างน้อย 1 ปี):<br>   ↳ Fluconazole: ขนาด 200 mg PO วันละ 1 ครั้ง (จนกระทั่งระดับ CD4 &gt; 100 cells/mcL ต่อเนื่องอย่างน้อย 3 เดือนหลังได้รับยาต้านไวรัส ART)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::174",
-      "itemNo": "172",
+      "id": "16. Others & Toxic::184",
+      "itemNo": "182",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21066,8 +21426,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::175",
-      "itemNo": "173",
+      "id": "16. Others & Toxic::185",
+      "itemNo": "183",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21078,8 +21438,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::176",
-      "itemNo": "174",
+      "id": "16. Others & Toxic::186",
+      "itemNo": "184",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21090,8 +21450,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::177",
-      "itemNo": "175",
+      "id": "16. Others & Toxic::187",
+      "itemNo": "185",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21102,8 +21462,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::178",
-      "itemNo": "176",
+      "id": "16. Others & Toxic::188",
+      "itemNo": "186",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21114,8 +21474,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::179",
-      "itemNo": "177",
+      "id": "16. Others & Toxic::189",
+      "itemNo": "187",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21126,20 +21486,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::180",
-      "itemNo": "178",
+      "id": "16. Others & Toxic::190",
+      "itemNo": "188",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase 2 สัปดาห์ อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Cryptococcal Meningitis หลังจบ Induction Phase <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการดีขึ้นและผลเพาะเชื้อ CSF ไม่พบเชื้อ ควรปรับสูตรยาต่ออย่างไร?",
       "questionImage": "",
       "answer": "▶ 📋 แผนการรักษาต่อเนื่อง (Consolidation &amp; Maintenance):<br>   ↳ 1. Consolidation Phase: Fluconazole 400 - 800 mg PO วันละ 1 ครั้ง นาน 8 สัปดาห์<br>   ↳ 2. Maintenance Phase (Secondary Prophylaxis): Fluconazole 200 mg PO วันละ 1 ครั้ง ต่อเนื่องอย่างน้อย 1 ปี (จนกว่าระดับ CD4 &gt; 100 cells/mcL ติดต่อกันอย่างน้อย 3 เดือนหลังเริ่มยาต้านไวรัส HIV)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::181",
-      "itemNo": "179",
+      "id": "16. Others & Toxic::191",
+      "itemNo": "189",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21150,8 +21510,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::182",
-      "itemNo": "180",
+      "id": "16. Others & Toxic::192",
+      "itemNo": "190",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21162,8 +21522,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ"
     },
     {
-      "id": "16. Others & Toxic::183",
-      "itemNo": "181",
+      "id": "16. Others & Toxic::193",
+      "itemNo": "191",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21174,8 +21534,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Phar Ther III Part 2"
     },
     {
-      "id": "16. Others & Toxic::184",
-      "itemNo": "182",
+      "id": "16. Others & Toxic::194",
+      "itemNo": "192",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21186,8 +21546,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Age > 50 Listeria coverage with Ampicillin"
     },
     {
-      "id": "16. Others & Toxic::185",
-      "itemNo": "183",
+      "id": "16. Others & Toxic::195",
+      "itemNo": "193",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21198,8 +21558,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Chemoprophylaxis regimens & duration"
     },
     {
-      "id": "16. Others & Toxic::186",
-      "itemNo": "184",
+      "id": "16. Others & Toxic::196",
+      "itemNo": "194",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21210,8 +21570,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Listeria Cephalosporin Resistance & Ampicillin requirement"
     },
     {
-      "id": "16. Others & Toxic::187",
-      "itemNo": "185",
+      "id": "16. Others & Toxic::197",
+      "itemNo": "195",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21222,8 +21582,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: Indications for CT before LP & Never Delay Antibiotics"
     },
     {
-      "id": "16. Others & Toxic::188",
-      "itemNo": "186",
+      "id": "16. Others & Toxic::198",
+      "itemNo": "196",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21234,8 +21594,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Meningitis: N. meningitidis Chemoprophylaxis regimens & indications"
     },
     {
-      "id": "16. Others & Toxic::189",
-      "itemNo": "187",
+      "id": "16. Others & Toxic::199",
+      "itemNo": "197",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21246,8 +21606,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย ทารกแรกเกิด)"
     },
     {
-      "id": "16. Others & Toxic::190",
-      "itemNo": "188",
+      "id": "16. Others & Toxic::200",
+      "itemNo": "198",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21258,8 +21618,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Prophylaxis N. mening)"
     },
     {
-      "id": "16. Others & Toxic::191",
-      "itemNo": "189",
+      "id": "16. Others & Toxic::201",
+      "itemNo": "199",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21270,20 +21630,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย Dexamethasone)"
     },
     {
-      "id": "16. Others & Toxic::192",
-      "itemNo": "190",
+      "id": "16. Others & Toxic::202",
+      "itemNo": "200",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - Cryptococcal Meningitis &amp; Timing of ART]</b></span>: ผู้ป่วยติดเชื้อ HIV รายใหม่ มี CD4 = 25 cells/mm3 ได้รับการวินิจฉัยว่าเป็น Cryptococcal Meningitis และเริ่มได้รับยาฉีด Amphotericin B + Flucytosine ในช่วง Induction Phase เมื่ออาการทางคลินิกเริ่มคงที่ ทำไมจึงต้อง ชะลอการเริ่มยาต้านไวรัส HIV (ART) ออกไป 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>?",
       "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
+      "answer": "<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>) และอยู่ในช่วง Consolidation Phase โดยผลตรวจ CSF ควบคุมได้ดี จึงเริ่มยา ART ที่ 4-<span style=\"color:#d97706\"><b>6 สัปดาห์</b></span>หลังเริ่มรักษาเชื้อรา",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย Cryptococcal & ART)"
     },
     {
-      "id": "16. Others & Toxic::193",
-      "itemNo": "191",
+      "id": "16. Others & Toxic::203",
+      "itemNo": "201",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21294,8 +21654,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (1/7): Symptoms & Signs of Meningitis"
     },
     {
-      "id": "16. Others & Toxic::194",
-      "itemNo": "192",
+      "id": "16. Others & Toxic::204",
+      "itemNo": "202",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21306,8 +21666,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (2/7): Pathogens in age > 50 (SPN, N. meningitidis, Listeria)"
     },
     {
-      "id": "16. Others & Toxic::195",
-      "itemNo": "193",
+      "id": "16. Others & Toxic::205",
+      "itemNo": "203",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21318,8 +21678,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (3/7): Empiric Triad (Vanco + Ceftriaxone + Ampicillin) + Dexamethasone"
     },
     {
-      "id": "16. Others & Toxic::196",
-      "itemNo": "194",
+      "id": "16. Others & Toxic::206",
+      "itemNo": "204",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21330,8 +21690,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (4/7): CSF Analysis & Identification of N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::197",
-      "itemNo": "195",
+      "id": "16. Others & Toxic::207",
+      "itemNo": "205",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21342,8 +21702,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (5/7): Streamline to Ceftriaxone & 7-day duration for N. meningitidis"
     },
     {
-      "id": "16. Others & Toxic::198",
-      "itemNo": "196",
+      "id": "16. Others & Toxic::208",
+      "itemNo": "206",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21354,8 +21714,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (6/7): Adjunctive Steroids evidence in N. meningitidis vs S. pneumoniae"
     },
     {
-      "id": "16. Others & Toxic::199",
-      "itemNo": "197",
+      "id": "16. Others & Toxic::209",
+      "itemNo": "207",
       "group": "16. Others & Toxic",
       "subTopic": "Meningitis",
       "track": "Clinic",
@@ -21366,8 +21726,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Case Study NB (7/7): Casual contacts no prophylaxis & Strictly NO oral switch for Meningitis"
     },
     {
-      "id": "16. Others & Toxic::200",
-      "itemNo": "198",
+      "id": "16. Others & Toxic::210",
+      "itemNo": "208",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21378,8 +21738,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::201",
-      "itemNo": "199",
+      "id": "16. Others & Toxic::211",
+      "itemNo": "209",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21390,8 +21750,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::202",
-      "itemNo": "200",
+      "id": "16. Others & Toxic::212",
+      "itemNo": "210",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21402,8 +21762,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::203",
-      "itemNo": "201",
+      "id": "16. Others & Toxic::213",
+      "itemNo": "211",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21414,8 +21774,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::204",
-      "itemNo": "202",
+      "id": "16. Others & Toxic::214",
+      "itemNo": "212",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21426,8 +21786,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::205",
-      "itemNo": "203",
+      "id": "16. Others & Toxic::215",
+      "itemNo": "213",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21438,8 +21798,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::206",
-      "itemNo": "204",
+      "id": "16. Others & Toxic::216",
+      "itemNo": "214",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21450,8 +21810,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::207",
-      "itemNo": "205",
+      "id": "16. Others & Toxic::217",
+      "itemNo": "215",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21462,8 +21822,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
     },
     {
-      "id": "16. Others & Toxic::208",
-      "itemNo": "206",
+      "id": "16. Others & Toxic::218",
+      "itemNo": "216",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21474,8 +21834,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::209",
-      "itemNo": "207",
+      "id": "16. Others & Toxic::219",
+      "itemNo": "217",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21486,8 +21846,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::210",
-      "itemNo": "208",
+      "id": "16. Others & Toxic::220",
+      "itemNo": "218",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21498,8 +21858,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
     },
     {
-      "id": "16. Others & Toxic::211",
-      "itemNo": "209",
+      "id": "16. Others & Toxic::221",
+      "itemNo": "219",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21510,8 +21870,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
     },
     {
-      "id": "16. Others & Toxic::212",
-      "itemNo": "210",
+      "id": "16. Others & Toxic::222",
+      "itemNo": "220",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21522,8 +21882,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::213",
-      "itemNo": "211",
+      "id": "16. Others & Toxic::223",
+      "itemNo": "221",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21534,8 +21894,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
     },
     {
-      "id": "16. Others & Toxic::214",
-      "itemNo": "212",
+      "id": "16. Others & Toxic::224",
+      "itemNo": "222",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21546,8 +21906,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::215",
-      "itemNo": "213",
+      "id": "16. Others & Toxic::225",
+      "itemNo": "223",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21558,8 +21918,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::216",
-      "itemNo": "214",
+      "id": "16. Others & Toxic::226",
+      "itemNo": "224",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21570,8 +21930,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::217",
-      "itemNo": "215",
+      "id": "16. Others & Toxic::227",
+      "itemNo": "225",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21582,8 +21942,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::218",
-      "itemNo": "216",
+      "id": "16. Others & Toxic::228",
+      "itemNo": "226",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21594,8 +21954,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::219",
-      "itemNo": "217",
+      "id": "16. Others & Toxic::229",
+      "itemNo": "227",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21606,8 +21966,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::220",
-      "itemNo": "218",
+      "id": "16. Others & Toxic::230",
+      "itemNo": "228",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21618,8 +21978,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::221",
-      "itemNo": "219",
+      "id": "16. Others & Toxic::231",
+      "itemNo": "229",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21630,8 +21990,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::222",
-      "itemNo": "220",
+      "id": "16. Others & Toxic::232",
+      "itemNo": "230",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21642,8 +22002,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::223",
-      "itemNo": "221",
+      "id": "16. Others & Toxic::233",
+      "itemNo": "231",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21654,8 +22014,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::224",
-      "itemNo": "222",
+      "id": "16. Others & Toxic::234",
+      "itemNo": "232",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21666,20 +22026,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::225",
-      "itemNo": "223",
+      "id": "16. Others & Toxic::235",
+      "itemNo": "233",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 22 สัปดาห์ ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>หญิงตั้งครรภ์อายุครรภ์ 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตรวจพบ COVID-19 มีไข้ ไอ เจ็บคอ SpO2 97% แพทย์ปรึกษาจะสั่งยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> เภสัชกรควรทักท้วงอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ในหญิงตั้งครรภ์โดยเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span> in Pregnancy)<br>   ↳ อธิบายเหตุผล: <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> มีฤทธิ์ก่อความพิการต่อทารกในครรภ์และการแท้งบุตร (Teratogenicity / Embryofetal toxicity)<br>   ↳ แนะนำเปลี่ยนเป็น <span style=\"color:#0284c7\"><b>Remdesivir</b></span> IV นาน 3 วัน (200 mg Day 1, 100 mg Day 2-3) ซึ่งมีความปลอดภัยสูงในหญิงตั้งครรภ์",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::226",
-      "itemNo": "224",
+      "id": "16. Others & Toxic::236",
+      "itemNo": "234",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21690,8 +22050,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::227",
-      "itemNo": "225",
+      "id": "16. Others & Toxic::237",
+      "itemNo": "235",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21702,8 +22062,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::228",
-      "itemNo": "226",
+      "id": "16. Others & Toxic::238",
+      "itemNo": "236",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21714,8 +22074,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::229",
-      "itemNo": "227",
+      "id": "16. Others & Toxic::239",
+      "itemNo": "237",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21726,8 +22086,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::230",
-      "itemNo": "228",
+      "id": "16. Others & Toxic::240",
+      "itemNo": "238",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21738,8 +22098,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::231",
-      "itemNo": "229",
+      "id": "16. Others & Toxic::241",
+      "itemNo": "239",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21750,8 +22110,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::232",
-      "itemNo": "230",
+      "id": "16. Others & Toxic::242",
+      "itemNo": "240",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21762,8 +22122,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::233",
-      "itemNo": "231",
+      "id": "16. Others & Toxic::243",
+      "itemNo": "241",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21774,8 +22134,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป COVID-19"
     },
     {
-      "id": "16. Others & Toxic::234",
-      "itemNo": "232",
+      "id": "16. Others & Toxic::244",
+      "itemNo": "242",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21786,8 +22146,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::235",
-      "itemNo": "233",
+      "id": "16. Others & Toxic::245",
+      "itemNo": "243",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21798,8 +22158,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid Renal)"
     },
     {
-      "id": "16. Others & Toxic::236",
-      "itemNo": "234",
+      "id": "16. Others & Toxic::246",
+      "itemNo": "244",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21810,8 +22170,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Paxlovid DDI)"
     },
     {
-      "id": "16. Others & Toxic::237",
-      "itemNo": "235",
+      "id": "16. Others & Toxic::247",
+      "itemNo": "245",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -21822,8 +22182,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Severe COVID)"
     },
     {
-      "id": "16. Others & Toxic::238",
-      "itemNo": "236",
+      "id": "16. Others & Toxic::248",
+      "itemNo": "246",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21834,8 +22194,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::239",
-      "itemNo": "237",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21846,8 +22206,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::240",
-      "itemNo": "238",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21858,8 +22218,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::241",
-      "itemNo": "239",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21870,8 +22230,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::242",
-      "itemNo": "240",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21882,8 +22242,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::243",
-      "itemNo": "241",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21894,8 +22254,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::244",
-      "itemNo": "242",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21906,8 +22266,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::245",
-      "itemNo": "243",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21918,8 +22278,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::246",
-      "itemNo": "244",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21930,8 +22290,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::247",
-      "itemNo": "245",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21942,20 +22302,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::248",
-      "itemNo": "246",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> ที่ต้องติดตามในการรักษา MDR-TB ระยะยาวมีอะไรบ้าง และมีวิธีจัดการอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-2 สัปดาห์<br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
+      "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span> Adverse Effects):<br>   ↳ 1. ภาวะกดไขกระดูก (<span style=\"color:#dc2626\"><b>Myelosuppression</b></span>): เกล็ดเลือดต่ำ (<span style=\"color:#dc2626\"><b>Thrombocytopenia</b></span>), โลหิตจาง (Anemia) -&gt; ตรวจ CBC ทุก 1-<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span><br>   ↳ 2. ปลายประสาทอักเสบ (Peripheral Neuropathy): ชาแสบร้อนปลายนิ้วมือ/นิ้วเท้า<br>   ↳ 3. เส้นประสาทตาอักเสบ (Optic Neuropathy): ตามัว มองเห็นภาพไม่ชัด สูญเสียการแยกสีเขียว-แดง -&gt; ตรวจการมองเห็น<br>   ↳ 4. ภาวะเลือดเป็นกรดจากกรดแลกติก (Lactic Acidosis)<br><br>▶ แนวทางแก้ไข:<br>   ↳ ปรับลดขนาดยาจาก 600 mg OD เหลือ 300 mg OD หรือหยุดยาชั่วคราว",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21966,8 +22326,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21978,8 +22338,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -21990,8 +22350,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22002,8 +22362,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22014,8 +22374,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22026,20 +22386,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (Sirturo) ในการรักษา MDR-TB คืออะไร?",
       "questionImage": "",
-      "answer": "▶ กลไกการออกฤทธิ์ (Novel Mechanism):<br>   ↳ ออกฤทธิ์จำเพาะโดยยับยั้งเอนไซม์ Mycobacterial ATP Synthase (Subunit c) ขัดขวางการสร้างพลังงาน ATP ของเชื้อวัณโรค<br><br>▶ ขนาดยาและการบริหาร (Dosing Schedule นาน 24 สัปดาห์):<br>   ↳ 2 สัปดาห์แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
+      "answer": "<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span>):<br>   ↳ <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก (Loading Phase): รับประทาน 400 mg วันละ 1 ครั้ง พร้อมอาหาร<br>   ↳ สัปดาห์ที่ 3 ถึง 24 (Maintenance Phase): รับประทาน 200 mg สัปดาห์ละ 3 ครั้ง (เว้นระยะห่างอย่างน้อย 48 ชั่วโมง เช่น จันทร์-พุธ-ศุกร์)<br><br>▶ ข้อแนะนำสำคัญ:<br>   ↳ ต้องรับประทานพร้อมอาหารที่มีไขมันเพื่อเพิ่มการดูดซึมยาได้ถึง 2 เท่า",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22050,8 +22410,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22062,8 +22422,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22074,8 +22434,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22086,8 +22446,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22098,8 +22458,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22110,8 +22470,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22122,8 +22482,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22134,20 +22494,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยเสมหะส่งตรวจ GeneXpert MTB/RIF พบผลบวกต่อเชื้อ <span style=\"color:#7c3aed\"><i><b>Mycobacterium tuberculosis</b></i></span> และพบ <span style=\"color:#0284c7\"><b>Rifampicin</b></span> Resistance (RR-TB) ควรวางแผนเริ่มการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x 2 สัปดาห์ ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 22 สัปดาห์)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> Regimen นาน 6 เดือน ภายใต้การดูแลแบบมีพี่เลี้ยงคอยดูแลการกินยา (DOTS):<br>   ↳ <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD x <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> ตามด้วย 200 mg 3 ครั้ง/สัปดาห์ x 2<span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>)<br>   ↳ <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg PO OD)<br>   ↳ <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg PO OD)<br>   ↳ 2. ส่งตรวจ Second-line Line Probe Assay (LPA) เพื่อตรวจเช็กการดื้อต่อ Fluoroquinolones เพิ่มเติม",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22158,8 +22518,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22170,8 +22530,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22182,8 +22542,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22194,8 +22554,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22206,8 +22566,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22218,8 +22578,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22230,8 +22590,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22242,8 +22602,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22254,8 +22614,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22266,8 +22626,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22278,8 +22638,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22290,8 +22650,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22302,8 +22662,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -22314,20 +22674,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย DILI Rechallenge)"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Case [Hard - </b></span><span style=\"color:#16a34a\"><b>BPaLM</b></span><span style=\"color:#0284c7\"><b> Regimen &amp; Toxicity Monitoring]</b></span>: ผู้ป่วยได้รับการตรวจยืนยันว่าเป็น MDR-TB (ดื้อต่อทั้ง INH และ RIF) และผลทดสอบ Fluoroquinolones ยังไวต่อยา แพทย์สั่งจ่ายสูตรยา <span style=\"color:#16a34a\"><b>BPaLM</b></span> นาน 6 เดือน จงบอกส่วนประกอบของสูตรยานี้ และการติดตามความปลอดภัย (Safety Monitoring) ของยาแต่ละตัว?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD 2 สัปดาห์แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-4 สัปดาห์ (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก 2 สัปดาห์ และตรวจการมองเห็นสม่ำเสมอ",
+      "answer": "<span style=\"color:#16a34a\"><b>BPaLM</b></span> (WHO All-Oral 6-Month Regimen):<br>   ↳ B = <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> (400 mg OD <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span>แรก แล้วตามด้วย 200 mg 3 ครั้ง/สัปดาห์)<br>   ↳ Pa = <span style=\"color:#0284c7\"><b>Pretomanid</b></span> (200 mg OD ทุกวัน)<br>   ↳ L = <span style=\"color:#0284c7\"><b>Linezolid</b></span> (600 mg OD ทุกวัน สามารถปรับลดเป็น 300 mg ได้หากเกิดพิษ)<br>   ↳ M = <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span> (400 mg OD ทุกวัน)<br><br>▶ การติดตามความปลอดภัยที่สำคัญมาก (Safety Monitoring):<br>   ↳ 1. <span style=\"color:#0284c7\"><b>Bedaquiline</b></span> + <span style=\"color:#0284c7\"><b>Moxifloxacin</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>QT Prolongation</b></span> สูงมาก ต้องตรวจ EKG ติดตามค่า QTc Baseline และทุก 2-<span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ระวังหาก QTc &gt; 500 ms)<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Linezolid</b></span>: เสี่ยงต่อ <span style=\"color:#dc2626\"><b>Myelosuppression</b></span> (โลหิตจาง เกล็ดเลือดต่ำ), Peripheral Neuropathy และ Optic Neuropathy (ตามัว ตาบอดสี) ต้องตรวจ CBC ทุก <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> และตรวจการมองเห็นสม่ำเสมอ",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22338,8 +22698,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22350,8 +22710,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22362,8 +22722,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22374,8 +22734,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22386,8 +22746,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22398,8 +22758,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22410,8 +22770,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22422,8 +22782,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22434,8 +22794,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22446,8 +22806,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22458,8 +22818,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22470,8 +22830,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22482,8 +22842,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22494,8 +22854,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22506,8 +22866,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22518,8 +22878,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22530,8 +22890,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22542,8 +22902,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22554,8 +22914,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22566,8 +22926,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22578,8 +22938,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22590,8 +22950,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22602,8 +22962,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22614,8 +22974,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22626,8 +22986,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22638,8 +22998,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22650,8 +23010,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22662,8 +23022,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22674,8 +23034,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22686,8 +23046,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22698,20 +23058,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ชายสูงอายุมีไข้ ปวดข้อสะโพกขยับไม่ได้ เจาะน้ำข้อพบเชื้อ <span style=\"color:#7c3aed\"><i><b>MSSA</b></i></span> ควรเลือกยาปฏิชีวนะและระยะเวลาการรักษาอย่างไร?",
       "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - 4 สัปดาห์<br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
+      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>):<br>   ↳ <span style=\"color:#0284c7\"><b>Cloxacillin</b></span> 2 g IV ทุก 4 ชั่วโมง (หรือ <span style=\"color:#0284c7\"><b>Cefazolin</b></span> 2 g IV ทุก 8 ชั่วโมง) นานอย่างน้อย 3 - <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span><br><br>▶ 💡 หัตถการร่วมที่จำเป็น:<br>   ↳ การผ่าตัดเปิดล้างข้อหรือส่องกล้องล้างข้อ (Arthroscopic / Open Joint Drainage) อย่างเร่งด่วนเพื่อกำจัดหนองและเอนไซม์ที่ทำลายกระดูกอ่อนข้อต่อ",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22722,8 +23082,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22734,8 +23094,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22746,8 +23106,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22758,20 +23118,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว 2 สัปดาห์ อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
+      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย Osteomyelitis ได้รับยาปฏิชีวนะ IV มาแล้ว <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> อาการทางคลินิกดีขึ้นชัดเจน ค่า ESR/CRP ลดลง เกณฑ์ในการ Switch เป็นยารับประทานคืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>Linezolid</b></span>, <span style=\"color:#0284c7\"><b>Clindamycin</b></span>, <span style=\"color:#0284c7\"><b>Co-trimoxazole</b></span>)<br>   ↳ 5. ผู้ป่วยสามารถรับประทานยาและดูดซึมยาทางเดินอาหารได้ดี และให้ความร่วมมือในการกินยาครบถ้วน",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22782,8 +23142,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Leptospirosis"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22794,8 +23154,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22806,8 +23166,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย Malaria คนท้อง"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22818,8 +23178,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22830,8 +23190,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22842,8 +23202,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22854,8 +23214,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Necrotizing Fasciitis)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -22866,8 +23226,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Diabetic Foot / Osteo)"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
