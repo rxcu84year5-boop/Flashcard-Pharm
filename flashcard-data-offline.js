@@ -1676,7 +1676,7 @@ window.OFFLINE_CARDS = {
       "subTopic": "Hyp",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\">Pathophysiology </span>และอาการของโรคข้อเสื่อม <br>(Primary Osteoarthritis) คืออะไร ทดสอบ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "1. การเปลี่ยนแปลงโครงสร้างต่างๆภายในข้อ (Collagen, Chrondoitin) โดยเฉพาะบริเวณกระดูกอ่อนผิวข้อ -&gt; ปวดข้อแบบไม่สมมาตร ปวดเมื่อขยับหรือใช้งาน มักเป็นบริเวณสะโพก เข่า (ข้อที่รับน้ำหนัก) และข้อมือ เป็นนานๆ เกิดข้อผิดรูป<br>2. น้ำไขข้อเกิดการอักเสบ -&gt; ข้อฝืด - หลังจากตื่นนอนหรือนั่งนานๆ โดยไม่เกิน 30 นาที (Morning Stiffness)",
       "answerImage": "",
       "note": ""
@@ -1688,7 +1688,7 @@ window.OFFLINE_CARDS = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -4644,7 +4644,7 @@ window.OFFLINE_CARDS = {
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา <span style=\"color:#7c3aed\"><i><b>Viridans Group Streptococci</b></i></span> NVE ที่ไวต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span> (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
-      "questionImage": "",
+      "questionImage": "images/extracted_16__Others___Toxic_r127_c2.png",
       "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
@@ -10543,7 +10543,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hyp",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\">Pathophysiology </span>และอาการของโรคข้อเสื่อม <br>(Primary Osteoarthritis) คืออะไร ทดสอบ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "1. การเปลี่ยนแปลงโครงสร้างต่างๆภายในข้อ (Collagen, Chrondoitin) โดยเฉพาะบริเวณกระดูกอ่อนผิวข้อ -&gt; ปวดข้อแบบไม่สมมาตร ปวดเมื่อขยับหรือใช้งาน มักเป็นบริเวณสะโพก เข่า (ข้อที่รับน้ำหนัก) และข้อมือ เป็นนานๆ เกิดข้อผิดรูป<br>2. น้ำไขข้อเกิดการอักเสบ -&gt; ข้อฝืด - หลังจากตื่นนอนหรือนั่งนานๆ โดยไม่เกิน 30 นาที (Morning Stiffness)",
       "answerImage": "",
       "note": ""
@@ -10555,7 +10555,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -13483,7 +13483,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา <span style=\"color:#7c3aed\"><i><b>Viridans Group Streptococci</b></i></span> NVE ที่ไวต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span> (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
-      "questionImage": "",
+      "questionImage": "images/extracted_16__Others___Toxic_r127_c2.png",
       "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
@@ -19368,7 +19368,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hyp",
       "track": "Clinic",
       "question": "<span style=\"color:#dc2626\">Pathophysiology </span>และอาการของโรคข้อเสื่อม <br>(Primary Osteoarthritis) คืออะไร ทดสอบ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "1. การเปลี่ยนแปลงโครงสร้างต่างๆภายในข้อ (Collagen, Chrondoitin) โดยเฉพาะบริเวณกระดูกอ่อนผิวข้อ -&gt; ปวดข้อแบบไม่สมมาตร ปวดเมื่อขยับหรือใช้งาน มักเป็นบริเวณสะโพก เข่า (ข้อที่รับน้ำหนัก) และข้อมือ เป็นนานๆ เกิดข้อผิดรูป<br>2. น้ำไขข้อเกิดการอักเสบ -&gt; ข้อฝืด - หลังจากตื่นนอนหรือนั่งนานๆ โดยไม่เกิน 30 นาที (Morning Stiffness)",
       "answerImage": "",
       "note": ""
@@ -19380,7 +19380,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "",
+      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -22308,7 +22308,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Infective Endocarditis (IE)",
       "track": "Clinic",
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> (<span style=\"color:#16a34a\"><b>DOC</b></span>) และระยะเวลาการรักษา <span style=\"color:#7c3aed\"><i><b>Viridans Group Streptococci</b></i></span> NVE ที่ไวต่อ <span style=\"color:#0284c7\"><b>Penicillin</b></span> (MIC <span style=\"color:#d97706\"><b>&lt;= 0.12 mcg/mL</b></span>) คืออะไร?",
-      "questionImage": "",
+      "questionImage": "images/extracted_16__Others___Toxic_r127_c2.png",
       "answer": "<span style=\"color:#0284c7\"><b>Penicillin G</b></span>: ขนาด 12 - 18 ล้าน units/day IV continuous infusion (หรือแบ่งให้ 2-3 ล้าน units q 4h) นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> หรือ<br>   ↳ 2. <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span>: ขนาด 2 g IV วันละ 1 ครั้ง นาน <span style=\"color:#d97706\"><b>4 สัปดาห์</b></span> (ข้อดี: บริหารยาวันละครั้ง เหมาะกับผู้ป่วยนอก <span style=\"color:#16a34a\"><b>OPAT</b></span>)<br><br>▶ สูตรยาระยะสั้น <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (Short-course Regimen):<br>   ↳ <span style=\"color:#0284c7\"><b>Ceftriaxone</b></span> 2 g IV OD + <span style=\"color:#0284c7\"><b>Gentamicin</b></span> 3 mg/kg IV OD นาน <span style=\"color:#d97706\"><b>2 สัปดาห์</b></span> (ใช้ได้เฉพาะกรณีติดเชื้อที่ลิ้นธรรมชาติแบบไม่ซับซ้อน ไตปกติ ไม่มีฝีหนอง)",
       "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"

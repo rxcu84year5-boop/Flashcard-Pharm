@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import os, sys, json, re
+import os, sys, json, re, zipfile, io
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
@@ -15,9 +15,109 @@ print(f"  Target Sheet: {PRIVATE_SID}")
 print("=" * 65)
 
 creds = service_account.Credentials.from_service_account_file(
-    CREDS_FILE, scopes=['https://www.googleapis.com/auth/spreadsheets.readonly']
+    CREDS_FILE, scopes=[
+        'https://www.googleapis.com/auth/spreadsheets.readonly',
+        'https://www.googleapis.com/auth/drive.readonly'
+    ]
 )
 service = build('sheets', 'v4', credentials=creds)
+drive_service = build('drive', 'v3', credentials=creds)
+
+def extract_in_cell_images():
+    print("  🖼️ Checking for in-cell images directly from Google Sheets...")
+    dest_dir = os.path.join(os.path.dirname(__file__), 'images')
+    os.makedirs(dest_dir, exist_ok=True)
+    extracted_map = {}
+    try:
+        req = drive_service.files().export_media(
+            fileId=PRIVATE_SID,
+            mimeType='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+        xlsx_bytes = req.execute()
+        import xml.etree.ElementTree as ET
+        with zipfile.ZipFile(io.BytesIO(xlsx_bytes)) as z:
+            wb_xml = z.read('xl/workbook.xml').decode('utf-8')
+            root = ET.fromstring(wb_xml)
+            sheets_map = {}
+            for elem in root.findall('.//{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheet'):
+                name = elem.attrib['name']
+                r_id = elem.attrib['{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id']
+                sheets_map[r_id] = name
+
+            wb_rels = z.read('xl/_rels/workbook.xml.rels').decode('utf-8')
+            rels_root = ET.fromstring(wb_rels)
+            sheet_files_map = {}
+            for elem in rels_root.findall('{http://schemas.openxmlformats.org/package/2006/relationships}Relationship'):
+                r_id = elem.attrib['Id']
+                target = elem.attrib['Target']
+                if r_id in sheets_map:
+                    sheet_files_map[target] = sheets_map[r_id]
+
+            drawing_to_sheet = {}
+            for name in z.namelist():
+                if name.startswith('xl/worksheets/_rels/'):
+                    sheet_xml = 'worksheets/' + name.replace('xl/worksheets/_rels/', '').replace('.rels', '')
+                    sheet_name = sheet_files_map.get(sheet_xml)
+                    if not sheet_name: continue
+                    rels_content = z.read(name).decode('utf-8')
+                    r_elem = ET.fromstring(rels_content)
+                    for rel in r_elem.findall('{http://schemas.openxmlformats.org/package/2006/relationships}Relationship'):
+                        target = rel.attrib.get('Target', '')
+                        if 'drawing' in target:
+                            d_name = os.path.basename(target)
+                            drawing_to_sheet[d_name] = sheet_name
+
+            for d_name, sheet_name in drawing_to_sheet.items():
+                d_path = f'xl/drawings/{d_name}'
+                d_rels_path = f'xl/drawings/_rels/{d_name}.rels'
+                if d_path not in z.namelist() or d_rels_path not in z.namelist():
+                    continue
+
+                d_rels_content = z.read(d_rels_path).decode('utf-8')
+                d_rels_root = ET.fromstring(d_rels_content)
+                media_map = {}
+                for rel in d_rels_root.findall('{http://schemas.openxmlformats.org/package/2006/relationships}Relationship'):
+                    r_id = rel.attrib['Id']
+                    target = rel.attrib['Target']
+                    media_file = 'xl/' + target.replace('../', '')
+                    media_map[r_id] = media_file
+
+                d_xml = z.read(d_path).decode('utf-8')
+                d_root = ET.fromstring(d_xml)
+
+                for anchor in d_root:
+                    from_elem = anchor.find('{http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing}from')
+                    if from_elem is None: continue
+                    col_elem = from_elem.find('{http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing}col')
+                    row_elem = from_elem.find('{http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing}row')
+                    if col_elem is None or row_elem is None: continue
+
+                    col_idx = int(col_elem.text)
+                    row_idx = int(row_elem.text) + 1
+
+                    blip = anchor.find('.//{http://schemas.openxmlformats.org/drawingml/2006/main}blip')
+                    if blip is None: continue
+                    embed_id = blip.attrib.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed')
+                    if not embed_id or embed_id not in media_map: continue
+
+                    media_file = media_map[embed_id]
+                    if media_file in z.namelist():
+                        ext = os.path.splitext(media_file)[1]
+                        clean_sheet = re.sub(r'[^a-zA-Z0-9_]', '_', sheet_name)
+                        out_fname = f"extracted_{clean_sheet}_r{row_idx}_c{col_idx}{ext}"
+                        out_path = os.path.join(dest_dir, out_fname)
+                        with open(out_path, 'wb') as out_f:
+                            out_f.write(z.read(media_file))
+                        rel_path = f"images/{out_fname}"
+                        extracted_map[(sheet_name, row_idx, col_idx)] = rel_path
+                        print(f"     Found in-cell image: [{sheet_name}] Row {row_idx} Col {col_idx} -> {rel_path}")
+
+        print(f"  ✅ Extracted {len(extracted_map)} in-cell images from Google Sheets successfully.")
+    except Exception as e:
+        print(f"  ⚠️ In-cell image extraction warning: {e}")
+    return extracted_map
+
+in_cell_images_map = extract_in_cell_images()
 
 CLINIC_TAB_NAMES = [
   "1. Musculoskeleton", "2. Cardiovascular", "3. Dermatologic", "4. Endocrine",
@@ -192,6 +292,14 @@ for title, track in all_ordered_tabs:
                     return f"https://lh3.googleusercontent.com/d/{m.group(1)}"
                 return u
 
+            q_img_final = to_direct_image_url(q_url)
+            if not q_img_final:
+                q_img_final = in_cell_images_map.get((title, r_idx + 1, 2)) or in_cell_images_map.get((title, r_idx, 2), "")
+
+            a_img_final = to_direct_image_url(a_url)
+            if not a_img_final:
+                a_img_final = in_cell_images_map.get((title, r_idx + 1, 4)) or in_cell_images_map.get((title, r_idx, 4), "")
+
             card_obj = {
                 "id": f"{title}::{r_idx + 1}",
                 "itemNo": colA if colA else str(len(cards_in_tab) + 1),
@@ -199,9 +307,9 @@ for title, track in all_ordered_tabs:
                 "subTopic": subtopic if subtopic else title,
                 "track": track,
                 "question": q_html,
-                "questionImage": to_direct_image_url(q_url),
+                "questionImage": q_img_final,
                 "answer": a_html,
-                "answerImage": to_direct_image_url(a_url),
+                "answerImage": a_img_final,
                 "note": note
             }
             
