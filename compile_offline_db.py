@@ -33,13 +33,15 @@ PRODUCT_TAB_NAMES = [
   "11. Herbal Products", "12. Food Products & QA"
 ]
 
+all_tab_names = CLINIC_TAB_NAMES + PRODUCT_TAB_NAMES
 sheet_meta = service.spreadsheets().get(
     spreadsheetId=PRIVATE_SID,
+    ranges=[f"{t}!A1:H500" for t in all_tab_names],
     includeGridData=True
 ).execute()
 
 sheets_dict = {s['properties']['title']: s for s in sheet_meta.get('sheets', [])}
-print(f"Loaded {len(sheets_dict)} total sheets from Google Sheets.")
+print(f"Loaded {len(sheets_dict)} total sheets with full ranges from Google Sheets.")
 
 def escape_html(s):
     if not s:
@@ -134,7 +136,9 @@ for title, track in all_ordered_tabs:
     
     if sheet:
         data = sheet.get('data', [])
-        rows = data[0].get('rowData', []) if data else []
+        rows = []
+        for grid in data:
+            rows.extend(grid.get('rowData', []))
         for r_idx in range(2, len(rows)):
             row = rows[r_idx]
             cells = row.get('values', [])
@@ -150,7 +154,7 @@ for title, track in all_ordered_tabs:
             colA = get_val(0).strip()
             colB = get_val(1).strip()
             
-            if 'กลับหน้าสารบัญ' in colA or colA == 'ข้อที่' or 'Question' in colB or 'คำถาม' in colB:
+            if 'กลับหน้าสารบัญ' in colA or colA == 'ข้อที่' or colB in ['Question', 'คำถาม', 'Question / คำถาม', 'คำถาม / Question']:
                 continue
             if not colA and not colB:
                 continue
