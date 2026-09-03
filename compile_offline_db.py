@@ -172,6 +172,17 @@ for title, track in all_ordered_tabs:
             if subtopic:
                 subtopics_set.add(subtopic)
                 
+            def to_direct_image_url(u):
+                if not u: return ""
+                u = u.strip()
+                if not (u.startswith('http://') or u.startswith('https://')): return ""
+                m = re.search(r'/file/d/([a-zA-Z0-9_-]+)', u)
+                if not m:
+                    m = re.search(r'[?&]id=([a-zA-Z0-9_-]+)', u)
+                if m:
+                    return f"https://lh3.googleusercontent.com/d/{m.group(1)}"
+                return u
+
             card_obj = {
                 "id": f"{title}::{r_idx + 1}",
                 "itemNo": colA if colA else str(len(cards_in_tab) + 1),
@@ -179,9 +190,9 @@ for title, track in all_ordered_tabs:
                 "subTopic": subtopic if subtopic else title,
                 "track": track,
                 "question": q_html,
-                "questionImage": q_url if (q_url.startswith('http') or 'drive.google' in q_url) else "",
+                "questionImage": to_direct_image_url(q_url),
                 "answer": a_html,
-                "answerImage": a_url if (a_url.startswith('http') or 'drive.google' in a_url) else "",
+                "answerImage": to_direct_image_url(a_url),
                 "note": note
             }
             
