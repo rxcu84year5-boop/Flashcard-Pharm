@@ -130,7 +130,7 @@ window.OFFLINE_CATEGORIES = [
   {
     "name": "16. Others & Toxic",
     "track": "Clinic",
-    "count": 397,
+    "count": 379,
     "subtopics": [
       "Antimicrobial Resistance (AMR)",
       "Bone & Joint / SSTI / Rabies",
@@ -6095,30 +6095,6 @@ window.OFFLINE_CARDS = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การตรวจหาเชื้อ COVID-19 ด้วย ATK (Antigen Test Kit) กับ RT-PCR มีข้อแตกต่างกันอย่างไรในทางปฏิบัติ?",
-      "questionImage": "",
-      "answer": "▶ 1. ATK (Antigen Test Kit):<br>   ↳ ตรวจหาโปรตีน Nucleocapsid ของไวรัส<br>   ↳ ข้อดี: ทราบผลรวดเร็ว (15-30 นาที) ค่าใช้จ่ายต่ำ สะดวก<br>   ↳ ข้อจำกัด: ความไว (Sensitivity) ต่ำกว่า ต้องมีปริมาณเชื้อในร่างกายสูงจึงจะตรวจพบ เหมาะสำหรับตรวจผู้ที่มีอาการ<br><br>▶ 2. RT-PCR (Real-Time Polymerase Chain Reaction):<br>   ↳ ตรวจหาสารพันธุกรรม RNA ของไวรัส<br>   ↳ ข้อดี: มีความไวและความจำเพาะสูงที่สุด จัดเป็น Gold Standard ตรวจพบเชื้อได้แม้มีปริมาณน้อยมาก<br>   ↳ ข้อจำกัด: ใช้เวลาตรวจ 4-24 ชั่วโมง ค่าใช้จ่ายสูงกว่า ต้องทำในห้องปฏิบัติการ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> และ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> จึงยังคงออกฤทธิ์ได้ดีต่อเชื้อสายพันธุ์กลายพันธุ์ (Variants of Concern: VOCs) ต่างๆ?",
       "questionImage": "",
       "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> (เช่น สายพันธุ์ Omicron และสายพันธุ์ย่อย) มักเกิดขึ้นที่ Spike Protein (โปรตีนหนาม) เป็นหลัก ซึ่งส่งผลกระทบต่อวัคซีนและ Monoclonal Antibodies<br>   ↳ แต่เอนไซม์ 3CL Protease (เป้าหมายของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span>) และเอนไซม์ RdRp (เป้าหมายของ <span style=\"color:#0284c7\"><b>Remdesivir</b></span>) มีโครงสร้างที่อนุรักษ์ไว้สูงมาก (Highly Conserved Regions) ไม่ค่อยเกิดการกลายพันธุ์ ทำให้ยายังคงจับและยับยั้งเอนไซม์ได้อย่างมีประสิทธิภาพสูงเช่นเดิม",
@@ -6126,8 +6102,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6138,32 +6114,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> คืออะไร จำแนกความรุนแรงของ COVID-19 (Clinical Staging) ได้กี่ระดับ และเกณฑ์แต่ละระดับคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span>:<br>   ↳ RNA Coronavirus, Genus Betacoronavirus ใช้ Spike Protein (S-protein) จับกับ Receptor ACE2 บนเซลล์เยื่อบุทางเดินหายใจ<br><br>▶ การจำแนกความรุนแรง (WHO/NIH Clinical Staging):<br>   ↳ 1. Asymptomatic / Pre-symptomatic: ไม่มีอาการแต่ผลตรวจเป็นบวก<br>   ↳ 2. Mild Disease: มีอาการ แต่ไม่มีอาการหายใจลำบาก O2 Sat &gt;= 95% on Room Air — รักษาแบบผู้ป่วยนอก<br>   ↳ 3. Moderate Disease: ปอดอักเสบ แต่ O2 Sat &gt;= 94% — รับรักษาในโรงพยาบาล<br>   ↳ 4. Severe Disease: O2 Sat &lt; 94%, RR &gt;= 30/min, <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> &lt; 300 mmHg — ต้องการ High-Flow O2 / NIV<br>   ↳ 5. Critical Disease: ARDS, <span style=\"color:#dc2626\"><b>Septic shock</b></span>, Multi-organ failure — ICU<br><br>▶ จุดกำหนดการรักษา:<br>   ↳ Severe Disease (O2 Sat &lt; 94%) = เกณฑ์ให้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> + <span style=\"color:#0284c7\"><b>Remdesivir</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
-    },
-    {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6174,8 +6126,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6186,20 +6138,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6210,32 +6150,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
-    },
-    {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> มีอะไรบ้าง โดยเฉพาะกับกลุ่มยาลดไขมัน Statins และมีแนวทางการจัดการอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Simvastatin</b></span> และ <span style=\"color:#0284c7\"><b>Lovastatin</b></span>: มีข้อห้ามใช้ร่วมกับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> อย่างเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เพราะ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ยับยั้ง CYP3A4 อย่างรุนแรง ทำให้ระดับ Statin ในเลือดพุ่งสูงขึ้นหลายเท่า เสี่ยงต่อการเกิดกล้ามเนื้อลายสลายรุนแรง (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายเฉียบพลัน<br>   ↳ การจัดการ: ให้ สั่งหยุดยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span>/<span style=\"color:#0284c7\"><b>Lovastatin</b></span> ชั่วคราว ทันทีในวันที่เริ่ม <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#d97706\"><b>5 วัน</b></span>) และหลังหยุดยาต่อไปอีก 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จึงค่อยกลับมากิน Statin ต่อได้<br><br>▶ [ยาอื่นที่ต้องระวัง]:<br>   ↳ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกับ CYP3A4 Inducers: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>, <span style=\"color:#0284c7\"><b>Rifampin</b></span> (ลดระดับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)<br>   ↳ ระวัง <span style=\"color:#0284c7\"><b>Nifedipine</b></span>/<span style=\"color:#0284c7\"><b>Amlodipine</b></span>: ระดับยาความดันจะสูงขึ้น เสี่ยงความดันตกวูบ ต้องติดตาม BP ใกล้ชิด",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
-    },
-    {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6246,8 +6162,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6258,20 +6174,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อห้ามใช้และพิษวิทยา (Contraindications)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
-    },
-    {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6282,8 +6186,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6294,32 +6198,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "ภาวะพายุไซโตไคน์ (Cytokine Storm) และ Hyperinflammation ในผู้ป่วย COVID-19 ระยะรุนแรงคืออะไร?",
-      "questionImage": "",
-      "answer": "▶ พยาธิกำเนิด (Pathogenesis):<br>   ↳ เกิดจากการตอบสนองของระบบภูมิคุ้มกันที่รุนแรงและควบคุมไม่ได้ (Dysregulated Immune Response)<br>   ↳ เม็ดเลือดขาวหลั่งสารไซโตไคน์อักเสบจำนวนมหาศาล (IL-6, IL-1, TNF-alpha, Ferritin)<br><br>▶ ผลกระทบและภาวะแทรกซ้อน:<br>   ↳ ทำลายเยื่อบุหลอดเลือดและถุงลมปอด เกิดน้ำท่วมปอดและภาวะหายใจล้มเหลวเฉียบพลัน (ARDS)<br>   ↳ กระตุ้นระบบการแข็งตัวของเลือดเกิดลิ่มเลือดอุดตันหลายอวัยวะ (Systemic Thrombosis) และความดันโลหิตตก (Shock)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6330,68 +6210,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วย COVID-19 ตามผลการศึกษา RECOVERY Trial คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ขนาด 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (หรือจนกว่าจะจำหน่ายกลับบ้าน)<br><br>▶ ข้อบ่งใช้ที่ถูกต้อง (Indications):<br>   ↳ ให้เฉพาะในผู้ป่วยที่มีภาวะ ปอดอักเสบที่ต้องการออกซิเจนเสริม (Supplemental Oxygen) หรือต้องใช้เครื่องช่วยหายใจ (Mechanical Ventilation) เท่านั้น<br><br>▶ ⚠️ ข้อห้ามสำคัญ:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในผู้ป่วยอาการเล็กน้อยที่ไม่ต้องการออกซิเจนเด็ดขาด* เพราะการให้สเตียรอยด์จะกดภูมิคุ้มกัน ทำให้ร่างกายกำจัดไวรัสได้ช้าลงและเพิ่มอัตราการเสียชีวิต",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Baricitinib</b></span> (Janus Kinase: JAK Inhibitor) ในผู้ป่วย COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วยปอดอักเสบโควิดรุนแรงที่ต้องการออกซิเจน<br><br>▶ ขนาดยา:<br>   ↳ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน (หรือจนกว่าจะจำหน่ายออกจาก รพ.)<br><br>▶ การปรับยาตามไต:<br>   ↳ eGFR 30 - 59 mL/min: ปรับลดเหลือ 2 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR 15 - 29 mL/min: ปรับลดเหลือ 1 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR &lt; 15 mL/min: ไม่แนะนำให้ใช้",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "แนวทางการให้ยาป้องกันภาวะหลอดเลือดดำอุดตัน (VTE Prophylaxis) ในผู้ป่วย COVID-19 ที่นอนโรงพยาบาลคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Heparin</b></span> (LMWH): <span style=\"color:#0284c7\"><b>Enoxaparin</b></span> 40 mg SC วันละ 1 ครั้ง (หรือปรับลดเป็น 30 mg SC OD หาก CrCl &lt; 30 mL/min)<br>   ↳ ยาทางเลือก: Unfractionated <span style=\"color:#0284c7\"><b>Heparin</b></span> (UFH) 5,000 units SC ทุก 8 - 12 ชั่วโมง (เหมาะในผู้ป่วยไตวายรุนแรง)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6402,20 +6222,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย COVID-19 รับประทานยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg PO HS เป็นประจำ แพทย์ต้องการสั่ง <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เภสัชกรควรให้คำแนะนำจัดการอันตรกิริยาระหว่างยาอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Contraindicated</b></span> Drug Interaction):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 อย่างแรง จะขัดขวางการสลายตัวของ <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ทำให้ระดับยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ในเลือดพุ่งสูงขึ้นมหาศาล เสี่ยงต่อการเกิดภาวะกล้ามเนื้อลายสลายเฉียบพลัน (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายรุนแรง<br><br>▶ 💡 คำแนะนำทางคลินิก:<br>   ↳ ต้อง สั่งหยุดรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ชั่วคราว ทันทีตลอดระยะเวลาที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ให้เริ่มรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ใหม่ได้หลังจากหยุด <span style=\"color:#0284c7\"><b>Paxlovid</b></span> ไปแล้วอย่างน้อย 3 - <span style=\"color:#d97706\"><b>5 วัน</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6426,8 +6234,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6438,8 +6246,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6450,8 +6258,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6462,8 +6270,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6474,20 +6282,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> แจ้งว่ารู้สึกมีรสชาติขมและเฝื่อนในปากตลอดเวลา (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เภสัชกรควรให้คำแนะนำอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เป็นผลข้างเคียงที่พบบ่อยของยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span> (พบได้ประมาณ 5-6%) ไม่อันตรายและจะหายไปเองหลังหยุดยา<br>   ↳ แนะนำวิธีบรรเทา: อมลูกอมไร้น้ำตาล จิบน้ำบ่อยๆ บ้วนปากด้วยน้ำสะอาด หรือเคี้ยวหมากฝรั่ง<br>   ↳ *เน้นย้ำ:* ห้ามหยุดรับประทานยาเองเด็ดขาด ต้องรับประทานยาให้ครบ <span style=\"color:#d97706\"><b>5 วัน</b></span>เพื่อป้องกันไวรัสกลับมาเพิ่มจำนวนซ้ำ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6498,8 +6294,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6510,20 +6306,20 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาของ COVID-19 Severity: ทำไมผู้ป่วยบางรายถึงดำเนินโรคหนักมาก (Severe/Critical)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Severe:<br>   ↳ กดการอักเสบจาก Cytokine Storm ลดอัตราตาย 17% (Recovery Trial)<br>   ✦ ข้อยกเว้น: ห้ามใช้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Mild Disease เพราะกดภูมิในช่วง Viral Phase จะทำให้เชื้อเพิ่มมากขึ้น",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg/day x 10 วัน เพื่อระงับปฏิกิริยาการอักเสบทำลายเนื้อเยื่อปอด!",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6534,8 +6330,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6546,8 +6342,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6558,8 +6354,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6570,8 +6366,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6582,8 +6378,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6594,8 +6390,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6606,8 +6402,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -6618,20 +6414,8 @@ window.OFFLINE_CARDS = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ทำไมยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> จึงมีข้อห้ามใช้เด็ดขาดในหญิงตั้งครรภ์และหญิงให้นมบุตร และมีคำแนะนำเรื่องการคุมกำเนิดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ออกฤทธิ์เป็น Ribonucleoside Analog ทำให้เกิดการกลายพันธุ์ของสารพันธุกรรม (Viral Error Catastrophe)<br>   ↳ มีความเสี่ยงต่อการเกิด การกลายพันธุ์ในเซลล์ของทารกในครรภ์ (Teratogenicity &amp; Fetal Harm) และพิษต่อกระดูกอ่อน/การเจริญเติบโต<br><br>▶ กฎเหล็กด้านความปลอดภัย:<br>   ↳ ห้ามใช้ ในสตรีมีครรภ์และสตรีให้นมบุตรเด็ดขาด<br>   ↳ สตรีวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 3 เดือนหลังหยุดยา",
-      "answerImage": "",
-      "note": "PT2 โพย สรุป COVID-19"
-    },
-    {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6642,8 +6426,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6654,8 +6438,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6666,8 +6450,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6678,8 +6462,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6690,8 +6474,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6702,8 +6486,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6714,8 +6498,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6726,8 +6510,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Mechanisms of Action 6 Targets Slide 12"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6738,8 +6522,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6750,8 +6534,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6762,8 +6546,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6774,8 +6558,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6786,8 +6570,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6798,8 +6582,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6810,8 +6594,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6822,8 +6606,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6834,8 +6618,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6846,8 +6630,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6858,8 +6642,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6870,8 +6654,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6882,8 +6666,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6894,8 +6678,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6906,8 +6690,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6918,8 +6702,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6930,8 +6714,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Definitions: Mono vs Poly vs MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6942,8 +6726,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6954,8 +6738,8 @@ window.OFFLINE_CARDS = {
       "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6966,8 +6750,8 @@ window.OFFLINE_CARDS = {
       "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6978,8 +6762,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -6990,8 +6774,8 @@ window.OFFLINE_CARDS = {
       "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7002,8 +6786,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7014,8 +6798,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7026,8 +6810,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7038,8 +6822,8 @@ window.OFFLINE_CARDS = {
       "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7050,8 +6834,8 @@ window.OFFLINE_CARDS = {
       "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7062,8 +6846,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7074,8 +6858,8 @@ window.OFFLINE_CARDS = {
       "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7086,8 +6870,8 @@ window.OFFLINE_CARDS = {
       "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7098,8 +6882,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7110,8 +6894,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7122,8 +6906,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7134,8 +6918,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7146,8 +6930,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7158,8 +6942,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7170,8 +6954,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7182,8 +6966,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7194,8 +6978,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::340",
-      "itemNo": "338",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7206,8 +6990,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7218,8 +7002,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7230,8 +7014,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7242,8 +7026,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7254,8 +7038,8 @@ window.OFFLINE_CARDS = {
       "note": "TB Clofazimine Skin Discoloration reddish-brown black"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7266,8 +7050,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7278,8 +7062,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7290,8 +7074,8 @@ window.OFFLINE_CARDS = {
       "note": "MDR-TB MCQ: GeneXpert RIF-R Reflex LPA & BPaLM"
     },
     {
-      "id": "16. Others & Toxic::348",
-      "itemNo": "346",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7302,8 +7086,8 @@ window.OFFLINE_CARDS = {
       "note": "MDR-TB MCQ: QT Prolongation Monitoring & QTc > 500ms cutoff"
     },
     {
-      "id": "16. Others & Toxic::349",
-      "itemNo": "347",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7314,8 +7098,8 @@ window.OFFLINE_CARDS = {
       "note": "MDR-TB MCQ: DILI Rechallenge Protocol & PZA Exclusion"
     },
     {
-      "id": "16. Others & Toxic::350",
-      "itemNo": "348",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7326,8 +7110,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::351",
-      "itemNo": "349",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -7338,8 +7122,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::352",
-      "itemNo": "350",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7350,8 +7134,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::353",
-      "itemNo": "351",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7362,8 +7146,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::354",
-      "itemNo": "352",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7374,8 +7158,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::355",
-      "itemNo": "353",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7386,8 +7170,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::356",
-      "itemNo": "354",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7398,8 +7182,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::357",
-      "itemNo": "355",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7410,8 +7194,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::358",
-      "itemNo": "356",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7422,8 +7206,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::359",
-      "itemNo": "357",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7434,8 +7218,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::360",
-      "itemNo": "358",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7446,8 +7230,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::361",
-      "itemNo": "359",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7458,8 +7242,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::362",
-      "itemNo": "360",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7470,8 +7254,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::363",
-      "itemNo": "361",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7482,8 +7266,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::364",
-      "itemNo": "362",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7494,8 +7278,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::365",
-      "itemNo": "363",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7506,8 +7290,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::366",
-      "itemNo": "364",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7518,8 +7302,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::367",
-      "itemNo": "365",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7530,8 +7314,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::368",
-      "itemNo": "366",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7542,8 +7326,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::369",
-      "itemNo": "367",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7554,8 +7338,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::370",
-      "itemNo": "368",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7566,8 +7350,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::371",
-      "itemNo": "369",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7578,8 +7362,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::372",
-      "itemNo": "370",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7590,8 +7374,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::373",
-      "itemNo": "371",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7602,8 +7386,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::374",
-      "itemNo": "372",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7614,8 +7398,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::375",
-      "itemNo": "373",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7626,8 +7410,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::376",
-      "itemNo": "374",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7638,8 +7422,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::377",
-      "itemNo": "375",
+      "id": "16. Others & Toxic::359",
+      "itemNo": "357",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7650,8 +7434,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::378",
-      "itemNo": "376",
+      "id": "16. Others & Toxic::360",
+      "itemNo": "358",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7662,8 +7446,8 @@ window.OFFLINE_CARDS = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::379",
-      "itemNo": "377",
+      "id": "16. Others & Toxic::361",
+      "itemNo": "359",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7674,8 +7458,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::380",
-      "itemNo": "378",
+      "id": "16. Others & Toxic::362",
+      "itemNo": "360",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7686,8 +7470,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::381",
-      "itemNo": "379",
+      "id": "16. Others & Toxic::363",
+      "itemNo": "361",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7698,8 +7482,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::382",
-      "itemNo": "380",
+      "id": "16. Others & Toxic::364",
+      "itemNo": "362",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7710,8 +7494,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::383",
-      "itemNo": "381",
+      "id": "16. Others & Toxic::365",
+      "itemNo": "363",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7722,8 +7506,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::384",
-      "itemNo": "382",
+      "id": "16. Others & Toxic::366",
+      "itemNo": "364",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7734,8 +7518,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::385",
-      "itemNo": "383",
+      "id": "16. Others & Toxic::367",
+      "itemNo": "365",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7746,8 +7530,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::386",
-      "itemNo": "384",
+      "id": "16. Others & Toxic::368",
+      "itemNo": "366",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7758,8 +7542,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::387",
-      "itemNo": "385",
+      "id": "16. Others & Toxic::369",
+      "itemNo": "367",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7770,8 +7554,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::388",
-      "itemNo": "386",
+      "id": "16. Others & Toxic::370",
+      "itemNo": "368",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7782,8 +7566,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::389",
-      "itemNo": "387",
+      "id": "16. Others & Toxic::371",
+      "itemNo": "369",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7794,8 +7578,8 @@ window.OFFLINE_CARDS = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::390",
-      "itemNo": "388",
+      "id": "16. Others & Toxic::372",
+      "itemNo": "370",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7806,8 +7590,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::391",
-      "itemNo": "389",
+      "id": "16. Others & Toxic::373",
+      "itemNo": "371",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7818,8 +7602,8 @@ window.OFFLINE_CARDS = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::392",
-      "itemNo": "390",
+      "id": "16. Others & Toxic::374",
+      "itemNo": "372",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7830,8 +7614,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI MCQ: Cat Bite Pasteurella multocida & Amox/Clav"
     },
     {
-      "id": "16. Others & Toxic::393",
-      "itemNo": "391",
+      "id": "16. Others & Toxic::375",
+      "itemNo": "373",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7842,8 +7626,8 @@ window.OFFLINE_CARDS = {
       "note": "Bone & Joint MCQ: Gonococcal Septic Arthritis Ceftriaxone + Azithromycin"
     },
     {
-      "id": "16. Others & Toxic::394",
-      "itemNo": "392",
+      "id": "16. Others & Toxic::376",
+      "itemNo": "374",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7854,8 +7638,8 @@ window.OFFLINE_CARDS = {
       "note": "SSTI MCQ: Necrotizing Fasciitis Surgical Debridement & Clindamycin"
     },
     {
-      "id": "16. Others & Toxic::395",
-      "itemNo": "393",
+      "id": "16. Others & Toxic::377",
+      "itemNo": "375",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7866,8 +7650,8 @@ window.OFFLINE_CARDS = {
       "note": "Bone & Joint MCQ: Diabetic Foot Osteomyelitis Probe-to-Bone 6 Weeks"
     },
     {
-      "id": "16. Others & Toxic::396",
-      "itemNo": "394",
+      "id": "16. Others & Toxic::378",
+      "itemNo": "376",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7878,8 +7662,8 @@ window.OFFLINE_CARDS = {
       "note": "ข้อสอบจริง MCQ: Rabies PEP Thai Red Cross ID 2-2-2-0-2 Regimen"
     },
     {
-      "id": "16. Others & Toxic::397",
-      "itemNo": "395",
+      "id": "16. Others & Toxic::379",
+      "itemNo": "377",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7890,8 +7674,8 @@ window.OFFLINE_CARDS = {
       "note": "ข้อสอบจริง MCQ: Sneaker Puncture Wound Pseudomonas aeruginosa & Cipro"
     },
     {
-      "id": "16. Others & Toxic::398",
-      "itemNo": "396",
+      "id": "16. Others & Toxic::380",
+      "itemNo": "378",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -7902,8 +7686,8 @@ window.OFFLINE_CARDS = {
       "note": "โพยข้อสอบจริง: Hematogenous osteomyelitis in age > 50 -> Vertebral spine"
     },
     {
-      "id": "16. Others & Toxic::399",
-      "itemNo": "397",
+      "id": "16. Others & Toxic::381",
+      "itemNo": "379",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -15150,30 +14934,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การตรวจหาเชื้อ COVID-19 ด้วย ATK (Antigen Test Kit) กับ RT-PCR มีข้อแตกต่างกันอย่างไรในทางปฏิบัติ?",
-      "questionImage": "",
-      "answer": "▶ 1. ATK (Antigen Test Kit):<br>   ↳ ตรวจหาโปรตีน Nucleocapsid ของไวรัส<br>   ↳ ข้อดี: ทราบผลรวดเร็ว (15-30 นาที) ค่าใช้จ่ายต่ำ สะดวก<br>   ↳ ข้อจำกัด: ความไว (Sensitivity) ต่ำกว่า ต้องมีปริมาณเชื้อในร่างกายสูงจึงจะตรวจพบ เหมาะสำหรับตรวจผู้ที่มีอาการ<br><br>▶ 2. RT-PCR (Real-Time Polymerase Chain Reaction):<br>   ↳ ตรวจหาสารพันธุกรรม RNA ของไวรัส<br>   ↳ ข้อดี: มีความไวและความจำเพาะสูงที่สุด จัดเป็น Gold Standard ตรวจพบเชื้อได้แม้มีปริมาณน้อยมาก<br>   ↳ ข้อจำกัด: ใช้เวลาตรวจ 4-24 ชั่วโมง ค่าใช้จ่ายสูงกว่า ต้องทำในห้องปฏิบัติการ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> และ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> จึงยังคงออกฤทธิ์ได้ดีต่อเชื้อสายพันธุ์กลายพันธุ์ (Variants of Concern: VOCs) ต่างๆ?",
       "questionImage": "",
       "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> (เช่น สายพันธุ์ Omicron และสายพันธุ์ย่อย) มักเกิดขึ้นที่ Spike Protein (โปรตีนหนาม) เป็นหลัก ซึ่งส่งผลกระทบต่อวัคซีนและ Monoclonal Antibodies<br>   ↳ แต่เอนไซม์ 3CL Protease (เป้าหมายของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span>) และเอนไซม์ RdRp (เป้าหมายของ <span style=\"color:#0284c7\"><b>Remdesivir</b></span>) มีโครงสร้างที่อนุรักษ์ไว้สูงมาก (Highly Conserved Regions) ไม่ค่อยเกิดการกลายพันธุ์ ทำให้ยายังคงจับและยับยั้งเอนไซม์ได้อย่างมีประสิทธิภาพสูงเช่นเดิม",
@@ -15181,8 +14941,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15193,32 +14953,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> คืออะไร จำแนกความรุนแรงของ COVID-19 (Clinical Staging) ได้กี่ระดับ และเกณฑ์แต่ละระดับคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span>:<br>   ↳ RNA Coronavirus, Genus Betacoronavirus ใช้ Spike Protein (S-protein) จับกับ Receptor ACE2 บนเซลล์เยื่อบุทางเดินหายใจ<br><br>▶ การจำแนกความรุนแรง (WHO/NIH Clinical Staging):<br>   ↳ 1. Asymptomatic / Pre-symptomatic: ไม่มีอาการแต่ผลตรวจเป็นบวก<br>   ↳ 2. Mild Disease: มีอาการ แต่ไม่มีอาการหายใจลำบาก O2 Sat &gt;= 95% on Room Air — รักษาแบบผู้ป่วยนอก<br>   ↳ 3. Moderate Disease: ปอดอักเสบ แต่ O2 Sat &gt;= 94% — รับรักษาในโรงพยาบาล<br>   ↳ 4. Severe Disease: O2 Sat &lt; 94%, RR &gt;= 30/min, <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> &lt; 300 mmHg — ต้องการ High-Flow O2 / NIV<br>   ↳ 5. Critical Disease: ARDS, <span style=\"color:#dc2626\"><b>Septic shock</b></span>, Multi-organ failure — ICU<br><br>▶ จุดกำหนดการรักษา:<br>   ↳ Severe Disease (O2 Sat &lt; 94%) = เกณฑ์ให้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> + <span style=\"color:#0284c7\"><b>Remdesivir</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
-    },
-    {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15229,8 +14965,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15241,20 +14977,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15265,32 +14989,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
-    },
-    {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> มีอะไรบ้าง โดยเฉพาะกับกลุ่มยาลดไขมัน Statins และมีแนวทางการจัดการอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Simvastatin</b></span> และ <span style=\"color:#0284c7\"><b>Lovastatin</b></span>: มีข้อห้ามใช้ร่วมกับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> อย่างเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เพราะ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ยับยั้ง CYP3A4 อย่างรุนแรง ทำให้ระดับ Statin ในเลือดพุ่งสูงขึ้นหลายเท่า เสี่ยงต่อการเกิดกล้ามเนื้อลายสลายรุนแรง (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายเฉียบพลัน<br>   ↳ การจัดการ: ให้ สั่งหยุดยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span>/<span style=\"color:#0284c7\"><b>Lovastatin</b></span> ชั่วคราว ทันทีในวันที่เริ่ม <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#d97706\"><b>5 วัน</b></span>) และหลังหยุดยาต่อไปอีก 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จึงค่อยกลับมากิน Statin ต่อได้<br><br>▶ [ยาอื่นที่ต้องระวัง]:<br>   ↳ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกับ CYP3A4 Inducers: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>, <span style=\"color:#0284c7\"><b>Rifampin</b></span> (ลดระดับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)<br>   ↳ ระวัง <span style=\"color:#0284c7\"><b>Nifedipine</b></span>/<span style=\"color:#0284c7\"><b>Amlodipine</b></span>: ระดับยาความดันจะสูงขึ้น เสี่ยงความดันตกวูบ ต้องติดตาม BP ใกล้ชิด",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
-    },
-    {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15301,8 +15001,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15313,20 +15013,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อห้ามใช้และพิษวิทยา (Contraindications)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
-    },
-    {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15337,8 +15025,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15349,32 +15037,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "ภาวะพายุไซโตไคน์ (Cytokine Storm) และ Hyperinflammation ในผู้ป่วย COVID-19 ระยะรุนแรงคืออะไร?",
-      "questionImage": "",
-      "answer": "▶ พยาธิกำเนิด (Pathogenesis):<br>   ↳ เกิดจากการตอบสนองของระบบภูมิคุ้มกันที่รุนแรงและควบคุมไม่ได้ (Dysregulated Immune Response)<br>   ↳ เม็ดเลือดขาวหลั่งสารไซโตไคน์อักเสบจำนวนมหาศาล (IL-6, IL-1, TNF-alpha, Ferritin)<br><br>▶ ผลกระทบและภาวะแทรกซ้อน:<br>   ↳ ทำลายเยื่อบุหลอดเลือดและถุงลมปอด เกิดน้ำท่วมปอดและภาวะหายใจล้มเหลวเฉียบพลัน (ARDS)<br>   ↳ กระตุ้นระบบการแข็งตัวของเลือดเกิดลิ่มเลือดอุดตันหลายอวัยวะ (Systemic Thrombosis) และความดันโลหิตตก (Shock)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15385,68 +15049,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วย COVID-19 ตามผลการศึกษา RECOVERY Trial คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ขนาด 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (หรือจนกว่าจะจำหน่ายกลับบ้าน)<br><br>▶ ข้อบ่งใช้ที่ถูกต้อง (Indications):<br>   ↳ ให้เฉพาะในผู้ป่วยที่มีภาวะ ปอดอักเสบที่ต้องการออกซิเจนเสริม (Supplemental Oxygen) หรือต้องใช้เครื่องช่วยหายใจ (Mechanical Ventilation) เท่านั้น<br><br>▶ ⚠️ ข้อห้ามสำคัญ:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในผู้ป่วยอาการเล็กน้อยที่ไม่ต้องการออกซิเจนเด็ดขาด* เพราะการให้สเตียรอยด์จะกดภูมิคุ้มกัน ทำให้ร่างกายกำจัดไวรัสได้ช้าลงและเพิ่มอัตราการเสียชีวิต",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Baricitinib</b></span> (Janus Kinase: JAK Inhibitor) ในผู้ป่วย COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วยปอดอักเสบโควิดรุนแรงที่ต้องการออกซิเจน<br><br>▶ ขนาดยา:<br>   ↳ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน (หรือจนกว่าจะจำหน่ายออกจาก รพ.)<br><br>▶ การปรับยาตามไต:<br>   ↳ eGFR 30 - 59 mL/min: ปรับลดเหลือ 2 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR 15 - 29 mL/min: ปรับลดเหลือ 1 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR &lt; 15 mL/min: ไม่แนะนำให้ใช้",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "แนวทางการให้ยาป้องกันภาวะหลอดเลือดดำอุดตัน (VTE Prophylaxis) ในผู้ป่วย COVID-19 ที่นอนโรงพยาบาลคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Heparin</b></span> (LMWH): <span style=\"color:#0284c7\"><b>Enoxaparin</b></span> 40 mg SC วันละ 1 ครั้ง (หรือปรับลดเป็น 30 mg SC OD หาก CrCl &lt; 30 mL/min)<br>   ↳ ยาทางเลือก: Unfractionated <span style=\"color:#0284c7\"><b>Heparin</b></span> (UFH) 5,000 units SC ทุก 8 - 12 ชั่วโมง (เหมาะในผู้ป่วยไตวายรุนแรง)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15457,20 +15061,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย COVID-19 รับประทานยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg PO HS เป็นประจำ แพทย์ต้องการสั่ง <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เภสัชกรควรให้คำแนะนำจัดการอันตรกิริยาระหว่างยาอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Contraindicated</b></span> Drug Interaction):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 อย่างแรง จะขัดขวางการสลายตัวของ <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ทำให้ระดับยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ในเลือดพุ่งสูงขึ้นมหาศาล เสี่ยงต่อการเกิดภาวะกล้ามเนื้อลายสลายเฉียบพลัน (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายรุนแรง<br><br>▶ 💡 คำแนะนำทางคลินิก:<br>   ↳ ต้อง สั่งหยุดรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ชั่วคราว ทันทีตลอดระยะเวลาที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ให้เริ่มรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ใหม่ได้หลังจากหยุด <span style=\"color:#0284c7\"><b>Paxlovid</b></span> ไปแล้วอย่างน้อย 3 - <span style=\"color:#d97706\"><b>5 วัน</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15481,8 +15073,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15493,8 +15085,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15505,8 +15097,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15517,8 +15109,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15529,20 +15121,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> แจ้งว่ารู้สึกมีรสชาติขมและเฝื่อนในปากตลอดเวลา (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เภสัชกรควรให้คำแนะนำอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เป็นผลข้างเคียงที่พบบ่อยของยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span> (พบได้ประมาณ 5-6%) ไม่อันตรายและจะหายไปเองหลังหยุดยา<br>   ↳ แนะนำวิธีบรรเทา: อมลูกอมไร้น้ำตาล จิบน้ำบ่อยๆ บ้วนปากด้วยน้ำสะอาด หรือเคี้ยวหมากฝรั่ง<br>   ↳ *เน้นย้ำ:* ห้ามหยุดรับประทานยาเองเด็ดขาด ต้องรับประทานยาให้ครบ <span style=\"color:#d97706\"><b>5 วัน</b></span>เพื่อป้องกันไวรัสกลับมาเพิ่มจำนวนซ้ำ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15553,8 +15133,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15565,20 +15145,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาของ COVID-19 Severity: ทำไมผู้ป่วยบางรายถึงดำเนินโรคหนักมาก (Severe/Critical)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Severe:<br>   ↳ กดการอักเสบจาก Cytokine Storm ลดอัตราตาย 17% (Recovery Trial)<br>   ✦ ข้อยกเว้น: ห้ามใช้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Mild Disease เพราะกดภูมิในช่วง Viral Phase จะทำให้เชื้อเพิ่มมากขึ้น",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg/day x 10 วัน เพื่อระงับปฏิกิริยาการอักเสบทำลายเนื้อเยื่อปอด!",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15589,8 +15169,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15601,8 +15181,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15613,8 +15193,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15625,8 +15205,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15637,8 +15217,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15649,8 +15229,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15661,8 +15241,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -15673,20 +15253,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ทำไมยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> จึงมีข้อห้ามใช้เด็ดขาดในหญิงตั้งครรภ์และหญิงให้นมบุตร และมีคำแนะนำเรื่องการคุมกำเนิดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ออกฤทธิ์เป็น Ribonucleoside Analog ทำให้เกิดการกลายพันธุ์ของสารพันธุกรรม (Viral Error Catastrophe)<br>   ↳ มีความเสี่ยงต่อการเกิด การกลายพันธุ์ในเซลล์ของทารกในครรภ์ (Teratogenicity &amp; Fetal Harm) และพิษต่อกระดูกอ่อน/การเจริญเติบโต<br><br>▶ กฎเหล็กด้านความปลอดภัย:<br>   ↳ ห้ามใช้ ในสตรีมีครรภ์และสตรีให้นมบุตรเด็ดขาด<br>   ↳ สตรีวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 3 เดือนหลังหยุดยา",
-      "answerImage": "",
-      "note": "PT2 โพย สรุป COVID-19"
-    },
-    {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15697,8 +15265,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15709,8 +15277,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15721,8 +15289,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15733,8 +15301,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15745,8 +15313,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15757,8 +15325,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15769,8 +15337,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15781,8 +15349,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Mechanisms of Action 6 Targets Slide 12"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15793,8 +15361,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15805,8 +15373,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15817,8 +15385,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15829,8 +15397,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15841,8 +15409,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15853,8 +15421,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15865,8 +15433,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15877,8 +15445,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15889,8 +15457,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15901,8 +15469,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15913,8 +15481,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15925,8 +15493,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15937,8 +15505,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15949,8 +15517,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15961,8 +15529,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15973,8 +15541,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15985,8 +15553,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Definitions: Mono vs Poly vs MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -15997,8 +15565,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16009,8 +15577,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16021,8 +15589,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16033,8 +15601,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16045,8 +15613,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16057,8 +15625,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16069,8 +15637,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16081,8 +15649,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16093,8 +15661,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16105,8 +15673,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16117,8 +15685,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16129,8 +15697,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16141,8 +15709,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16153,8 +15721,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16165,8 +15733,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16177,8 +15745,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16189,8 +15757,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16201,8 +15769,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16213,8 +15781,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16225,8 +15793,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16237,8 +15805,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16249,8 +15817,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::340",
-      "itemNo": "338",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16261,8 +15829,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16273,8 +15841,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16285,8 +15853,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16297,8 +15865,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16309,8 +15877,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Clofazimine Skin Discoloration reddish-brown black"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16321,8 +15889,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16333,8 +15901,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16345,8 +15913,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: GeneXpert RIF-R Reflex LPA & BPaLM"
     },
     {
-      "id": "16. Others & Toxic::348",
-      "itemNo": "346",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16357,8 +15925,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: QT Prolongation Monitoring & QTc > 500ms cutoff"
     },
     {
-      "id": "16. Others & Toxic::349",
-      "itemNo": "347",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16369,8 +15937,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: DILI Rechallenge Protocol & PZA Exclusion"
     },
     {
-      "id": "16. Others & Toxic::350",
-      "itemNo": "348",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16381,8 +15949,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::351",
-      "itemNo": "349",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -16393,8 +15961,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::352",
-      "itemNo": "350",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16405,8 +15973,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::353",
-      "itemNo": "351",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16417,8 +15985,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::354",
-      "itemNo": "352",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16429,8 +15997,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::355",
-      "itemNo": "353",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16441,8 +16009,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::356",
-      "itemNo": "354",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16453,8 +16021,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::357",
-      "itemNo": "355",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16465,8 +16033,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::358",
-      "itemNo": "356",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16477,8 +16045,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::359",
-      "itemNo": "357",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16489,8 +16057,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::360",
-      "itemNo": "358",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16501,8 +16069,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::361",
-      "itemNo": "359",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16513,8 +16081,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::362",
-      "itemNo": "360",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16525,8 +16093,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::363",
-      "itemNo": "361",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16537,8 +16105,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::364",
-      "itemNo": "362",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16549,8 +16117,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::365",
-      "itemNo": "363",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16561,8 +16129,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::366",
-      "itemNo": "364",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16573,8 +16141,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::367",
-      "itemNo": "365",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16585,8 +16153,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::368",
-      "itemNo": "366",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16597,8 +16165,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::369",
-      "itemNo": "367",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16609,8 +16177,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::370",
-      "itemNo": "368",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16621,8 +16189,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::371",
-      "itemNo": "369",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16633,8 +16201,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::372",
-      "itemNo": "370",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16645,8 +16213,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::373",
-      "itemNo": "371",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16657,8 +16225,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::374",
-      "itemNo": "372",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16669,8 +16237,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::375",
-      "itemNo": "373",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16681,8 +16249,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::376",
-      "itemNo": "374",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16693,8 +16261,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::377",
-      "itemNo": "375",
+      "id": "16. Others & Toxic::359",
+      "itemNo": "357",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16705,8 +16273,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::378",
-      "itemNo": "376",
+      "id": "16. Others & Toxic::360",
+      "itemNo": "358",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16717,8 +16285,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::379",
-      "itemNo": "377",
+      "id": "16. Others & Toxic::361",
+      "itemNo": "359",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16729,8 +16297,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::380",
-      "itemNo": "378",
+      "id": "16. Others & Toxic::362",
+      "itemNo": "360",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16741,8 +16309,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::381",
-      "itemNo": "379",
+      "id": "16. Others & Toxic::363",
+      "itemNo": "361",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16753,8 +16321,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::382",
-      "itemNo": "380",
+      "id": "16. Others & Toxic::364",
+      "itemNo": "362",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16765,8 +16333,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::383",
-      "itemNo": "381",
+      "id": "16. Others & Toxic::365",
+      "itemNo": "363",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16777,8 +16345,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::384",
-      "itemNo": "382",
+      "id": "16. Others & Toxic::366",
+      "itemNo": "364",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16789,8 +16357,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::385",
-      "itemNo": "383",
+      "id": "16. Others & Toxic::367",
+      "itemNo": "365",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16801,8 +16369,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::386",
-      "itemNo": "384",
+      "id": "16. Others & Toxic::368",
+      "itemNo": "366",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16813,8 +16381,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::387",
-      "itemNo": "385",
+      "id": "16. Others & Toxic::369",
+      "itemNo": "367",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16825,8 +16393,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::388",
-      "itemNo": "386",
+      "id": "16. Others & Toxic::370",
+      "itemNo": "368",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16837,8 +16405,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::389",
-      "itemNo": "387",
+      "id": "16. Others & Toxic::371",
+      "itemNo": "369",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16849,8 +16417,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::390",
-      "itemNo": "388",
+      "id": "16. Others & Toxic::372",
+      "itemNo": "370",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16861,8 +16429,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::391",
-      "itemNo": "389",
+      "id": "16. Others & Toxic::373",
+      "itemNo": "371",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16873,8 +16441,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::392",
-      "itemNo": "390",
+      "id": "16. Others & Toxic::374",
+      "itemNo": "372",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16885,8 +16453,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI MCQ: Cat Bite Pasteurella multocida & Amox/Clav"
     },
     {
-      "id": "16. Others & Toxic::393",
-      "itemNo": "391",
+      "id": "16. Others & Toxic::375",
+      "itemNo": "373",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16897,8 +16465,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Bone & Joint MCQ: Gonococcal Septic Arthritis Ceftriaxone + Azithromycin"
     },
     {
-      "id": "16. Others & Toxic::394",
-      "itemNo": "392",
+      "id": "16. Others & Toxic::376",
+      "itemNo": "374",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16909,8 +16477,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI MCQ: Necrotizing Fasciitis Surgical Debridement & Clindamycin"
     },
     {
-      "id": "16. Others & Toxic::395",
-      "itemNo": "393",
+      "id": "16. Others & Toxic::377",
+      "itemNo": "375",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16921,8 +16489,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Bone & Joint MCQ: Diabetic Foot Osteomyelitis Probe-to-Bone 6 Weeks"
     },
     {
-      "id": "16. Others & Toxic::396",
-      "itemNo": "394",
+      "id": "16. Others & Toxic::378",
+      "itemNo": "376",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16933,8 +16501,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Rabies PEP Thai Red Cross ID 2-2-2-0-2 Regimen"
     },
     {
-      "id": "16. Others & Toxic::397",
-      "itemNo": "395",
+      "id": "16. Others & Toxic::379",
+      "itemNo": "377",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16945,8 +16513,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Sneaker Puncture Wound Pseudomonas aeruginosa & Cipro"
     },
     {
-      "id": "16. Others & Toxic::398",
-      "itemNo": "396",
+      "id": "16. Others & Toxic::380",
+      "itemNo": "378",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -16957,8 +16525,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "โพยข้อสอบจริง: Hematogenous osteomyelitis in age > 50 -> Vertebral spine"
     },
     {
-      "id": "16. Others & Toxic::399",
-      "itemNo": "397",
+      "id": "16. Others & Toxic::381",
+      "itemNo": "379",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -24191,30 +23759,6 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
-      "question": "อาการแสดงที่พบบ่อยที่สุดของภาวะ Long COVID ในประชากรไทยมีอาการใดบ้าง?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Arthralgia</b></span> / Myalgia)<br>   ↳ 6. นอนไม่หลับ (Insomnia) และภาวะวิตกกังวล/ซึมเศร้า (Anxiety/Depression)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::249",
-      "itemNo": "247",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การตรวจหาเชื้อ COVID-19 ด้วย ATK (Antigen Test Kit) กับ RT-PCR มีข้อแตกต่างกันอย่างไรในทางปฏิบัติ?",
-      "questionImage": "",
-      "answer": "▶ 1. ATK (Antigen Test Kit):<br>   ↳ ตรวจหาโปรตีน Nucleocapsid ของไวรัส<br>   ↳ ข้อดี: ทราบผลรวดเร็ว (15-30 นาที) ค่าใช้จ่ายต่ำ สะดวก<br>   ↳ ข้อจำกัด: ความไว (Sensitivity) ต่ำกว่า ต้องมีปริมาณเชื้อในร่างกายสูงจึงจะตรวจพบ เหมาะสำหรับตรวจผู้ที่มีอาการ<br><br>▶ 2. RT-PCR (Real-Time Polymerase Chain Reaction):<br>   ↳ ตรวจหาสารพันธุกรรม RNA ของไวรัส<br>   ↳ ข้อดี: มีความไวและความจำเพาะสูงที่สุด จัดเป็น Gold Standard ตรวจพบเชื้อได้แม้มีปริมาณน้อยมาก<br>   ↳ ข้อจำกัด: ใช้เวลาตรวจ 4-24 ชั่วโมง ค่าใช้จ่ายสูงกว่า ต้องทำในห้องปฏิบัติการ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::250",
-      "itemNo": "248",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
       "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> และ <span style=\"color:#0284c7\"><b>Remdesivir</b></span> จึงยังคงออกฤทธิ์ได้ดีต่อเชื้อสายพันธุ์กลายพันธุ์ (Variants of Concern: VOCs) ต่างๆ?",
       "questionImage": "",
       "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> (เช่น สายพันธุ์ Omicron และสายพันธุ์ย่อย) มักเกิดขึ้นที่ Spike Protein (โปรตีนหนาม) เป็นหลัก ซึ่งส่งผลกระทบต่อวัคซีนและ Monoclonal Antibodies<br>   ↳ แต่เอนไซม์ 3CL Protease (เป้าหมายของ <span style=\"color:#0284c7\"><b>Paxlovid</b></span>) และเอนไซม์ RdRp (เป้าหมายของ <span style=\"color:#0284c7\"><b>Remdesivir</b></span>) มีโครงสร้างที่อนุรักษ์ไว้สูงมาก (Highly Conserved Regions) ไม่ค่อยเกิดการกลายพันธุ์ ทำให้ยายังคงจับและยับยั้งเอนไซม์ได้อย่างมีประสิทธิภาพสูงเช่นเดิม",
@@ -24222,8 +23766,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::251",
-      "itemNo": "249",
+      "id": "16. Others & Toxic::249",
+      "itemNo": "247",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24234,32 +23778,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::252",
-      "itemNo": "250",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> คืออะไร จำแนกความรุนแรงของ COVID-19 (Clinical Staging) ได้กี่ระดับ และเกณฑ์แต่ละระดับคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span>:<br>   ↳ RNA Coronavirus, Genus Betacoronavirus ใช้ Spike Protein (S-protein) จับกับ Receptor ACE2 บนเซลล์เยื่อบุทางเดินหายใจ<br><br>▶ การจำแนกความรุนแรง (WHO/NIH Clinical Staging):<br>   ↳ 1. Asymptomatic / Pre-symptomatic: ไม่มีอาการแต่ผลตรวจเป็นบวก<br>   ↳ 2. Mild Disease: มีอาการ แต่ไม่มีอาการหายใจลำบาก O2 Sat &gt;= 95% on Room Air — รักษาแบบผู้ป่วยนอก<br>   ↳ 3. Moderate Disease: ปอดอักเสบ แต่ O2 Sat &gt;= 94% — รับรักษาในโรงพยาบาล<br>   ↳ 4. Severe Disease: O2 Sat &lt; 94%, RR &gt;= 30/min, <span style=\"color:#d97706\"><b>PaO2/FiO2</b></span> &lt; 300 mmHg — ต้องการ High-Flow O2 / NIV<br>   ↳ 5. Critical Disease: ARDS, <span style=\"color:#dc2626\"><b>Septic shock</b></span>, Multi-organ failure — ICU<br><br>▶ จุดกำหนดการรักษา:<br>   ↳ Severe Disease (O2 Sat &lt; 94%) = เกณฑ์ให้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> + <span style=\"color:#0284c7\"><b>Remdesivir</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::253",
-      "itemNo": "251",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> มีบทบาทอย่างไรในการรักษา COVID-19 ข้อบ่งใช้ในหญิงตั้งครรภ์เป็นอย่างไร และมีเกณฑ์การติดตามการทำงานของตับอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span> ในหญิงตั้งครรภ์ ที่มีอาการปอดอักเสบหรือมีความเสี่ยงสูง (มีข้อมูลความปลอดภัยมากที่สุด)<br>   ↳ Outpatient High-risk: Loading <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–3 (รวม 3 วัน) ช่วยลดการนอนโรงพยาบาลได้ถึง 87%<br>   ↳ Inpatient Severe (SpO2 &lt; 94%): ให้ <span style=\"color:#d97706\"><b>200 mg</b></span> IV Day 1 ตามด้วย 100 mg IV Day 2–5 (หรือสูงสุด 10 วัน)<br><br>▶ [การติดตามความปลอดภัยของตับ (LFT Monitoring)]:<br>   ↳ ต้องตรวจระดับ ALT/AST ก่อนเริ่มยาและระหว่างให้ยา<br>   ↳ หากพบค่า ALT สูงเกิน 5 เท่าของค่าปกติ (&gt; 5x ULN) ให้พิจารณาหยุดยาทันที",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Remdesivir in pregnancy & LFT 5x ULN cutoff"
-    },
-    {
-      "id": "16. Others & Toxic::254",
-      "itemNo": "252",
+      "id": "16. Others & Toxic::250",
+      "itemNo": "248",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24270,8 +23790,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Molnupiravir Contraception Rules (Female +4d, Male +3mo)"
     },
     {
-      "id": "16. Others & Toxic::255",
-      "itemNo": "253",
+      "id": "16. Others & Toxic::251",
+      "itemNo": "249",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24282,20 +23802,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Hepatotoxicity stopping cutoff (ALT > 5x ULN)"
     },
     {
-      "id": "16. Others & Toxic::256",
-      "itemNo": "254",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "การจำแนกระดับความรุนแรงของโรค COVID-19 ทางคลินิกแบ่งออกเป็นกี่ระดับตามแนวทางกรมการแพทย์?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Septic shock</b></span>) หรืออวัยวะล้มเหลวหลายระบบ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::257",
-      "itemNo": "255",
+      "id": "16. Others & Toxic::252",
+      "itemNo": "250",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24306,32 +23814,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::258",
-      "itemNo": "256",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> / <span style=\"color:#0284c7\"><b>Ritonavir</b></span>) มีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>: ยับยั้งเอนไซม์ 3CL Protease (Mpro) ของไวรัส <span style=\"color:#7c3aed\"><i><b>SARS-CoV-2</b></i></span> ขัดขวางการตัดสาย Polyprotein<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span>: ทำหน้าที่เป็น Pharmacokinetic Booster โดยยับยั้งเอนไซม์ CYP3A4 ของตับอย่างแรง เพื่อชะลอการสลายตัวและเพิ่มระดับยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span><br><br>▶ [การปรับขนาดยาตามค่าไต (Renal Dosing)]:<br>   ↳ <span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min: <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (2 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR 30–59</b></span> mL/min: ลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) + <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) วันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ <span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min: <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)<br><br>▶ [อาการข้างเคียงเฉพาะตัว]: การรับรสผิดปกติ / รสขมโลหะในปาก (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span> 5–6%)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid MOA, Renal dosing & Dysgeusia"
-    },
-    {
-      "id": "16. Others & Toxic::259",
-      "itemNo": "257",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> มีอะไรบ้าง โดยเฉพาะกับกลุ่มยาลดไขมัน Statins และมีแนวทางการจัดการอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Simvastatin</b></span> และ <span style=\"color:#0284c7\"><b>Lovastatin</b></span>: มีข้อห้ามใช้ร่วมกับ <span style=\"color:#0284c7\"><b>Paxlovid</b></span> อย่างเด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>) เพราะ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ยับยั้ง CYP3A4 อย่างรุนแรง ทำให้ระดับ Statin ในเลือดพุ่งสูงขึ้นหลายเท่า เสี่ยงต่อการเกิดกล้ามเนื้อลายสลายรุนแรง (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายเฉียบพลัน<br>   ↳ การจัดการ: ให้ สั่งหยุดยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span>/<span style=\"color:#0284c7\"><b>Lovastatin</b></span> ชั่วคราว ทันทีในวันที่เริ่ม <span style=\"color:#0284c7\"><b>Paxlovid</b></span> (<span style=\"color:#d97706\"><b>5 วัน</b></span>) และหลังหยุดยาต่อไปอีก 3–<span style=\"color:#d97706\"><b>5 วัน</b></span> จึงค่อยกลับมากิน Statin ต่อได้<br><br>▶ [ยาอื่นที่ต้องระวัง]:<br>   ↳ <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ร่วมกับ CYP3A4 Inducers: <span style=\"color:#0284c7\"><b>Carbamazepine</b></span>, <span style=\"color:#0284c7\"><b>Phenytoin</b></span>, <span style=\"color:#0284c7\"><b>Rifampin</b></span> (ลดระดับยา <span style=\"color:#0284c7\"><b>Paxlovid</b></span> จนรักษาล้มเหลว)<br>   ↳ ระวัง <span style=\"color:#0284c7\"><b>Nifedipine</b></span>/<span style=\"color:#0284c7\"><b>Amlodipine</b></span>: ระดับยาความดันจะสูงขึ้น เสี่ยงความดันตกวูบ ต้องติดตาม BP ใกล้ชิด",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Paxlovid DDI & Statin washout management"
-    },
-    {
-      "id": "16. Others & Toxic::260",
-      "itemNo": "258",
+      "id": "16. Others & Toxic::253",
+      "itemNo": "251",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24342,8 +23826,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Disease Severity Classification"
     },
     {
-      "id": "16. Others & Toxic::261",
-      "itemNo": "259",
+      "id": "16. Others & Toxic::254",
+      "itemNo": "252",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24354,20 +23838,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::262",
-      "itemNo": "260",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> (<span style=\"color:#0284c7\"><b>Lagevrio</b></span>) รวมถึงคำแนะนำเรื่องการคุมกำเนิดทั้งในชายและหญิงมีรายละเอียดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>800 mg</b></span> (แคปซูล <span style=\"color:#d97706\"><b>200 mg</b></span> x 4 เม็ด) วันละ 2 ครั้ง หลังอาหาร นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (ไม่ต้องปรับขนาดยาตามไตหรือตับ)<br><br>▶ [ข้อห้ามใช้และพิษวิทยา (Contraindications)]:<br>   1. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในหญิงตั้งครรภ์และให้นมบุตร (เสี่ยงต่อ Teratogenicity และแท้ง)<br>   2. <span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในเด็กอายุ &lt; 18 ปี เพราะเกิดพิษต่อกระดูกและกระดูกอ่อน (Bone &amp; Cartilage Toxicity)<br><br>▶ [กฎการคุมกำเนิด (Contraception Guidelines)]:<br>   ↳ หญิงวัยเจริญพันธุ์: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 4 วัน หลังหยุดยา<br>   ↳ ผู้ชาย: ต้องคุมกำเนิดระหว่างใช้ยา + ต่อไปอีกอย่างน้อย 3 เดือน หลังหยุดยา (เพราะวงจรการสร้างอสุจิใช้เวลา 3 เดือน)",
-      "answerImage": "",
-      "note": "Lecture COVID-19: Molnupiravir MOA, contraindications & 3-month male contraception"
-    },
-    {
-      "id": "16. Others & Toxic::263",
-      "itemNo": "261",
+      "id": "16. Others & Toxic::255",
+      "itemNo": "253",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24378,8 +23850,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Critical Drug Interactions (Simvastatin/CYP3A4)"
     },
     {
-      "id": "16. Others & Toxic::264",
-      "itemNo": "262",
+      "id": "16. Others & Toxic::256",
+      "itemNo": "254",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24390,32 +23862,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Pregnancy DOC Remdesivir vs Molnupiravir Contraindication"
     },
     {
-      "id": "16. Others & Toxic::265",
-      "itemNo": "263",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "ภาวะพายุไซโตไคน์ (Cytokine Storm) และ Hyperinflammation ในผู้ป่วย COVID-19 ระยะรุนแรงคืออะไร?",
-      "questionImage": "",
-      "answer": "▶ พยาธิกำเนิด (Pathogenesis):<br>   ↳ เกิดจากการตอบสนองของระบบภูมิคุ้มกันที่รุนแรงและควบคุมไม่ได้ (Dysregulated Immune Response)<br>   ↳ เม็ดเลือดขาวหลั่งสารไซโตไคน์อักเสบจำนวนมหาศาล (IL-6, IL-1, TNF-alpha, Ferritin)<br><br>▶ ผลกระทบและภาวะแทรกซ้อน:<br>   ↳ ทำลายเยื่อบุหลอดเลือดและถุงลมปอด เกิดน้ำท่วมปอดและภาวะหายใจล้มเหลวเฉียบพลัน (ARDS)<br>   ↳ กระตุ้นระบบการแข็งตัวของเลือดเกิดลิ่มเลือดอุดตันหลายอวัยวะ (Systemic Thrombosis) และความดันโลหิตตก (Shock)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::266",
-      "itemNo": "264",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Paxlovid</b></span> ในผู้ป่วยที่มีการทำงานของไตปกติ และการปรับยาในผู้ป่วยไตเสื่อมเป็นอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>eGFR &gt;= 60</b></span> mL/min):<br>   ↳ <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> 300 mg (150 mg x 2 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานพร้อมกัน วันละ 2 ครั้ง (เช้า-เย็น ห่างกัน 12 ชม.) นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 3 เม็ด/มื้อ)<br><br>▶ 2. ผู้ป่วยไตเสื่อมปานกลาง (eGFR 30 - 59 mL/min):<br>   ↳ ปรับลด <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span> เหลือ 150 mg (1 เม็ด) ร่วมกับ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> 100 mg (1 เม็ด) รับประทานวันละ 2 ครั้ง นาน <span style=\"color:#d97706\"><b>5 วัน</b></span> (รวม 2 เม็ด/มื้อ)<br><br>▶ ⚠️ 3. ผู้ป่วยไตเสื่อมรุนแรง (<span style=\"color:#d97706\"><b>eGFR &lt; 30</b></span> mL/min):<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>เด็ดขาด (<span style=\"color:#dc2626\"><b>Contraindicated</b></span>)*",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::267",
-      "itemNo": "265",
+      "id": "16. Others & Toxic::257",
+      "itemNo": "255",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24426,68 +23874,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::268",
-      "itemNo": "266",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> (<span style=\"color:#0284c7\"><b>Veklury</b></span>) ในผู้ป่วยนอกกลุ่มเสี่ยงสูง (Outpatient) เพื่อป้องกันโรครุนแรงคือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV หยดยานาน 30 - 120 นาที<br>   ↳ วันที่ 2 และ วันที่ 3 (Maintenance Dose): <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง<br><br>▶ ข้อบ่งใช้:<br>   ↳ ผู้ป่วยกลุ่มเสี่ยงสูง (608) ที่มีอาการเล็กน้อย-ปานกลาง และต้องเริ่มยาภายใน <span style=\"color:#d97706\"><b>7 วัน</b></span>แรกนับจากเริ่มมีอาการ (ช่วยลดอัตราการนอน รพ. และเสียชีวิตได้ถึง 87%)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::269",
-      "itemNo": "267",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Remdesivir</b></span> ในผู้ป่วยในที่มีปอดอักเสบต้องใช้ออกซิเจน (Inpatient Severe COVID-19) คือเท่าใด?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#d97706\"><b>5 วัน</b></span>สำหรับผู้ป่วยใน (5-Day Inpatient Regimen):<br>   ↳ วันที่ 1: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> <span style=\"color:#d97706\"><b>200 mg</b></span> IV Loading Dose<br>   ↳ วันที่ 2 ถึง วันที่ 5: <span style=\"color:#0284c7\"><b>Remdesivir</b></span> 100 mg IV วันละ 1 ครั้ง (รวมระยะเวลา <span style=\"color:#d97706\"><b>5 วัน</b></span>)<br><br>▶ หมายเหตุ:<br>   ↳ สามารถขยายระยะเวลาการให้ยาได้ถึง 10 วัน ในผู้ป่วยวิกฤตที่ต้องใส่เครื่องช่วยหายใจหรืออาการยังไม่ดีขึ้น<br><br>▶ การติดตามความปลอดภัย:<br>   ↳ ตรวจติดตามค่าเอนไซม์ตับ (ALT/AST) และค่าการทำงานของไตอย่างสม่ำเสมอ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::270",
-      "itemNo": "268",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วย COVID-19 ตามผลการศึกษา RECOVERY Trial คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ขนาด 6 mg IV หรือ PO วันละ 1 ครั้ง นาน 10 วัน (หรือจนกว่าจะจำหน่ายกลับบ้าน)<br><br>▶ ข้อบ่งใช้ที่ถูกต้อง (Indications):<br>   ↳ ให้เฉพาะในผู้ป่วยที่มีภาวะ ปอดอักเสบที่ต้องการออกซิเจนเสริม (Supplemental Oxygen) หรือต้องใช้เครื่องช่วยหายใจ (Mechanical Ventilation) เท่านั้น<br><br>▶ ⚠️ ข้อห้ามสำคัญ:<br>   ↳ *<span style=\"color:#dc2626\"><b>ห้ามใช้</b></span>ในผู้ป่วยอาการเล็กน้อยที่ไม่ต้องการออกซิเจนเด็ดขาด* เพราะการให้สเตียรอยด์จะกดภูมิคุ้มกัน ทำให้ร่างกายกำจัดไวรัสได้ช้าลงและเพิ่มอัตราการเสียชีวิต",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::271",
-      "itemNo": "269",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>Baricitinib</b></span> (Janus Kinase: JAK Inhibitor) ในผู้ป่วย COVID-19 คืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ในผู้ป่วยปอดอักเสบโควิดรุนแรงที่ต้องการออกซิเจน<br><br>▶ ขนาดยา:<br>   ↳ <span style=\"color:#0284c7\"><b>Baricitinib</b></span> 4 mg PO วันละ 1 ครั้ง นาน 14 วัน (หรือจนกว่าจะจำหน่ายออกจาก รพ.)<br><br>▶ การปรับยาตามไต:<br>   ↳ eGFR 30 - 59 mL/min: ปรับลดเหลือ 2 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR 15 - 29 mL/min: ปรับลดเหลือ 1 mg PO วันละ 1 ครั้ง<br>   ↳ eGFR &lt; 15 mL/min: ไม่แนะนำให้ใช้",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::272",
-      "itemNo": "270",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "แนวทางการให้ยาป้องกันภาวะหลอดเลือดดำอุดตัน (VTE Prophylaxis) ในผู้ป่วย COVID-19 ที่นอนโรงพยาบาลคืออะไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Heparin</b></span> (LMWH): <span style=\"color:#0284c7\"><b>Enoxaparin</b></span> 40 mg SC วันละ 1 ครั้ง (หรือปรับลดเป็น 30 mg SC OD หาก CrCl &lt; 30 mL/min)<br>   ↳ ยาทางเลือก: Unfractionated <span style=\"color:#0284c7\"><b>Heparin</b></span> (UFH) 5,000 units SC ทุก 8 - 12 ชั่วโมง (เหมาะในผู้ป่วยไตวายรุนแรง)",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::273",
-      "itemNo": "271",
+      "id": "16. Others & Toxic::258",
+      "itemNo": "256",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24498,20 +23886,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::274",
-      "itemNo": "272",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วย COVID-19 รับประทานยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> 40 mg PO HS เป็นประจำ แพทย์ต้องการสั่ง <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เภสัชกรควรให้คำแนะนำจัดการอันตรกิริยาระหว่างยาอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Contraindicated</b></span> Drug Interaction):<br>   ↳ <span style=\"color:#0284c7\"><b>Ritonavir</b></span> ใน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> เป็นตัวยับยั้งเอนไซม์ CYP3A4 อย่างแรง จะขัดขวางการสลายตัวของ <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ทำให้ระดับยา <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ในเลือดพุ่งสูงขึ้นมหาศาล เสี่ยงต่อการเกิดภาวะกล้ามเนื้อลายสลายเฉียบพลัน (<span style=\"color:#dc2626\"><b>Rhabdomyolysis</b></span>) และไตวายรุนแรง<br><br>▶ 💡 คำแนะนำทางคลินิก:<br>   ↳ ต้อง สั่งหยุดรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ชั่วคราว ทันทีตลอดระยะเวลาที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> <span style=\"color:#d97706\"><b>5 วัน</b></span><br>   ↳ ให้เริ่มรับประทาน <span style=\"color:#0284c7\"><b>Simvastatin</b></span> ใหม่ได้หลังจากหยุด <span style=\"color:#0284c7\"><b>Paxlovid</b></span> ไปแล้วอย่างน้อย 3 - <span style=\"color:#d97706\"><b>5 วัน</b></span>",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::275",
-      "itemNo": "273",
+      "id": "16. Others & Toxic::259",
+      "itemNo": "257",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24522,8 +23898,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::276",
-      "itemNo": "274",
+      "id": "16. Others & Toxic::260",
+      "itemNo": "258",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24534,8 +23910,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::277",
-      "itemNo": "275",
+      "id": "16. Others & Toxic::261",
+      "itemNo": "259",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24546,8 +23922,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::278",
-      "itemNo": "276",
+      "id": "16. Others & Toxic::262",
+      "itemNo": "260",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24558,8 +23934,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::279",
-      "itemNo": "277",
+      "id": "16. Others & Toxic::263",
+      "itemNo": "261",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24570,20 +23946,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::280",
-      "itemNo": "278",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#0284c7\"><b>▶ [Clinical Case Scenario]</b></span><br>ผู้ป่วยที่รับประทาน <span style=\"color:#0284c7\"><b>Paxlovid</b></span> แจ้งว่ารู้สึกมีรสชาติขมและเฝื่อนในปากตลอดเวลา (<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เภสัชกรควรให้คำแนะนำอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#dc2626\"><b>Dysgeusia</b></span>) เป็นผลข้างเคียงที่พบบ่อยของยา <span style=\"color:#0284c7\"><b>Nirmatrelvir</b></span>/<span style=\"color:#0284c7\"><b>Ritonavir</b></span> (พบได้ประมาณ 5-6%) ไม่อันตรายและจะหายไปเองหลังหยุดยา<br>   ↳ แนะนำวิธีบรรเทา: อมลูกอมไร้น้ำตาล จิบน้ำบ่อยๆ บ้วนปากด้วยน้ำสะอาด หรือเคี้ยวหมากฝรั่ง<br>   ↳ *เน้นย้ำ:* ห้ามหยุดรับประทานยาเองเด็ดขาด ต้องรับประทานยาให้ครบ <span style=\"color:#d97706\"><b>5 วัน</b></span>เพื่อป้องกันไวรัสกลับมาเพิ่มจำนวนซ้ำ",
-      "answerImage": "",
-      "note": "PT2 อ.โชติรัตน์"
-    },
-    {
-      "id": "16. Others & Toxic::281",
-      "itemNo": "279",
+      "id": "16. Others & Toxic::264",
+      "itemNo": "262",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24594,8 +23958,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::282",
-      "itemNo": "280",
+      "id": "16. Others & Toxic::265",
+      "itemNo": "263",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24606,20 +23970,20 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::283",
-      "itemNo": "281",
+      "id": "16. Others & Toxic::266",
+      "itemNo": "264",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
       "question": "พยาธิสรีรวิทยาของ COVID-19 Severity: ทำไมผู้ป่วยบางรายถึงดำเนินโรคหนักมาก (Severe/Critical)?",
       "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Severe:<br>   ↳ กดการอักเสบจาก Cytokine Storm ลดอัตราตาย 17% (Recovery Trial)<br>   ✦ ข้อยกเว้น: ห้ามใช้ <span style=\"color:#0284c7\"><b>Dexamethasone</b></span> ใน Mild Disease เพราะกดภูมิในช่วง Viral Phase จะทำให้เชื้อเพิ่มมากขึ้น",
+      "answer": "<span style=\"color:#0284c7\"><b>Dexamethasone</b></span> 6 mg/day x 10 วัน เพื่อระงับปฏิกิริยาการอักเสบทำลายเนื้อเยื่อปอด!",
       "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::284",
-      "itemNo": "282",
+      "id": "16. Others & Toxic::267",
+      "itemNo": "265",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24630,8 +23994,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture COVID-19: Severe/Critical immunomodulation & No ABX"
     },
     {
-      "id": "16. Others & Toxic::285",
-      "itemNo": "283",
+      "id": "16. Others & Toxic::268",
+      "itemNo": "266",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24642,8 +24006,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Steroid Indication & Pitfall (Dexamethasone 6mg x 10d)"
     },
     {
-      "id": "16. Others & Toxic::286",
-      "itemNo": "284",
+      "id": "16. Others & Toxic::269",
+      "itemNo": "267",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24654,8 +24018,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid Dosing & Renal Adjustment"
     },
     {
-      "id": "16. Others & Toxic::287",
-      "itemNo": "285",
+      "id": "16. Others & Toxic::270",
+      "itemNo": "268",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24666,8 +24030,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Paxlovid ADR: Dysgeusia metallic taste"
     },
     {
-      "id": "16. Others & Toxic::288",
-      "itemNo": "286",
+      "id": "16. Others & Toxic::271",
+      "itemNo": "269",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24678,8 +24042,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 Remdesivir Dosing, Duration & IV Prep"
     },
     {
-      "id": "16. Others & Toxic::289",
-      "itemNo": "287",
+      "id": "16. Others & Toxic::272",
+      "itemNo": "270",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24690,8 +24054,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid Renal Adjustment (eGFR 30-59)"
     },
     {
-      "id": "16. Others & Toxic::290",
-      "itemNo": "288",
+      "id": "16. Others & Toxic::273",
+      "itemNo": "271",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24702,8 +24066,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Paxlovid DDI Simvastatin & Rivaroxaban"
     },
     {
-      "id": "16. Others & Toxic::291",
-      "itemNo": "289",
+      "id": "16. Others & Toxic::274",
+      "itemNo": "272",
       "group": "16. Others & Toxic",
       "subTopic": "COVID-19",
       "track": "Clinic",
@@ -24714,20 +24078,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "COVID-19 MCQ: Severe COVID-19 Dexamethasone + Remdesivir"
     },
     {
-      "id": "16. Others & Toxic::292",
-      "itemNo": "290",
-      "group": "16. Others & Toxic",
-      "subTopic": "COVID-19",
-      "track": "Clinic",
-      "question": "<span style=\"color:#d97706\"><b>ข้อสอบจริง:</b></span> ทำไมยา <span style=\"color:#0284c7\"><b>Molnupiravir</b></span> จึงมีข้อห้ามใช้เด็ดขาดในหญิงตั้งครรภ์และหญิงให้นมบุตร และมีคำแนะนำเรื่องการคุมกำเนิดอย่างไร?",
-      "questionImage": "",
-      "answer": "<span style=\"color:#0284c7\"><b>Molnupiravir</b></span> ออกฤทธิ์เป็น Ribonucleoside Analog ทำให้เกิดการกลายพันธุ์ของสารพันธุกรรม (Viral Error Catastrophe)<br>   ↳ มีความเสี่ยงต่อการเกิด การกลายพันธุ์ในเซลล์ของทารกในครรภ์ (Teratogenicity &amp; Fetal Harm) และพิษต่อกระดูกอ่อน/การเจริญเติบโต<br><br>▶ กฎเหล็กด้านความปลอดภัย:<br>   ↳ ห้ามใช้ ในสตรีมีครรภ์และสตรีให้นมบุตรเด็ดขาด<br>   ↳ สตรีวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 4 วันหลังหยุดยา<br>   ↳ ชายที่มีคู่นอนวัยเจริญพันธุ์: ต้องคุมกำเนิดอย่างเคร่งครัดระหว่างใช้ยาและต่อเนื่องไปอีกอย่างน้อย 3 เดือนหลังหยุดยา",
-      "answerImage": "",
-      "note": "PT2 โพย สรุป COVID-19"
-    },
-    {
-      "id": "16. Others & Toxic::293",
-      "itemNo": "291",
+      "id": "16. Others & Toxic::275",
+      "itemNo": "273",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24738,8 +24090,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::294",
-      "itemNo": "292",
+      "id": "16. Others & Toxic::276",
+      "itemNo": "274",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24750,8 +24102,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::295",
-      "itemNo": "293",
+      "id": "16. Others & Toxic::277",
+      "itemNo": "275",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24762,8 +24114,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::296",
-      "itemNo": "294",
+      "id": "16. Others & Toxic::278",
+      "itemNo": "276",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24774,8 +24126,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::297",
-      "itemNo": "295",
+      "id": "16. Others & Toxic::279",
+      "itemNo": "277",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24786,8 +24138,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::298",
-      "itemNo": "296",
+      "id": "16. Others & Toxic::280",
+      "itemNo": "278",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24798,8 +24150,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::299",
-      "itemNo": "297",
+      "id": "16. Others & Toxic::281",
+      "itemNo": "279",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24810,8 +24162,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::300",
-      "itemNo": "298",
+      "id": "16. Others & Toxic::282",
+      "itemNo": "280",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24822,8 +24174,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Mechanisms of Action 6 Targets Slide 12"
     },
     {
-      "id": "16. Others & Toxic::301",
-      "itemNo": "299",
+      "id": "16. Others & Toxic::283",
+      "itemNo": "281",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24834,8 +24186,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Novel Agents MOA: Bedaquiline (ATP synthase) & Pretomanid (Nitroimidazole)"
     },
     {
-      "id": "16. Others & Toxic::302",
-      "itemNo": "300",
+      "id": "16. Others & Toxic::284",
+      "itemNo": "282",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24846,8 +24198,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Ethionamide Hypothyroidism & Levothyroxine replacement"
     },
     {
-      "id": "16. Others & Toxic::303",
-      "itemNo": "301",
+      "id": "16. Others & Toxic::285",
+      "itemNo": "283",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24858,8 +24210,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::304",
-      "itemNo": "302",
+      "id": "16. Others & Toxic::286",
+      "itemNo": "284",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24870,8 +24222,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::305",
-      "itemNo": "303",
+      "id": "16. Others & Toxic::287",
+      "itemNo": "285",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24882,8 +24234,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::306",
-      "itemNo": "304",
+      "id": "16. Others & Toxic::288",
+      "itemNo": "286",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24894,8 +24246,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::307",
-      "itemNo": "305",
+      "id": "16. Others & Toxic::289",
+      "itemNo": "287",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24906,8 +24258,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::308",
-      "itemNo": "306",
+      "id": "16. Others & Toxic::290",
+      "itemNo": "288",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24918,8 +24270,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::309",
-      "itemNo": "307",
+      "id": "16. Others & Toxic::291",
+      "itemNo": "289",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24930,8 +24282,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: katG vs inhA molecular genetics & High-dose INH"
     },
     {
-      "id": "16. Others & Toxic::310",
-      "itemNo": "308",
+      "id": "16. Others & Toxic::292",
+      "itemNo": "290",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24942,8 +24294,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: WHO Definitions of MDR, Pre-XDR and XDR-TB"
     },
     {
-      "id": "16. Others & Toxic::311",
-      "itemNo": "309",
+      "id": "16. Others & Toxic::293",
+      "itemNo": "291",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24954,8 +24306,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::312",
-      "itemNo": "310",
+      "id": "16. Others & Toxic::294",
+      "itemNo": "292",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24966,8 +24318,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::313",
-      "itemNo": "311",
+      "id": "16. Others & Toxic::295",
+      "itemNo": "293",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24978,8 +24330,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::314",
-      "itemNo": "312",
+      "id": "16. Others & Toxic::296",
+      "itemNo": "294",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -24990,8 +24342,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::315",
-      "itemNo": "313",
+      "id": "16. Others & Toxic::297",
+      "itemNo": "295",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25002,8 +24354,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::316",
-      "itemNo": "314",
+      "id": "16. Others & Toxic::298",
+      "itemNo": "296",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25014,8 +24366,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Novel BPaLM vs BPaL regimens"
     },
     {
-      "id": "16. Others & Toxic::317",
-      "itemNo": "315",
+      "id": "16. Others & Toxic::299",
+      "itemNo": "297",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25026,8 +24378,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Definitions: Mono vs Poly vs MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::318",
-      "itemNo": "316",
+      "id": "16. Others & Toxic::300",
+      "itemNo": "298",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25038,8 +24390,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Definitions: Pre-XDR vs XDR-TB updated criteria"
     },
     {
-      "id": "16. Others & Toxic::319",
-      "itemNo": "317",
+      "id": "16. Others & Toxic::301",
+      "itemNo": "299",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25050,8 +24402,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB INH Resistance Genes: katG (high-level) vs inhA (low-level & cross-resistant to Ethionamide)"
     },
     {
-      "id": "16. Others & Toxic::320",
-      "itemNo": "318",
+      "id": "16. Others & Toxic::302",
+      "itemNo": "300",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25062,8 +24414,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB RIF Resistance Gene: rpoB & GeneXpert MTB/RIF"
     },
     {
-      "id": "16. Others & Toxic::321",
-      "itemNo": "319",
+      "id": "16. Others & Toxic::303",
+      "itemNo": "301",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25074,8 +24426,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Mono-resistant Regimens: Mono-INH 6RZELfx, Mono-EMB 2HRZ/4HR, Mono-PZA 2HRE/7HR"
     },
     {
-      "id": "16. Others & Toxic::322",
-      "itemNo": "320",
+      "id": "16. Others & Toxic::304",
+      "itemNo": "302",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25086,8 +24438,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB BPaLM 6-Month Regimen Dosing & Administration"
     },
     {
-      "id": "16. Others & Toxic::323",
-      "itemNo": "321",
+      "id": "16. Others & Toxic::305",
+      "itemNo": "303",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25098,8 +24450,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Linezolid Myelosuppression CBC cutoffs (Hb < 8, PLT < 50k)"
     },
     {
-      "id": "16. Others & Toxic::324",
-      "itemNo": "322",
+      "id": "16. Others & Toxic::306",
+      "itemNo": "304",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25110,8 +24462,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: Bedaquiline fatty meal, QT & Linezolid CBC cutoffs"
     },
     {
-      "id": "16. Others & Toxic::325",
-      "itemNo": "323",
+      "id": "16. Others & Toxic::307",
+      "itemNo": "305",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25122,8 +24474,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture MDR-TB: DILI criteria & E->R->H rechallenge sequence"
     },
     {
-      "id": "16. Others & Toxic::326",
-      "itemNo": "324",
+      "id": "16. Others & Toxic::308",
+      "itemNo": "306",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25134,8 +24486,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB All-Oral Shorter Regimen Exclusion Criteria"
     },
     {
-      "id": "16. Others & Toxic::327",
-      "itemNo": "325",
+      "id": "16. Others & Toxic::309",
+      "itemNo": "307",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25146,8 +24498,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB DILI Hepatotoxicity Ranking & Rechallenge Protocol"
     },
     {
-      "id": "16. Others & Toxic::328",
-      "itemNo": "326",
+      "id": "16. Others & Toxic::310",
+      "itemNo": "308",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25158,8 +24510,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Neurotoxicity: Peripheral vs Optic neuropathy vs Psychosis vs Seizure"
     },
     {
-      "id": "16. Others & Toxic::329",
-      "itemNo": "327",
+      "id": "16. Others & Toxic::311",
+      "itemNo": "309",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25170,8 +24522,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB QT Prolongation Drugs & QTc > 500ms stopping cutoff"
     },
     {
-      "id": "16. Others & Toxic::330",
-      "itemNo": "328",
+      "id": "16. Others & Toxic::312",
+      "itemNo": "310",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25182,8 +24534,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB DDI: Bedaquiline with CYP3A4 Inducers & Linezolid with SSRIs (Serotonin Syndrome)"
     },
     {
-      "id": "16. Others & Toxic::331",
-      "itemNo": "329",
+      "id": "16. Others & Toxic::313",
+      "itemNo": "311",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25194,8 +24546,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Pregnancy in MDR-TB: Contraindicated Ethionamide & Aminoglycosides"
     },
     {
-      "id": "16. Others & Toxic::332",
-      "itemNo": "330",
+      "id": "16. Others & Toxic::314",
+      "itemNo": "312",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25206,8 +24558,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::333",
-      "itemNo": "331",
+      "id": "16. Others & Toxic::315",
+      "itemNo": "313",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25218,8 +24570,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::334",
-      "itemNo": "332",
+      "id": "16. Others & Toxic::316",
+      "itemNo": "314",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25230,8 +24582,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::335",
-      "itemNo": "333",
+      "id": "16. Others & Toxic::317",
+      "itemNo": "315",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25242,8 +24594,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::336",
-      "itemNo": "334",
+      "id": "16. Others & Toxic::318",
+      "itemNo": "316",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25254,8 +24606,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::337",
-      "itemNo": "335",
+      "id": "16. Others & Toxic::319",
+      "itemNo": "317",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25266,8 +24618,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::338",
-      "itemNo": "336",
+      "id": "16. Others & Toxic::320",
+      "itemNo": "318",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25278,8 +24630,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::339",
-      "itemNo": "337",
+      "id": "16. Others & Toxic::321",
+      "itemNo": "319",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25290,8 +24642,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::340",
-      "itemNo": "338",
+      "id": "16. Others & Toxic::322",
+      "itemNo": "320",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25302,8 +24654,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::341",
-      "itemNo": "339",
+      "id": "16. Others & Toxic::323",
+      "itemNo": "321",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25314,8 +24666,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::342",
-      "itemNo": "340",
+      "id": "16. Others & Toxic::324",
+      "itemNo": "322",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25326,8 +24678,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::343",
-      "itemNo": "341",
+      "id": "16. Others & Toxic::325",
+      "itemNo": "323",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25338,8 +24690,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::344",
-      "itemNo": "342",
+      "id": "16. Others & Toxic::326",
+      "itemNo": "324",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25350,8 +24702,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "TB Clofazimine Skin Discoloration reddish-brown black"
     },
     {
-      "id": "16. Others & Toxic::345",
-      "itemNo": "343",
+      "id": "16. Others & Toxic::327",
+      "itemNo": "325",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25362,8 +24714,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย TB ไตเสื่อม)"
     },
     {
-      "id": "16. Others & Toxic::346",
-      "itemNo": "344",
+      "id": "16. Others & Toxic::328",
+      "itemNo": "326",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25374,8 +24726,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.ชาญกิจ (โพย BPaLM Monitoring)"
     },
     {
-      "id": "16. Others & Toxic::347",
-      "itemNo": "345",
+      "id": "16. Others & Toxic::329",
+      "itemNo": "327",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25386,8 +24738,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: GeneXpert RIF-R Reflex LPA & BPaLM"
     },
     {
-      "id": "16. Others & Toxic::348",
-      "itemNo": "346",
+      "id": "16. Others & Toxic::330",
+      "itemNo": "328",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25398,8 +24750,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: QT Prolongation Monitoring & QTc > 500ms cutoff"
     },
     {
-      "id": "16. Others & Toxic::349",
-      "itemNo": "347",
+      "id": "16. Others & Toxic::331",
+      "itemNo": "329",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25410,8 +24762,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "MDR-TB MCQ: DILI Rechallenge Protocol & PZA Exclusion"
     },
     {
-      "id": "16. Others & Toxic::350",
-      "itemNo": "348",
+      "id": "16. Others & Toxic::332",
+      "itemNo": "330",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25422,8 +24774,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย MDR-TB"
     },
     {
-      "id": "16. Others & Toxic::351",
-      "itemNo": "349",
+      "id": "16. Others & Toxic::333",
+      "itemNo": "331",
       "group": "16. Others & Toxic",
       "subTopic": "Tuberculosis (MDR-TB)",
       "track": "Clinic",
@@ -25434,8 +24786,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 โพย สรุป TB"
     },
     {
-      "id": "16. Others & Toxic::352",
-      "itemNo": "350",
+      "id": "16. Others & Toxic::334",
+      "itemNo": "332",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25446,8 +24798,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::353",
-      "itemNo": "351",
+      "id": "16. Others & Toxic::335",
+      "itemNo": "333",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25458,8 +24810,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::354",
-      "itemNo": "352",
+      "id": "16. Others & Toxic::336",
+      "itemNo": "334",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25470,8 +24822,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::355",
-      "itemNo": "353",
+      "id": "16. Others & Toxic::337",
+      "itemNo": "335",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25482,8 +24834,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::356",
-      "itemNo": "354",
+      "id": "16. Others & Toxic::338",
+      "itemNo": "336",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25494,8 +24846,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::357",
-      "itemNo": "355",
+      "id": "16. Others & Toxic::339",
+      "itemNo": "337",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25506,8 +24858,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::358",
-      "itemNo": "356",
+      "id": "16. Others & Toxic::340",
+      "itemNo": "338",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25518,8 +24870,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::359",
-      "itemNo": "357",
+      "id": "16. Others & Toxic::341",
+      "itemNo": "339",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25530,8 +24882,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::360",
-      "itemNo": "358",
+      "id": "16. Others & Toxic::342",
+      "itemNo": "340",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25542,8 +24894,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::361",
-      "itemNo": "359",
+      "id": "16. Others & Toxic::343",
+      "itemNo": "341",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25554,8 +24906,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::362",
-      "itemNo": "360",
+      "id": "16. Others & Toxic::344",
+      "itemNo": "342",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25566,8 +24918,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::363",
-      "itemNo": "361",
+      "id": "16. Others & Toxic::345",
+      "itemNo": "343",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25578,8 +24930,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Necrotizing fasciitis triad, Clindamycin toxin suppression & Eagle effect"
     },
     {
-      "id": "16. Others & Toxic::364",
-      "itemNo": "362",
+      "id": "16. Others & Toxic::346",
+      "itemNo": "344",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25590,8 +24942,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Erysipelas vs Cellulitis Clinical Differences"
     },
     {
-      "id": "16. Others & Toxic::365",
-      "itemNo": "363",
+      "id": "16. Others & Toxic::347",
+      "itemNo": "345",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25602,8 +24954,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Necrotizing Fasciitis Triad & Clindamycin Eagle Effect"
     },
     {
-      "id": "16. Others & Toxic::366",
-      "itemNo": "364",
+      "id": "16. Others & Toxic::348",
+      "itemNo": "346",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25614,8 +24966,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::367",
-      "itemNo": "365",
+      "id": "16. Others & Toxic::349",
+      "itemNo": "347",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25626,8 +24978,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::368",
-      "itemNo": "366",
+      "id": "16. Others & Toxic::350",
+      "itemNo": "348",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25638,8 +24990,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::369",
-      "itemNo": "367",
+      "id": "16. Others & Toxic::351",
+      "itemNo": "349",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25650,8 +25002,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::370",
-      "itemNo": "368",
+      "id": "16. Others & Toxic::352",
+      "itemNo": "350",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25662,8 +25014,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::371",
-      "itemNo": "369",
+      "id": "16. Others & Toxic::353",
+      "itemNo": "351",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25674,8 +25026,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture SSTI: Non-purulent Cellulitis severity and regimens"
     },
     {
-      "id": "16. Others & Toxic::372",
-      "itemNo": "370",
+      "id": "16. Others & Toxic::354",
+      "itemNo": "352",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25686,8 +25038,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::373",
-      "itemNo": "371",
+      "id": "16. Others & Toxic::355",
+      "itemNo": "353",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25698,8 +25050,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::374",
-      "itemNo": "372",
+      "id": "16. Others & Toxic::356",
+      "itemNo": "354",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25710,8 +25062,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::375",
-      "itemNo": "373",
+      "id": "16. Others & Toxic::357",
+      "itemNo": "355",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25722,8 +25074,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Animal Bite: Pasteurella multocida DOC & Contraindicated drugs"
     },
     {
-      "id": "16. Others & Toxic::376",
-      "itemNo": "374",
+      "id": "16. Others & Toxic::358",
+      "itemNo": "356",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25734,8 +25086,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Thai Red Cross ID 2-2-2-0-2 & RIG infiltration"
     },
     {
-      "id": "16. Others & Toxic::377",
-      "itemNo": "375",
+      "id": "16. Others & Toxic::359",
+      "itemNo": "357",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25746,8 +25098,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI Animal Bites Pasteurella multocida & Contraindicated Drugs"
     },
     {
-      "id": "16. Others & Toxic::378",
-      "itemNo": "376",
+      "id": "16. Others & Toxic::360",
+      "itemNo": "358",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25758,8 +25110,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Rabies PEP Thai Red Cross ID 2-2-2-0-2 & RIG rules"
     },
     {
-      "id": "16. Others & Toxic::379",
-      "itemNo": "377",
+      "id": "16. Others & Toxic::361",
+      "itemNo": "359",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25770,8 +25122,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::380",
-      "itemNo": "378",
+      "id": "16. Others & Toxic::362",
+      "itemNo": "360",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25782,8 +25134,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::381",
-      "itemNo": "379",
+      "id": "16. Others & Toxic::363",
+      "itemNo": "361",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25794,8 +25146,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::382",
-      "itemNo": "380",
+      "id": "16. Others & Toxic::364",
+      "itemNo": "362",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25806,8 +25158,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::383",
-      "itemNo": "381",
+      "id": "16. Others & Toxic::365",
+      "itemNo": "363",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25818,8 +25170,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::384",
-      "itemNo": "382",
+      "id": "16. Others & Toxic::366",
+      "itemNo": "364",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25830,8 +25182,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::385",
-      "itemNo": "383",
+      "id": "16. Others & Toxic::367",
+      "itemNo": "365",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25842,8 +25194,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::386",
-      "itemNo": "384",
+      "id": "16. Others & Toxic::368",
+      "itemNo": "366",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25854,8 +25206,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::387",
-      "itemNo": "385",
+      "id": "16. Others & Toxic::369",
+      "itemNo": "367",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25866,8 +25218,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::388",
-      "itemNo": "386",
+      "id": "16. Others & Toxic::370",
+      "itemNo": "368",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25878,8 +25230,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์"
     },
     {
-      "id": "16. Others & Toxic::389",
-      "itemNo": "387",
+      "id": "16. Others & Toxic::371",
+      "itemNo": "369",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25890,8 +25242,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Lecture Rabies PEP: Previously vaccinated booster & No RIG rule"
     },
     {
-      "id": "16. Others & Toxic::390",
-      "itemNo": "388",
+      "id": "16. Others & Toxic::372",
+      "itemNo": "370",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25902,8 +25254,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย แผลสัตว์กัด)"
     },
     {
-      "id": "16. Others & Toxic::391",
-      "itemNo": "389",
+      "id": "16. Others & Toxic::373",
+      "itemNo": "371",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25914,8 +25266,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "PT2 อ.โชติรัตน์ (โพย Rabies Category III)"
     },
     {
-      "id": "16. Others & Toxic::392",
-      "itemNo": "390",
+      "id": "16. Others & Toxic::374",
+      "itemNo": "372",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25926,8 +25278,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI MCQ: Cat Bite Pasteurella multocida & Amox/Clav"
     },
     {
-      "id": "16. Others & Toxic::393",
-      "itemNo": "391",
+      "id": "16. Others & Toxic::375",
+      "itemNo": "373",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25938,8 +25290,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Bone & Joint MCQ: Gonococcal Septic Arthritis Ceftriaxone + Azithromycin"
     },
     {
-      "id": "16. Others & Toxic::394",
-      "itemNo": "392",
+      "id": "16. Others & Toxic::376",
+      "itemNo": "374",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25950,8 +25302,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "SSTI MCQ: Necrotizing Fasciitis Surgical Debridement & Clindamycin"
     },
     {
-      "id": "16. Others & Toxic::395",
-      "itemNo": "393",
+      "id": "16. Others & Toxic::377",
+      "itemNo": "375",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25962,8 +25314,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "Bone & Joint MCQ: Diabetic Foot Osteomyelitis Probe-to-Bone 6 Weeks"
     },
     {
-      "id": "16. Others & Toxic::396",
-      "itemNo": "394",
+      "id": "16. Others & Toxic::378",
+      "itemNo": "376",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25974,8 +25326,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Rabies PEP Thai Red Cross ID 2-2-2-0-2 Regimen"
     },
     {
-      "id": "16. Others & Toxic::397",
-      "itemNo": "395",
+      "id": "16. Others & Toxic::379",
+      "itemNo": "377",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25986,8 +25338,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "ข้อสอบจริง MCQ: Sneaker Puncture Wound Pseudomonas aeruginosa & Cipro"
     },
     {
-      "id": "16. Others & Toxic::398",
-      "itemNo": "396",
+      "id": "16. Others & Toxic::380",
+      "itemNo": "378",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
@@ -25998,8 +25350,8 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "note": "โพยข้อสอบจริง: Hematogenous osteomyelitis in age > 50 -> Vertebral spine"
     },
     {
-      "id": "16. Others & Toxic::399",
-      "itemNo": "397",
+      "id": "16. Others & Toxic::381",
+      "itemNo": "379",
       "group": "16. Others & Toxic",
       "subTopic": "Bone & Joint / SSTI / Rabies",
       "track": "Clinic",
