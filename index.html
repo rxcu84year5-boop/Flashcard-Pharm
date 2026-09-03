@@ -1324,6 +1324,7 @@
 <script src="flashcard-data-offline.js"></script>
 <script>
 window.GOOGLE_SHEET_ID = '1U9JfDwzg-UthEBSjdZBy0p0Y_MaNojZm6nYo74IO5Fg';
+window.GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxryKB5BKgLiR-SgVxthDDHwi5CljvrdxnZhA7hD6MxI8OIE07TieMbPNF-_MBPz8Bw/exec';
 
 const USERS_STORAGE_KEY = 'pharmacu_users_db_v2';
 const SESSIONS_STORAGE_KEY = 'pharmacu_sessions_db_v2';
@@ -1351,18 +1352,131 @@ function saveLocalUsers(users) {
 function formatPlainTextToHtml(text) {
   if (!text) return '';
   var escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  
-  escaped = escaped.replace(/(Ceftriaxone|Cefepime|Meropenem|Vancomycin|Daptomycin|Linezolid|Colistin|Ampicillin|Amoxicillin|Cloxacillin|Piperacillin|Tazobactam|Sulbactam|Ceftazidime|Avibactam|Fosfomycin|Nitrofurantoin|Azithromycin|Doxycycline|Metronidazole|Gentamicin|Amikacin)/gi, '<b style="color:#0284c7;">$1</b>');
-  escaped = escaped.replace(/(Drug of Choice|First-line DOC|First-line|DOC)/gi, '<b style="color:#16a34a;">$1</b>');
-  escaped = escaped.replace(/(MRSA|VRE|ESBL|CRE|CRAB|CRPA|MDR-TB|ห้ามใช้|อันตราย|ดื้อยา|Dead Zone)/gi, '<b style="color:#dc2626;">$1</b>');
-  escaped = escaped.replace(/(mecA|PBP2a|KPC|NDM-1|OXA-48|AmpC|vanA)/gi, '<b style="color:#7c3aed;">$1</b>');
-  
+
+  var C_GREEN  = '#16a34a'; // DOC & Regimens
+  var C_RED    = '#dc2626'; // Warnings, Contraindications, Severe ADRs
+  var C_AMBER  = '#d97706'; // Criteria, Scores, Cutoffs
+  var C_PURPLE = '#7c3aed'; // Pathogens, Resistance Genes, Enzymes
+  var C_BLUE   = '#0284c7'; // Drug Names & Classes
+
+  var regGreen = [
+    'Drug of Choice', 'First-line DOC', 'First-line', 'DOC',
+    'ยาขนานแรก', 'ยาทางเลือกอันดับ 1', 'ยาหลัก', 'สูตรมาตรฐาน',
+    'BPaLM Regimen', 'BPaLM', 'BPaL Regimen', 'BPaL',
+    '2HRZE / 4HR', '2HRZE', '4HR', '6 R-Z-E-Lfx',
+    'Empirical therapy', 'Empiric therapy', 'Empiric DOC'
+  ];
+
+  var regRed = [
+    'QT Prolongation', 'QTc > 500 ms', 'Torsades de Pointes', 'TdP',
+    'TB-DILI', 'DILI', 'ตับอักเสบรุนแรง', 'ตับวาย', 'มะเร็งตับวาย',
+    'Myelosuppression', 'กดไขกระดูก', 'Aplastic anemia', 'Thrombocytopenia',
+    'เกล็ดเลือดต่ำ', 'เม็ดเลือดขาวต่ำ', 'Optic Neuropathy', 'ตาบอดสีแดง-เขียว',
+    'Peripheral Neuropathy', 'ปลายประสาทอักเสบ', 'Ototoxicity', 'พิษต่อหู',
+    'Nephrotoxicity', 'พิษต่อไต', 'ไตวายเฉียบพลัน', 'Red Man Syndrome',
+    'Hypothyroidism', 'ภาวะไทรอยด์ทำงานต่ำ', 'Psychosis', 'อาการทางจิตเวช',
+    'Suicidal ideation', 'Seizure', 'ชัก', 'ห้ามใช้เด็ดขาด', 'ข้อห้ามใช้เด็ดขาด',
+    'ข้อห้ามใช้', 'Contraindicated', 'ห้ามใช้', 'อันตราย', 'Dead Zone'
+  ];
+
+  var regAmber = [
+    'Modified Duke Criteria', 'Duke Criteria', 'Definite IE', 'Possible IE',
+    'Major criteria', 'Minor criteria', 'Major Criteria', 'Minor Criteria',
+    'CURB-65 >= 2', 'CURB-65 >= 3', 'CURB-65', 'CURB65',
+    'PEDIS Grade 1', 'PEDIS Grade', 'CrCl < 30 mL/min', 'CrCl < 50 mL/min',
+    'CrCl < 30', 'CrCl < 50', 'ALT > 3x ULN', 'ALT > 5x ULN',
+    'Total Bilirubin > 2.0 mg/dL', 'Hb < 8.0 g/dL', 'Hb < 8 g/dL',
+    'Platelets < 50,000 /mcL', 'PMN > 75%', 'CSF opening pressure',
+    'GeneXpert MTB/RIF', 'GeneXpert', 'Line Probe Assay', 'LPA'
+  ];
+
+  var regPurple = [
+    'Streptococcus pneumoniae', 'S. pneumoniae', 'Streptococcus pyogenes', 'S. pyogenes',
+    'Staphylococcus aureus', 'S. aureus', 'MSSA', 'MRSA', 'VISA', 'VRSA',
+    'Enterococcus faecalis', 'E. faecalis', 'Enterococcus faecium', 'E. faecium', 'VRE',
+    'Pseudomonas aeruginosa', 'P. aeruginosa', 'Acinetobacter baumannii', 'A. baumannii',
+    'Klebsiella pneumoniae', 'K. pneumoniae', 'Escherichia coli', 'E. coli',
+    'Neisseria meningitidis', 'N. meningitidis', 'Neisseria gonorrhoeae', 'N. gonorrhoeae',
+    'Listeria monocytogenes', 'L. monocytogenes', 'Haemophilus influenzae', 'H. influenzae',
+    'Mycobacterium tuberculosis', 'M. tuberculosis', 'Mycobacterium bovis', 'M. bovis',
+    'Pasteurella multocida', 'Pasteurella spp.', 'Pasteurella',
+    'Eikenella corrodens', 'Eikenella spp.', 'Eikenella',
+    'Viridans Streptococci', 'Viridans Group Streptococci', 'Viridans strep',
+    'Streptococcus gallolyticus', 'Streptococcus bovis', 'S. bovis',
+    'MDR-TB', 'Pre-XDR-TB', 'Pre-XDR', 'XDR-TB', 'RR-TB',
+    'ESBL', 'AmpC', 'CRE', 'CRAB', 'CRPA',
+    'mecA', 'PBP2a', 'PBP', 'vanA', 'vanB', 'blaCTX-M', 'blaSHV', 'blaTEM',
+    'blaKPC', 'blaNDM', 'blaOXA', 'katG', 'inhA', 'rpoB', 'pncA', 'embB',
+    'atpE', 'gyrA', 'gyrB', 'rrs', '23S rRNA', 'OprD', 'MexAB-OprM', 'Efflux pump',
+    'DNA Gyrase', 'Topoisomerase IV', 'ATP Synthase', 'RNA Polymerase'
+  ];
+
+  var regBlue = [
+    'Penicillin G', 'Penicillin', 'Ampicillin', 'Amoxicillin-Clavulanate', 'Amoxicillin/Clavulanate',
+    'Amoxicillin', 'Augmentin', 'Cloxacillin', 'Oxacillin', 'Nafcillin', 'Dicloxacillin',
+    'Cefazolin', 'Cephalexin', 'Cefalexin', 'Ceftriaxone', 'Ceftazidime/Avibactam',
+    'Ceftazidime', 'Cefepime', 'Ceftaroline', 'Meropenem', 'Imipenem', 'Ertapenem', 'Doripenem',
+    'Piperacillin/Tazobactam', 'Piperacillin', 'Tazobactam', 'Sulbactam', 'Clavulanate',
+    'Vancomycin', 'Daptomycin', 'Linezolid', 'Tedizolid', 'Colistin', 'Polymyxin B',
+    'Fosfomycin', 'Gentamicin', 'Amikacin', 'Tobramycin', 'Streptomycin', 'Kanamycin',
+    'Ciprofloxacin', 'Levofloxacin', 'Moxifloxacin', 'Azithromycin', 'Clarithromycin',
+    'Erythromycin', 'Doxycycline', 'Minocycline', 'Tigecycline', 'Cotrimoxazole',
+    'TMP/SMX', 'Metronidazole', 'Clindamycin', 'Rifampin', 'Rifampicin', 'Isoniazid',
+    'Pyrazinamide', 'Ethambutol', 'Bedaquiline', 'Pretomanid', 'Delamanid', 'Clofazimine',
+    'Cycloserine', 'Ethionamide', 'Prothionamide', 'Pyridoxine', 'Vitamin B6',
+    'Levothyroxine', 'Dexamethasone', 'Remdesivir', 'Molnupiravir', 'Paxlovid', 'Favipiravir'
+  ];
+
+  var groups = [
+    { color: C_GREEN, list: regGreen },
+    { color: C_RED, list: regRed },
+    { color: C_AMBER, list: regAmber },
+    { color: C_PURPLE, list: regPurple },
+    { color: C_BLUE, list: regBlue }
+  ];
+
+  var placeholders = {};
+  var count = 0;
+
+  groups.forEach(function(g) {
+    var sortedList = g.list.slice().sort(function(a, b) { return b.length - a.length; });
+    var escapedPats = sortedList.map(function(p) {
+      return p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    });
+    var combinedRegex = new RegExp('(?<![a-zA-Z0-9_\\u0E00-\\u0E7F])(' + escapedPats.join('|') + ')(?![a-zA-Z0-9_\\u0E00-\\u0E7F])', 'gi');
+
+    escaped = escaped.replace(combinedRegex, function(match) {
+      var key = '___HL_PH_' + (count++) + '___';
+      placeholders[key] = '<b style="color:' + g.color + ';">' + match + '</b>';
+      return key;
+    });
+  });
+
+  for (var k in placeholders) {
+    escaped = escaped.replace(k, placeholders[k]);
+  }
+
   return escaped.replace(/\n/g, '<br>');
 }
 
 // ─── TRUE REALTIME FETCH: ZERO CACHE (Always fetches newest edits from Google Sheet) ───
 async function fetchLiveSheetCards(sheetName) {
   try {
+    if (window.GAS_WEBAPP_URL) {
+      try {
+        var gasUrl = window.GAS_WEBAPP_URL + '?action=getCards&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
+        var gasResp = await fetch(gasUrl);
+        if (gasResp.ok) {
+          var gasJson = await gasResp.json();
+          if (gasJson.success && gasJson.cards && gasJson.cards.length > 0) {
+            return gasJson.cards;
+          }
+        }
+      } catch(gasErr) {
+        console.warn('GAS fetch fallback to gviz:', gasErr);
+      }
+    }
+
     var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
     var resp = await fetch(url, { cache: 'no-store' });
     if (!resp.ok) return null;

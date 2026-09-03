@@ -148,6 +148,114 @@ def escape_html(s):
         return ""
     return str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#039;')
 
+def apply_clinical_highlighting(text):
+    if not text:
+        return ""
+    escaped = escape_html(text)
+    
+    # 5-Color Clinical Palette
+    C_GREEN  = '#16a34a' # DOC & Regimens
+    C_RED    = '#dc2626' # Warnings, Contraindications, Severe ADRs
+    C_AMBER  = '#d97706' # Criteria, Scores, Cutoffs
+    C_PURPLE = '#7c3aed' # Pathogens, Resistance Genes, Enzymes
+    C_BLUE   = '#0284c7' # Drug Names & Classes
+
+    reg_green = [
+        r'Drug of Choice', r'First-line DOC', r'First-line', r'DOC',
+        r'ยาขนานแรก', r'ยาทางเลือกอันดับ 1', r'ยาหลัก', r'สูตรมาตรฐาน',
+        r'BPaLM Regimen', r'BPaLM', r'BPaL Regimen', r'BPaL',
+        r'2HRZE\s*/\s*4HR', r'2HRZE', r'4HR', r'6\s*R-Z-E-Lfx',
+        r'Empirical therapy', r'Empiric therapy', r'Empiric DOC'
+    ]
+
+    reg_red = [
+        r'QT Prolongation', r'QTc\s*>\s*500\s*ms', r'Torsades de Pointes', r'TdP',
+        r'TB-DILI', r'DILI', r'ตับอักเสบรุนแรง', r'ตับวาย', r'มะเร็งตับวาย',
+        r'Myelosuppression', r'กดไขกระดูก', r'Aplastic anemia', r'Thrombocytopenia',
+        r'เกล็ดเลือดต่ำ', r'เม็ดเลือดขาวต่ำ', r'Optic Neuropathy', r'ตาบอดสีแดง-เขียว',
+        r'Peripheral Neuropathy', r'ปลายประสาทอักเสบ', r'Ototoxicity', r'พิษต่อหู',
+        r'Nephrotoxicity', r'พิษต่อไต', r'ไตวายเฉียบพลัน', r'Red Man Syndrome',
+        r'Hypothyroidism', r'ภาวะไทรอยด์ทำงานต่ำ', r'Psychosis', r'อาการทางจิตเวช',
+        r'Suicidal ideation', r'Seizure', r'ชัก', r'ห้ามใช้เด็ดขาด', r'ข้อห้ามใช้เด็ดขาด',
+        r'ข้อห้ามใช้', r'Contraindicated', r'ห้ามใช้', r'อันตราย', r'Dead Zone'
+    ]
+
+    reg_amber = [
+        r'Modified Duke Criteria', r'Duke Criteria', r'Definite IE', r'Possible IE',
+        r'Major criteria', r'Minor criteria', r'Major Criteria', r'Minor Criteria',
+        r'CURB-65\s*>=\s*[0-9]', r'CURB-65', r'CURB65', r'PEDIS Grade\s*[0-9]',
+        r'PEDIS Grade', r'CrCl\s*<\s*30\s*mL/min', r'CrCl\s*<\s*50\s*mL/min',
+        r'CrCl\s*<\s*[0-9]+', r'ALT\s*>\s*3x\s*ULN', r'ALT\s*>\s*5x\s*ULN',
+        r'Total Bilirubin\s*>\s*2\.0\s*mg/dL', r'Hb\s*<\s*8(\.0)?\s*g/dL',
+        r'Platelets\s*<\s*50,000\s*/mcL', r'PMN\s*>\s*75%', r'CSF opening pressure',
+        r'GeneXpert MTB/RIF', r'GeneXpert', r'Line Probe Assay', r'LPA'
+    ]
+
+    reg_purple = [
+        r'Streptococcus pneumoniae', r'S\.\s*pneumoniae', r'Streptococcus pyogenes', r'S\.\s*pyogenes',
+        r'Staphylococcus aureus', r'S\.\s*aureus', r'MSSA', r'MRSA', r'VISA', r'VRSA',
+        r'Enterococcus faecalis', r'E\.\s*faecalis', r'Enterococcus faecium', r'E\.\s*faecium', r'VRE',
+        r'Pseudomonas aeruginosa', r'P\.\s*aeruginosa', r'Acinetobacter baumannii', r'A\.\s*baumannii',
+        r'Klebsiella pneumoniae', r'K\.\s*pneumoniae', r'Escherichia coli', r'E\.\s*coli',
+        r'Neisseria meningitidis', r'N\.\s*meningitidis', r'Neisseria gonorrhoeae', r'N\.\s*gonorrhoeae',
+        r'Listeria monocytogenes', r'L\.\s*monocytogenes', r'Haemophilus influenzae', r'H\.\s*influenzae',
+        r'Mycobacterium tuberculosis', r'M\.\s*tuberculosis', r'Mycobacterium bovis', r'M\.\s*bovis',
+        r'Pasteurella multocida', r'Pasteurella spp\.', r'Pasteurella',
+        r'Eikenella corrodens', r'Eikenella spp\.', r'Eikenella',
+        r'Viridans Streptococci', r'Viridans Group Streptococci', r'Viridans strep',
+        r'Streptococcus gallolyticus', r'Streptococcus bovis', r'S\.\s*bovis',
+        r'MDR-TB', r'Pre-XDR-TB', r'Pre-XDR', r'XDR-TB', r'RR-TB',
+        r'ESBL', r'AmpC', r'CRE', r'CRAB', r'CRPA',
+        r'mecA', r'PBP2a', r'PBP', r'vanA', r'vanB', r'blaCTX-M', r'blaSHV', r'blaTEM',
+        r'blaKPC', r'blaNDM', r'blaOXA', r'katG', r'inhA', r'rpoB', r'pncA', r'embB',
+        r'atpE', r'gyrA', r'gyrB', r'rrs', r'23S rRNA', r'OprD', r'MexAB-OprM', r'Efflux pumps?',
+        r'DNA Gyrase', r'Topoisomerase IV', r'ATP Synthase', r'RNA Polymerase'
+    ]
+
+    reg_blue = [
+        r'Penicillin G', r'Penicillin', r'Ampicillin', r'Amoxicillin-Clavulanate', r'Amoxicillin/Clavulanate',
+        r'Amoxicillin', r'Augmentin', r'Cloxacillin', r'Oxacillin', r'Nafcillin', r'Dicloxacillin',
+        r'Cefazolin', r'Cephalexin', r'Cefalexin', r'Ceftriaxone', r'Ceftazidime/Avibactam',
+        r'Ceftazidime', r'Cefepime', r'Ceftaroline', r'Meropenem', r'Imipenem', r'Ertapenem', r'Doripenem',
+        r'Piperacillin/Tazobactam', r'Piperacillin', r'Tazobactam', r'Sulbactam', r'Clavulanate',
+        r'Vancomycin', r'Daptomycin', r'Linezolid', r'Tedizolid', r'Colistin', r'Polymyxin B',
+        r'Fosfomycin', r'Gentamicin', r'Amikacin', r'Tobramycin', r'Streptomycin', r'Kanamycin',
+        r'Ciprofloxacin', r'Levofloxacin', r'Moxifloxacin', r'Azithromycin', r'Clarithromycin',
+        r'Erythromycin', r'Doxycycline', r'Minocycline', r'Tigecycline', r'Cotrimoxazole',
+        r'TMP/SMX', r'Metronidazole', r'Clindamycin', r'Rifampin', r'Rifampicin', r'Isoniazid',
+        r'Pyrazinamide', r'Ethambutol', r'Bedaquiline', r'Pretomanid', r'Delamanid', r'Clofazimine',
+        r'Cycloserine', r'Ethionamide', r'Prothionamide', r'Pyridoxine', r'Vitamin B6',
+        r'Levothyroxine', r'Dexamethasone', r'Remdesivir', r'Molnupiravir', r'Paxlovid', r'Favipiravir'
+    ]
+
+    patterns = [
+        (C_GREEN, sorted(reg_green, key=len, reverse=True)),
+        (C_RED, sorted(reg_red, key=len, reverse=True)),
+        (C_AMBER, sorted(reg_amber, key=len, reverse=True)),
+        (C_PURPLE, sorted(reg_purple, key=len, reverse=True)),
+        (C_BLUE, sorted(reg_blue, key=len, reverse=True)),
+    ]
+
+    placeholders = {}
+    counter = [0]
+    def replace_with_span(m, color):
+        val = m.group(0)
+        idx = counter[0]
+        counter[0] += 1
+        key = f"___HL_SPAN_{idx}___"
+        placeholders[key] = f'<b style="color:{color};">{val}</b>'
+        return key
+
+    current_text = escaped
+    for color, pat_list in patterns:
+        combined_regex = r'(?<![a-zA-Z0-9_\u0E00-\u0E7F])(' + '|'.join(pat_list) + r')(?![a-zA-Z0-9_\u0E00-\u0E7F])'
+        current_text = re.sub(combined_regex, lambda m: replace_with_span(m, color), current_text, flags=re.IGNORECASE)
+
+    for key, span_html in placeholders.items():
+        current_text = current_text.replace(key, span_html)
+
+    return current_text.replace('\n', '<br>')
+
 def rich_text_to_html(cell):
     text = cell.get('formattedValue') or cell.get('userEnteredValue', {}).get('stringValue', '')
     if not text:
@@ -155,8 +263,16 @@ def rich_text_to_html(cell):
     
     runs = cell.get('textFormatRuns')
     if not runs:
-        escaped = escape_html(text)
-        return escaped.replace('\n', '<br>')
+        return apply_clinical_highlighting(text)
+
+    # Check if runs contain actual colors
+    has_color_run = False
+    for r in runs:
+        if r.get('format', {}).get('foregroundColor'):
+            has_color_run = True
+            break
+    if not has_color_run:
+        return apply_clinical_highlighting(text)
 
     sorted_runs = sorted(runs, key=lambda r: r.get('startIndex', 0))
     encoded_u16 = text.encode('utf-16-le')
