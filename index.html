@@ -1389,17 +1389,6 @@ async function fetchLiveSheetCards(sheetName) {
       if (!question && !answer) return;
       if (itemNo.indexOf('กลับหน้าสารบัญ') !== -1 || question.indexOf('คำถาม') !== -1) return;
 
-      function toDirectImageUrl(u) {
-        if (!u) return '';
-        u = u.trim();
-        if (u.indexOf('http') !== 0) return '';
-        var m = u.match(/\/file\/d\/([a-zA-Z0-9_-]+)/) || u.match(/[?&]id=([a-zA-Z0-9_-]+)/);
-        if (m && m[1]) {
-          return 'https://lh3.googleusercontent.com/d/' + m[1];
-        }
-        return u;
-      }
-
       cards.push({
         id: sheetName + '::' + (idx + 3),
         itemNo: itemNo || String(idx + 1),
@@ -1407,9 +1396,9 @@ async function fetchLiveSheetCards(sheetName) {
         subTopic: subTopic || sheetName,
         track: track,
         question: formatPlainTextToHtml(question),
-        questionImage: toDirectImageUrl(qImage),
+        questionImage: (qImage.indexOf('http') === 0 || qImage.indexOf('drive.google') !== -1) ? qImage : '',
         answer: formatPlainTextToHtml(answer),
-        answerImage: toDirectImageUrl(aImage),
+        answerImage: (aImage.indexOf('http') === 0 || aImage.indexOf('drive.google') !== -1) ? aImage : '',
         note: note
       });
     });

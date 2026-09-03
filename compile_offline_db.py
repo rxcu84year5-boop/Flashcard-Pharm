@@ -175,7 +175,11 @@ for title, track in all_ordered_tabs:
             def to_direct_image_url(u):
                 if not u: return ""
                 u = u.strip()
-                if not (u.startswith('http://') or u.startswith('https://')): return ""
+                if u.startswith('images/') or u.startswith('./images/'): return u
+                if not (u.startswith('http://') or u.startswith('https://')):
+                    if u.endswith(('.png', '.jpg', '.jpeg', '.webp', '.gif')):
+                        return f"images/{u}"
+                    return ""
                 m = re.search(r'/file/d/([a-zA-Z0-9_-]+)', u)
                 if not m:
                     m = re.search(r'[?&]id=([a-zA-Z0-9_-]+)', u)
