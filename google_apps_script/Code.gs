@@ -78,10 +78,155 @@ function doGet(e) {
       return jsonResponse_({ success: true, message: 'In-cell images refreshed', count: Object.keys(freshImages).length, images: freshImages });
     }
 
+    // 4. Action: บันทึกผลการประเมิน Subtopic
+    if (action === 'submitSubtopicEvaluation') {
+      return jsonResponse_(handleSubtopicEvaluation_(params));
+    }
+
+    // 5. Action: บันทึกรายงานปัญหาข้อสอบรายข้อ
+    if (action === 'reportCardIssue') {
+      return jsonResponse_(handleCardIssueReport_(params));
+    }
+
     return jsonResponse_({ success: true, message: 'PharmaCU Flashcard API is Live 🚀', timestamp: new Date().toISOString() });
   } catch (err) {
     return jsonResponse_({ success: false, error: err.toString() });
   }
+}
+
+/**
+ * รองรับการส่งข้อมูลผ่าน HTTP POST จาก Web App
+ */
+function doPost(e) {
+  try {
+    let data = {};
+    if (e && e.postData && e.postData.contents) {
+      try {
+        data = JSON.parse(e.postData.contents);
+      } catch (jsonErr) {
+        data = e.parameter || {};
+      }
+    } else if (e && e.parameter) {
+      data = e.parameter;
+    }
+
+    const action = data.action || '';
+    if (action === 'submitSubtopicEvaluation') {
+      return jsonResponse_(handleSubtopicEvaluation_(data));
+    }
+    if (action === 'reportCardIssue') {
+      return jsonResponse_(handleCardIssueReport_(data));
+    }
+
+    return jsonResponse_({ success: false, error: 'Unknown POST action: ' + action });
+  } catch (err) {
+    return jsonResponse_({ success: false, error: err.toString() });
+  }
+}
+
+/**
+ * บันทึกผลการประเมิน Subtopic ลงในชีต Evaluation_Subtopics
+ */
+function handleSubtopicEvaluation_(data) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  let sheet = ss.getSheetByName('Evaluation_Subtopics');
+  if (!sheet) {
+    sheet = ss.insertSheet('Evaluation_Subtopics');
+    sheet.appendRow([
+      "Timestamp (วัน-เวลา)",
+      "Track (สายวิชา)",
+      "Category (หมวดหมู่)",
+      "Subtopic (หัวข้อย่อย)",
+      "ความถูกต้องและตรงประเด็น (1-5)",
+      "ความชัดเจนและเข้าใจง่าย (1-5)",
+      "ประโยชน์และการช่วยกระตุ้นการจำ (1-5)",
+      "คะแนนเฉลี่ย",
+      "ข้อเสนอแนะเพิ่มเติม"
+    ]);
+    sheet.getRange(1, 1, 1, 9).setFontWeight("bold").setBackground("#1e3a8a").setFontColor("#ffffff");
+    sheet.setFrozenRows(1);
+  }
+
+  const timestamp = data.timestamp || Utilities.formatDate(new Date(), "GMT+7", "yyyy-MM-dd HH:mm:ss");
+  const track = String(data.track || '').trim();
+  const category = String(data.category || '').trim();
+  const subtopic = String(data.subtopic || '').trim();
+  const accuracy = Number(data.accuracy || 0);
+  const clarity = Number(data.clarity || 0);
+  const utility = Number(data.utility || 0);
+  const avg = Number(((accuracy + clarity + utility) / 3).toFixed(2));
+  const comment = String(data.comment || '').trim();
+
+  sheet.appendRow([
+    timestamp,
+    track,
+    category,
+    subtopic,
+    accuracy,
+    clarity,
+    utility,
+    avg,
+    comment
+  ]);
+
+  return {
+    success: true,
+    message: "บันทึกผลการประเมินเรียบร้อยแล้ว ขอบคุณสำหรับความคิดเห็นครับ! ⭐"
+  };
+}
+
+/**
+ * บันทึกรายงานข้อผิดพลาดของข้อสอบลงในชีต Report_Cards
+ */
+function handleCardIssueReport_(data) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  let sheet = ss.getSheetByName('Report_Cards');
+  if (!sheet) {
+    sheet = ss.insertSheet('Report_Cards');
+    sheet.appendRow([
+      "Timestamp (วัน-เวลา)",
+      "Track (สายวิชา)",
+      "Category (หมวดหมู่)",
+      "Subtopic (หัวข้อย่อย)",
+      "ข้อที่ (Item No)",
+      "Card ID",
+      "โจทย์คำถาม (ย่อ)",
+      "ประเภทปัญหาที่พบ",
+      "รายละเอียดข้อผิดพลาดที่แจ้ง",
+      "สถานะการแก้ไข (Status)"
+    ]);
+    sheet.getRange(1, 1, 1, 10).setFontWeight("bold").setBackground("#991b1b").setFontColor("#ffffff");
+    sheet.setFrozenRows(1);
+  }
+
+  const timestamp = data.timestamp || Utilities.formatDate(new Date(), "GMT+7", "yyyy-MM-dd HH:mm:ss");
+  const track = String(data.track || '').trim();
+  const category = String(data.category || '').trim();
+  const subtopic = String(data.subtopic || '').trim();
+  const itemNo = String(data.itemNo || '').trim();
+  const cardId = String(data.cardId || '').trim();
+  const question = String(data.question || '').replace(/<[^>]*>/g, '').trim().substring(0, 150);
+  const issueType = String(data.issueType || 'ทั่วไป').trim();
+  const detail = String(data.detail || '').trim();
+  const status = "Pending";
+
+  sheet.appendRow([
+    timestamp,
+    track,
+    category,
+    subtopic,
+    itemNo,
+    cardId,
+    question,
+    issueType,
+    detail,
+    status
+  ]);
+
+  return {
+    success: true,
+    message: "ส่งรายงานข้อผิดพลาดเรียบร้อยแล้ว ทีมงานจะเร่งดำเนินการตรวจสอบครับ! 🚩"
+  };
 }
 
 /**

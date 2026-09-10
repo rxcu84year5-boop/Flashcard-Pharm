@@ -323,21 +323,96 @@
     }
     .sm-seg-btn.smart-mode.active { color: #2563EB; }
 
-    /* ══ SUBTOPIC DROPDOWN ROW ══ */
+    /* ══ SUBTOPIC DROPDOWN ROW & EVALUATION BUTTON ══ */
     .subtopic-selector-row {
-      position: relative; width: 100%; max-width: 680px; margin: 3px auto 6px; flex-shrink: 0;
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; max-width: 680px; margin: 3px auto 6px; flex-shrink: 0;
     }
-    .subtopic-dropdown {
+    .subtopic-select-wrap {
+      position: relative; flex: 1; min-width: 0;
+    }
+    .subtopic-select-wrap select.subtopic-dropdown {
       width: 100%; padding: 7px 30px 7px 11px; border: 1px solid var(--border);
       border-radius: 9px; background: var(--card);
       font-family: inherit; font-size: 12.5px; font-weight: 700; color: var(--clinic);
       cursor: pointer; appearance: none; -webkit-appearance: none; outline: none;
       transition: border-color 0.15s; box-shadow: var(--shadow-sm);
     }
-    .subtopic-dropdown:focus { border-color: var(--clinic); }
-    .subtopic-selector-row svg {
+    .subtopic-select-wrap select.subtopic-dropdown:focus { border-color: var(--clinic); }
+    .subtopic-select-wrap svg {
       position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
       pointer-events: none; stroke: var(--clinic);
+    }
+    .btn-eval-subtopic {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 6.5px 12px; border: 1px solid #fde68a; border-radius: 9px;
+      background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+      color: #854d0e; font-family: inherit; font-size: 12px; font-weight: 700;
+      cursor: pointer; white-space: nowrap; flex-shrink: 0;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05); transition: all 0.15s ease;
+    }
+    .btn-eval-subtopic:hover {
+      background: linear-gradient(135deg, #fef08a 0%, #fde047 100%);
+      transform: translateY(-1px); box-shadow: 0 2px 6px rgba(234, 179, 8, 0.28);
+    }
+    .btn-eval-subtopic:active { transform: translateY(0); }
+
+    .eyebrow-right {
+      display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+    }
+    .btn-report-card {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 8px; border: 1px solid var(--border); border-radius: 6px;
+      background: var(--card); color: var(--ink-faint); font-family: inherit;
+      font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.15s;
+    }
+    .btn-report-card svg { stroke: currentColor; }
+    .btn-report-card:hover {
+      color: #dc2626; border-color: #fca5a5; background: #fef2f2;
+    }
+
+    /* Star Evaluation Modal Elements */
+    .eval-meta-banner {
+      background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+      padding: 8px 12px; margin-bottom: 14px; font-size: 12.5px;
+    }
+    .eval-meta-row { display: flex; gap: 6px; margin-bottom: 2px; }
+    .eval-meta-row:last-child { margin-bottom: 0; }
+    .eval-meta-label { font-weight: 700; color: var(--ink-soft); min-width: 65px; }
+    .eval-meta-val { font-weight: 600; color: var(--ink); flex: 1; word-break: break-word; }
+
+    .eval-criterion-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 12px 14px; margin-bottom: 12px; transition: border-color 0.2s;
+    }
+    .eval-criterion-card.error { border-color: #ef4444; background: #fff5f5; }
+    .eval-crit-num {
+      display: inline-block; font-size: 11px; font-weight: 700;
+      color: #2563eb; background: #eff6ff; border: 1px solid #bfdbfe;
+      padding: 1px 7px; border-radius: 4px; margin-bottom: 4px;
+    }
+    .eval-crit-title { font-size: 13.5px; font-weight: 700; color: var(--ink); margin-bottom: 3px; line-height: 1.35; }
+    .eval-crit-desc { font-size: 12px; color: var(--ink-soft); line-height: 1.45; margin-bottom: 8px; }
+    
+    .star-rating-row {
+      display: flex; align-items: center; gap: 4px; flex-wrap: wrap; margin-top: 4px;
+    }
+    .star-btn {
+      background: none; border: none; font-size: 26px; line-height: 1;
+      color: #d1d5db; cursor: pointer; padding: 2px 4px; transition: transform 0.12s, color 0.12s;
+      user-select: none;
+    }
+    .star-btn:hover { transform: scale(1.15); color: #fbbf24; }
+    .star-btn.active { color: #f59e0b; }
+    .star-score-text {
+      font-size: 11.5px; font-weight: 600; color: var(--ink-soft);
+      margin-left: 8px; font-family: inherit;
+    }
+
+    .report-card-preview {
+      background: #f8fafc; border-left: 3px solid #3b82f6; border-radius: 4px 8px 8px 4px;
+      padding: 8px 12px; margin-bottom: 14px; font-size: 12.5px; color: var(--ink-soft);
+      max-height: 70px; overflow-y: auto; line-height: 1.4;
     }
 
     /* ══ STUDY VIEWPORT (CLEAN FULL WIDTH) ══ */
@@ -977,10 +1052,15 @@
       </div>
 
       <div class="subtopic-selector-row" id="subtopicSelectorRow">
-        <select class="subtopic-dropdown" id="studySubtopicSelect" onchange="onStudySubtopicSelectChange()">
-          <option value="__all__">📂 ทุกหัวข้อย่อยในหมวดนี้</option>
-        </select>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        <div class="subtopic-select-wrap">
+          <select class="subtopic-dropdown" id="studySubtopicSelect" onchange="onStudySubtopicSelectChange()">
+            <option value="__all__">📂 ทุกหัวข้อย่อยในหมวดนี้</option>
+          </select>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <button class="btn-eval-subtopic" id="btnEvalSubtopic" onclick="openSubtopicEvalModal(event)" title="ประเมินภาพรวมหัวข้อย่อยนี้">
+          <span>⭐ ประเมินเนื้อหา</span>
+        </button>
       </div>
 
       <div class="progress-row">
@@ -994,7 +1074,13 @@
           <div class="card" id="flashcard" onclick="flipCard()">
             <div class="card-eyebrow">
               <span class="tag clinic-tag" id="cardTag">-</span>
-              <div class="card-status-dot dot-new" id="cardStatusDot"></div>
+              <div class="eyebrow-right">
+                <button class="btn-report-card" id="btnReportCard" onclick="openReportCardModal(event)" title="แจ้งปัญหาข้อนี้ (ข้อสอบผิด/เฉลยไม่ตรง/รูปหาย)">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                  <span>แจ้งปัญหา</span>
+                </button>
+                <div class="card-status-dot dot-new" id="cardStatusDot"></div>
+              </div>
             </div>
             
             <div class="card-img-wrap" id="qImgWrap">
@@ -1309,7 +1395,122 @@
     </div>
   </div>
 
-  <!-- Lightbox -->
+  <!-- ══ MODAL: SUBTOPIC EVALUATION ══ -->
+  <div class="modal-overlay" id="subtopicEvalModal">
+    <div class="modal-box" style="max-width:520px;">
+      <div class="modal-head">
+        <h3>⭐ ประเมินภาพรวมเนื้อหา (Subtopic Evaluation)</h3>
+        <button class="modal-close" onclick="closeSubtopicEvalModal()">✕</button>
+      </div>
+
+      <div class="eval-meta-banner">
+        <div class="eval-meta-row">
+          <span class="eval-meta-label">หมวดวิชา:</span>
+          <span class="eval-meta-val" id="evalModalCat">-</span>
+        </div>
+        <div class="eval-meta-row">
+          <span class="eval-meta-label">หัวข้อย่อย:</span>
+          <span class="eval-meta-val" id="evalModalSub">-</span>
+        </div>
+      </div>
+
+      <!-- ข้อที่ 1 -->
+      <div class="eval-criterion-card" id="critCard_accuracy">
+        <div class="eval-crit-num">ข้อที่ 1</div>
+        <div class="eval-crit-title">ด้านความถูกต้องและตรงประเด็น (Content Accuracy & Relevance)</div>
+        <div class="eval-crit-desc">คำถามและคำตอบมีความถูกต้อง สมบูรณ์ และตรงกับวัตถุประสงค์การเรียนรู้หรือไม่</div>
+        <div class="star-rating-row" data-criterion="accuracy">
+          <button type="button" class="star-btn" onclick="setCriterionRating('accuracy', 1)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('accuracy', 2)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('accuracy', 3)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('accuracy', 4)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('accuracy', 5)">★</button>
+          <span class="star-score-text" id="scoreText_accuracy">แตะให้คะแนน (1-5)</span>
+        </div>
+      </div>
+
+      <!-- ข้อที่ 2 -->
+      <div class="eval-criterion-card" id="critCard_clarity">
+        <div class="eval-crit-num">ข้อที่ 2</div>
+        <div class="eval-crit-title">ด้านความชัดเจนและเข้าใจง่าย (Clarity & Readability)</div>
+        <div class="eval-crit-desc">ภาษาที่ใช้ในการตั้งคำถามและคำตอบมีความชัดเจน สื่อสารได้ตรงจุด และจัดรูปแบบให้อ่านง่ายหรือไม่</div>
+        <div class="star-rating-row" data-criterion="clarity">
+          <button type="button" class="star-btn" onclick="setCriterionRating('clarity', 1)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('clarity', 2)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('clarity', 3)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('clarity', 4)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('clarity', 5)">★</button>
+          <span class="star-score-text" id="scoreText_clarity">แตะให้คะแนน (1-5)</span>
+        </div>
+      </div>
+
+      <!-- ข้อที่ 3 -->
+      <div class="eval-criterion-card" id="critCard_utility">
+        <div class="eval-crit-num">ข้อที่ 3</div>
+        <div class="eval-crit-title">ด้านประโยชน์และการช่วยกระตุ้นการจำ (Learning Impact & Utility)</div>
+        <div class="eval-crit-desc">Flashcard ชุดนี้ช่วยให้ท่านเข้าใจ เชื่อมโยงความรู้ หรือจดจำจุดสำคัญในการเตรียมสอบได้ดีขึ้นหรือไม่</div>
+        <div class="star-rating-row" data-criterion="utility">
+          <button type="button" class="star-btn" onclick="setCriterionRating('utility', 1)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('utility', 2)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('utility', 3)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('utility', 4)">★</button>
+          <button type="button" class="star-btn" onclick="setCriterionRating('utility', 5)">★</button>
+          <span class="star-score-text" id="scoreText_utility">แตะให้คะแนน (1-5)</span>
+        </div>
+      </div>
+
+      <!-- ข้อเสนอแนะเพิ่มเติม -->
+      <div class="form-group" style="margin-top:10px;">
+        <label>ข้อเสนอแนะเพิ่มเติม (Optional):</label>
+        <textarea class="form-input" id="evalSubtopicComment" rows="3" placeholder="ระบุความคิดเห็นหรือข้อเสนอแนะเพื่อการปรับปรุงให้ดียิ่งขึ้น..." style="resize:vertical;"></textarea>
+      </div>
+
+      <button class="submit-btn" id="btnSubmitEval" onclick="submitSubtopicEvaluation()" style="margin-top:8px;">
+        <span class="btn-spinner" id="evalSpinner" style="display:none;"></span>
+        <span id="evalBtnText">บันทึกการประเมิน</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ MODAL: REPORT CARD ISSUE ══ -->
+  <div class="modal-overlay" id="reportCardModal">
+    <div class="modal-box" style="max-width:500px;">
+      <div class="modal-head">
+        <h3>🚩 แจ้งปัญหาเกี่ยวกับข้อสอบนี้</h3>
+        <button class="modal-close" onclick="closeReportCardModal()">✕</button>
+      </div>
+
+      <div class="eval-meta-banner" style="margin-bottom:10px;">
+        <div class="eval-meta-row">
+          <span class="eval-meta-label">ตำแหน่ง:</span>
+          <span class="eval-meta-val" id="reportCardLoc">-</span>
+        </div>
+      </div>
+
+      <div class="report-card-preview" id="reportCardPreview">คำถาม: ...</div>
+
+      <div class="form-group">
+        <label>ประเภทปัญหาที่พบ:</label>
+        <select class="form-input" id="reportIssueType">
+          <option value="เฉลยไม่ถูกต้อง / ขัดแย้งกับ Guideline ปัจจุบัน">เฉลยไม่ถูกต้อง / ขัดแย้งกับ Guideline ปัจจุบัน</option>
+          <option value="โจทย์กำกวม / พิมพ์ตกหล่น / คำผิด">โจทย์กำกวม / พิมพ์ตกหล่น / คำผิด</option>
+          <option value="รูปภาพประกอบไม่แสดง / รูปไม่ตรงข้อ">รูปภาพประกอบไม่แสดง / รูปไม่ตรงข้อ</option>
+          <option value="คำอธิบายเฉลยไม่ละเอียด / อยากให้เพิ่มจุดเน้น">คำอธิบายเฉลยไม่ละเอียด / อยากให้เพิ่มจุดเน้น</option>
+          <option value="อื่นๆ (ระบุในรายละเอียด)">อื่นๆ (ระบุในรายละเอียด)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>รายละเอียดปัญหาที่พบ หรือเฉลยที่ถูกต้อง: <span style="color:#ef4444;">*</span></label>
+        <textarea class="form-input" id="reportIssueDetail" rows="4" placeholder="โปรดระบุจุดที่ผิด ข้อความที่ถูกต้อง หรือเหตุผลพร้อม Reference (ถ้ามี)..." style="resize:vertical;"></textarea>
+      </div>
+
+      <button class="submit-btn" id="btnSubmitReport" onclick="submitCardReport()" style="background:#dc2626;">
+        <span class="btn-spinner" id="reportSpinner" style="display:none;"></span>
+        <span id="reportBtnText">ส่งรายงานข้อผิดพลาด</span>
+      </button>
+    </div>
+  </div>
   <div class="lightbox-overlay" id="imgLightboxModal" onclick="closeImgLightbox()">
     <img class="lightbox-img" id="lightboxImg" src="" alt="ขยายรูปภาพ" onclick="event.stopPropagation()">
   </div>
@@ -2329,14 +2530,16 @@ window.google.script.run = (function() {
 
     const validSubs = Object.keys(subMap);
 
-    // If deck has no subtopics (e.g. 2. Chromatography), cleanly hide the dropdown row
+    // If deck has no specific subtopics, allow evaluating and studying the whole category
     if (validSubs.length === 0) {
-      rowEl.style.display = 'none';
+      rowEl.style.display = 'flex';
       currentSubTopic = null;
+      selectEl.innerHTML = `<option value="__all__">📂 เนื้อหาทั้งหมดในหมวด (${allCards.length} ข้อ)</option>`;
+      selectEl.value = '__all__';
       return;
     }
 
-    rowEl.style.display = 'block';
+    rowEl.style.display = 'flex';
     let countTotal = allCards.length;
     let html = `<option value="__all__">📂 ทุกหัวข้อย่อยในหมวด (${countTotal} ข้อ)</option>`;
 
@@ -3307,6 +3510,254 @@ window.google.script.run = (function() {
     const t = document.getElementById('toast');
     t.textContent = msg; t.classList.add('show');
     clearTimeout(window._tt); window._tt = setTimeout(() => t.classList.remove('show'), 2200);
+  }
+
+  // ─── EVALUATION & REPORTING SYSTEM ───
+  let evalRatings = { accuracy: 0, clarity: 0, utility: 0 };
+  const EVAL_RATING_DESCS = {
+    accuracy: {
+      1: '⭐ 1 - ไม่ถูกต้อง/ไม่ตรงประเด็นเลย',
+      2: '⭐ 2 - พอใช้ ยังมีจุดผิดพลาด',
+      3: '⭐ 3 - ปานกลาง ตรงประเด็นบางส่วน',
+      4: '⭐ 4 - ดี มีความถูกต้องเป็นส่วนใหญ่',
+      5: '⭐ 5 - ถูกต้อง สมบูรณ์ ดีเยี่ยม 🎯'
+    },
+    clarity: {
+      1: '⭐ 1 - คลุมเครือ/อ่านยากมาก',
+      2: '⭐ 2 - พอใช้ สำนวนยังสับสน',
+      3: '⭐ 3 - ปานกลาง พอเข้าใจได้',
+      4: '⭐ 4 - ดี ชัดเจนเข้าใจง่าย',
+      5: '⭐ 5 - ชัดเจน ภาษาดี อ่านง่ายมาก ✨'
+    },
+    utility: {
+      1: '⭐ 1 - ไม่ช่วยเลย',
+      2: '⭐ 2 - ช่วยได้เล็กน้อย',
+      3: '⭐ 3 - ปานกลาง ทบทวนได้',
+      4: '⭐ 4 - ดี ช่วยกระตุ้นความจำ',
+      5: '⭐ 5 - มีประโยชน์และช่วยจำได้ดีเยี่ยม 🚀'
+    }
+  };
+
+  function setCriterionRating(criterion, score) {
+    evalRatings[criterion] = score;
+    const cardEl = document.getElementById('critCard_' + criterion);
+    if (cardEl) {
+      cardEl.classList.remove('error');
+      const starBtns = cardEl.querySelectorAll('.star-btn');
+      starBtns.forEach((btn, idx) => {
+        btn.classList.toggle('active', (idx + 1) <= score);
+      });
+      const txtEl = document.getElementById('scoreText_' + criterion);
+      if (txtEl && EVAL_RATING_DESCS[criterion]) {
+        txtEl.textContent = EVAL_RATING_DESCS[criterion][score] || `${score} / 5`;
+      }
+    }
+  }
+
+  function resetSubtopicEvalForm() {
+    evalRatings = { accuracy: 0, clarity: 0, utility: 0 };
+    ['accuracy', 'clarity', 'utility'].forEach(crit => {
+      const cardEl = document.getElementById('critCard_' + crit);
+      if (cardEl) {
+        cardEl.classList.remove('error');
+        cardEl.querySelectorAll('.star-btn').forEach(btn => btn.classList.remove('active'));
+      }
+      const txtEl = document.getElementById('scoreText_' + crit);
+      if (txtEl) txtEl.textContent = 'แตะให้คะแนน (1-5)';
+    });
+    const commentEl = document.getElementById('evalSubtopicComment');
+    if (commentEl) commentEl.value = '';
+  }
+
+  function openSubtopicEvalModal(e) {
+    if (e) e.stopPropagation();
+    resetSubtopicEvalForm();
+
+    const catName = currentCategory || (viewCards[currentIndex] ? viewCards[currentIndex].group : 'หมวดวิชา');
+    const selEl = document.getElementById('studySubtopicSelect');
+    let subName = currentSubTopic;
+    if (!subName && selEl && selEl.value && selEl.value !== '__all__') {
+      subName = selEl.value;
+    }
+    if (!subName && viewCards[currentIndex] && viewCards[currentIndex].subTopic) {
+      subName = viewCards[currentIndex].subTopic;
+    }
+    if (!subName) subName = 'ทุกหัวข้อย่อยในหมวดนี้';
+
+    document.getElementById('evalModalCat').textContent = catName;
+    document.getElementById('evalModalSub').textContent = subName;
+    document.getElementById('subtopicEvalModal').classList.add('show');
+  }
+
+  function closeSubtopicEvalModal() {
+    document.getElementById('subtopicEvalModal').classList.remove('show');
+  }
+
+  async function submitSubtopicEvaluation() {
+    let hasError = false;
+    ['accuracy', 'clarity', 'utility'].forEach(crit => {
+      const cardEl = document.getElementById('critCard_' + crit);
+      if (!evalRatings[crit] || evalRatings[crit] < 1) {
+        hasError = true;
+        if (cardEl) cardEl.classList.add('error');
+      } else {
+        if (cardEl) cardEl.classList.remove('error');
+      }
+    });
+
+    if (hasError) {
+      showToast('⚠️ กรุณาให้คะแนนดาวให้ครบทั้ง 3 ข้อครับ');
+      return;
+    }
+
+    const btn = document.getElementById('btnSubmitEval');
+    const spinner = document.getElementById('evalSpinner');
+    const btnText = document.getElementById('evalBtnText');
+
+    btn.disabled = true;
+    if (spinner) spinner.style.display = 'inline-block';
+    if (btnText) btnText.textContent = 'กำลังบันทึก...';
+
+    const catObj = categories.find(c => c.name === currentCategory);
+    const trackVal = (catObj ? catObj.track : currentTrack) || 'clinic';
+
+    const payload = {
+      action: 'submitSubtopicEvaluation',
+      timestamp: new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' }),
+      track: trackVal,
+      category: document.getElementById('evalModalCat').textContent.trim(),
+      subtopic: document.getElementById('evalModalSub').textContent.trim(),
+      accuracy: evalRatings.accuracy,
+      clarity: evalRatings.clarity,
+      utility: evalRatings.utility,
+      comment: document.getElementById('evalSubtopicComment').value.trim()
+    };
+
+    try {
+      await sendFeedbackToGAS(payload);
+      showToast('✅ บันทึกการประเมินเรียบร้อย ขอบคุณมากครับ! ⭐');
+      closeSubtopicEvalModal();
+    } catch (err) {
+      console.error('Eval submit error:', err);
+      showToast('❌ ไม่สามารถบันทึกได้: ' + (err.message || 'เครือข่ายขัดข้อง'));
+    } finally {
+      btn.disabled = false;
+      if (spinner) spinner.style.display = 'none';
+      if (btnText) btnText.textContent = 'บันทึกการประเมิน';
+    }
+  }
+
+  let activeReportCard = null;
+
+  function openReportCardModal(e) {
+    if (e) e.stopPropagation();
+    const card = (viewCards && viewCards[currentIndex]) ? viewCards[currentIndex] : null;
+    if (!card) {
+      showToast('⚠️ ไม่พบข้อมูลข้อสอบปัจจุบัน');
+      return;
+    }
+
+    activeReportCard = card;
+    const cat = card.group || currentCategory || '-';
+    const sub = card.subTopic || '-';
+    const no = card.itemNo || String(currentIndex + 1);
+
+    document.getElementById('reportCardLoc').textContent = `${cat} > ${sub} (ข้อที่ ${no})`;
+    const cleanQ = (card.question || '').replace(/<[^>]*>/g, '').trim();
+    document.getElementById('reportCardPreview').textContent = `❓ โจทย์: "${cleanQ.substring(0, 120)}${cleanQ.length > 120 ? '...' : ''}"`;
+    document.getElementById('reportIssueType').selectedIndex = 0;
+    document.getElementById('reportIssueDetail').value = '';
+
+    document.getElementById('reportCardModal').classList.add('show');
+  }
+
+  function closeReportCardModal() {
+    document.getElementById('reportCardModal').classList.remove('show');
+    activeReportCard = null;
+  }
+
+  async function submitCardReport() {
+    const detail = document.getElementById('reportIssueDetail').value.trim();
+    if (!detail || detail.length < 3) {
+      showToast('⚠️ กรุณาระบุรายละเอียดข้อผิดพลาดด้วยครับ');
+      document.getElementById('reportIssueDetail').focus();
+      return;
+    }
+
+    const card = activeReportCard || (viewCards && viewCards[currentIndex]) || {};
+    const btn = document.getElementById('btnSubmitReport');
+    const spinner = document.getElementById('reportSpinner');
+    const btnText = document.getElementById('reportBtnText');
+
+    btn.disabled = true;
+    if (spinner) spinner.style.display = 'inline-block';
+    if (btnText) btnText.textContent = 'กำลังส่งรายงาน...';
+
+    const payload = {
+      action: 'reportCardIssue',
+      timestamp: new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' }),
+      track: card.track || currentTrack || 'clinic',
+      category: card.group || currentCategory || '-',
+      subtopic: card.subTopic || '-',
+      itemNo: card.itemNo || String(currentIndex + 1),
+      cardId: card.id || '-',
+      question: (card.question || '').replace(/<[^>]*>/g, '').trim().substring(0, 150),
+      issueType: document.getElementById('reportIssueType').value,
+      detail: detail
+    };
+
+    try {
+      await sendFeedbackToGAS(payload);
+      showToast('✅ บันทึกรายงานปัญหาเรียบร้อย จะรีบตรวจสอบและแก้ไขครับ! 🚩');
+      closeReportCardModal();
+    } catch (err) {
+      console.error('Report submit error:', err);
+      showToast('❌ ไม่สามารถส่งรายงานได้: ' + (err.message || 'เครือข่ายขัดข้อง'));
+    } finally {
+      btn.disabled = false;
+      if (spinner) spinner.style.display = 'none';
+      if (btnText) btnText.textContent = 'ส่งรายงานข้อผิดพลาด';
+    }
+  }
+
+  async function sendFeedbackToGAS(payload) {
+    if (window.google && google.script && google.script.run) {
+      return new Promise((resolve, reject) => {
+        if (payload.action === 'submitSubtopicEvaluation') {
+          google.script.run
+            .withSuccessHandler(resolve)
+            .withFailureHandler(reject)
+            .handleSubtopicEvaluation_(payload);
+        } else if (payload.action === 'reportCardIssue') {
+          google.script.run
+            .withSuccessHandler(resolve)
+            .withFailureHandler(reject)
+            .handleCardIssueReport_(payload);
+        } else {
+          reject(new Error('Unknown action: ' + payload.action));
+        }
+      });
+    }
+
+    const url = window.GAS_WEBAPP_URL;
+    if (!url) throw new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL');
+
+    try {
+      await fetch(url, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      });
+      return { success: true };
+    } catch (postErr) {
+      const params = new URLSearchParams();
+      for (const k in payload) {
+        params.append(k, payload[k]);
+      }
+      await fetch(url + '?' + params.toString(), { mode: 'no-cors' });
+      return { success: true };
+    }
   }
 </script>
 
