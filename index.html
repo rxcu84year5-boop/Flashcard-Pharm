@@ -1951,6 +1951,60 @@ window.google.script.run = (function() {
           localStorage.setItem('flashcard_progress_offline', JSON.stringify(p));
           if (successFn) setTimeout(function() { successFn({ success: true }); }, 5);
         } catch(e) {}
+      },
+
+      submitSubtopicEvaluation: function(data) {
+        var url = window.GAS_WEBAPP_URL;
+        if (!url) {
+          if (failureFn) failureFn(new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL'));
+          return;
+        }
+        var payload = Object.assign({ action: 'submitSubtopicEvaluation' }, data || {});
+        fetch(url, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(payload)
+        }).then(function() {
+          if (successFn) successFn({ success: true });
+        }).catch(function(err) {
+          var params = new URLSearchParams();
+          for (var k in payload) {
+            params.append(k, typeof payload[k] === 'object' ? JSON.stringify(payload[k]) : payload[k]);
+          }
+          fetch(url + '?' + params.toString(), { mode: 'no-cors' }).then(function() {
+            if (successFn) successFn({ success: true });
+          }).catch(function(e) {
+            if (failureFn) failureFn(e);
+          });
+        });
+      },
+
+      reportCardIssue: function(data) {
+        var url = window.GAS_WEBAPP_URL;
+        if (!url) {
+          if (failureFn) failureFn(new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL'));
+          return;
+        }
+        var payload = Object.assign({ action: 'reportCardIssue' }, data || {});
+        fetch(url, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(payload)
+        }).then(function() {
+          if (successFn) successFn({ success: true });
+        }).catch(function(err) {
+          var params = new URLSearchParams();
+          for (var k in payload) {
+            params.append(k, typeof payload[k] === 'object' ? JSON.stringify(payload[k]) : payload[k]);
+          }
+          fetch(url + '?' + params.toString(), { mode: 'no-cors' }).then(function() {
+            if (successFn) successFn({ success: true });
+          }).catch(function(e) {
+            if (failureFn) failureFn(e);
+          });
+        });
       }
     };
     return r;
