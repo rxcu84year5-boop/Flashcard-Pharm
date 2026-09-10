@@ -125,6 +125,17 @@ function doPost(e) {
 }
 
 /**
+ * Public wrappers for google.script.run (cannot call functions with trailing underscore)
+ */
+function submitSubtopicEvaluation(data) {
+  return handleSubtopicEvaluation_(data);
+}
+
+function reportCardIssue(data) {
+  return handleCardIssueReport_(data);
+}
+
+/**
  * บันทึกผลการประเมิน Subtopic ลงในชีต Evaluation_Subtopics
  */
 function handleSubtopicEvaluation_(data) {

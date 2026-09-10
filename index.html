@@ -3727,12 +3727,12 @@ window.google.script.run = (function() {
           google.script.run
             .withSuccessHandler(resolve)
             .withFailureHandler(reject)
-            .handleSubtopicEvaluation_(payload);
+            .submitSubtopicEvaluation(payload);
         } else if (payload.action === 'reportCardIssue') {
           google.script.run
             .withSuccessHandler(resolve)
             .withFailureHandler(reject)
-            .handleCardIssueReport_(payload);
+            .reportCardIssue(payload);
         } else {
           reject(new Error('Unknown action: ' + payload.action));
         }
