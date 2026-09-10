@@ -3721,24 +3721,29 @@ window.google.script.run = (function() {
   }
 
   async function sendFeedbackToGAS(payload) {
+    // 1. Try google.script.run if the method is available on the runner
     if (window.google && google.script && google.script.run) {
-      return new Promise((resolve, reject) => {
-        if (payload.action === 'submitSubtopicEvaluation') {
-          google.script.run
-            .withSuccessHandler(resolve)
-            .withFailureHandler(reject)
-            .submitSubtopicEvaluation(payload);
-        } else if (payload.action === 'reportCardIssue') {
-          google.script.run
-            .withSuccessHandler(resolve)
-            .withFailureHandler(reject)
-            .reportCardIssue(payload);
-        } else {
-          reject(new Error('Unknown action: ' + payload.action));
+      const runner = google.script.run;
+      const fnName = payload.action === 'submitSubtopicEvaluation' ? 'submitSubtopicEvaluation' :
+                     payload.action === 'reportCardIssue' ? 'reportCardIssue' : null;
+
+      if (fnName && typeof runner[fnName] === 'function') {
+        try {
+          return await new Promise((resolve, reject) => {
+            runner
+              .withSuccessHandler(res => resolve(res || { success: true }))
+              .withFailureHandler(err => reject(err))
+              [fnName](payload);
+          });
+        } catch (callErr) {
+          console.warn('google.script.run invocation failed, falling back to HTTP fetch:', callErr);
         }
-      });
+      } else {
+        console.warn('google.script.run.' + fnName + ' is not registered on server, falling back to HTTP fetch');
+      }
     }
 
+    // 2. Direct HTTP fetch fallback (Works everywhere: GitHub Pages, Local, or GAS iframe)
     const url = window.GAS_WEBAPP_URL;
     if (!url) throw new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL');
 
@@ -3751,9 +3756,10 @@ window.google.script.run = (function() {
       });
       return { success: true };
     } catch (postErr) {
+      // 3. Fallback GET query
       const params = new URLSearchParams();
       for (const k in payload) {
-        params.append(k, payload[k]);
+        params.append(k, typeof payload[k] === 'object' ? JSON.stringify(payload[k]) : payload[k]);
       }
       await fetch(url + '?' + params.toString(), { mode: 'no-cors' });
       return { success: true };
