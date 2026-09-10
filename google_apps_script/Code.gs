@@ -219,7 +219,7 @@ function handleCardIssueReport_(data) {
   const question = String(data.question || '').replace(/<[^>]*>/g, '').trim().substring(0, 150);
   const issueType = String(data.issueType || 'ทั่วไป').trim();
   const detail = String(data.detail || '').trim();
-  const status = "Pending";
+  const status = "Pending (รอดำเนินการ)";
 
   sheet.appendRow([
     timestamp,
