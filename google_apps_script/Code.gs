@@ -88,6 +88,11 @@ function doGet(e) {
       return jsonResponse_(handleCardIssueReport_(params));
     }
 
+    // 6. Action: ดึงประวัติรายการแจ้งปัญหาข้อสอบและสถานะ
+    if (action === 'getReportHistory') {
+      return jsonResponse_(handleGetReportHistory_());
+    }
+
     return jsonResponse_({ success: true, message: 'PharmaCU Flashcard API is Live 🚀', timestamp: new Date().toISOString() });
   } catch (err) {
     return jsonResponse_({ success: false, error: err.toString() });
@@ -117,6 +122,9 @@ function doPost(e) {
     if (action === 'reportCardIssue') {
       return jsonResponse_(handleCardIssueReport_(data));
     }
+    if (action === 'getReportHistory') {
+      return jsonResponse_(handleGetReportHistory_());
+    }
 
     return jsonResponse_({ success: false, error: 'Unknown POST action: ' + action });
   } catch (err) {
@@ -133,6 +141,45 @@ function submitSubtopicEvaluation(data) {
 
 function reportCardIssue(data) {
   return handleCardIssueReport_(data);
+}
+
+function getReportHistory() {
+  return handleGetReportHistory_();
+}
+
+/**
+ * ดึงประวัติรายการแจ้งปัญหาข้อสอบและสถานะการแก้ไขจากชีต Report_Cards
+ */
+function handleGetReportHistory_() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName('Report_Cards');
+  if (!sheet) return { success: true, count: 0, reports: [] };
+
+  const lastRow = sheet.getLastRow();
+  if (lastRow < 2) return { success: true, count: 0, reports: [] };
+
+  const values = sheet.getRange(2, 1, lastRow - 1, 10).getValues();
+  const reports = [];
+  
+  // เรียงลำดับจากล่าสุดไปเก่าสุด (Newest first)
+  for (let i = values.length - 1; i >= 0; i--) {
+    const r = values[i];
+    if (!r[0] && !r[6] && !r[8]) continue;
+    reports.push({
+      timestamp: String(r[0] || ''),
+      track: String(r[1] || ''),
+      category: String(r[2] || ''),
+      subtopic: String(r[3] || ''),
+      itemNo: String(r[4] || ''),
+      cardId: String(r[5] || ''),
+      question: String(r[6] || ''),
+      issueType: String(r[7] || ''),
+      detail: String(r[8] || ''),
+      status: String(r[9] || 'Pending (รอดำเนินการ)')
+    });
+  }
+
+  return { success: true, count: reports.length, reports: reports };
 }
 
 /**

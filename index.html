@@ -415,6 +415,62 @@
       max-height: 70px; overflow-y: auto; line-height: 1.4;
     }
 
+    /* ══ REPORT HISTORY MODAL & BADGES ══ */
+    .report-hist-box {
+      max-width: 720px; width: 95%; max-height: 88vh; display: flex; flex-direction: column;
+    }
+    .report-hist-filter-bar {
+      display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 10px; margin-bottom: 8px;
+      scrollbar-width: thin;
+    }
+    .report-filter-pill {
+      background: var(--bg); border: 1px solid var(--border); border-radius: 20px;
+      padding: 5px 12px; font-size: 12px; font-weight: 600; color: var(--ink-soft);
+      cursor: pointer; white-space: nowrap; transition: all 0.15s; font-family: inherit;
+    }
+    .report-filter-pill:hover { border-color: #94a3b8; color: var(--ink); }
+    .report-filter-pill.active {
+      background: #1e3a8a; border-color: #1e3a8a; color: #ffffff;
+    }
+    .report-list-container {
+      flex: 1; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; gap: 10px;
+      min-height: 180px; max-height: 55vh;
+    }
+    .report-item-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 12px 14px; box-shadow: var(--shadow-sm); transition: transform 0.1s, box-shadow 0.1s;
+    }
+    .report-item-card:hover { box-shadow: var(--shadow-md); }
+    .report-item-header {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 6px;
+    }
+    .report-item-topic {
+      font-size: 13px; font-weight: 700; color: var(--ink);
+    }
+    .report-badge {
+      display: inline-flex; align-items: center; gap: 4px; font-size: 11.5px; font-weight: 700;
+      padding: 2px 9px; border-radius: 12px;
+    }
+    .badge-status-pending { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .badge-status-progress { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .badge-status-fixed { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
+    .badge-status-invalid { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+
+    .report-item-body { font-size: 12.5px; line-height: 1.45; color: var(--ink); margin-bottom: 8px; }
+    .report-item-q-quote {
+      background: #f8fafc; border-left: 3px solid #cbd5e1; padding: 5px 10px;
+      border-radius: 3px; font-size: 12px; color: var(--ink-soft); margin-bottom: 6px;
+    }
+    .report-item-detail {
+      background: #fffbeb; border: 1px solid #fef3c7; border-radius: 6px; padding: 6px 10px;
+      color: #78350f; font-weight: 500;
+    }
+    .report-item-footer {
+      display: flex; align-items: center; justify-content: space-between; font-size: 11px;
+      color: var(--ink-soft); border-top: 1px dashed var(--border); padding-top: 6px; margin-top: 6px;
+    }
+    .rotating svg { animation: spin 0.75s linear infinite; }
+
     /* ══ STUDY VIEWPORT (CLEAN FULL WIDTH) ══ */
     .study-viewport {
       width: 100%; display: flex; flex-direction: column;
@@ -992,12 +1048,16 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         Browse คลัง
       </button>
+      <button class="lobby-tool-btn" onclick="openReportHistoryModal()" style="color:#1e40af; border-color:#bfdbfe; background:#eff6ff;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        📋 ติดตามปัญหา
+      </button>
     </div>
 
     <!-- Lobby Footer Copyright -->
     <div class="app-copyright-footer">
       <div>© 2026 คณะทำงานโครงการเตรียมสอบใบประกอบวิชาชีพเภสัชกรรม ปีการศึกษา 2569 | ฝ่ายวิชาการ · พัฒนาโดย แม็กนั่ม นิสิตเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ชั้นปีที่ 5</div>
-      <div style="margin-top:4px;"><a onclick="openGuidelineModal()">📖 คู่มือการใช้งาน & คีย์ลัด</a> · <a onclick="syncDataFromSheet()">🔄 รีเฟรชข้อมูล</a></div>
+      <div style="margin-top:4px;"><a onclick="openGuidelineModal()">📖 คู่มือการใช้งาน & คีย์ลัด</a> · <a onclick="openReportHistoryModal()" style="font-weight:600; color:var(--primary); cursor:pointer;">📋 ประวัติการแจ้งปัญหา & สถานะ</a> · <a onclick="syncDataFromSheet()">🔄 รีเฟรชข้อมูล</a></div>
     </div>
   </div>
 
@@ -1018,6 +1078,9 @@
       </div>
       
       <div class="topbar-right">
+        <button class="icon-btn" onclick="openReportHistoryModal()" title="ประวัติการแจ้งปัญหา & สถานะการแก้ไข">
+          <span style="font-size:13px;">📋</span>
+        </button>
         <button class="icon-btn" onclick="openGuidelineModal()" title="คู่มือการใช้งาน & คีย์ลัด">
           <span style="font-size:13px;">📖</span>
         </button>
@@ -1509,6 +1572,42 @@
         <span class="btn-spinner" id="reportSpinner" style="display:none;"></span>
         <span id="reportBtnText">ส่งรายงานข้อผิดพลาด</span>
       </button>
+
+      <div style="text-align:center; margin-top:10px;">
+        <a onclick="openReportHistoryModal()" style="font-size:12px; color:var(--ink-soft); text-decoration:underline; cursor:pointer;">
+          📋 ตรวจสอบประวัติ & สถานะปัญหาที่เคยแจ้งทั้งหมด
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MODAL: REPORT HISTORY & STATUS DASHBOARD ══ -->
+  <div class="modal-overlay" id="reportHistoryModal">
+    <div class="modal-box report-hist-box">
+      <div class="modal-head" style="margin-bottom:8px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <h3 style="margin:0; font-size:16px;">📋 ประวัติการแจ้งปัญหา & สถานะการแก้ไข</h3>
+          <span id="reportHistTotalCount" style="font-size:11px; font-weight:700; background:#eff6ff; color:#1e40af; border:1px solid #bfdbfe; padding:2px 8px; border-radius:12px;">0 รายการ</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:6px;">
+          <button class="icon-btn" id="btnRefreshReportHist" onclick="loadReportHistory(true)" title="รีเฟรชข้อมูลล่าสุด" style="width:30px; height:30px; border-radius:8px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          </button>
+          <button class="modal-close" onclick="closeReportHistoryModal()">✕</button>
+        </div>
+      </div>
+
+      <div class="report-hist-filter-bar">
+        <button class="report-filter-pill active" data-filter="all" onclick="setReportFilter('all')">ทั้งหมด</button>
+        <button class="report-filter-pill" data-filter="pending" onclick="setReportFilter('pending')">🟡 รอดำเนินการ</button>
+        <button class="report-filter-pill" data-filter="progress" onclick="setReportFilter('progress')">🔵 กำลังตรวจสอบ</button>
+        <button class="report-filter-pill" data-filter="fixed" onclick="setReportFilter('fixed')">🟢 แก้ไขแล้ว</button>
+        <button class="report-filter-pill" data-filter="invalid" onclick="setReportFilter('invalid')">⚪ เฉลยเดิมถูกต้อง</button>
+      </div>
+
+      <div class="report-list-container" id="reportHistList">
+        <!-- รายการปัญหาที่แจ้งจะถูกโหลดมาแสดงที่นี่ -->
+      </div>
     </div>
   </div>
   <div class="lightbox-overlay" id="imgLightboxModal" onclick="closeImgLightbox()">
@@ -2005,6 +2104,22 @@ window.google.script.run = (function() {
             if (failureFn) failureFn(e);
           });
         });
+      },
+
+      getReportHistory: function() {
+        var url = window.GAS_WEBAPP_URL;
+        if (!url) {
+          if (failureFn) failureFn(new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL'));
+          return;
+        }
+        fetch(url + '?action=getReportHistory&_t=' + Date.now())
+          .then(function(res) { return res.json(); })
+          .then(function(data) {
+            if (successFn) successFn(data);
+          })
+          .catch(function(err) {
+            if (failureFn) failureFn(err);
+          });
       }
     };
     return r;
@@ -3818,6 +3933,217 @@ window.google.script.run = (function() {
       await fetch(url + '?' + params.toString(), { mode: 'no-cors' });
       return { success: true };
     }
+  }
+
+  // ─── REPORT HISTORY & RESOLUTION STATUS DASHBOARD ───
+  let cachedReportHistory = null;
+  let currentReportFilter = 'all';
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  async function openReportHistoryModal() {
+    const modal = document.getElementById('reportHistoryModal');
+    if (modal) modal.classList.add('show');
+    await loadReportHistory(false);
+  }
+
+  function closeReportHistoryModal() {
+    const modal = document.getElementById('reportHistoryModal');
+    if (modal) modal.classList.remove('show');
+  }
+
+  function setReportFilter(filter) {
+    currentReportFilter = filter;
+    document.querySelectorAll('.report-filter-pill').forEach(btn => {
+      if (btn.dataset.filter === filter) btn.classList.add('active');
+      else btn.classList.remove('active');
+    });
+    renderReportHistoryList();
+  }
+
+  function getStatusBadgeInfo(statusStr) {
+    const s = String(statusStr || '').toLowerCase();
+    if (s.indexOf('fixed') !== -1 || s.indexOf('แก้ไข') !== -1) {
+      return { css: 'badge-status-fixed', label: '🟢 Fixed (แก้ไขแล้ว)' };
+    }
+    if (s.indexOf('progress') !== -1 || s.indexOf('กำลัง') !== -1) {
+      return { css: 'badge-status-progress', label: '🔵 In Progress (กำลังตรวจสอบ)' };
+    }
+    if (s.indexOf('invalid') !== -1 || s.indexOf('เดิมถูกต้อง') !== -1) {
+      return { css: 'badge-status-invalid', label: '⚪ Invalid (เฉลยเดิมถูกต้อง)' };
+    }
+    return { css: 'badge-status-pending', label: '🟡 Pending (รอดำเนินการ)' };
+  }
+
+  async function loadReportHistory(forceRefresh) {
+    const listEl = document.getElementById('reportHistList');
+    const countEl = document.getElementById('reportHistTotalCount');
+    const refreshBtn = document.getElementById('btnRefreshReportHist');
+
+    if (refreshBtn) refreshBtn.classList.add('rotating');
+
+    if (!cachedReportHistory || forceRefresh) {
+      if (listEl) {
+        listEl.innerHTML = `
+          <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:36px 0; color:var(--ink-soft);">
+            <span class="btn-spinner" style="display:inline-block; width:28px; height:28px; border-width:3px; margin-bottom:12px; border-top-color:var(--primary);"></span>
+            <div style="font-size:13px; font-weight:600;">กำลังโหลดประวัติการแจ้งปัญหาจาก Google Sheet...</div>
+          </div>
+        `;
+      }
+
+      try {
+        const result = await fetchReportsFromSource();
+        if (result && result.success && Array.isArray(result.reports)) {
+          cachedReportHistory = result.reports;
+        } else {
+          cachedReportHistory = [];
+        }
+      } catch (err) {
+        console.error('Fetch report history error:', err);
+        if (listEl) {
+          listEl.innerHTML = `
+            <div style="text-align:center; padding:30px 10px; color:#ef4444;">
+              <div style="font-size:24px; margin-bottom:6px;">⚠️</div>
+              <div style="font-weight:700;">ไม่สามารถดึงข้อมูลประวัติได้</div>
+              <div style="font-size:12px; color:var(--ink-soft); margin-top:4px;">${escapeHtml(err.message || 'โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต')}</div>
+              <button onclick="loadReportHistory(true)" class="submit-btn" style="max-width:140px; margin:12px auto 0; font-size:12px; padding:6px 12px;">ลองใหม่อีกครั้ง</button>
+            </div>
+          `;
+        }
+        if (refreshBtn) refreshBtn.classList.remove('rotating');
+        return;
+      }
+    }
+
+    if (countEl) countEl.textContent = `${cachedReportHistory.length} รายการ`;
+    renderReportHistoryList();
+    if (refreshBtn) refreshBtn.classList.remove('rotating');
+  }
+
+  async function fetchReportsFromSource() {
+    // 1. Try google.script.run if available
+    if (window.google && google.script && google.script.run && typeof google.script.run.getReportHistory === 'function') {
+      try {
+        const res = await new Promise((resolve, reject) => {
+          google.script.run
+            .withSuccessHandler(res => resolve(res))
+            .withFailureHandler(err => reject(err))
+            .getReportHistory();
+        });
+        if (res && res.success) return res;
+      } catch(e) {
+        console.warn('google.script.run.getReportHistory failed, trying fetch:', e);
+      }
+    }
+
+    // 2. Direct fetch from GAS_WEBAPP_URL
+    const url = window.GAS_WEBAPP_URL;
+    if (!url) throw new Error('ไม่พบคอนฟิก GAS_WEBAPP_URL');
+    const resp = await fetch(url + '?action=getReportHistory&_t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP Status ' + resp.status);
+    return await resp.json();
+  }
+
+  function renderReportHistoryList() {
+    const listEl = document.getElementById('reportHistList');
+    if (!listEl) return;
+
+    if (!cachedReportHistory || cachedReportHistory.length === 0) {
+      listEl.innerHTML = `
+        <div style="text-align:center; padding:36px 12px; color:var(--ink-soft);">
+          <div style="font-size:28px; margin-bottom:6px;">🎉</div>
+          <div style="font-weight:700; font-size:14px; color:var(--ink);">ยังไม่มีรายการแจ้งปัญหา</div>
+          <div style="font-size:12px; margin-top:4px;">หากพบข้อสงสัยหรือจุดผิด สามารถกดปุ่ม 🚩 แจ้งปัญหาในหน้าทำข้อสอบได้ทันทีครับ</div>
+        </div>
+      `;
+      return;
+    }
+
+    const filtered = cachedReportHistory.filter(item => {
+      if (currentReportFilter === 'all') return true;
+      const s = String(item.status || '').toLowerCase();
+      if (currentReportFilter === 'pending') {
+        return s.indexOf('pending') !== -1 || s.indexOf('รอดำเนินการ') !== -1 || (!s.includes('fixed') && !s.includes('progress') && !s.includes('invalid'));
+      }
+      if (currentReportFilter === 'progress') {
+        return s.indexOf('progress') !== -1 || s.indexOf('กำลัง') !== -1;
+      }
+      if (currentReportFilter === 'fixed') {
+        return s.indexOf('fixed') !== -1 || s.indexOf('แก้ไข') !== -1;
+      }
+      if (currentReportFilter === 'invalid') {
+        return s.indexOf('invalid') !== -1 || s.indexOf('เดิมถูกต้อง') !== -1;
+      }
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = `
+        <div style="text-align:center; padding:32px 12px; color:var(--ink-soft);">
+          <div style="font-size:24px; margin-bottom:6px;">🔍</div>
+          <div style="font-weight:600; font-size:13.5px;">ไม่พบรายการในสถานะนี้</div>
+        </div>
+      `;
+      return;
+    }
+
+    let html = '';
+    filtered.forEach(item => {
+      const badge = getStatusBadgeInfo(item.status);
+      const sub = item.subtopic || '-';
+      const cat = item.category || '-';
+      const itemNo = item.itemNo ? `ข้อที่ ${item.itemNo}` : '';
+      const q = (item.question || '').replace(/<[^>]*>/g, '').trim();
+      const cleanQ = q ? (q.length > 130 ? q.substring(0, 130) + '...' : q) : '';
+      const detail = item.detail || '-';
+      const issueType = item.issueType || 'ปัญหาทั่วไป';
+      const time = item.timestamp || '-';
+
+      html += `
+        <div class="report-item-card">
+          <div class="report-item-header">
+            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+              <span class="report-item-topic">${escapeHtml(cat)} &gt; ${escapeHtml(sub)}</span>
+              ${itemNo ? `<span style="font-size:11px; font-weight:700; background:#e0e7ff; color:#3730a3; padding:1px 6px; border-radius:4px;">${escapeHtml(itemNo)}</span>` : ''}
+            </div>
+            <span class="report-badge ${badge.css}">${badge.label}</span>
+          </div>
+
+          ${cleanQ ? `
+            <div class="report-item-q-quote">
+              <span style="font-weight:600; color:var(--ink);">โจทย์:</span> ${escapeHtml(cleanQ)}
+            </div>
+          ` : ''}
+
+          <div class="report-item-body">
+            <div style="margin-bottom:4px;">
+              <span style="font-size:11px; font-weight:700; color:#475569; background:#f1f5f9; padding:2px 7px; border-radius:4px; border:1px solid #e2e8f0;">
+                🏷️ ${escapeHtml(issueType)}
+              </span>
+            </div>
+            <div class="report-item-detail">
+              <span style="font-weight:700;">💬 ความเห็นผู้แจ้ง:</span> ${escapeHtml(detail)}
+            </div>
+          </div>
+
+          <div class="report-item-footer">
+            <span>🕒 วันเวลาที่แจ้ง: ${escapeHtml(time)}</span>
+            ${item.track ? `<span style="text-transform:capitalize; font-weight:600;">Track: ${escapeHtml(item.track)}</span>` : ''}
+          </div>
+        </div>
+      `;
+    });
+
+    listEl.innerHTML = html;
   }
 </script>
 
