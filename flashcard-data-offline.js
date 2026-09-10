@@ -1688,7 +1688,7 @@ window.OFFLINE_CARDS = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
+      "questionImage": "",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -3998,7 +3998,7 @@ window.OFFLINE_CARDS = {
       "question": "Gram pos <b style=\"color:#7c3aed;\">MRSA</b>  med",
       "questionImage": "",
       "answer": "<b style=\"color:#0284c7;\">Vancomycin</b>, <b style=\"color:#0284c7;\">Linezolid</b>, Telavanic <b style=\"color:#0284c7;\">Ceftaroline</b><br><b style=\"color:#0284c7;\">Clindamycin</b><br><b style=\"color:#0284c7;\">Doxycycline</b> / <b style=\"color:#0284c7;\">Minocycline</b><br>TMP-SMX ใช้เมื่อมันไว",
-      "answerImage": "images/extracted_16__Others___Toxic_r72_c4.png",
+      "answerImage": "",
       "note": ""
     },
     {
@@ -4190,7 +4190,7 @@ window.OFFLINE_CARDS = {
       "question": "<span style=\"color:#1e293b\">เหตุใดจึงห้ามใช้ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> ในการรักษาโรคปอดอักเสบ (Pneumonia) แม้เชื้อก่อโรคจะเป็น </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ไวต่อยา?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [สาเหตุที่ห้ามใช้ Daptomycin ในโรคปอดอักเสบ (จุดเน้นข้อสอบ 🔥)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ กลไก: ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> จะถูก สารลดแรงตึงผิวในถุงลมปอด (Pulmonary Surfactant) เข้าไปจับและยับยั้งการออกฤทธิ์ทางชีวภาพ (Biologically Inactivated) ทำให้ระดับยาอิสระในเนื้อเยื่อปอดไม่เพียงพอต่อการฆ่าเชื้อ<br>   ↳ ผลทางคลินิก: ทำให้ การรักษาโรคปอดอักเสบล้มเหลว (Treatment Failure) และผู้ป่วยเสียชีวิตเพิ่มขึ้น<br>   ↳ ยาที่ต้องเลือกใช้แทน: </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (AUC 400–600) หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> (600 mg IV/PO q 12h)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r88_c4.png",
+      "answerImage": "",
       "note": "Pneumonia Daptomycin Inactivated by Pulmonary Surfactant"
     },
     {
@@ -4274,7 +4274,7 @@ window.OFFLINE_CARDS = {
       "question": "เกณฑ์การปรับลดขนาดยาหรือลดขั้นการรักษา (De-escalation) ในผู้ป่วย HAP/VAP คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ ขั้นตอนการ De-escalation:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ตรวจสอบผลเพาะเชื้อและผลความไว (Culture &amp; Susceptibility results) ที่ได้จากเสมหะหรือเลือดที่เก็บก่อนเริ่มยา (ทราบผลวันที่ 2-3)<br>   ↳ 2. หากผลเพาะเชื้อไม่พบเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">: ให้หยุดยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> ทันที<br>   ↳ 3. หากผลเพาะเชื้อพบเชื้อแกรมลบเพียงตัวเดียวที่ไวต่อยา: ให้หยุดยาตัวที่สอง (เช่น หยุด Aminoglycoside) และเปลี่ยนยา Beta-lactam หลักเป็นยาที่มีสเปกตรัมแคบลงที่ตรงกับเชื้อ<br>   ↳ 4. หากผลเพาะเชื้อไม่ขึ้นและผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน: พิจารณาปรับลดขนาดยาหรือหยุดยาปฏิชีวนะตามความเหมาะสม</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r95_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -4646,7 +4646,7 @@ window.OFFLINE_CARDS = {
       "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [พยาธิกำเนิด 4 ขั้นตอนของการเกิด Vegetation]:</b></span><span style=\"color:#1e293b\"><br>   1. Endothelial Injury: เยื่อบุผนังหลอดเลือดหรือลิ้นหัวใจเกิดการบาดเจ็บจากกระแสเลือดไหลวนรุนแรง (Turbulent blood flow) หรืออุปกรณ์สายสวนในหัวใจ<br>   2. NBTE Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (NBTE)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน NBTE แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r126_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
     },
     {
@@ -4694,7 +4694,7 @@ window.OFFLINE_CARDS = {
       "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [ขั้นตอนการเจาะ Blood Cultures (หัวใจสำคัญอันดับ 1)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ ต้องเจาะเลือดเพาะเชื้อ 3 ขวด (3 Sets) จาก ตำแหน่งหลอดเลือดที่ต่างกัน (Separate venipuncture sites)<br>   ↳ เว้นระยะห่างในการเจาะแต่ละขวด 30–60 นาที หรือเจาะห่างกันอย่างน้อย 1 ชั่วโมง ก่อนเริ่มยาปฏิชีวนะ (ห้ามเจาะจากสายสวน IV line เดิม)<br><br></span><span style=\"color:#0284c7\"><b>▶ [การตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography)]:</b></span><span style=\"color:#1e293b\"><br>   1. Transthoracic Echo (TTE): ทำเป็นอันดับแรกในผู้ป่วยทุกราย สะดวก ไม่เจ็บตัว (Sensitivity ~60–75%)<br>   2. Transesophageal Echo (TEE - Gold Standard): ส่องกล้องผ่านหลอดอาหาร (Sensitivity &gt; 90–95%) มีข้อบ่งชี้จำเป็นต้องทำใน:<br>      • ผู้ป่วยใส่ ลิ้นหัวใจเทียม (Prosthetic Valve)<br>      • ภาพ TTE ดูไม่ชัดเจนแต่สงสัย IE สูง<br>      • สงสัยภาวะแทรกซ้อนรุนแรง (เช่น Perivalvular Abscess, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (</span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\">, Enterococcus, เชื้อรา Candida)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r130_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
     },
     {
@@ -4814,7 +4814,7 @@ window.OFFLINE_CARDS = {
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve Endocarditis คือยาใด และต้องรักษานานกี่สัปดาห์?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> (หรือ </span><span style=\"color:#0284c7\"><b>Nafcillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Oxacillin</b></span><span style=\"color:#1e293b\">) ขนาด 2 g IV ทุก 4 ชั่วโมง นาน 6 สัปดาห์<br>   ↳ ยาทางเลือกในผู้ป่วยที่แพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ไม่รุนแรง: </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 2 g IV ทุก 8 ชั่วโมง นาน 6 สัปดาห์<br><br></span><span style=\"color:#dc2626\"><b>▶ ⚠️ ข้อห้ามสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ *ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> ใน </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve เด็ดขาด* เพราะงานวิจัยยืนยันว่าไม่ได้เพิ่มอัตราการหาย แต่เพิ่มความเสี่ยงต่อภาวะไตวายเฉียบพลัน (</span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">) อย่างมีนัยสำคัญ เติม Genta ตอน PVE</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r140_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -4934,7 +4934,7 @@ window.OFFLINE_CARDS = {
       "question": "สรุปสูตรยาปฏิชีวนะมาตรฐาน (Treatment Guidelines) สำหรับเชื้อก่อโรค 3 กลุ่มหลักใน IE (Streptococci, Staphylococci, Enterococci) มีหลักการเลือกใช้อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [1. Viridans Group Streptococci (VGS - ไวต่อ Penicillin MIC &lt;= 0.12)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>สูตรมาตรฐาน</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Penicillin G</b></span><span style=\"color:#1e293b\"> (12–18 ล้าน units/day) หรือ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> (2 g IV OD) นาน 4 สัปดาห์ (</span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> เหมาะมากสำหรับ OPAT)<br><br></span><span style=\"color:#0284c7\"><b>▶ [2. Staphylococcus aureus (MSSA vs MRSA)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h นาน 6 สัปดาห์ (ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> / </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\">!)<br>   ↳ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> 15–20 mg/kg IV q 8–12h นาน 6 สัปดาห์ (Target AUC/MIC 400–600)<br>   ↳ Prosthetic Valve (PVE): Triple Therapy ➔ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (&gt;= 6 สัปดาห์) + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h (เฉพาะ 2 สัปดาห์แรก) + </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> 300 mg q 8h (&gt;= 6 สัปดาห์ โดยเริ่มดีเลย์หลัง Vanco 3–5 วัน)<br><br></span><span style=\"color:#0284c7\"><b>▶ [3. Enterococcus faecalis (Enterococcal IE)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>First-line</b></span><span style=\"color:#1e293b\"> Preferred: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h + </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g IV q 12h นาน 6 สัปดาห์ (Double Beta-lactam </span><span style=\"color:#7c3aed\"><b>PBP</b></span><span style=\"color:#1e293b\"> synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero </span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">)<br>   ↳ Alternative: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h นาน 4–6 สัปดาห์ (ต้องติดตามค่าไตและ TDM ใกล้ชิด)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r150_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
     },
     {
@@ -5522,7 +5522,7 @@ window.OFFLINE_CARDS = {
       "question": "<span style=\"color:#1e293b\">การแปลผลความไวของเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span><span style=\"color:#1e293b\"> ต่อยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ทำไมจึงต้องแยกเกณฑ์ตามตำแหน่งติดเชื้อ (Site-dependent Breakpoints)?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [เกณฑ์ตัดความไว Site-dependent Breakpoints ของ S. pneumoniae ต่อยา Penicillin]:</b></span><span style=\"color:#1e293b\"><br>   1. Meningitis (การติดเชื้อเยื่อหุ้มสมอง): เกณฑ์ตัดเข้มงวดมาก ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 0.06 mcg/mL (หาก MIC &gt;= 0.12 mcg/mL ถือว่าดื้อต่อ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ใน CNS)<br>   2. Non-Meningitis (การติดเชื้อนอกระบบประสาท เช่น CAP, เลือด): เกณฑ์ตัดผ่อนปรน ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 2 mcg/mL (Intermediate: 4 mcg/mL, Resistant &gt;= 8 mcg/mL)<br><br></span><span style=\"color:#0284c7\"><b>▶ [เหตุผลและความสำคัญทางคลินิก]:</b></span><span style=\"color:#1e293b\"><br>   ↳ Blood-Brain Barrier (BBB): ยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ซึมผ่านเข้า CSF ได้จำกัด (&lt; 5–10% แม้เยื่อหุ้มสมองอักเสบ) จึงต้องใช้ระดับยาในเลือดที่สูงมากเพื่อขับยาเข้าสู่สมอง<br>   ↳ ตัวอย่างการตัดสินใจ: หากผลเพาะเชื้อพบ </span><span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span><span style=\"color:#1e293b\"> ที่มี MIC = 0.5 mcg/mL จะถือว่า &#039;ดื้อ&#039; ใน Meningitis (ต้องใช้ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g q 12h + </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">) แต่ถือว่า &#039;ไว&#039; ใน CAP (สามารถใช้ </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ขนาดปกติรักษาได้)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r199_c4.png",
+      "answerImage": "",
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
@@ -7010,7 +7010,7 @@ window.OFFLINE_CARDS = {
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
-      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
@@ -10267,7 +10267,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
+      "questionImage": "",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -12549,7 +12549,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "Gram pos <b style=\"color:#7c3aed;\">MRSA</b>  med",
       "questionImage": "",
       "answer": "<b style=\"color:#0284c7;\">Vancomycin</b>, <b style=\"color:#0284c7;\">Linezolid</b>, Telavanic <b style=\"color:#0284c7;\">Ceftaroline</b><br><b style=\"color:#0284c7;\">Clindamycin</b><br><b style=\"color:#0284c7;\">Doxycycline</b> / <b style=\"color:#0284c7;\">Minocycline</b><br>TMP-SMX ใช้เมื่อมันไว",
-      "answerImage": "images/extracted_16__Others___Toxic_r72_c4.png",
+      "answerImage": "",
       "note": ""
     },
     {
@@ -12741,7 +12741,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#1e293b\">เหตุใดจึงห้ามใช้ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> ในการรักษาโรคปอดอักเสบ (Pneumonia) แม้เชื้อก่อโรคจะเป็น </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ไวต่อยา?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [สาเหตุที่ห้ามใช้ Daptomycin ในโรคปอดอักเสบ (จุดเน้นข้อสอบ 🔥)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ กลไก: ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> จะถูก สารลดแรงตึงผิวในถุงลมปอด (Pulmonary Surfactant) เข้าไปจับและยับยั้งการออกฤทธิ์ทางชีวภาพ (Biologically Inactivated) ทำให้ระดับยาอิสระในเนื้อเยื่อปอดไม่เพียงพอต่อการฆ่าเชื้อ<br>   ↳ ผลทางคลินิก: ทำให้ การรักษาโรคปอดอักเสบล้มเหลว (Treatment Failure) และผู้ป่วยเสียชีวิตเพิ่มขึ้น<br>   ↳ ยาที่ต้องเลือกใช้แทน: </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (AUC 400–600) หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> (600 mg IV/PO q 12h)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r88_c4.png",
+      "answerImage": "",
       "note": "Pneumonia Daptomycin Inactivated by Pulmonary Surfactant"
     },
     {
@@ -12825,7 +12825,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "เกณฑ์การปรับลดขนาดยาหรือลดขั้นการรักษา (De-escalation) ในผู้ป่วย HAP/VAP คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ ขั้นตอนการ De-escalation:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ตรวจสอบผลเพาะเชื้อและผลความไว (Culture &amp; Susceptibility results) ที่ได้จากเสมหะหรือเลือดที่เก็บก่อนเริ่มยา (ทราบผลวันที่ 2-3)<br>   ↳ 2. หากผลเพาะเชื้อไม่พบเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">: ให้หยุดยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> ทันที<br>   ↳ 3. หากผลเพาะเชื้อพบเชื้อแกรมลบเพียงตัวเดียวที่ไวต่อยา: ให้หยุดยาตัวที่สอง (เช่น หยุด Aminoglycoside) และเปลี่ยนยา Beta-lactam หลักเป็นยาที่มีสเปกตรัมแคบลงที่ตรงกับเชื้อ<br>   ↳ 4. หากผลเพาะเชื้อไม่ขึ้นและผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน: พิจารณาปรับลดขนาดยาหรือหยุดยาปฏิชีวนะตามความเหมาะสม</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r95_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -13197,7 +13197,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [พยาธิกำเนิด 4 ขั้นตอนของการเกิด Vegetation]:</b></span><span style=\"color:#1e293b\"><br>   1. Endothelial Injury: เยื่อบุผนังหลอดเลือดหรือลิ้นหัวใจเกิดการบาดเจ็บจากกระแสเลือดไหลวนรุนแรง (Turbulent blood flow) หรืออุปกรณ์สายสวนในหัวใจ<br>   2. NBTE Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (NBTE)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน NBTE แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r126_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
     },
     {
@@ -13245,7 +13245,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [ขั้นตอนการเจาะ Blood Cultures (หัวใจสำคัญอันดับ 1)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ ต้องเจาะเลือดเพาะเชื้อ 3 ขวด (3 Sets) จาก ตำแหน่งหลอดเลือดที่ต่างกัน (Separate venipuncture sites)<br>   ↳ เว้นระยะห่างในการเจาะแต่ละขวด 30–60 นาที หรือเจาะห่างกันอย่างน้อย 1 ชั่วโมง ก่อนเริ่มยาปฏิชีวนะ (ห้ามเจาะจากสายสวน IV line เดิม)<br><br></span><span style=\"color:#0284c7\"><b>▶ [การตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography)]:</b></span><span style=\"color:#1e293b\"><br>   1. Transthoracic Echo (TTE): ทำเป็นอันดับแรกในผู้ป่วยทุกราย สะดวก ไม่เจ็บตัว (Sensitivity ~60–75%)<br>   2. Transesophageal Echo (TEE - Gold Standard): ส่องกล้องผ่านหลอดอาหาร (Sensitivity &gt; 90–95%) มีข้อบ่งชี้จำเป็นต้องทำใน:<br>      • ผู้ป่วยใส่ ลิ้นหัวใจเทียม (Prosthetic Valve)<br>      • ภาพ TTE ดูไม่ชัดเจนแต่สงสัย IE สูง<br>      • สงสัยภาวะแทรกซ้อนรุนแรง (เช่น Perivalvular Abscess, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (</span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\">, Enterococcus, เชื้อรา Candida)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r130_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
     },
     {
@@ -13365,7 +13365,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve Endocarditis คือยาใด และต้องรักษานานกี่สัปดาห์?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> (หรือ </span><span style=\"color:#0284c7\"><b>Nafcillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Oxacillin</b></span><span style=\"color:#1e293b\">) ขนาด 2 g IV ทุก 4 ชั่วโมง นาน 6 สัปดาห์<br>   ↳ ยาทางเลือกในผู้ป่วยที่แพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ไม่รุนแรง: </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 2 g IV ทุก 8 ชั่วโมง นาน 6 สัปดาห์<br><br></span><span style=\"color:#dc2626\"><b>▶ ⚠️ ข้อห้ามสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ *ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> ใน </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve เด็ดขาด* เพราะงานวิจัยยืนยันว่าไม่ได้เพิ่มอัตราการหาย แต่เพิ่มความเสี่ยงต่อภาวะไตวายเฉียบพลัน (</span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">) อย่างมีนัยสำคัญ เติม Genta ตอน PVE</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r140_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -13485,7 +13485,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "สรุปสูตรยาปฏิชีวนะมาตรฐาน (Treatment Guidelines) สำหรับเชื้อก่อโรค 3 กลุ่มหลักใน IE (Streptococci, Staphylococci, Enterococci) มีหลักการเลือกใช้อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [1. Viridans Group Streptococci (VGS - ไวต่อ Penicillin MIC &lt;= 0.12)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>สูตรมาตรฐาน</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Penicillin G</b></span><span style=\"color:#1e293b\"> (12–18 ล้าน units/day) หรือ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> (2 g IV OD) นาน 4 สัปดาห์ (</span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> เหมาะมากสำหรับ OPAT)<br><br></span><span style=\"color:#0284c7\"><b>▶ [2. Staphylococcus aureus (MSSA vs MRSA)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h นาน 6 สัปดาห์ (ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> / </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\">!)<br>   ↳ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> 15–20 mg/kg IV q 8–12h นาน 6 สัปดาห์ (Target AUC/MIC 400–600)<br>   ↳ Prosthetic Valve (PVE): Triple Therapy ➔ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (&gt;= 6 สัปดาห์) + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h (เฉพาะ 2 สัปดาห์แรก) + </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> 300 mg q 8h (&gt;= 6 สัปดาห์ โดยเริ่มดีเลย์หลัง Vanco 3–5 วัน)<br><br></span><span style=\"color:#0284c7\"><b>▶ [3. Enterococcus faecalis (Enterococcal IE)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>First-line</b></span><span style=\"color:#1e293b\"> Preferred: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h + </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g IV q 12h นาน 6 สัปดาห์ (Double Beta-lactam </span><span style=\"color:#7c3aed\"><b>PBP</b></span><span style=\"color:#1e293b\"> synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero </span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">)<br>   ↳ Alternative: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h นาน 4–6 สัปดาห์ (ต้องติดตามค่าไตและ TDM ใกล้ชิด)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r150_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
     },
     {
@@ -14073,7 +14073,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#1e293b\">การแปลผลความไวของเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span><span style=\"color:#1e293b\"> ต่อยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ทำไมจึงต้องแยกเกณฑ์ตามตำแหน่งติดเชื้อ (Site-dependent Breakpoints)?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [เกณฑ์ตัดความไว Site-dependent Breakpoints ของ S. pneumoniae ต่อยา Penicillin]:</b></span><span style=\"color:#1e293b\"><br>   1. Meningitis (การติดเชื้อเยื่อหุ้มสมอง): เกณฑ์ตัดเข้มงวดมาก ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 0.06 mcg/mL (หาก MIC &gt;= 0.12 mcg/mL ถือว่าดื้อต่อ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ใน CNS)<br>   2. Non-Meningitis (การติดเชื้อนอกระบบประสาท เช่น CAP, เลือด): เกณฑ์ตัดผ่อนปรน ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 2 mcg/mL (Intermediate: 4 mcg/mL, Resistant &gt;= 8 mcg/mL)<br><br></span><span style=\"color:#0284c7\"><b>▶ [เหตุผลและความสำคัญทางคลินิก]:</b></span><span style=\"color:#1e293b\"><br>   ↳ Blood-Brain Barrier (BBB): ยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ซึมผ่านเข้า CSF ได้จำกัด (&lt; 5–10% แม้เยื่อหุ้มสมองอักเสบ) จึงต้องใช้ระดับยาในเลือดที่สูงมากเพื่อขับยาเข้าสู่สมอง<br>   ↳ ตัวอย่างการตัดสินใจ: หากผลเพาะเชื้อพบ </span><span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span><span style=\"color:#1e293b\"> ที่มี MIC = 0.5 mcg/mL จะถือว่า &#039;ดื้อ&#039; ใน Meningitis (ต้องใช้ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g q 12h + </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">) แต่ถือว่า &#039;ไว&#039; ใน CAP (สามารถใช้ </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ขนาดปกติรักษาได้)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r199_c4.png",
+      "answerImage": "",
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
@@ -15561,7 +15561,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
-      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
@@ -18804,7 +18804,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "subTopic": "Hypertension",
       "track": "Clinic",
       "question": "ทดสอ",
-      "questionImage": "images/extracted_2__Cardiovascular_r3_c2.png",
+      "questionImage": "",
       "answer": "ทดสอบ",
       "answerImage": "",
       "note": ""
@@ -21086,7 +21086,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "Gram pos <b style=\"color:#7c3aed;\">MRSA</b>  med",
       "questionImage": "",
       "answer": "<b style=\"color:#0284c7;\">Vancomycin</b>, <b style=\"color:#0284c7;\">Linezolid</b>, Telavanic <b style=\"color:#0284c7;\">Ceftaroline</b><br><b style=\"color:#0284c7;\">Clindamycin</b><br><b style=\"color:#0284c7;\">Doxycycline</b> / <b style=\"color:#0284c7;\">Minocycline</b><br>TMP-SMX ใช้เมื่อมันไว",
-      "answerImage": "images/extracted_16__Others___Toxic_r72_c4.png",
+      "answerImage": "",
       "note": ""
     },
     {
@@ -21278,7 +21278,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#1e293b\">เหตุใดจึงห้ามใช้ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> ในการรักษาโรคปอดอักเสบ (Pneumonia) แม้เชื้อก่อโรคจะเป็น </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> ที่ไวต่อยา?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [สาเหตุที่ห้ามใช้ Daptomycin ในโรคปอดอักเสบ (จุดเน้นข้อสอบ 🔥)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ กลไก: ยา </span><span style=\"color:#0284c7\"><b>Daptomycin</b></span><span style=\"color:#1e293b\"> จะถูก สารลดแรงตึงผิวในถุงลมปอด (Pulmonary Surfactant) เข้าไปจับและยับยั้งการออกฤทธิ์ทางชีวภาพ (Biologically Inactivated) ทำให้ระดับยาอิสระในเนื้อเยื่อปอดไม่เพียงพอต่อการฆ่าเชื้อ<br>   ↳ ผลทางคลินิก: ทำให้ การรักษาโรคปอดอักเสบล้มเหลว (Treatment Failure) และผู้ป่วยเสียชีวิตเพิ่มขึ้น<br>   ↳ ยาที่ต้องเลือกใช้แทน: </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (AUC 400–600) หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> (600 mg IV/PO q 12h)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r88_c4.png",
+      "answerImage": "",
       "note": "Pneumonia Daptomycin Inactivated by Pulmonary Surfactant"
     },
     {
@@ -21362,7 +21362,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "เกณฑ์การปรับลดขนาดยาหรือลดขั้นการรักษา (De-escalation) ในผู้ป่วย HAP/VAP คืออะไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ ขั้นตอนการ De-escalation:</b></span><span style=\"color:#1e293b\"><br>   ↳ 1. ตรวจสอบผลเพาะเชื้อและผลความไว (Culture &amp; Susceptibility results) ที่ได้จากเสมหะหรือเลือดที่เก็บก่อนเริ่มยา (ทราบผลวันที่ 2-3)<br>   ↳ 2. หากผลเพาะเชื้อไม่พบเชื้อ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\">: ให้หยุดยา </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Linezolid</b></span><span style=\"color:#1e293b\"> ทันที<br>   ↳ 3. หากผลเพาะเชื้อพบเชื้อแกรมลบเพียงตัวเดียวที่ไวต่อยา: ให้หยุดยาตัวที่สอง (เช่น หยุด Aminoglycoside) และเปลี่ยนยา Beta-lactam หลักเป็นยาที่มีสเปกตรัมแคบลงที่ตรงกับเชื้อ<br>   ↳ 4. หากผลเพาะเชื้อไม่ขึ้นและผู้ป่วยมีอาการทางคลินิกดีขึ้นชัดเจน: พิจารณาปรับลดขนาดยาหรือหยุดยาปฏิชีวนะตามความเหมาะสม</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r95_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -21734,7 +21734,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "พยาธิสรีรวิทยาของการเกิดรอยโรค Vegetation ใน Infective Endocarditis (IE) เริ่มต้นจากอะไร และ Platelet, Fibrin มีบทบาทอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [พยาธิกำเนิด 4 ขั้นตอนของการเกิด Vegetation]:</b></span><span style=\"color:#1e293b\"><br>   1. Endothelial Injury: เยื่อบุผนังหลอดเลือดหรือลิ้นหัวใจเกิดการบาดเจ็บจากกระแสเลือดไหลวนรุนแรง (Turbulent blood flow) หรืออุปกรณ์สายสวนในหัวใจ<br>   2. NBTE Formation: มีการกระตุ้น Thrombin ทำให้เกล็ดเลือด (Platelets) และ Fibrin เข้ามาเกาะยึดเหนี่ยวเกิดเป็นก้อนปลอดเชื้อ เรียกว่า Non-Bacterial Thrombotic Endocarditis (NBTE)<br>   3. Transient Bacteremia: เกิดภาวะแบคทีเรียเข้าสู่กระแสเลือดชั่วคราว (จากการทำฟัน, แผลผิวหนัง, ฉีดสารเสพติด, สายสวนปัสสาวะ)<br>   4. Microbial Colonization &amp; Biofilm: แบคทีเรียเข้ามาเกาะติดก้อน NBTE แบ่งตัวเพิ่มจำนวน และสร้างเมือก Biofilm คลุมกลายเป็นก้อนติดเชื้อ Vegetation ซึ่งป้องกันแบคทีเรียจากเม็ดเลือดขาวและทำให้ยาปฏิชีวนะซึมเข้าถึงได้ยาก</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r126_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Pathophysiology of NBTE & Vegetation formation"
     },
     {
@@ -21782,7 +21782,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "การวินิจฉัยโรค IE: ขั้นตอนการเจาะเลือดเพาะเชื้อ (Blood Cultures) และการตรวจคลื่นเสียงสะท้อนหัวใจ (TTE vs TEE) มีแนวทางปฏิบัติอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ [ขั้นตอนการเจาะ Blood Cultures (หัวใจสำคัญอันดับ 1)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ ต้องเจาะเลือดเพาะเชื้อ 3 ขวด (3 Sets) จาก ตำแหน่งหลอดเลือดที่ต่างกัน (Separate venipuncture sites)<br>   ↳ เว้นระยะห่างในการเจาะแต่ละขวด 30–60 นาที หรือเจาะห่างกันอย่างน้อย 1 ชั่วโมง ก่อนเริ่มยาปฏิชีวนะ (ห้ามเจาะจากสายสวน IV line เดิม)<br><br></span><span style=\"color:#0284c7\"><b>▶ [การตรวจคลื่นเสียงสะท้อนหัวใจ (Echocardiography)]:</b></span><span style=\"color:#1e293b\"><br>   1. Transthoracic Echo (TTE): ทำเป็นอันดับแรกในผู้ป่วยทุกราย สะดวก ไม่เจ็บตัว (Sensitivity ~60–75%)<br>   2. Transesophageal Echo (TEE - Gold Standard): ส่องกล้องผ่านหลอดอาหาร (Sensitivity &gt; 90–95%) มีข้อบ่งชี้จำเป็นต้องทำใน:<br>      • ผู้ป่วยใส่ ลิ้นหัวใจเทียม (Prosthetic Valve)<br>      • ภาพ TTE ดูไม่ชัดเจนแต่สงสัย IE สูง<br>      • สงสัยภาวะแทรกซ้อนรุนแรง (เช่น Perivalvular Abscess, Fistula, ลิ้นหัวใจทะลุ)<br>      • เพาะเชื้อพบเชื้อที่มีความรุนแรงสูง (</span><span style=\"color:#7c3aed\"><i><b>Staphylococcus aureus</b></i></span><span style=\"color:#1e293b\">, Enterococcus, เชื้อรา Candida)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r130_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: Blood culture 3 sets protocol & TTE vs TEE indications"
     },
     {
@@ -21902,7 +21902,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#16a34a\"><b>Drug of Choice</b></span><span style=\"color:#1e293b\"> สำหรับ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve Endocarditis คือยาใด และต้องรักษานานกี่สัปดาห์?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ Drug of Choice (DOC):</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> (หรือ </span><span style=\"color:#0284c7\"><b>Nafcillin</b></span><span style=\"color:#1e293b\">/</span><span style=\"color:#0284c7\"><b>Oxacillin</b></span><span style=\"color:#1e293b\">) ขนาด 2 g IV ทุก 4 ชั่วโมง นาน 6 สัปดาห์<br>   ↳ ยาทางเลือกในผู้ป่วยที่แพ้ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ไม่รุนแรง: </span><span style=\"color:#0284c7\"><b>Cefazolin</b></span><span style=\"color:#1e293b\"> 2 g IV ทุก 8 ชั่วโมง นาน 6 สัปดาห์<br><br></span><span style=\"color:#dc2626\"><b>▶ ⚠️ ข้อห้ามสำคัญ:</b></span><span style=\"color:#1e293b\"><br>   ↳ *ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> ใน </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve เด็ดขาด* เพราะงานวิจัยยืนยันว่าไม่ได้เพิ่มอัตราการหาย แต่เพิ่มความเสี่ยงต่อภาวะไตวายเฉียบพลัน (</span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">) อย่างมีนัยสำคัญ เติม Genta ตอน PVE</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r140_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.ชาญกิจ"
     },
     {
@@ -22022,7 +22022,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "สรุปสูตรยาปฏิชีวนะมาตรฐาน (Treatment Guidelines) สำหรับเชื้อก่อโรค 3 กลุ่มหลักใน IE (Streptococci, Staphylococci, Enterococci) มีหลักการเลือกใช้อย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [1. Viridans Group Streptococci (VGS - ไวต่อ Penicillin MIC &lt;= 0.12)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>สูตรมาตรฐาน</b></span><span style=\"color:#1e293b\">: </span><span style=\"color:#0284c7\"><b>Penicillin G</b></span><span style=\"color:#1e293b\"> (12–18 ล้าน units/day) หรือ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> (2 g IV OD) นาน 4 สัปดาห์ (</span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> เหมาะมากสำหรับ OPAT)<br><br></span><span style=\"color:#0284c7\"><b>▶ [2. Staphylococcus aureus (MSSA vs MRSA)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#7c3aed\"><b>MSSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h นาน 6 สัปดาห์ (ห้ามเติม </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> / </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\">!)<br>   ↳ </span><span style=\"color:#7c3aed\"><b>MRSA</b></span><span style=\"color:#1e293b\"> Native Valve (NVE): </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> 15–20 mg/kg IV q 8–12h นาน 6 สัปดาห์ (Target AUC/MIC 400–600)<br>   ↳ Prosthetic Valve (PVE): Triple Therapy ➔ </span><span style=\"color:#0284c7\"><b>Cloxacillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\"> (&gt;= 6 สัปดาห์) + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h (เฉพาะ 2 สัปดาห์แรก) + </span><span style=\"color:#0284c7\"><b>Rifampin</b></span><span style=\"color:#1e293b\"> 300 mg q 8h (&gt;= 6 สัปดาห์ โดยเริ่มดีเลย์หลัง Vanco 3–5 วัน)<br><br></span><span style=\"color:#0284c7\"><b>▶ [3. Enterococcus faecalis (Enterococcal IE)]:</b></span><span style=\"color:#1e293b\"><br>   ↳ </span><span style=\"color:#16a34a\"><b>First-line</b></span><span style=\"color:#1e293b\"> Preferred: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> 2 g IV q 4h + </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g IV q 12h นาน 6 สัปดาห์ (Double Beta-lactam </span><span style=\"color:#7c3aed\"><b>PBP</b></span><span style=\"color:#1e293b\"> synergy ออกฤทธิ์ดีเยี่ยม ไม่ทำลายไต Zero </span><span style=\"color:#dc2626\"><b>Nephrotoxicity</b></span><span style=\"color:#1e293b\">)<br>   ↳ Alternative: </span><span style=\"color:#0284c7\"><b>Ampicillin</b></span><span style=\"color:#1e293b\"> + </span><span style=\"color:#0284c7\"><b>Gentamicin</b></span><span style=\"color:#1e293b\"> 1 mg/kg q 8h นาน 4–6 สัปดาห์ (ต้องติดตามค่าไตและ TDM ใกล้ชิด)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r150_c4.png",
+      "answerImage": "",
       "note": "Lecture IE: The Big Three Pathogens Standard Treatment Regimens"
     },
     {
@@ -22610,7 +22610,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "<span style=\"color:#1e293b\">การแปลผลความไวของเชื้อ </span><span style=\"color:#7c3aed\"><i><b>Streptococcus pneumoniae</b></i></span><span style=\"color:#1e293b\"> ต่อยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ทำไมจึงต้องแยกเกณฑ์ตามตำแหน่งติดเชื้อ (Site-dependent Breakpoints)?</span>",
       "questionImage": "",
       "answer": "<span style=\"color:#16a34a\"><b>▶ [เกณฑ์ตัดความไว Site-dependent Breakpoints ของ S. pneumoniae ต่อยา Penicillin]:</b></span><span style=\"color:#1e293b\"><br>   1. Meningitis (การติดเชื้อเยื่อหุ้มสมอง): เกณฑ์ตัดเข้มงวดมาก ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 0.06 mcg/mL (หาก MIC &gt;= 0.12 mcg/mL ถือว่าดื้อต่อ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ใน CNS)<br>   2. Non-Meningitis (การติดเชื้อนอกระบบประสาท เช่น CAP, เลือด): เกณฑ์ตัดผ่อนปรน ➔ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> Susceptible (S) &lt;= 2 mcg/mL (Intermediate: 4 mcg/mL, Resistant &gt;= 8 mcg/mL)<br><br></span><span style=\"color:#0284c7\"><b>▶ [เหตุผลและความสำคัญทางคลินิก]:</b></span><span style=\"color:#1e293b\"><br>   ↳ Blood-Brain Barrier (BBB): ยา </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ซึมผ่านเข้า CSF ได้จำกัด (&lt; 5–10% แม้เยื่อหุ้มสมองอักเสบ) จึงต้องใช้ระดับยาในเลือดที่สูงมากเพื่อขับยาเข้าสู่สมอง<br>   ↳ ตัวอย่างการตัดสินใจ: หากผลเพาะเชื้อพบ </span><span style=\"color:#7c3aed\"><i><b>S. pneumoniae</b></i></span><span style=\"color:#1e293b\"> ที่มี MIC = 0.5 mcg/mL จะถือว่า &#039;ดื้อ&#039; ใน Meningitis (ต้องใช้ </span><span style=\"color:#0284c7\"><b>Ceftriaxone</b></span><span style=\"color:#1e293b\"> 2 g q 12h + </span><span style=\"color:#0284c7\"><b>Vancomycin</b></span><span style=\"color:#1e293b\">) แต่ถือว่า &#039;ไว&#039; ใน CAP (สามารถใช้ </span><span style=\"color:#0284c7\"><b>Amoxicillin</b></span><span style=\"color:#1e293b\"> หรือ </span><span style=\"color:#0284c7\"><b>Penicillin</b></span><span style=\"color:#1e293b\"> ขนาดปกติรักษาได้)</span>",
-      "answerImage": "images/extracted_16__Others___Toxic_r199_c4.png",
+      "answerImage": "",
       "note": "Lecture Meningitis & AMR: Site-dependent Breakpoints (CNS <= 0.06 vs Non-CNS <= 2)"
     },
     {
@@ -24098,7 +24098,7 @@ window.OFFLINE_ALL_CARDS_BY_TRACK = {
       "question": "การประเมินระดับการสัมผัสโรคพิษสุนัขบ้า (Rabies Exposure Categories) ตามแนวทางสถานเสาวภา สภากาชาดไทย 2565 มี 3 ระดับอย่างไร?",
       "questionImage": "",
       "answer": "<span style=\"color:#0284c7\"><b>▶ การประเมิน 3 ระดับและการปฏิบัติ:</b></span><br><b>   ↳ Category I (ไม่มีความเสี่ยง)</b>: สัมผัส ให้อาหาร สัตว์เลียผิวหนังปกติที่ไม่มีรอยแผล -&gt; ล้างผิวหนังด้วยน้ำและสบู่ *ไม่ต้องฉีดวัคซีนและไม่ต้องให้ RIG*<br><b>   ↳ Category II (ความเสี่ยงปานกลาง):</b> ถูกสัตว์งับ ข่วน หรือขบเป็นรอยถลอกแต่ไม่มีเลือดออก หรือสัตว์เลียผิวหนังที่มีรอยแผลถลอก -&gt; ล้างแผลทันที และ *ฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าทันที (ไม่ต้องให้ RIG)*<br><b>   ↳ Category III (ความเสี่ยงสูง):</b> ถูกสัตว์กัดหรือข่วนจนมีบาดแผลเลือดออกชัดเจน, น้ำลายสัตว์สัมผัสเยื่อเมือก (ตา ปาก), บาดแผลที่ใบหน้า ศีรษะ คอ มือ นิ้ว หรือสัมผัสค้างคาว -&gt; ล้างแผล + *ฉีดวัคซีนพิษสุนัขบ้า + ฉีด Rabies Immunoglobulin (RIG)*",
-      "answerImage": "images/extracted_16__Others___Toxic_r323_c4.png",
+      "answerImage": "",
       "note": "PT2 อ.โชติรัตน์"
     },
     {
