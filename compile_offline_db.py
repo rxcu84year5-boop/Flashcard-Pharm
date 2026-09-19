@@ -136,7 +136,7 @@ PRODUCT_TAB_NAMES = [
 all_tab_names = CLINIC_TAB_NAMES + PRODUCT_TAB_NAMES
 sheet_meta = service.spreadsheets().get(
     spreadsheetId=PRIVATE_SID,
-    ranges=[f"{t}!A1:H500" for t in all_tab_names],
+    ranges=[f"{t}!A1:H2000" for t in all_tab_names],
     includeGridData=True
 ).execute()
 
