@@ -320,6 +320,8 @@ def rich_text_to_html(cell):
         return apply_clinical_highlighting(text)
 
     sorted_runs = sorted(runs, key=lambda r: r.get('startIndex', 0))
+    if sorted_runs and sorted_runs[0].get('startIndex', 0) > 0:
+        sorted_runs.insert(0, {'startIndex': 0, 'format': {}})
     encoded_u16 = text.encode('utf-16-le')
     total_u16_len = len(encoded_u16) // 2
 

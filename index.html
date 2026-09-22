@@ -1887,6 +1887,10 @@ async function triggerManualLiveSync() {
         window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
         window.OFFLINE_CARDS[currentCategory] = liveCards;
         if (typeof onCardsLoaded === 'function') onCardsLoaded(liveCards);
+        browseCardsCache = null;
+        if (typeof currentAppMode !== 'undefined' && currentAppMode === 'browse' && typeof renderBrowseList === 'function') {
+          renderBrowseList();
+        }
         if (typeof showToast === 'function') showToast('🟢 Real-time Sync สำเร็จ! พบ ' + liveCards.length + ' ข้อใน ' + currentCategory);
       } else {
         if (typeof showToast === 'function') showToast('ℹ️ ข้อมูลตรงกับ Google Sheet เรียบร้อยแล้ว');
@@ -2035,11 +2039,10 @@ window.google.script.run = (function() {
               window.OFFLINE_CARDS[catName] = liveCards;
               
               if (window.currentCategory === catName && typeof window.onCardsLoaded === 'function') {
-                if (liveCards.length !== oldLen || (liveCards[0] && cards[0] && liveCards[0].question !== cards[0].question)) {
-                  window.onCardsLoaded(liveCards);
-                  if (typeof window.showToast === 'function') {
-                    window.showToast('🟢 Real-time: ซิงค์สดข้อสอบจาก Google Sheet สำเร็จ (' + liveCards.length + ' ข้อ)');
-                  }
+                window.onCardsLoaded(liveCards);
+                browseCardsCache = null;
+                if (typeof window.showToast === 'function') {
+                  window.showToast('🟢 Real-time: ซิงค์สดข้อสอบจาก Google Sheet สำเร็จ (' + liveCards.length + ' ข้อ)');
                 }
               }
             }
