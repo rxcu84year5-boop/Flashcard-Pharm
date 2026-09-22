@@ -817,7 +817,8 @@
     .browse-search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); pointer-events: none; stroke: var(--ink-faint); }
     .browse-clear-btn { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--ink-faint); font-size: 15px; cursor: pointer; }
     
-    .browse-selects-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+    .browse-selects-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 12px; }
+    .bt-sub-tag { font-size: 11px; font-weight: 600; color: var(--ink-soft); background: var(--bg); border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px; }
     .b-select-wrap { position: relative; }
     .b-select {
       width: 100%; padding: 9px 26px 9px 10px; border: 1px solid var(--border);
@@ -1248,6 +1249,12 @@
       <div class="b-select-wrap">
         <select id="browseCatSelect" class="b-select" onchange="onBrowseCatChange()">
           <option value="__all__">🗂 ทุกหมวดวิชา</option>
+        </select>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <div class="b-select-wrap" id="browseSubtopicWrap">
+        <select id="browseSubtopicSelect" class="b-select" onchange="onBrowseFilterChange()">
+          <option value="__all__">📂 ทุกหัวข้อย่อย</option>
         </select>
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
@@ -3017,11 +3024,23 @@ window.google.script.run = (function() {
     ans.classList.toggle('show', isFlipped);
   }
 
+  function reinsertSmartCard(card, targetOffset = 5) {
+    if (!smartQueue.length) {
+      smartQueue.push(card);
+      return;
+    }
+    // Spaced active recall: schedule card ~4-6 cards ahead
+    const minOffset = Math.min(smartQueue.length, Math.max(1, targetOffset - 1));
+    const maxOffset = Math.min(smartQueue.length, targetOffset + 1);
+    const insertIdx = minOffset + Math.floor(Math.random() * (maxOffset - minOffset + 1));
+    smartQueue.splice(insertIdx, 0, card);
+  }
+
   function goNext() {
     if (studyMethod === 'smart') {
       if (smartQueue.length > 1) {
         const current = smartQueue.shift();
-        smartQueue.push(current);
+        reinsertSmartCard(current, 5);
         viewCards = smartQueue;
         currentIndex = 0;
         renderCard('next');
@@ -3077,8 +3096,8 @@ window.google.script.run = (function() {
         showToast('🎯 มั่นใจแล้ว!');
       } else {
         const current = smartQueue.splice(currentIndex, 1)[0];
-        smartQueue.push(current);
-        showToast('🔄 วนกลับมาใหม่อีกรอบ');
+        reinsertSmartCard(current, 5);
+        showToast('🧠 Active Recall: จะวนกลับมาทวนในอีก ~5 ข้อ');
       }
       viewCards = smartQueue;
       currentIndex = 0;
@@ -3151,26 +3170,78 @@ window.google.script.run = (function() {
     if (!browseCardsCache || !browseCardsCache.length) {
       document.getElementById('browseTableContainer').innerHTML = '<div class="loading-wrap"><div class="spinner"></div>กำลังโหลดคลัง Flashcard...</div>';
       google.script.run
-        .withSuccessHandler(cards => { browseCardsCache = cards || []; onBrowseFilterChange(); })
+        .withSuccessHandler(cards => { 
+          browseCardsCache = cards || []; 
+          updateBrowseSubtopicsDropdown(currentSubTopic);
+          onBrowseFilterChange(); 
+        })
         .withFailureHandler(err => { document.getElementById('browseTableContainer').innerHTML = '<div class="loading-wrap">เกิดข้อผิดพลาดในการโหลดคลัง Flashcard</div>'; })
         .getAllFlashcards('all');
     } else {
+      updateBrowseSubtopicsDropdown(currentSubTopic);
       onBrowseFilterChange();
     }
   }
 
-  function onBrowseCatChange() { onBrowseFilterChange(); }
+  function updateBrowseSubtopicsDropdown(targetSubtopic = null) {
+    const subSel = document.getElementById('browseSubtopicSelect');
+    if (!subSel) return;
+
+    const catVal = document.getElementById('browseCatSelect') ? document.getElementById('browseCatSelect').value : '__all__';
+    const prevVal = targetSubtopic !== null ? targetSubtopic : subSel.value;
+
+    subSel.innerHTML = '<option value="__all__">📂 ทุกหัวข้อย่อย</option>';
+
+    if (!browseCardsCache || !browseCardsCache.length) return;
+
+    const subMap = {};
+    browseCardsCache.forEach(c => {
+      if (catVal !== '__all__' && c.group !== catVal) return;
+      const s = (c.subTopic || '').trim();
+      if (s && s !== 'หัวข้อย่อย' && s !== 'หัวข้อย่อย (SubTopic)') {
+        subMap[s] = (subMap[s] || 0) + 1;
+      }
+    });
+
+    const validSubs = Object.keys(subMap);
+    if (validSubs.length > 0) {
+      validSubs.sort((a, b) => a.localeCompare(b, 'th'));
+      validSubs.forEach(s => {
+        subSel.innerHTML += `<option value="${s.replace(/"/g, '&quot;')}">• ${s} (${subMap[s]} ข้อ)</option>`;
+      });
+    }
+
+    if (prevVal && prevVal !== '__all__') {
+      const matched = validSubs.find(s => matchSubTopic(s, prevVal));
+      if (matched) {
+        subSel.value = matched;
+      } else {
+        subSel.value = '__all__';
+      }
+    } else {
+      subSel.value = '__all__';
+    }
+  }
+
+  function onBrowseCatChange() {
+    updateBrowseSubtopicsDropdown();
+    onBrowseFilterChange();
+  }
+
   function clearBrowseSearch() { document.getElementById('browseSearchInput').value = ''; onBrowseFilterChange(); }
 
   function onBrowseFilterChange() {
     if (!browseCardsCache) return;
     const query  = (document.getElementById('browseSearchInput').value || '').trim().toLowerCase();
     const catVal = document.getElementById('browseCatSelect').value;
+    const subSel = document.getElementById('browseSubtopicSelect');
+    const subVal = subSel ? subSel.value : '__all__';
     const statusVal = document.getElementById('browseStatusSelect').value;
     document.getElementById('browseSearchClear').style.display = query ? 'block' : 'none';
 
     const filtered = browseCardsCache.filter(c => {
       if (catVal !== '__all__' && c.group !== catVal) return false;
+      if (subVal !== '__all__' && !matchSubTopic(c.subTopic, subVal)) return false;
       const st = cardStatus(c);
       if (statusVal === 'confident' && st !== 'มั่นใจ') return false;
       if (statusVal === 'notconfident' && st !== 'ไม่มั่นใจ') return false;
@@ -3179,7 +3250,8 @@ window.google.script.run = (function() {
       if (query) {
         const q = (c.question || '').replace(/<[^>]*>/g, '').toLowerCase();
         const a = (c.answer || '').replace(/<[^>]*>/g, '').toLowerCase();
-        return q.includes(query) || a.includes(query);
+        const s = (c.subTopic || '').toLowerCase();
+        return q.includes(query) || a.includes(query) || s.includes(query);
       }
       return true;
     });
@@ -3197,10 +3269,18 @@ window.google.script.run = (function() {
       const dotCls = st === 'มั่นใจ' ? 'dot-confident' : st === 'ไม่มั่นใจ' ? 'dot-notconfident' : 'dot-new';
       const qImgHtml = card.questionImage ? `<div style="margin:6px 0;"><img src="${card.questionImage}" style="max-width:100%;max-height:140px;border-radius:8px;border:1px solid var(--border);object-fit:contain;cursor:pointer;" onclick="openImgLightbox(this.src, event)"></div>` : '';
       const aImgHtml = card.answerImage ? `<div style="margin:6px 0;"><img src="${card.answerImage}" style="max-width:100%;max-height:140px;border-radius:8px;border:1px solid var(--border);object-fit:contain;cursor:pointer;" onclick="openImgLightbox(this.src, event)"></div>` : '';
+      const subBadge = (card.subTopic && card.subTopic !== card.group)
+        ? `<span class="bt-sub-tag">› ${escapeHtml(card.subTopic)}</span>`
+        : '';
+
       html += `
         <div class="browse-table-item" onclick="toggleBrowseItemAnswer(this)">
           <div class="bt-head">
-            <span class="bt-tag">${card.group || ''} · ข้อ ${card.itemNo || i+1}</span>
+            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+              <span class="bt-tag">${card.group || ''}</span>
+              ${subBadge}
+              <span style="font-size:11px; font-weight:600; color:var(--ink-faint);">· ข้อ ${card.itemNo || i+1}</span>
+            </div>
             <span class="card-status-dot ${dotCls}"></span>
           </div>
           <div class="bt-q">${card.question || ''}${qImgHtml}</div>
