@@ -1791,7 +1791,7 @@ async function fetchLiveSheetCards(sheetName) {
   try {
     // 1. Primary: Google Sheets GViz endpoint (Super fast: 150-250ms, direct from Google, no cold start)
     try {
-      var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
+      var url = 'https://docs.google.com/spreadsheets/d/' + window.GOOGLE_SHEET_ID + '/gviz/tq?tqx=out:json&headers=1&sheet=' + encodeURIComponent(sheetName) + '&_nocache=' + Date.now();
       var resp = await fetch(url, { cache: 'no-store' });
       if (resp.ok) {
         var text = await resp.text();
@@ -1813,7 +1813,7 @@ async function fetchLiveSheetCards(sheetName) {
             var note = getVal(6);
             var track = getVal(7) || 'Clinic';
 
-            if (!question && !answer) return;
+            if (!question && !answer && !qImage && !aImage) return;
             if (itemNo.indexOf('กลับหน้าสารบัญ') !== -1 || question.indexOf('คำถาม') !== -1) return;
 
             cards.push({
@@ -2008,7 +2008,7 @@ window.google.script.run = (function() {
           var cards = (window.OFFLINE_CARDS && window.OFFLINE_CARDS[catName]) || [];
           if (subTopic && subTopic !== '__all__') {
             cards = cards.filter(function(c) {
-              return c.subTopic === subTopic || (c.subTopic && c.subTopic.indexOf(subTopic) !== -1);
+              return String(c.subTopic || '').trim().toLowerCase() === String(subTopic).trim().toLowerCase();
             });
           }
           // Immediately display instant offline cards (0ms)
@@ -2018,7 +2018,13 @@ window.google.script.run = (function() {
           fetchLiveSheetCards(catName).then(function(liveCards) {
             if (liveCards && liveCards.length > 0) {
               window.OFFLINE_CARDS = window.OFFLINE_CARDS || {};
-              var oldLen = (window.OFFLINE_CARDS[catName] || []).length;
+              var oldCards = window.OFFLINE_CARDS[catName] || [];
+              // Safeguard: do not replace offline cards if liveCards is suspiciously smaller (e.g. GViz glitch)
+              if (oldCards.length > 0 && liveCards.length < oldCards.length * 0.7) {
+                console.warn('Live cards count (' + liveCards.length + ') suspiciously smaller than offline cards (' + oldCards.length + '), keeping offline database.');
+                return;
+              }
+              var oldLen = oldCards.length;
               window.OFFLINE_CARDS[catName] = liveCards;
               
               if (window.currentCategory === catName && typeof window.onCardsLoaded === 'function') {
@@ -2273,7 +2279,7 @@ window.google.script.run = (function() {
     if (!cardSub) return false;
     const c = String(cardSub).trim().toLowerCase();
     const t = String(targetSub).trim().toLowerCase();
-    return c === t || c.includes(t) || t.includes(c);
+    return c === t;
   }
 
   // ─── KEYBOARD NAVIGATION (SPACE, ARROWS, 1, 2) ───
